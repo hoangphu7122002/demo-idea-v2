@@ -9,3 +9,9 @@ __pycache__/
 .ruff_cache/
 *.tsbuildinfo
 .DS_Store
+
+# pr-team / app stack runtime files
+.env.slot
+.claude/pr-team/state.json
+.claude/pr-team/shots/
+.claude/worktrees/
