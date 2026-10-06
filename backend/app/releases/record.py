@@ -21,7 +21,10 @@ def main() -> None:
     args = ap.parse_args()
     model = get_settings().llm_model
     if model == "test":
-        raise SystemExit("Set LLM_MODEL (e.g. anthropic:claude-sonnet-5-5) and the API key first")
+        raise SystemExit(
+            "Set LLM_MODEL (anthropic:<model>, openai:<model> or google:<model>) "
+            "and that provider's API key (ANTHROPIC_API_KEY, OPENAI_API_KEY or GEMINI_API_KEY)"
+        )
     release = resolve(args.url, args.text)
     with SyncSessionLocal() as session:
         post = session.scalars(select(Post).where(Post.slug == args.slug)).one_or_none()
