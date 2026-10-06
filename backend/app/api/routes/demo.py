@@ -12,7 +12,7 @@ class ResetOut(BaseModel):
     counts: dict[str, int]
 
 
-@router.post("/reset")
+@router.post("/reset", responses={404: {"description": "DEMO_MODE is off"}})
 def reset_demo() -> ResetOut:
     """Reseed demo data. 404 unless DEMO_MODE is on."""
     if not get_settings().demo_mode:

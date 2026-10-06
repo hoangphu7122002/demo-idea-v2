@@ -200,6 +200,68 @@
         "title": "NoteOut",
         "type": "object"
       },
+      "ParagraphOut": {
+        "properties": {
+          "id": {
+            "title": "Id",
+            "type": "string"
+          },
+          "md": {
+            "title": "Md",
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "md"
+        ],
+        "title": "ParagraphOut",
+        "type": "object"
+      },
+      "PostOut": {
+        "properties": {
+          "paragraphs": {
+            "items": {
+              "$ref": "#/components/schemas/ParagraphOut"
+            },
+            "title": "Paragraphs",
+            "type": "array"
+          },
+          "slug": {
+            "title": "Slug",
+            "type": "string"
+          },
+          "title": {
+            "title": "Title",
+            "type": "string"
+          }
+        },
+        "required": [
+          "slug",
+          "title",
+          "paragraphs"
+        ],
+        "title": "PostOut",
+        "type": "object"
+      },
+      "PostSummary": {
+        "properties": {
+          "slug": {
+            "title": "Slug",
+            "type": "string"
+          },
+          "title": {
+            "title": "Title",
+            "type": "string"
+          }
+        },
+        "required": [
+          "slug",
+          "title"
+        ],
+        "title": "PostSummary",
+        "type": "object"
+      },
       "ResetOut": {
         "properties": {
           "counts": {
@@ -326,6 +388,9 @@
               }
             },
             "description": "Successful Response"
+          },
+          "404": {
+            "description": "DEMO_MODE is off"
           }
         },
         "summary": "Reset Demo",
@@ -522,6 +587,76 @@
         "summary": "Summarise Note",
         "tags": [
           "notes"
+        ]
+      }
+    },
+    "/api/posts": {
+      "get": {
+        "operationId": "list_posts_api_posts_get",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/PostSummary"
+                  },
+                  "title": "Response List Posts Api Posts Get",
+                  "type": "array"
+                }
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "List Posts",
+        "tags": [
+          "posts"
+        ]
+      }
+    },
+    "/api/posts/{slug}": {
+      "get": {
+        "operationId": "get_post_api_posts__slug__get",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "slug",
+            "required": true,
+            "schema": {
+              "title": "Slug",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PostOut"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "404": {
+            "description": "Post not found"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Get Post",
+        "tags": [
+          "posts"
         ]
       }
     },
