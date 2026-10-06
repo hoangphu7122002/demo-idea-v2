@@ -32,6 +32,6 @@ export async function fromApi<T>(call: () => Promise<ApiResult<T>>): Promise<{ d
 export const baseApi = createApi({
   reducerPath: 'api',
   baseQuery: fakeBaseQuery<ApiError>(),
-  tagTypes: ['Note'],
+  tagTypes: ['Note', 'Check'],
   endpoints: () => ({}),
 })

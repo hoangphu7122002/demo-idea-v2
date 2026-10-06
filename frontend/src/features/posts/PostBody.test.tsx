@@ -31,14 +31,31 @@ describe('PostBody', () => {
     const evil = [
       { id: 'x-1', md: 'before <script>window.__xss = 1</script> after' },
       { id: 'x-2', md: '<img src="x" onerror="window.__xss = 1"> text' },
-      { id: 'x-3', md: '[click](javascript:window.__xss=1)' },
+      { id: 'x-3', md: '[click me](javascript:window.__xss=1)' },
     ]
     const { container } = renderWithProviders(<PostBody paragraphs={evil} />)
+    // Raw HTML is shown as inert text (fails if raw HTML were parsed into elements).
+    expect(container.querySelector('#x-1')?.textContent).toContain('<script>window.__xss = 1</script>')
+    expect(container.querySelector('#x-2')?.textContent).toContain('<img src="x" onerror="window.__xss = 1">')
     expect(container.querySelector('script')).toBeNull()
     expect(container.querySelector('img')).toBeNull()
-    expect(container.querySelector('[onerror]')).toBeNull()
-    const a = container.querySelector('#x-3 a')
-    expect(a?.getAttribute('href') ?? '').not.toMatch(/^javascript:/i)
+    // The link text still renders, but without a javascript: href (fails if urlTransform is disabled).
+    const link = Array.from(container.querySelectorAll('#x-3 a')).find((a) => a.textContent === 'click me')
+    expect(link).toBeDefined()
+    expect(link?.getAttribute('href') ?? '').not.toMatch(/^javascript:/i)
     expect((window as unknown as { __xss?: number }).__xss).toBeUndefined()
+  })
+
+  it('themes links and marks flagged paragraphs', () => {
+    const { container } = renderWithProviders(
+      <PostBody paragraphs={[{ id: 'a', md: '[docs](https://example.com)' }, { id: 'b', md: 'plain' }]} flaggedIds={['b']} />,
+    )
+    const link = container.querySelector('#a a') as HTMLElement
+    expect(link.getAttribute('href')).toBe('https://example.com')
+    const color = getComputedStyle(link).color
+    expect(color).not.toBe('')
+    expect(color).not.toBe(getComputedStyle(container.querySelector('#b') as HTMLElement).color)
+    expect(container.querySelector('#b')?.hasAttribute('data-flagged')).toBe(true)
+    expect(container.querySelector('#a')?.hasAttribute('data-flagged')).toBe(false)
   })
 })

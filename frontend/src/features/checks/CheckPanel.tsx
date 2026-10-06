@@ -5,7 +5,7 @@ import { zodResolver } from '@hookform/resolvers/zod'
 import { useForm } from 'react-hook-form'
 import { FormTextField } from '../../components/form/FormTextField'
 import { checkFormSchema, type CheckFormValues } from './checkSchema'
-import type { CheckInput } from './types'
+import type { CheckInput } from './checksApi'
 
 interface CheckPanelProps {
   onCheck: (input: CheckInput) => Promise<unknown>
@@ -32,7 +32,7 @@ export function CheckPanel({ onCheck, pending = false, error }: CheckPanelProps)
       <FormTextField control={control} name="release_url" label="Release URL" disabled={pending} />
       <FormTextField control={control} name="release_text" label="Or paste release text" multiline minRows={3} disabled={pending} />
       {error && <Alert severity="error">{error}</Alert>}
-      <Button type="submit" variant="contained" loading={pending} sx={{ alignSelf: 'flex-start' }}>
+      <Button type="submit" variant="contained" loading={pending} loadingPosition="start" sx={{ alignSelf: 'flex-start' }}>
         Check
       </Button>
     </Stack>

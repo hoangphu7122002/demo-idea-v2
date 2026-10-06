@@ -4,11 +4,11 @@ import Link from '@mui/material/Link'
 import Paper from '@mui/material/Paper'
 import Stack from '@mui/material/Stack'
 import Typography from '@mui/material/Typography'
-import type { CheckSource, Flag } from './types'
+import type { CheckSource, Flag } from './checksApi'
 
 interface CheckResultsProps {
   flags: Flag[]
-  source?: CheckSource
+  source?: CheckSource | null
   /** Called when a flag's paragraph link is clicked (the default hash navigation still runs). */
   onSelect?: (paragraphId: string) => void
 }
@@ -22,8 +22,8 @@ export function CheckResults({ flags, source, onSelect }: CheckResultsProps) {
         <Alert severity="success">No outdated paragraphs found.</Alert>
       ) : (
         <Stack component="ul" spacing={2} sx={{ listStyle: 'none', p: 0, m: 0 }} aria-label="Flagged paragraphs">
-          {flags.map((f) => (
-            <Paper component="li" key={f.paragraph_id} variant="outlined" sx={{ p: 2 }}>
+          {flags.map((f, i) => (
+            <Paper component="li" key={`${f.paragraph_id}-${i}`} variant="outlined" sx={{ p: 2 }}>
               <Link href={`#${f.paragraph_id}`} onClick={() => onSelect?.(f.paragraph_id)} sx={{ fontWeight: 700 }}>
                 #{f.paragraph_id}
               </Link>

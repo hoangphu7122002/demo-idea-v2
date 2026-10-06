@@ -26,7 +26,7 @@ const hljsTheme = {
 }
 
 /** Renders post paragraphs (markdown + code + math). Each block is a section whose id is the paragraph id. */
-export default function PostBody({ paragraphs }: { paragraphs: PostParagraph[] }) {
+export default function PostBody({ paragraphs, flaggedIds = [] }: { paragraphs: PostParagraph[]; flaggedIds?: string[] }) {
   return (
     <Box
       sx={(theme) => ({
@@ -61,7 +61,14 @@ export default function PostBody({ paragraphs }: { paragraphs: PostParagraph[] }
       })}
     >
       {paragraphs.map((p) => (
-        <Box component="section" key={p.id} id={p.id} data-paragraph-id={p.id} sx={{ my: 2 }}>
+        <Box
+          component="section"
+          key={p.id}
+          id={p.id}
+          data-paragraph-id={p.id}
+          data-flagged={flaggedIds.includes(p.id) || undefined}
+          sx={{ my: 2, scrollMarginTop: 80, '&[data-flagged]': { borderLeft: 4, borderColor: 'warning.main', pl: 2 } }}
+        >
           <ReactMarkdown remarkPlugins={remarkPlugins} rehypePlugins={rehypePlugins}>
             {p.md}
           </ReactMarkdown>
