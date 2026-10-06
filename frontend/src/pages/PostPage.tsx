@@ -14,8 +14,13 @@ function statusOf(error: unknown): number | undefined {
   return error && typeof error === 'object' && 'status' in error && typeof error.status === 'number' ? error.status : undefined
 }
 
+/** Route component. `key={slug}` remounts the view per post, so check state never leaks from one post to another. */
 export function PostPage() {
   const { slug = '' } = useParams()
+  return <PostView key={slug} slug={slug} />
+}
+
+function PostView({ slug }: { slug: string }) {
   const query = useGetPostQuery(slug)
   const flagsQuery = useGetFlagsQuery(slug)
   const [checkPost, check] = useCheckPostMutation()

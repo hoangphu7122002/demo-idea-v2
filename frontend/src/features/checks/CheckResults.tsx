@@ -13,7 +13,7 @@ interface CheckResultsProps {
   onSelect?: (paragraphId: string) => void
 }
 
-/** Flagged paragraphs: link to the paragraph, why it is outdated, the release quote and the proposed fix. */
+/** Flagged paragraphs: link to the paragraph, why it is outdated, the resource quote and the proposed fix. */
 export function CheckResults({ flags, source, onSelect }: CheckResultsProps) {
   return (
     <Stack spacing={2}>
