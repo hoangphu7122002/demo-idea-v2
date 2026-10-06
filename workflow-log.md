@@ -14,3 +14,4 @@ Problems / plugin improvements:
 - 10:0x · roadmap · 79 → 38 features, bilingual EN+VI to M2, new-finding service as parallel M2 track, demo artifacts moved to "M1 demo prep" · roadmap.v1.md kept
 - 10:2x · roadmap · dependency graph replaced by a cluster graph (14 clusters, 21 edges) + cluster table; per-feature graph was unreadable (38 nodes, 66 edges)
 - 10:3x · process · CLAUDE.md added: lead talks Vietnamese with the operator, short bullet questions, workflow-log updated per event
+- 10:35 · process · operator: English everywhere (files, PRs, lead messages); CLAUDE.md updated

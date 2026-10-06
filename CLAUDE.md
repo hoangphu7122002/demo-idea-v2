@@ -4,7 +4,7 @@ Technical knowledge blog. Plan: `scope/2026-10-05-tech-blog-correctness/roadmap.
 
 ## Talking to the operator (lead and any agent the operator talks to)
 
-- **Language:** speak **Vietnamese** with the operator. Code, commits, PR titles/bodies, file contents and messages between agents stay in English.
+- **Language:** English everywhere: messages to the operator, code, commits, PRs, file contents and messages between agents.
 - **Questions to the operator** must be clear, short and to the point:
   - One question per message (or one `AskUserQuestion` call with up to 4 related questions).
   - Bullet points, not paragraphs. Each bullet ≤ 1 line.
