@@ -29,7 +29,7 @@ const hljsTheme = {
 export default function PostBody({ paragraphs }: { paragraphs: PostParagraph[] }) {
   return (
     <Box
-      sx={{
+      sx={(theme) => ({
         maxWidth: 720,
         mx: 'auto',
         fontSize: 18,
@@ -37,6 +37,7 @@ export default function PostBody({ paragraphs }: { paragraphs: PostParagraph[] }
         color: 'text.primary',
         overflowWrap: 'anywhere',
         '& img': { maxWidth: '100%' },
+        '& a': { color: 'primary.main', textDecorationColor: 'currentcolor' },
         '& pre': {
           p: 2,
           overflowX: 'auto',
@@ -53,7 +54,11 @@ export default function PostBody({ paragraphs }: { paragraphs: PostParagraph[] }
         '& th, & td': { border: 1, borderColor: 'divider', px: 1, py: 0.5 },
         '& blockquote': { m: 0, pl: 2, borderLeft: 3, borderColor: 'divider', color: 'text.secondary' },
         ...hljsTheme,
-      }}
+        // secondary.main is 3.7:1 on white; use the darker shade in light mode (>= 4.5:1).
+        ...theme.applyStyles('light', {
+          '& .hljs-title, & .hljs-section, & .hljs-built_in, & .hljs-type': { color: theme.vars?.palette.secondary.dark },
+        }),
+      })}
     >
       {paragraphs.map((p) => (
         <Box component="section" key={p.id} id={p.id} data-paragraph-id={p.id} sx={{ my: 2 }}>

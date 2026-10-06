@@ -13,6 +13,7 @@ export const routes: RouteObject[] = [
       { index: true, element: <Navigate to="/notes" replace /> },
       { path: 'notes', lazy: () => import('../pages/NotesPage').then((m) => ({ Component: m.NotesPage })) },
       { path: 'chat', lazy: () => import('../pages/ChatPage').then((m) => ({ Component: m.ChatPage })) },
+      { path: 'posts/:slug', lazy: () => import('../pages/PostPage').then((m) => ({ Component: m.PostPage })) },
       { path: '*', element: <NotFoundPage /> },
     ],
   },
