@@ -12,6 +12,9 @@ export const theme = createTheme({
       palette: {
         primary: { main: '#4f46e5' },
         secondary: { main: '#0891b2' },
+        // MUI defaults are < 4.5:1 on white; code tokens and text use these.
+        warning: { main: '#b45309' },
+        info: { main: '#0277bd' },
         background: { default: '#f7f7fb', paper: '#ffffff' },
       },
     },

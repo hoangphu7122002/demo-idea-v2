@@ -10,6 +10,7 @@ import { ThemeModeToggle } from '../ThemeModeToggle'
 const NAV_LINKS = [
   { to: '/notes', label: 'Notes' },
   { to: '/chat', label: 'Chat' },
+  { to: '/posts/llm-api-post', label: 'Post' },
 ] as const
 
 export function AppShell() {

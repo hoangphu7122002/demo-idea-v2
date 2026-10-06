@@ -26,4 +26,19 @@ describe('PostBody', () => {
     expect(container.querySelector('#p-math .katex')).not.toBeNull()
     expect(container.querySelectorAll('#p-table td')).toHaveLength(2)
   })
+
+  it('does not render raw HTML or javascript: links (XSS)', () => {
+    const evil = [
+      { id: 'x-1', md: 'before <script>window.__xss = 1</script> after' },
+      { id: 'x-2', md: '<img src="x" onerror="window.__xss = 1"> text' },
+      { id: 'x-3', md: '[click](javascript:window.__xss=1)' },
+    ]
+    const { container } = renderWithProviders(<PostBody paragraphs={evil} />)
+    expect(container.querySelector('script')).toBeNull()
+    expect(container.querySelector('img')).toBeNull()
+    expect(container.querySelector('[onerror]')).toBeNull()
+    const a = container.querySelector('#x-3 a')
+    expect(a?.getAttribute('href') ?? '').not.toMatch(/^javascript:/i)
+    expect((window as unknown as { __xss?: number }).__xss).toBeUndefined()
+  })
 })
