@@ -1,6 +1,8 @@
 from fastapi.testclient import TestClient
+from sqlalchemy import select
 
 from app.core.db import SyncSessionLocal
+from app.models import PostParagraph
 from app.seed import reseed
 
 
@@ -23,8 +25,13 @@ def test_get_post_ordered_with_stable_ids(client: TestClient) -> None:
     body = r.json()
     assert body["slug"] == "llm-api-post"
     paras = body["paragraphs"]
-    assert len(paras) >= 8
-    assert [p["id"] for p in paras] == [f"p-{i}" for i in range(1, len(paras) + 1)]
+    assert len(paras) == 20
+    with SyncSessionLocal() as s:  # order must follow `position`, ids must be the DB ids
+        rows = s.execute(
+            select(PostParagraph.id, PostParagraph.md).order_by(PostParagraph.position)
+        ).all()
+    assert [(p["id"], p["md"]) for p in paras] == [(f"p-{i}", md) for i, md in rows]
+    assert [p["id"] for p in paras] == [f"p-{i}" for i in range(1, 21)]
     assert paras[0]["md"].startswith("This post walks")
 
 
