@@ -17,7 +17,7 @@ MUI v9 + Emotion · MUI X Date Pickers + dayjs · Redux Toolkit + RTK Query · R
 - Render query results with `QueryState`. Run mutations with `useMutationToast`.
 - Redux slices only for client state shared across components (filters, selection). Register in `src/app/store.ts`; use `useAppSelector` / `useAppDispatch`.
 - New page: `src/pages/XPage.tsx` + lazy route in `src/app/router.tsx` + `NAV_LINKS` in `components/layout/AppShell.tsx`.
-- Forms: Zod schema in `<thing>Schema.ts` → `useForm({ resolver: zodResolver(schema) })` → `FormTextField` / `FormSelect` / `FormDatePicker`, inside `FormDialog`. New input type → `src/components/form/Form<Thing>.tsx` with `useController`.
+- Forms: Zod schema in `<thing>Schema.ts` → `useForm({ resolver: zodResolver(schema) })` → `FormTextField` / `FormSelect` / `FormDatePicker`, inside `FormDialog`; a form that is a section of a page (e.g. the release check panel on a post) may stay inline in that page. New input type → `src/components/form/Form<Thing>.tsx` with `useController`.
 - Value → label/colour maps live in one `*Meta.ts` per feature (see `features/notes/noteMeta.ts`).
 - Tests: `renderWithProviders` (component) or `renderApp(path)` (page/flow) from `src/test/render.tsx`; mock `api.GET` / `api.POST` with `vi.spyOn`; query by role/name.
 - Check new screens in light and dark mode.

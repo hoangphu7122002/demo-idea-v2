@@ -2,7 +2,7 @@ import { screen } from '@testing-library/react'
 import { expect, test, vi } from 'vitest'
 import { renderWithProviders } from '../../test/render'
 import { CheckResults } from './CheckResults'
-import type { Flag } from './types'
+import type { Flag } from './checksApi'
 
 const flags: Flag[] = [
   { paragraph_id: 'p-3', reason: 'Model name retired', source_quote: 'claude-x is removed', proposed_fix: 'Use claude-y' },
@@ -30,4 +30,12 @@ test('cache note and onSelect', async () => {
   expect(screen.getByText('Cached result')).toBeTruthy()
   await user.click(screen.getByRole('link', { name: '#p-7' }))
   expect(onSelect).toHaveBeenCalledWith('p-7')
+})
+
+test('two flags on one paragraph render without duplicate-key warnings', () => {
+  const spy = vi.spyOn(console, 'error').mockImplementation(() => {})
+  renderWithProviders(<CheckResults flags={[flags[0], { ...flags[0], reason: 'Second reason' }]} />)
+  expect(screen.getAllByRole('listitem')).toHaveLength(2)
+  expect(spy).not.toHaveBeenCalled()
+  spy.mockRestore()
 })
