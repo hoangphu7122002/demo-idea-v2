@@ -1,0 +1,121 @@
+import asyncio
+import json
+import time
+from pathlib import Path
+
+import pytest
+from pydantic_ai.messages import ModelMessage, ModelResponse, ToolCallPart
+from pydantic_ai.models.function import AgentInfo, FunctionModel
+from sqlalchemy import select
+
+from app.ai.release_check import CheckUnavailable, check
+from app.core.db import SyncSessionLocal
+from app.core.settings import get_settings
+from app.models import Post
+from app.models.post import paragraph_ref
+from app.releases import ReleaseSource, cache, resolve
+from app.seed import reseed
+
+DEMO_URL = "https://platform.claude.com/docs/en/about-claude/model-deprecations"
+PARAS = [("p-1", "intro"), ("p-2", "uses old-model"), ("p-3", "outro")]
+RELEASE = ReleaseSource(url=None, text="old-model is retired.", hash="h")
+
+
+def _flag(pid: str) -> dict[str, str]:
+    return {
+        "paragraph_id": pid,
+        "reason": "outdated",
+        "source_quote": "old-model is retired.",
+        "proposed_fix": "use new-model",
+    }
+
+
+def _model(*pids: str, delay: float = 0) -> FunctionModel:
+    async def fn(messages: list[ModelMessage], info: AgentInfo) -> ModelResponse:
+        if delay:
+            await asyncio.sleep(delay)
+        args = {"flags": [_flag(p) for p in pids]}
+        return ModelResponse(parts=[ToolCallPart(info.output_tools[0].name, json.dumps(args))])
+
+    return FunctionModel(fn)
+
+
+def _failing() -> FunctionModel:
+    async def fn(messages: list[ModelMessage], info: AgentInfo) -> ModelResponse:
+        raise RuntimeError("provider down")
+
+    return FunctionModel(fn)
+
+
+@pytest.fixture(autouse=True)
+def _tmp_cache(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> Path:
+    monkeypatch.setattr(cache, "CACHE_DIR", tmp_path)
+    return tmp_path
+
+
+async def test_live_ok_returns_live_flags_and_writes_cache() -> None:
+    res = await check(PARAS, RELEASE, model=_model("p-2"))
+    assert res.source == "live"
+    assert [f.paragraph_id for f in res.flags] == ["p-2"]
+    assert cache.load(cache.cache_key(PARAS, RELEASE.text)) == [_flag("p-2")]
+
+
+async def test_live_error_falls_back_to_cache_with_same_flags() -> None:
+    live = await check(PARAS, RELEASE, model=_model("p-2", "p-3"))
+    res = await check(PARAS, RELEASE, model=_failing())
+    assert res.source == "cache"
+    assert res.flags == live.flags
+
+
+async def test_live_timeout_falls_back_to_cache() -> None:
+    live = await check(PARAS, RELEASE, model=_model("p-2"))
+    res = await check(PARAS, RELEASE, model=_model("p-2", delay=1), timeout=0.05)
+    assert res.source == "cache"
+    assert res.flags == live.flags
+
+
+async def test_unknown_paragraph_ids_are_dropped() -> None:
+    res = await check(PARAS, RELEASE, model=_model("p-2", "p-99"))
+    assert [f.paragraph_id for f in res.flags] == ["p-2"]
+
+
+async def test_offline_uses_cache_fast(monkeypatch: pytest.MonkeyPatch) -> None:
+    await check(PARAS, RELEASE, model=_model("p-2"))
+    monkeypatch.setattr(get_settings(), "llm_model", "test")
+    t0 = time.monotonic()
+    res = await check(PARAS, RELEASE)
+    assert time.monotonic() - t0 < 2
+    assert res.source == "cache"
+    assert [f.paragraph_id for f in res.flags] == ["p-2"]
+
+
+async def test_cache_miss_raises_clear_error(monkeypatch: pytest.MonkeyPatch) -> None:
+    monkeypatch.setattr(get_settings(), "llm_model", "test")
+    with pytest.raises(CheckUnavailable, match="no cached result"):
+        await check(PARAS, RELEASE)
+    with pytest.raises(CheckUnavailable):
+        await check(PARAS, RELEASE, model=_failing())
+
+
+def test_cache_key_depends_on_inputs() -> None:
+    k = cache.cache_key(PARAS, "a")
+    assert k == cache.cache_key(PARAS, "a")
+    assert k != cache.cache_key(PARAS, "b")
+    assert k != cache.cache_key([*PARAS, ("p-4", "x")], "a")
+
+
+async def test_committed_demo_cache_matches_seeded_post(
+    monkeypatch: pytest.MonkeyPatch,
+) -> None:
+    monkeypatch.setattr(cache, "CACHE_DIR", Path(cache.__file__).parent / "fixtures" / "cache")
+    monkeypatch.setattr(get_settings(), "llm_model", "test")
+    with SyncSessionLocal() as s:
+        reseed(s)
+        post = s.scalars(select(Post).where(Post.slug == "llm-api-post")).one()
+        paragraphs = [(paragraph_ref(p.id), p.md) for p in post.paragraphs]
+    assert len(paragraphs) == 20
+    release = resolve(DEMO_URL, None)
+    res = await check(paragraphs, release)
+    assert res.source == "cache"
+    assert [f.paragraph_id for f in res.flags] == ["p-6", "p-7", "p-11"]
+    assert all(f.source_quote in release.text for f in res.flags)
