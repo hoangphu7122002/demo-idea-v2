@@ -4,7 +4,8 @@ from fastapi.testclient import TestClient
 from app.core.settings import get_settings
 
 
-def test_reset_404_when_demo_mode_off(client: TestClient) -> None:
+def test_reset_404_when_demo_mode_off(client: TestClient, monkeypatch: pytest.MonkeyPatch) -> None:
+    monkeypatch.setattr(get_settings(), "demo_mode", False)
     assert client.post("/api/demo/reset").status_code == 404
 
 
