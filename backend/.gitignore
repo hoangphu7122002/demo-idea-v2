@@ -1,0 +1,2 @@
+# Cache files being written (atomic save leaves a .tmp only while writing or after a crash)
+app/resources/fixtures/cache/*.tmp

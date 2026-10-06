@@ -4,7 +4,8 @@ from sqlalchemy import func, select
 
 from app.core.db import SyncSessionLocal
 from app.core.settings import get_settings
-from app.models import ParagraphFlag, ResourceCheck
+from app.models import ParagraphFlag, PostParagraph, ResourceCheck
+from app.resources import resolve
 from app.seed import reseed
 
 URL = "https://platform.claude.com/docs/en/about-claude/model-deprecations"
@@ -30,7 +31,11 @@ def test_check_demo_url_returns_cached_flags_and_persists(client: TestClient) ->
     assert all(f["reason"] and f["source_quote"] and f["proposed_fix"] for f in body["flags"])
     with SyncSessionLocal() as s:
         assert s.scalar(select(func.count()).select_from(ResourceCheck)) == 1
-        assert s.scalar(select(func.count()).select_from(ParagraphFlag)) == 3
+        stored = s.scalars(select(ParagraphFlag).order_by(ParagraphFlag.id)).all()
+        assert [f.paragraph_id for f in stored] == [6, 7, 11]  # DB ids behind p-6, p-7, p-11
+        assert all(f.check_id == body["check_id"] for f in stored)
+        mds = [s.get(PostParagraph, f.paragraph_id).md for f in stored]  # type: ignore[union-attr]
+        assert all("claude-sonnet-4-5" in md for md in mds)
 
 
 def test_get_flags_returns_latest_check(client: TestClient) -> None:
@@ -100,3 +105,15 @@ def test_deprecated_fields_are_marked_in_openapi(client: TestClient) -> None:
             assert schemas[name]["properties"][field]["deprecated"] is True
     assert "resource_url" in schemas["CheckIn"]["properties"]
     assert "resource_url" in schemas["CheckOut"]["properties"]
+
+
+def test_resource_text_wins_over_release_text_when_both_sent(client: TestClient) -> None:
+    demo_text = resolve(URL, None).text  # has a cache entry: would give 200 if it were used
+    body = {"resource_text": "A brand new resource.", "release_text": demo_text}
+    assert client.post(CHECK, json=body).status_code == 503
+
+
+def test_empty_resource_field_does_not_fall_back_to_deprecated_one(client: TestClient) -> None:
+    r = client.post(CHECK, json={"resource_url": "", "release_url": URL})
+    assert r.status_code == 422
+    assert "Provide a resource URL" in r.json()["detail"]

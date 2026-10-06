@@ -59,13 +59,25 @@ INSTRUCTIONS = (
 resource_check_agent = Agent(output_type=FlagList, instructions=INSTRUCTIONS)
 
 
+_TAG_START = re.compile(r"<(?=\s*/?\s*resource\b)", re.IGNORECASE)
+
+
+def _escape_tags(text: str) -> str:
+    """Neutralise any `<resource ...>` / `</resource>` in untrusted text (any case, spacing or
+    attributes) so it cannot close or reopen the wrapper tag. Only the `<` is replaced."""
+    return _TAG_START.sub("&lt;", text)
+
+
 def _prompt(paragraphs: list[tuple[str, str]], resource: ResourceSource) -> str:
+    """Build the user prompt: the escaped resource text in <resource> tags, then the paragraphs."""
     post = "\n\n".join(f"[{pid}]\n{md}" for pid, md in paragraphs)
-    return f"<resource>\n{resource.text}\n</resource>\n\n## Post paragraphs\n{post}"
+    return f"<resource>\n{_escape_tags(resource.text)}\n</resource>\n\n## Post paragraphs\n{post}"
 
 
 _MARKUP = re.compile(r"[*_`>#|]")
 _QUOTES = " \t\n\"'“”‘’"
+MIN_QUOTE_CHARS = 20
+MIN_QUOTE_WORDS = 4
 
 
 def _norm(text: str) -> str:
@@ -74,17 +86,30 @@ def _norm(text: str) -> str:
 
 
 def _quote_in(quote: str, resource_text: str) -> bool:
+    """True if `quote` occurs in the resource text (whitespace/markdown-insensitive).
+
+    Quotes shorter than MIN_QUOTE_CHARS characters and MIN_QUOTE_WORDS words are rejected: a
+    word or two matches almost any text, so it proves nothing.
+    """
     q = _norm(quote.strip(_QUOTES))
-    return bool(q) and q in _norm(resource_text)
+    if len(q) < MIN_QUOTE_CHARS and len(q.split()) < MIN_QUOTE_WORDS:
+        return False
+    return q in _norm(resource_text)
 
 
-def _from_cache(key: str) -> CheckResult:
+def _from_cache(key: str, known_ids: set[str]) -> CheckResult:
+    """Cached result for `key`, keeping only flags whose paragraph id still exists.
+
+    Raises:
+        CheckUnavailable: no (valid) cache file for this key.
+    """
     raw = cache.load(key)
     if raw is None:
         raise CheckUnavailable(
             "Live check unavailable and no cached result for this post and resource"
         )
-    return CheckResult(flags=[Flag(**f) for f in raw], source="cache")
+    flags = [Flag(**f) for f in raw if f["paragraph_id"] in known_ids]
+    return CheckResult(flags=flags, source="cache")
 
 
 async def check_live(
@@ -112,14 +137,15 @@ async def check(
     timeout: float = LIVE_TIMEOUT_S,
 ) -> CheckResult:
     key = cache.cache_key(paragraphs, resource.text)
+    known_ids = {pid for pid, _ in paragraphs}
     live_model = model or get_settings().llm_model
     if live_model == "test":
-        return _from_cache(key)
+        return _from_cache(key, known_ids)
     try:
         flags = await check_live(paragraphs, resource, live_model, timeout)
     except Exception as exc:  # noqa: BLE001 - any live failure falls back to the cache
         log.warning("live resource check failed (%s); using cache", type(exc).__name__)
-        return _from_cache(key)
+        return _from_cache(key, known_ids)
     if flags or not cache.load(key):  # an empty live result never replaces a non-empty cache
         cache.save(key, [f.model_dump() for f in flags])
     else:

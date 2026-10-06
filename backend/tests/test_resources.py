@@ -19,7 +19,7 @@ def test_url_normalized() -> None:
     assert resolve(DEMO + "/?a=1#frag", None).text == resolve(DEMO, None).text
 
 
-def test_resource_notes_url_also_resolves() -> None:
+def test_release_notes_url_also_resolves() -> None:
     assert resolve("https://platform.claude.com/docs/en/release-notes/overview", None).text
 
 

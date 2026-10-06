@@ -19,15 +19,23 @@ class CheckIn(BaseModel):
         default=None, deprecated=True, description="Deprecated: use `resource_text`."
     )
 
+    def _pick(self, new: str | None, deprecated_field: str) -> str | None:
+        """`new` if it was sent (even empty), else the deprecated field.
+
+        An empty `resource_*` must not fall back to the deprecated field, so no `or` here.
+        The deprecated value is read from `__dict__` to avoid pydantic's DeprecationWarning.
+        """
+        return new if new is not None else self.__dict__[deprecated_field]
+
     @property
     def url(self) -> str | None:
         """The resource URL, preferring the new field over the deprecated one."""
-        return self.resource_url or self.__dict__["release_url"]  # no DeprecationWarning
+        return self._pick(self.resource_url, "release_url")
 
     @property
     def text(self) -> str | None:
         """The pasted resource text, preferring the new field over the deprecated one."""
-        return self.resource_text or self.__dict__["release_text"]  # no DeprecationWarning
+        return self._pick(self.resource_text, "release_text")
 
 
 class FlagOut(BaseModel):
