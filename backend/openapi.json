@@ -17,34 +17,8 @@
         "type": "object"
       },
       "CheckIn": {
-        "description": "Body of a check request: a resource URL from the offline index, or pasted text.\n\n`release_url` / `release_text` are the deprecated names of `resource_url` / `resource_text`.\nThey are still accepted; the `resource_*` field wins when both are sent.",
+        "description": "Body of a check request: a resource URL from the offline index, or pasted text.\n\nPasted text wins over the URL; the URL is then kept as the source link. Unknown fields\n(e.g. the removed `release_url` / `release_text`) are ignored.",
         "properties": {
-          "release_text": {
-            "anyOf": [
-              {
-                "type": "string"
-              },
-              {
-                "type": "null"
-              }
-            ],
-            "deprecated": true,
-            "description": "Deprecated: use `resource_text`.",
-            "title": "Release Text"
-          },
-          "release_url": {
-            "anyOf": [
-              {
-                "type": "string"
-              },
-              {
-                "type": "null"
-              }
-            ],
-            "deprecated": true,
-            "description": "Deprecated: use `resource_url`.",
-            "title": "Release Url"
-          },
           "resource_text": {
             "anyOf": [
               {
@@ -83,19 +57,6 @@
             },
             "title": "Flags",
             "type": "array"
-          },
-          "release_url": {
-            "anyOf": [
-              {
-                "type": "string"
-              },
-              {
-                "type": "null"
-              }
-            ],
-            "deprecated": true,
-            "description": "Deprecated: same value as `resource_url`.",
-            "title": "Release Url"
           },
           "resource_url": {
             "anyOf": [

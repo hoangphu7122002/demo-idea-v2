@@ -5,7 +5,6 @@ from sqlalchemy import func, select
 from app.core.db import SyncSessionLocal
 from app.core.settings import get_settings
 from app.models import ParagraphFlag, PostParagraph, ResourceCheck
-from app.resources import resolve
 from app.seed import reseed
 
 URL = "https://platform.claude.com/docs/en/about-claude/model-deprecations"
@@ -26,7 +25,6 @@ def test_check_demo_url_returns_cached_flags_and_persists(client: TestClient) ->
     body = r.json()
     assert body["source"] == "cache"
     assert body["resource_url"] == URL
-    assert body["release_url"] == URL  # deprecated alias
     assert [f["paragraph_id"] for f in body["flags"]] == ["p-6", "p-7", "p-11"]
     assert all(f["reason"] and f["source_quote"] and f["proposed_fix"] for f in body["flags"])
     with SyncSessionLocal() as s:
@@ -81,39 +79,30 @@ def test_error_codes_declared_in_openapi(client: TestClient) -> None:
     assert "404" in paths["/api/posts/{slug}/flags"]["get"]["responses"]
 
 
-def test_deprecated_release_fields_still_work(client: TestClient) -> None:
+def test_removed_release_fields_are_ignored(client: TestClient) -> None:
     r = client.post(CHECK, json={"release_url": URL})
-    assert r.status_code == 200
-    assert [f["paragraph_id"] for f in r.json()["flags"]] == ["p-6", "p-7", "p-11"]
-    assert r.json()["resource_url"] == URL
+    assert r.status_code == 422  # nothing usable sent: the old name no longer counts
+    assert "Provide a resource URL" in r.json()["detail"]
     r = client.post(CHECK, json={"release_text": "Some brand new resource."})
-    assert r.status_code == 503  # text accepted, no cache for it
-
-
-def test_resource_field_wins_over_deprecated_one(client: TestClient) -> None:
-    body = {"resource_url": URL, "release_url": "https://example.com/nope"}
-    assert client.post(CHECK, json=body).status_code == 200
-
-
-def test_deprecated_fields_are_marked_in_openapi(client: TestClient) -> None:
-    schemas = client.get("/openapi.json").json()["components"]["schemas"]
-    for name, fields in {
-        "CheckIn": ("release_url", "release_text"),
-        "CheckOut": ("release_url",),
-    }.items():
-        for field in fields:
-            assert schemas[name]["properties"][field]["deprecated"] is True
-    assert "resource_url" in schemas["CheckIn"]["properties"]
-    assert "resource_url" in schemas["CheckOut"]["properties"]
-
-
-def test_resource_text_wins_over_release_text_when_both_sent(client: TestClient) -> None:
-    demo_text = resolve(URL, None).text  # has a cache entry: would give 200 if it were used
-    body = {"resource_text": "A brand new resource.", "release_text": demo_text}
-    assert client.post(CHECK, json=body).status_code == 503
-
-
-def test_empty_resource_field_does_not_fall_back_to_deprecated_one(client: TestClient) -> None:
-    r = client.post(CHECK, json={"resource_url": "", "release_url": URL})
     assert r.status_code == 422
     assert "Provide a resource URL" in r.json()["detail"]
+
+
+def test_stray_release_field_does_not_override_resource_field(client: TestClient) -> None:
+    body = {"resource_url": URL, "release_url": "https://example.com/nope"}
+    r = client.post(CHECK, json=body)
+    assert r.status_code == 200
+    assert r.json()["resource_url"] == URL
+
+
+def test_response_has_no_release_url(client: TestClient) -> None:
+    assert "release_url" not in client.post(CHECK, json={"resource_url": URL}).json()
+    assert "release_url" not in client.get(FLAGS).json()
+
+
+def test_openapi_has_no_release_fields(client: TestClient) -> None:
+    schemas = client.get("/openapi.json").json()["components"]["schemas"]
+    for name in ("CheckIn", "CheckOut"):
+        props = schemas[name]["properties"]
+        assert "resource_url" in props
+        assert not [k for k in props if k.startswith("release_")]
