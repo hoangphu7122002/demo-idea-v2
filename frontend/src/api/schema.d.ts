@@ -21,6 +21,26 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
+    "/api/demo/reset": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /**
+         * Reset Demo
+         * @description Reseed demo data. 404 unless DEMO_MODE is on.
+         */
+        post: operations["reset_demo_api_demo_reset_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
     "/api/jobs/word-stats": {
         parameters: {
             query?: never;
@@ -206,6 +226,13 @@ export interface components {
             /** Title */
             title: string;
         };
+        /** ResetOut */
+        ResetOut: {
+            /** Counts */
+            counts: {
+                [key: string]: number;
+            };
+        };
         /** ValidationError */
         ValidationError: {
             /** Context */
@@ -260,6 +287,26 @@ export interface operations {
                 };
                 content: {
                     "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    reset_demo_api_demo_reset_post: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["ResetOut"];
                 };
             };
         };

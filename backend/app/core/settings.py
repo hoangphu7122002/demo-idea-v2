@@ -14,6 +14,7 @@ class Settings(BaseSettings):
     app_name: str = "myapp"
     api_port: int = 8000
     db_null_pool: bool = False  # tests: no pooled connections across event loops
+    demo_mode: bool = False  # enables POST /api/demo/reset
 
 
 @lru_cache
