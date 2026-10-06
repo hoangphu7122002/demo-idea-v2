@@ -6,12 +6,13 @@ export
 API_PORT ?= 8000
 APP_PORT ?= 8080
 
-.PHONY: help setup dev gen check up down logs
+.PHONY: help setup demo dev dev-run gen check up down logs
 
 help:
 	@grep -E '^## ' Makefile | sed 's/^## //'
 
 ## setup   install backend + frontend deps, create .env
+## demo    one command: setup if needed, db + redis, migrate, seed, then api + worker + web
 ## dev     db + redis in Docker; api, worker, web with hot reload
 ## gen     regenerate openapi.json and the typed TS client
 ## check   lint, format, typecheck, tests (backend + frontend)
@@ -24,9 +25,19 @@ setup:
 	cd frontend && npm ci
 	test -f .env || cp .env.example .env
 
+demo:
+	test -d backend/.venv -a -d frontend/node_modules -a -f .env || $(MAKE) setup
+	$(COMPOSE) up -d --wait db redis
+	cd backend && uv run alembic upgrade head
+	cd backend && uv run python -m app.seed
+	$(MAKE) dev-run
+
 dev:
 	$(COMPOSE) up -d --wait db redis
 	cd backend && uv run alembic upgrade head
+	$(MAKE) dev-run
+
+dev-run:
 	trap 'kill 0' INT TERM EXIT; \
 	(cd backend && uv run uvicorn app.api.main:app --reload --host 127.0.0.1 --port $(API_PORT)) & \
 	(cd backend && uv run watchfiles --filter python "celery -A app.worker.celery_app worker -Q default,llm --pool=solo --loglevel=INFO" app) & \
