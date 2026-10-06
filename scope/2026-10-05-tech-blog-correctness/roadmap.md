@@ -304,29 +304,29 @@ Features are grouped into clusters; arrows connect clusters (an arrow A → B me
 flowchart LR
   subgraph M1["M1 · Demo"]
     direction TB
-    C1["<b>Nền tảng: chạy local + reseed</b><br/>F1"]
-    C2["<b>Hiển thị bài: MDX, code, KaTeX, id đoạn</b><br/>F2"]
-    C3["<b>Kiểm bài với release (LLM)</b><br/>F3, F13"]
-    C4["<b>Sửa & độ mới: badge, diff, áp bản sửa, Updated</b><br/>F4, F5, F6, F7"]
+    C1["<b>Foundation: local start + reseed</b><br/>F1"]
+    C2["<b>Post rendering: MDX, code, KaTeX, paragraph ids</b><br/>F2"]
+    C3["<b>Release check (LLM)</b><br/>F3, F13"]
+    C4["<b>Fix & freshness: badge, diff, apply fix, Updated marker</b><br/>F4, F5, F6, F7"]
   end
   subgraph M2["M2 · Blog"]
     direction TB
-    C5["<b>Tài khoản & deploy</b><br/>F8, F9"]
-    C6["<b>Viết bài: soạn/xuất bản, hình, import, song ngữ</b><br/>F10, F15, F21"]
-    C7["<b>Đọc & tìm: bố cục, tìm kiếm, RSS</b><br/>F11, F20"]
-    C8["<b>Lịch sử: changelog, phiên bản, diff</b><br/>F12"]
-    C9["<b>Cộng đồng: comment, gợi ý sửa, re-anchor</b><br/>F16, F17, F22"]
-    C10["<b>Kiểm duyệt: spam, hàng chờ, AI đề xuất</b><br/>F23, F24"]
+    C5["<b>Accounts & deploy</b><br/>F8, F9"]
+    C6["<b>Authoring: draft/publish, images, import, bilingual</b><br/>F10, F15, F21"]
+    C7["<b>Reading & discovery: layout, search, RSS</b><br/>F11, F20"]
+    C8["<b>History: changelog, versions, diff</b><br/>F12"]
+    C9["<b>Community: comments, suggestions, re-anchoring</b><br/>F16, F17, F22"]
+    C10["<b>Moderation: spam, review queue, AI proposals</b><br/>F23, F24"]
   end
-  subgraph NF["M2 · New-finding (song song)"]
+  subgraph NF["M2 · New-finding (parallel)"]
     direction TB
-    C11["<b>New-finding: thu thập + xếp hạng</b><br/>F14, F18"]
-    C12["<b>New-finding: tự đánh dấu bài cũ</b><br/>F19"]
-    C13["<b>New-finding: digest + thành nháp</b><br/>F25, F26"]
+    C11["<b>New-finding: ingest + rank</b><br/>F14, F18"]
+    C12["<b>New-finding: auto-flag outdated posts</b><br/>F19"]
+    C13["<b>New-finding: digest + to draft</b><br/>F25, F26"]
   end
   subgraph LATER["Later"]
     direction TB
-    C14["<b>Later: 12 feature (F27–F38)</b><br/>F27–F38"]
+    C14["<b>Later: 12 features (F27–F38)</b><br/>F27–F38"]
   end
   C1 --> C2
   C1 --> C3
@@ -359,22 +359,22 @@ flowchart LR
   class C14 later
 ```
 
-| Cụm | Feature | Mốc |
+| Cluster | Features | Milestone |
 |---|---|---|
-| C1 · Nền tảng: chạy local + reseed | F1 | M1 · Demo |
-| C2 · Hiển thị bài: MDX, code, KaTeX, id đoạn | F2 | M1 · Demo |
-| C3 · Kiểm bài với release (LLM) | F3, F13 | M1 · Demo |
-| C4 · Sửa & độ mới: badge, diff, áp bản sửa, Updated | F4, F5, F6, F7 | M1 · Demo |
-| C5 · Tài khoản & deploy | F8, F9 | M2 · Blog |
-| C6 · Viết bài: soạn/xuất bản, hình, import, song ngữ | F10, F15, F21 | M2 · Blog |
-| C7 · Đọc & tìm: bố cục, tìm kiếm, RSS | F11, F20 | M2 · Blog |
-| C8 · Lịch sử: changelog, phiên bản, diff | F12 | M2 · Blog |
-| C9 · Cộng đồng: comment, gợi ý sửa, re-anchor | F16, F17, F22 | M2 · Blog |
-| C10 · Kiểm duyệt: spam, hàng chờ, AI đề xuất | F23, F24 | M2 · Blog |
-| C11 · New-finding: thu thập + xếp hạng | F14, F18 | M2 · New-finding (song song) |
-| C12 · New-finding: tự đánh dấu bài cũ | F19 | M2 · New-finding (song song) |
-| C13 · New-finding: digest + thành nháp | F25, F26 | M2 · New-finding (song song) |
-| C14 · Later: 12 feature (F27–F38) | F27, F28, F29, F30, F31, F32, F33, F34, F35, F36, F37, F38 | Later |
+| C1 · Foundation: local start + reseed | F1 | M1 · Demo |
+| C2 · Post rendering: MDX, code, KaTeX, paragraph ids | F2 | M1 · Demo |
+| C3 · Release check (LLM) | F3, F13 | M1 · Demo |
+| C4 · Fix & freshness: badge, diff, apply fix, Updated marker | F4, F5, F6, F7 | M1 · Demo |
+| C5 · Accounts & deploy | F8, F9 | M2 · Blog |
+| C6 · Authoring: draft/publish, images, import, bilingual | F10, F15, F21 | M2 · Blog |
+| C7 · Reading & discovery: layout, search, RSS | F11, F20 | M2 · Blog |
+| C8 · History: changelog, versions, diff | F12 | M2 · Blog |
+| C9 · Community: comments, suggestions, re-anchoring | F16, F17, F22 | M2 · Blog |
+| C10 · Moderation: spam, review queue, AI proposals | F23, F24 | M2 · Blog |
+| C11 · New-finding: ingest + rank | F14, F18 | M2 · New-finding (parallel) |
+| C12 · New-finding: auto-flag outdated posts | F19 | M2 · New-finding (parallel) |
+| C13 · New-finding: digest + to draft | F25, F26 | M2 · New-finding (parallel) |
+| C14 · Later: 12 features (F27–F38) | F27, F28, F29, F30, F31, F32, F33, F34, F35, F36, F37, F38 | Later |
 
 
 ## Waves
