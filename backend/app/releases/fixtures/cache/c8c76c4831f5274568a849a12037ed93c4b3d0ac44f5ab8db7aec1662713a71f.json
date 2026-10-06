@@ -1,0 +1,22 @@
+{
+  "flags": [
+    {
+      "paragraph_id": "p-6",
+      "reason": "Recommends claude-sonnet-4-5 as the default model, but that model is deprecated and retires on November 30, 2026.",
+      "source_quote": "We announced the deprecation of the Claude Sonnet 4.5 model (claude-sonnet-4-5-20250929), with retirement on the Claude API scheduled for November 30, 2026. We recommend migrating to Claude Sonnet 5.5.",
+      "proposed_fix": "Here we use `claude-sonnet-5-5`, the recommended replacement for the deprecated Claude Sonnet 4.5."
+    },
+    {
+      "paragraph_id": "p-7",
+      "reason": "The example hardcodes model=\"claude-sonnet-4-5\", a model being retired on November 30, 2026.",
+      "source_quote": "| November 30, 2026 | claude-sonnet-4-5-20250929 | claude-sonnet-5-5 |",
+      "proposed_fix": "Change model=\"claude-sonnet-4-5\" to model=\"claude-sonnet-5-5\"."
+    },
+    {
+      "paragraph_id": "p-11",
+      "reason": "The streaming example also uses the deprecated claude-sonnet-4-5 model.",
+      "source_quote": "We announced the deprecation of the Claude Sonnet 4.5 model (claude-sonnet-4-5-20250929), with retirement on the Claude API scheduled for November 30, 2026. We recommend migrating to Claude Sonnet 5.5.",
+      "proposed_fix": "Change model=\"claude-sonnet-4-5\" to model=\"claude-sonnet-5-5\"."
+    }
+  ]
+}
