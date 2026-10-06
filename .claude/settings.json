@@ -6,5 +6,23 @@
   "enabledPlugins": {
     "bach@bach-workflow": true
   },
-  "teammateMode": "tmux"
+  "teammateMode": "tmux",
+
+  "permissions": {
+    "allow": [
+      "Bash(git:*)",
+      "Bash(gh:*)",
+      "Bash(uv:*)",
+      "Bash(npm:*)",
+      "Bash(npx:*)",
+      "Bash(make:*)",
+      "Bash(/Users/hoangphu/demo-idea-v2/archive/bach-workflow/plugins/bach/skills/pr-team/stack/stack:*)"
+    ],
+    "deny": [
+      "Bash(gh pr merge:*)",
+      "Bash(git push origin main:*)",
+      "Bash(git push -f:*)",
+      "Bash(git push --force:*)"
+    ]
+  }
 }

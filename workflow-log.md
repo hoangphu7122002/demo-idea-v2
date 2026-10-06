@@ -16,3 +16,131 @@ Problems / plugin improvements:
 - 10:3x · process · CLAUDE.md added: lead talks Vietnamese with the operator, short bullet questions, workflow-log updated per event
 - 10:35 · process · operator: English everywhere (files, PRs, lead messages); CLAUDE.md updated
 - 10:36 · setup · bach plugin source moved to archive/bach-workflow in this repo (local/all-prs, 0.6.2); reinstalled for demo-idea-v2 and demo-idea
+
+## 2026-10-06 · F1 · One-command local start + reseed
+- 10:48 · F1 · session start · /bach:pr-team roadmap.md#F1 review: on-demand
+- 10:48 · F1 · preflight ok · teams, tmux, gh, stack infra healthy, template refreshed (afad6ea87a2a)
+- 10:50 · F1 · plan drafted · .claude/pr-team/plan.md (seed-cli → demo-reset-api ∥ one-command-start)
+- 10:52 · F1 · operator: plan approved, review budget 3 · tasks: seed-cli, demo-reset-api, one-command-start
+- 10:54 · F1 · tasks created #1 seed-cli, #2 demo-reset-api, #3 one-command-start (#2,#3 blockedBy #1)
+- 10:54 · F1 · spawn builder-1 (backend) · cwd ok, team config ok
+- 10:55 · F1 · spawn pr-watcher
+- 10:49 · F1 · builder-1 plan #1 seed-cli approved (registry + pkgutil discovery, notes example seeder)
+- 10:50 · F1 · operator: talk to operator in Vietnamese; files, code, PRs, agent messages stay English
+- 10:53 · F1 · operator: teammates also speak Vietnamese to operator; sent to builder-1, pr-watcher; added to plan.md for future spawns
+- 10:54 · F1 · check: builder-1 held 2 stack slots (slot 1 in main checkout, slot 2 in wt-seed-cli) → asked to release slot 1
+- 10:54 · F1 · PR #1 opened (seed-cli, 128 lines, 4 backend files) · classified small, no pre-review
+- 10:54 · F1 · blocker: CI jobs not started, GitHub account locked due to billing issue (operator). Local ruff/mypy/pytest pass per builder-1
+- 10:55 · F1 · builder-1 released extra slot 1; idle, waiting for PR #1 merge before #2
+- 10:56 · F1 · PR #1 merged by operator (ac53665) · #2 → builder-1, spawning builder-2 for #3
+- 10:56 · F1 · spawn builder-2 (repo root) · cwd ok
+- 10:56 · F1 · builder-1 plan #2 approved + allowed generated frontend/src/api/schema.d.ts (CI contract check diffs it)
+- 10:56 · F1 · watcher: PR #1 merged confirmed · builder-2 plan #3 approved (no shared template refresh, no raw make demo; operator smoke-tests; lead refreshes template after merge)
+- 10:57 · F1 · PR #2 opened (demo-reset-api, 130 lines incl. generated) · big: API contract · spawn reviewer-pr2
+- 10:58 · F1 · PR #3 opened (one-command-start, 21 lines, 4 root files) · small, no pre-review; operator runs make demo smoke
+- 10:58 · F1 · builder-2 report PR #3: make help, make -n demo, migrate+seed on slot ok (notes=2); make demo not run; slot released · both builders idle, no tasks left
+- 11:00 · F1 · operator: keep team alive after F1 (builders + watcher) for next feature; only per-PR reviewers shut down
+- 11:00 · F1 · PR #3 merged (b7154bf), PR #2 merged (fae8266) while pre-review:running (no pre-review:ok) · asked reviewer-pr2 for partial verdict
+- 11:00 · F1 · lead: stack template refresh ok with seed step (notes=2)
+- 11:02 · F1 · reviewer-pr2 verdict: no blockers (2 nits: off-test reads ambient DEMO_MODE; 404 not in OpenAPI responses) · shutdown_request sent
+- 11:02 · F2 · session start · /bach:pr-team roadmap.md#F2 (same team, on-demand) · plan drafted, F1 plan archived to plan-F1.md
+- 11:03 · F2 · operator: plan approved (persisted paragraph blocks) · tasks: post-model, post-seed, post-api, md-render, post-page
+- 11:03 · process · operator: lead auto-plans next feature after merge (no manual /bach:pr-team per feature) · saved to memory
+- plugin idea: pr-team should support a roadmap queue (auto-advance to next feature after merge, plan approval only)
+- 11:04 · F2 · tasks #4–#8 created (5,6←4; 8←6,7) · builder-1 → backend, builder-2 reassigned → frontend · PR #2 nits folded into #6 · rule: dependents start only after merge
+- 11:04 · F1 · reviewer-pr2 shut down (verdict ok, nits folded into F2 #6)
+- 11:04 · process · operator: CI must be green · all runs fail with 0 steps: 'account locked due to a billing issue' (not code) · builders must run full CI equivalent locally + paste in PR · after unlock: re-run CI on main; note main push triggers build+deploy
+- 11:04 · F2 · plans approved: #4 post-model (builder-1), #7 md-render (builder-2)
+- 11:06 · F2 · PR #4 opened (md-render, 102 lines + lockfile) · big: md→HTML sanitising, 6 new deps, jsdom only · spawn reviewer-pr4
+- 11:09 · F2 · PR #5 opened (post-model, 236 lines, migration) · big · spawn reviewer-pr5 · open PRs 2/3
+- 11:09 · F2 · PR #4 merged (md-render) while pre-review:running (fast pass: no blockers) · 2nd merge before pre-review:ok · open PRs 1/3
+- 11:10 · F2 · reviewer-pr4 verdict: no blockers (Chromium light+dark ok); nits routed: multi-line $$ → task #5, link colour + XSS test → task #8 · shutdown_request sent
+- 11:10 · F2 · reviewer-pr4 shut down · extra nit (code number contrast light mode) → task #8
+- 11:12 · F2 · PR #5 merged (8f08da4); reviewer-pr5 verdict ok (arrived after merge) · template refreshed 1fc147f0e9be · builder-1 go #5 post-seed → #6 post-api
+- 11:12 · F2 · reviewer-pr5 nits (unclosed $$, setext headings) → backlog in plan.md (F15) · shutdown_request sent
+- 11:12 · F2 · plan #5 approved (H1 → title, not a block) · conflict check: #5 and #6 both edit tests/test_demo.py → #6 blockedBy #5
+- 11:12 · F2 · reviewer-pr5 shut down · label fixed to pre-review:ok post-merge
+- plugin issue: pr-reviewer skips label/comment when PR already merged but still reports "posted" → false report; and operator merges big PRs before pre-review:ok (3/3 so far) — gate is advisory only, consider branch protection or a required status
+- 11:14 · F2 · PR #6 opened (post-seed, 144 lines incl. ~60 fixture) · small, no pre-review
+- 11:15 · F2 · PR #6 merged (cfbf48e) · template refreshed (posts=1, paragraphs=20) · builder-1 go task #6 post-api
+- 11:15 · F2 · plan task #6 post-api approved
+- 11:17 · F2 · PR #7 opened (post-api, ~85 lines + generated) · big: contract · spawn reviewer-pr7
+- 11:18 · F2 · PR #7 operator comment 'domain in separated file' → watcher started fix round (builder-1); reviewer-pr7 told to re-check diff after push
+- 11:18 · F2 · PR #7 fix pushed d0d65a9 (schemas → app/posts/) · thread replied · reviewer-pr7 notified
+- 11:19 · F2 · reviewer-pr7 verdict ok but @49e9fe0, head is d0d65a9 → asked re-check of fix diff · plugin issue: reviewer labels ok on stale sha
+- 11:19 · F2 · watcher: PR #7 fix round ended (thread resolved) · awaiting reviewer-pr7 re-check @d0d65a9
+- 11:21 · process · operator: ignore CI (billing lock) for now; builders keep local CI gate
+- 11:22 · F2 · PR #7 merged (3e9c0e8); reviewer-pr7 re-check ok @d0d65a9 (finished after merge) · shutdown_request · builder-2 go task #8 post-page
+- 11:22 · F2 · reviewer-pr7 shut down
+- 11:22 · F2 · plan #8 post-page approved (screenshots under frontend/.pr-shots, sha-pinned URLs)
+- 11:25 · process · operator added permissions allow/deny to .claude/settings.json (uncommitted) · builders told to call stack by absolute path
+- 11:27 · F2 · PR #8 opened (post-page, 94 lines, 8 files) · big: visible page + global theme.ts palette change · spawn reviewer-pr8
+- 11:29 · F2 · PR #8 merged mid pre-review · reviewer-pr8 asked to finish theme check on main · all F2 tasks merged
+- 11:29 · F3 · auto-planned next feature (operator rule) · plan.md written, F2 plan archived plan-F2.md · awaiting approval + release note choice + API key
+- 11:31 · F3 · operator: plan approved (sync call + cache fallback), builder picks release note, API key added later · tasks #9–#14 created (11←10; 12←9,11; 14←12,13) · builder-1 #10 first, builder-2 #13
+- 11:31 · F3 · plan #13 check-panel approved (builder-2)
+- 11:32 · F3 · plan #10 release-source approved · demo release: Claude Sonnet 4.5 deprecation (2026-09-30) → outdates p-6, p-7, p-11
+- 11:32 · F2 · reviewer-pr8 verdict: no blockers, theme warning/info only used by PostBody · shutdown_request · F2 complete (PRs #4–#8)
+- 11:32 · F2 · reviewer-pr8 nits (vacuous javascript: XSS assertion, link colour untested) → folded into task #14
+- 11:33 · F2 · reviewer-pr8 theme check on main c0ac943 ok · shut down
+- 11:33 · F3 · PR #9 opened (task #10 release-source, 116 lines) · small, no pre-review
+- 11:34 · F3 · plan #9 flag-model approved (+ reseed clears checks test)
+- 11:34 · F3 · PR #10 opened (task #13 check-panel, ~190 lines; + test setup asyncUtilTimeout 5s for pre-existing flake) · big: form UI · spawn reviewer-pr10 · open PRs 2/3
+- 11:35 · process · operator: respawn fresh builders at each new feature (avoid context bloat); watcher stays · applies from F4 · memory updated
+- 11:35 · F3 · PR #11 opened (task #9 flag-model, 199 lines, migration) · big · spawn reviewer-pr11 · open PRs 3/3 = budget
+- 11:35 · F3 · PR #9 merged (release-source) · open PRs 2/3 · builder-1 go task #11 check-agent
+- 11:36 · F3 · PR #10 merged (check-panel) mid pre-review · open PRs 1/3 (#11)
+- 11:36 · F3 · plan task #11 check-agent approved (+ live write-through cache; cache miss → 503 later)
+- 11:38 · F3 · PR #12 opened (task #11 check-agent, ~290 lines + uv.lock) · big · spawn reviewer-pr12 · open PRs 2/3
+- 11:39 · F3 · reviewer-pr11 verdict ok @2e7aa4d (label pre-review:ok, before merge) · shutdown_request
+- 11:39 · F3 · reviewer-pr11 shut down · plugin issue: reviewers sometimes lease from main checkout cwd (pr11 slot 4, builder-1 earlier)
+- 11:40 · F3 · PR #11 merged (flag-model) · template refreshed · reviewer-pr10 verdict no blockers (merged early), 3 nits → task #14 · shutdown_request
+- 11:40 · F3 · PR #12 merged (check-agent) mid pre-review · builder-1 go task #12 check-api · open PRs 0
+- 11:41 · F3 · reviewer-pr12: PR #12 merged early; would-be blocker cache.save() not atomic + 4 nits → new task #15 cache-hardening (builder-1, after check-api PR) · shutdown_request
+- 11:41 · F3 · plan task #12 check-api approved · reviewer-pr10 shut down (post-merge re-check ok)
+- 11:41 · F3 · reviewer-pr12 shut down (API key ok, demo cache ok, cache.py:31 non-atomic → task #15)
+- 11:42 · F3 · operator: cache-safety fixes = separate PR (task #15), not folded into check-api
+- 11:42 · F3 · operator: no vendor lock-in (Claude/OpenAI/Gemini) · code already provider-agnostic (PydanticAI model strings); new task #16 llm-providers (extras + docs + tests)
+- 11:43 · F3 · PR #13 opened (task #12 check-api, ~330 lines + generated) · big · spawn reviewer-pr13
+- 11:43 · F3 · plan #15 cache-hardening approved (+ whitespace-normalised quote check)
+- 11:45 · F3 · PR #14 opened (task #15 cache-hardening, 204 lines) · big · spawn reviewer-pr14 · open PRs 2/3
+- 11:46 · F3 · plan #16 llm-providers approved · conflict check: #16 and #15 both edit release_check.py → #16 blockedBy #15 (start after PR #14 merges)
+- 11:47 · F3 · reviewer-pr13 verdict ok @205ed67 (before merge; e2e B1.1–B1.4 pass, openai/gemini model strings stored as-is) · shutdown_request
+- 11:47 · F3 · reviewer-pr13 shut down · nits: source null → task #14; cache-path id filter + DB-id assert → backlog
+- 11:48 · F3 · PR #13 operator fix round started (2 threads: move logic out of controller; clearer docstrings) · pre-review:ok @205ed67 will be stale → re-check diff after push
+- 11:48 · F3 · reviewer-pr14 verdict ok @795e768 (atomic write proven 3 writers vs 3000 loads) · shutdown_request
+- 11:48 · F3 · PR #14 merged after pre-review:ok · #16 unblocked (after PR #13 fix round)
+- 11:48 · F3 · reviewer-pr14 shut down · 3 nits (escape </release_note>, min quote length, *.tmp gitignore) → backlog
+- 11:51 · process · operator: review corpus = .claude/pr-team/review-lessons.md only (seeded 16 rules from PR #2–#14) · watcher appends operator comments, lead appends reviewer findings, builders read before plans · memory saved
+- 11:52 · F3 · PR #13 merged after fix 401612b (no re-check of fix diff) · builder-2 go #14 · new task #17 check-hardening-2 (blockedBy #16) · operator: note 'enhance logging' for release-check path → backlog
+- 11:52 · process · operator correction: "enhance logging" is a PLUGIN improvement, not app code (removed from app backlog)
+- plugin idea (operator): enhance pr-team logging — agents emit structured events themselves (spawn/shutdown, plan sent/approved, PR opened + size, verdict + sha, fix round, merge, permission prompt, slot lease/release, review-lesson added) to one machine-readable log (e.g. RUN/events.jsonl); lead renders workflow-log.md from it instead of hand-appending; lets you audit "merged before pre-review:ok", stale-sha verdicts and race-y idle notices
+- 11:52 · F3 · PR #15 opened (task #16 llm-providers, ~90 lines + 580 lock; websockets 17.1→16.1.1; Gemini prefix google:) · big · spawn reviewer-pr15 · open PRs 1/3
+- plugin idea (operator): reviewer/builder permissions — plugin should ship a permission profile so teammates don't prompt: worktrees under the repo (or additionalDirectories), allow stack CLI + pr_poll by absolute path, read-only shell (cd/ls/cat/grep/head/tail/sed -n), gh/git/uv/npm; deny gh pr merge / push main / force push; agent prompts forbid `S=…; $S` and long `&&` chains. 85% of teammate Bash calls missed the allowlist today.
+- 11:53 · F3 · plan #14 check-wire approved (builder-2 had self-approved from 'go'; corrected) · builder-1 idle until PR #15 merges · plugin idea: builder prompt should define 'go' = send plan, never self-approve
+- 11:53 · F3 · PR #15 merged (llm-providers) mid pre-review · operator feedback: rename release-check → resource-check (scope TBD; 18 backend/5 frontend files + table + API fields)
+- 11:54 · F3 · operator: rename release-check → resource-check, full, after #14 · tasks #18 backend (internals+migration+additive API) → #19 frontend → #20 cleanup (expand/contract); #17 blockedBy #18 · builder-1 go #18
+- 11:55 · F3 · plan #18 resource-rename-backend approved (git mv, migration renames table/col/index/seq, cache key renamed, additive API)
+- 11:56 · F3 · reviewer-pr15: PR #15 skipped (merged), CI ok, google: prefix ok; NOT verified (auto-mode denied): uv.lock source audit, grep for websockets>=17 users → surfaced to operator · shutdown_request
+- 11:56 · F3 · reviewer-pr15 shut down (no pre-review:ok: websockets>=17 grep pending operator)
+- 12:02 · F3 · PR #16 opened (task #14 check-wire) · big · reviewer-pr16 · merged mid pre-review · open PRs 0
+- 12:03 · F3 · reviewer-pr16: no blockers (merged early) · nits (stale flags across slug, global scrollIntoView, 503 shot) → task #19 · 2 lessons added · shutdown_request
+- 12:04 · F3 · PR #17 opened (task #18 resource-rename-backend, 36 files, migration 86b6917443c1, additive API) · big · spawn reviewer-pr17 (test merged onto main incl. PR #16)
+- 12:06 · F3 · PR #17 merged (8c792ce) mid pre-review (diff only, no blockers, 4 nits → #17/#19) · lead template refresh upgraded clean to 86b6917443c1 · reviewer-pr17 asked for post-merge migration data + frontend typecheck on main · builder-1 go #17, builder-2 go #19
+- 12:06 · F3 · plans approved: #17 check-hardening-2 (builder-1), #19 resource-rename-frontend (builder-2, PostView key={slug})
+- 12:08 · F3 · reviewer-pr17 post-merge on main 8c792ce: migration data preserved, downgrade/upgrade clean, alembic check clean, frontend typecheck + 30 tests ok · shutdown_request
+- 12:10 · F3 · PR #18 opened (task #17 check-hardening-2, 123+/15-) · big · spawn reviewer-pr18
+- 12:12 · F3 · PR #19 opened (task #19 resource-rename-frontend, 66+/28-, browser-verified) · big (visible page) · spawn reviewer-pr19 · open PRs 2/3
+- 12:13 · F3 · reviewer-pr18 verdict ok @6a78006 (mutation-tested, 4 guards) · nits → backlog · shutdown_request
+- 12:13 · F3 · reviewer-pr18 shut down · lesson added: tests must fail when the fix is reverted
+- 12:16 · F3 · reviewer-pr19 verdict ok @323c685 · shutdown_request
+- 12:16 · F3 · PR #18 merged after pre-review:ok
+- 12:16 · F3 · operator: when F3 done (after #20 merges), shut down the full team (builders + watcher); no auto-plan of F4 this time
+- 12:17 · F3 · PR #19 merged after pre-review:ok · builder-1 go #20 (last F3 task)
+- 12:17 · F3 · plan #20 resource-rename-cleanup approved (old fields ignored → 422, OpenAPI has no release_*)
+- 12:18 · F3 · builder-2 shut down
+- 12:19 · F3 · PR #20 opened (task #20 resource-rename-cleanup, 25+/121-) · big (contract) · spawn reviewer-pr20
+- 12:22 · F3 · reviewer-pr20 verdict ok @f0ae656 (mutation-checked) · shutdown_request
+- 12:22 · F3 · reviewer-pr20 shut down · nit → backlog
+- 12:22 · F3 · PR #20 merged after pre-review:ok · F3 complete · shutdown_request builder-1
+- 12:23 · F3 · builder-1 shut down · shutdown_request pr-watcher
