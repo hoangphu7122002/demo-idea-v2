@@ -15,3 +15,4 @@ Problems / plugin improvements:
 - 10:2x · roadmap · dependency graph replaced by a cluster graph (14 clusters, 21 edges) + cluster table; per-feature graph was unreadable (38 nodes, 66 edges)
 - 10:3x · process · CLAUDE.md added: lead talks Vietnamese with the operator, short bullet questions, workflow-log updated per event
 - 10:35 · process · operator: English everywhere (files, PRs, lead messages); CLAUDE.md updated
+- 10:36 · setup · bach plugin source moved to archive/bach-workflow in this repo (local/all-prs, 0.6.2); reinstalled for demo-idea-v2 and demo-idea
