@@ -1,5 +1,8 @@
-import { cleanup } from '@testing-library/react'
+import { cleanup, configure } from '@testing-library/react'
 import { afterEach } from 'vitest'
+
+// Lazy route chunks transform on first use; the 1 s default flakes when test files run in parallel.
+configure({ asyncUtilTimeout: 5000 })
 
 afterEach(() => {
   cleanup()
