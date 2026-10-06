@@ -1,6 +1,6 @@
 """Note summary agent: structured output, offline deterministic model by default.
 
-Real provider by env only: LLM_MODEL=anthropic:claude-sonnet-5-5
+Real provider by env only: LLM_MODEL=anthropic:<model> | openai:<model> | google:<model>
 """
 
 import json

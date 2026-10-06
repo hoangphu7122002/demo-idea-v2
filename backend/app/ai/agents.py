@@ -1,8 +1,10 @@
 """PydanticAI agents. LLM_MODEL=test (default) uses an offline FunctionModel.
 
 Switch to a real provider by env only:
-    LLM_MODEL=anthropic:claude-sonnet-5-5
-    (+ uv add 'pydantic-ai-slim[anthropic]' and ANTHROPIC_API_KEY in the env)
+    LLM_MODEL=anthropic:<model>   + ANTHROPIC_API_KEY
+    LLM_MODEL=openai:<model>      + OPENAI_API_KEY
+    LLM_MODEL=google:<model>  + GEMINI_API_KEY
+    (provider clients are installed as pydantic-ai-slim extras; see backend/README.md)
 """
 
 import asyncio

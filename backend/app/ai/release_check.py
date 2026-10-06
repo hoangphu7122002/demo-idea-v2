@@ -1,6 +1,8 @@
 """Check a post against a release note: which paragraphs does the release make outdated?
 
-Live: PydanticAI agent with structured output (LLM_MODEL=anthropic:claude-sonnet-5-5).
+Live: PydanticAI agent with structured output; any provider by env only
+(LLM_MODEL=anthropic:<model> | openai:<model> | google:<model>, with ANTHROPIC_API_KEY |
+OPENAI_API_KEY | GEMINI_API_KEY).
 Fallback: cache keyed by inputs. LLM_MODEL=test (default) and any live error/timeout use it.
 A successful live run writes the cache (write-through) so a later fallback returns the same flags.
 """
