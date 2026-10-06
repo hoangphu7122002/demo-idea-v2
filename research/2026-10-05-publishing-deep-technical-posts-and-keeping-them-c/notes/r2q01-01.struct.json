@@ -1,0 +1,205 @@
+{
+ "sid": "r2q01-01",
+ "terms": [
+  {
+   "term": "API",
+   "count": 26,
+   "kind": "acronym"
+  },
+  {
+   "term": "AI",
+   "count": 18,
+   "kind": "acronym"
+  },
+  {
+   "term": "MCP",
+   "count": 9,
+   "kind": "acronym"
+  },
+  {
+   "term": "Accurate docs. Better answers",
+   "count": 3,
+   "kind": "heading"
+  },
+  {
+   "term": "Enterprise",
+   "count": 3,
+   "kind": "heading"
+  },
+  {
+   "term": "FreedomPay",
+   "count": 3,
+   "kind": "heading"
+  },
+  {
+   "term": "Product",
+   "count": 3,
+   "kind": "heading"
+  },
+  {
+   "term": "Resources",
+   "count": 3,
+   "kind": "heading"
+  },
+  {
+   "term": "Solutions",
+   "count": 3,
+   "kind": "heading"
+  },
+  {
+   "term": "The State of Docs Report 2026",
+   "count": 3,
+   "kind": "heading"
+  },
+  {
+   "term": "CA",
+   "count": 3,
+   "kind": "acronym"
+  },
+  {
+   "term": "CI",
+   "count": 3,
+   "kind": "acronym"
+  },
+  {
+   "term": "EIN",
+   "count": 3,
+   "kind": "acronym"
+  },
+  {
+   "term": "INC",
+   "count": 3,
+   "kind": "acronym"
+  },
+  {
+   "term": "USA",
+   "count": 3,
+   "kind": "acronym"
+  },
+  {
+   "term": "Git Sync",
+   "count": 5,
+   "kind": "ngram"
+  },
+  {
+   "term": "APIs",
+   "count": 2,
+   "kind": "acronym"
+  },
+  {
+   "term": "SDK",
+   "count": 2,
+   "kind": "acronym"
+  },
+  {
+   "term": "Assigning documentation ownership",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Barranca Ave",
+   "count": 3,
+   "kind": "ngram"
+  },
+  {
+   "term": "Can automated validation prevent documentation drift?",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Comparing docs against source of truth",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Conclusion",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Diagnose the cause",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "FAQs",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Get the GitBook newsletter",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "How does GitBook support documentation accuracy?",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "How often should technical documentation be reviewed?",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Keep final judgment with a person",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Monitor likely problems",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Pre-release documentation checklist",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Repair the documentation",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Running freshness checks and managing versioned docs",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Share",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "State of Docs",
+   "count": 3,
+   "kind": "ngram"
+  },
+  {
+   "term": "TL;DR",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "What causes documentation drift?",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Who should own documentation accuracy?",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Why documentation drifts",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Wiring documentation into the release process",
+   "count": 1,
+   "kind": "heading"
+  }
+ ]
+}

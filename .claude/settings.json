@@ -1,10 +1,10 @@
 {
-  "enabledPlugins": {
-    "bach@bach-workflow": true
-  },
-  "teammateMode": "tmux",
   "env": {
     "CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS": "1",
     "CLAUDE_CODE_ENABLE_TODO_TOOLS": "1"
-  }
+  },
+  "enabledPlugins": {
+    "bach@bach-workflow": true
+  },
+  "teammateMode": "tmux"
 }

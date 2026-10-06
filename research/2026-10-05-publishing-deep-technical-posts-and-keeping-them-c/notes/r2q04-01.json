@@ -1,0 +1,392 @@
+{
+ "sid": "r2q04-01",
+ "url": "https://github.com/core607/poketto/pull/201",
+ "title": "feat: reader corrections reviewed and committed by publishing members",
+ "published": "2026-09-24",
+ "source_type": "primary",
+ "quality_flags": [
+  "dense-technical",
+  "vendor-implementation"
+ ],
+ "terms": [
+  {
+   "term": "reader corrections",
+   "context": "signed-in community members can suggest a fix to public articles"
+  },
+  {
+   "term": "PUBLISH",
+   "context": "permission level required to accept reader correction proposals"
+  },
+  {
+   "term": "OPEN",
+   "context": "status for active correction proposals awaiting review"
+  },
+  {
+   "term": "ACCEPTING",
+   "context": "intermediate status during proposal acceptance, reserved with ten-minute timeout"
+  },
+  {
+   "term": "STALE",
+   "context": "status when proposal base SHA no longer matches served body"
+  },
+  {
+   "term": "Poketto-Suggested-By",
+   "context": "commit trailer recording which account suggested an accepted correction"
+  },
+  {
+   "term": "community_corrections",
+   "context": "database table storing correction proposals with status and metadata"
+  },
+  {
+   "term": "community_notifications",
+   "context": "table for notifying readers when proposals are accepted, declined, or stale"
+  },
+  {
+   "term": "CommunityCorrections",
+   "context": "Java class implementing proposal submission, review, and acceptance logic"
+  },
+  {
+   "term": "RepositoryReviewedBodyEdits",
+   "context": "Java class handling actual file modifications when proposals are accepted"
+  },
+  {
+   "term": "correction-proposal.tsx",
+   "context": "React component rendering reader suggestion UI and state"
+  },
+  {
+   "term": "credited",
+   "context": "boolean flag controlling whether accepted proposer appears in footer credits"
+  },
+  {
+   "term": "SHA-256",
+   "context": "digest of served body protecting proposals from stale-read attacks"
+  },
+  {
+   "term": "line diff",
+   "context": "visual review format showing proposed changes in review studio"
+  },
+  {
+   "term": "ALREADY_APPLIED",
+   "context": "condition when body already matches proposal content, no new commit needed"
+  },
+  {
+   "term": "resolved_at",
+   "context": "timestamp used to clean old proposal text older than 90 days"
+  },
+  {
+   "term": "claim",
+   "context": "Java method to reserve ACCEPTING status with ten-minute expiration"
+  },
+  {
+   "term": "V22",
+   "context": "schema version adding community_corrections and updated notifications tables"
+  },
+  {
+   "term": "V23",
+   "context": "schema version with partial index on resolved_at for cleanup performance"
+  },
+  {
+   "term": "OriginAndBodyFilter",
+   "context": "Java filter applying path-specific transformations to proposal text"
+  },
+  {
+   "term": "WritePrincipal",
+   "context": "Java object recording proposer identity in commit metadata"
+  },
+  {
+   "term": "PublicArticle.body",
+   "context": "snapshot representation of served body used for staleness detection"
+  },
+  {
+   "term": "CRLF",
+   "context": "carriage-return-line-feed preserved exactly in frontmatter and body"
+  },
+  {
+   "term": "BOM",
+   "context": "byte-order mark preserved when rewriting file on acceptance"
+  },
+  {
+   "term": "studio section",
+   "context": "admin interface showing open proposals with metadata and diffs"
+  },
+  {
+   "term": "rate limiting",
+   "context": "5 proposals per minute, 30 per day per reader-article pair"
+  },
+  {
+   "term": "block",
+   "context": "mutual user block preventing proposals across blocked relationship"
+  },
+  {
+   "term": "withdrawal",
+   "context": "reader action to retract OPEN proposal if not yet accepted"
+  },
+  {
+   "term": "decline",
+   "context": "reviewer action to reject proposal without modifying article"
+  },
+  {
+   "term": "fixture",
+   "context": "test data setup for concurrent scenarios and rollback cases"
+  },
+  {
+   "term": "trailers",
+   "context": "commit message metadata fields like Poketto-Suggested-By"
+  },
+  {
+   "term": "RepositoryPatch",
+   "context": "abstraction for patch operations with optional suggestedBy field"
+  },
+  {
+   "term": "article route",
+   "context": "URL path identifying article for credit lookup and deduplication"
+  },
+  {
+   "term": "article id",
+   "context": "frontmatter identifier or creation time keying credit to specific article"
+  },
+  {
+   "term": "partial index",
+   "context": "database index on resolved_at only for resolved rows to reduce scan cost"
+  }
+ ],
+ "claims": [
+  {
+   "claim": "Readers can suggest corrections to public articles through a Web UI",
+   "quote": "Signed-in community members get 「建议修改」 below a public article",
+   "numbers": []
+  },
+  {
+   "claim": "Proposals are rate-limited per reader",
+   "quote": "5 a minute and 30 a day",
+   "numbers": [
+    "5",
+    "30"
+   ]
+  },
+  {
+   "claim": "Only one open proposal per reader-article pair",
+   "quote": "one open proposal per reader and article",
+   "numbers": [
+    "1"
+   ]
+  },
+  {
+   "claim": "Proposals include SHA-256 of the body being edited",
+   "quote": "the proposal carries a SHA-256 of the body they started from",
+   "numbers": []
+  },
+  {
+   "claim": "Reviewers see proposals in a studio section with line diffs",
+   "quote": "A new 「读者勘误」 studio section lists open proposals with a line diff",
+   "numbers": []
+  },
+  {
+   "claim": "Acceptance preserves all bytes before the body including BOM and CRLF",
+   "quote": "Every byte before the body is kept, including a BOM and CRLF frontmatter",
+   "numbers": []
+  },
+  {
+   "claim": "Proposals become STALE if body no longer matches base at acceptance time",
+   "quote": "Otherwise the proposal becomes STALE",
+   "numbers": []
+  },
+  {
+   "claim": "Accepted proposers are credited in article footer unless blocked",
+   "quote": "Accepted proposers are thanked in the article footer, unless they and an owner have blocked each other",
+   "numbers": []
+  },
+  {
+   "claim": "Acceptance was initially two-step with no mutual exclusion",
+   "quote": "Acceptance wrote Git first and then resolved the proposal with an update from OPEN whose miss was ignored",
+   "numbers": []
+  },
+  {
+   "claim": "Acceptance now uses ACCEPTING status with ten-minute claim timeout",
+   "quote": "a claim stranded for ten minutes can be retaken",
+   "numbers": [
+    "10"
+   ]
+  },
+  {
+   "claim": "Cancelled credit-naming does not write Poketto-Suggested-By trailer",
+   "quote": "A proposer who declines naming is also left out of the commit trailer",
+   "numbers": []
+  },
+  {
+   "claim": "Failed resolve in same transaction rolls back entire acceptance",
+   "quote": "失败就整条回滚（notification failure in transaction rolls back)",
+   "numbers": []
+  },
+  {
+   "claim": "Cleanup of old resolved proposals has no index on resolved_at",
+   "quote": "resolved_at 上没有索引",
+   "numbers": []
+  },
+  {
+   "claim": "Cleanup query scans full table on each new proposal",
+   "quote": "所以这条更新得扫全表",
+   "numbers": []
+  },
+  {
+   "claim": "Credit lookup uses workspace, route, and (optionally) article id",
+   "quote": "Credit is keyed by the article a proposal was made for, its frontmatter id or else its creation time",
+   "numbers": []
+  },
+  {
+   "claim": "Old route-only credit persists for proposals stored before id columns existed",
+   "quote": "Proposals stored before the columns existed keep route-only credit instead of losing it",
+   "numbers": []
+  },
+  {
+   "claim": "Mine query failure no longer hides entire correction UI",
+   "quote": "mine 失败只隐藏状态，不再让入口消失",
+   "numbers": []
+  },
+  {
+   "claim": "Stranded ACCEPTING claims now appear as OPEN to proposers after ten minutes",
+   "quote": "A claim whose acceptance never settled was only retakeable through a second acceptance, yet... now counts as open",
+   "numbers": [
+    "10"
+   ]
+  },
+  {
+   "claim": "Reviewers can re-accept a stranded ACCEPTING proposal after ten minutes",
+   "quote": "审稿人可以不采纳，也可以重新采纳",
+   "numbers": []
+  },
+  {
+   "claim": "Already-applied acceptance no longer reports false success",
+   "quote": "An acceptance that finds the body already applied records the commit it read and tells the reviewer no new commit was made",
+   "numbers": []
+  }
+ ],
+ "analysis_rows": [
+  {
+   "type": "root_cause",
+   "symptom": "Race condition: Git write succeeds but state update fails",
+   "cause": "Acceptance updates state in separate transaction after Git write, miss treated as success",
+   "evidence": "changed == 0 silently treated as success in resolve method; no retry or rollback",
+   "fix": "Reserve ACCEPTING status before Git write, settle only own claim; treat missed update as conflict"
+  },
+  {
+   "type": "root_cause",
+   "symptom": "Mine query failure hides entire correction UI",
+   "cause": "Try block wraps both initialization queries; catch sets entire state to null",
+   "evidence": "correction-proposal.tsx useEffect; if (!state) return null; 204 response not handled",
+   "fix": "Separate try blocks per query; mine failure returns undefined without hiding component"
+  },
+  {
+   "type": "root_cause",
+   "symptom": "Readers unknowingly credited with permanent public attribution",
+   "cause": "Credits public API not mentioned in submission UI; no opt-out for accepted proposals",
+   "evidence": "/api/public/community/spaces/{space}/corrections/credits endpoint; submit dialog silent on naming",
+   "fix": "Add checkbox mentioning footer attribution and commit trailer; default checked"
+  },
+  {
+   "type": "root_cause",
+   "symptom": "ACCEPTING proposal permanently stuck when process crashes or write fails",
+   "cause": "Review list filters status='OPEN' only; ACCEPTING invisible; only retakeable via second accept needing id",
+   "evidence": "CommunityCorrections.java line 161; no listing of ACCEPTING; proposer withdraw button hidden",
+   "fix": "After 10 minutes, treat ACCEPTING as OPEN for listing, withdrawal, and re-acceptance"
+  },
+  {
+   "type": "root_cause",
+   "symptom": "Full-table scan on each proposal when cleaning 90-day-old text",
+   "cause": "resolved_at column lacks database index; cleanup query in proposer transaction with locks held",
+   "evidence": "V22 created 3 indexes, resolved_at excluded; update runs during propose with account+publish locks",
+   "fix": "Add partial index on resolved_at for resolved rows; move cleanup to scheduled task"
+  },
+  {
+   "type": "root_cause",
+   "symptom": "Credit attached to wrong article when route reused or articles swap URLs",
+   "cause": "Credits query keys only on (workspace, route); ignores current article identity",
+   "evidence": "CommunityCorrections.credits line 149; no article-id check; PublicDocument footer renders same list",
+   "fix": "Store and match both article frontmatter-id and creation-time; different article at same route loses old credit"
+  },
+  {
+   "type": "root_cause",
+   "symptom": "Reader chooses no-credit but commit trailer written anyway",
+   "cause": "credited field only affects footer insert and credits query, not WritePrincipal creation",
+   "evidence": "CommunityCorrections line 207 WritePrincipal created unconditionally; credited=false ignored",
+   "fix": "Omit WritePrincipal when credited=false; update checkbox label to mention both footer and commit trailer"
+  },
+  {
+   "type": "root_cause",
+   "symptom": "Acceptance reports success but can't name commit when body already matched",
+   "cause": "ALREADY_APPLIED branch returns null commit; resolve still marks ACCEPTED without commit identity",
+   "evidence": "RepositoryReviewedBodyEdits line 71; replaceBody returns ALREADY_APPLIED with no commit",
+   "fix": "Read and store current commit hash on ALREADY_APPLIED; report in acceptance response"
+  },
+  {
+   "type": "comparison",
+   "option": "Single-step acceptance",
+   "criterion": "Race condition risk",
+   "value": "High: Git write succeeds, state update fails silently"
+  },
+  {
+   "type": "comparison",
+   "option": "Two-step with ACCEPTING claim",
+   "criterion": "Race condition risk",
+   "value": "Low: only own claim can close; missed update returns conflict"
+  },
+  {
+   "type": "comparison",
+   "option": "No index on resolved_at",
+   "criterion": "Cleanup performance",
+   "value": "O(n) full-table scan on each proposal, held during proposer transaction"
+  },
+  {
+   "type": "comparison",
+   "option": "Partial index on resolved_at",
+   "criterion": "Cleanup performance",
+   "value": "O(log n) after 90-day filter; can move to scheduled task"
+  },
+  {
+   "type": "comparison",
+   "option": "Route-only credit key",
+   "criterion": "Correctness on article reuse",
+   "value": "Incorrect: new article at old route inherits old credits"
+  },
+  {
+   "type": "comparison",
+   "option": "Article-id + route key",
+   "criterion": "Correctness on article reuse",
+   "value": "Correct: each article gets its own credits; different id treated as new article"
+  },
+  {
+   "type": "landscape",
+   "entity": "poketto",
+   "category": "Publishing platform",
+   "segment": "Technical authors, community-reviewed articles",
+   "positioning": "Platform with integrated reader correction workflow and community crediting",
+   "key_facts": "Project by core607; reader corrections merged Sep 24, 2026; supports PUBLISH-gated review; implements notified proposers"
+  },
+  {
+   "type": "landscape",
+   "entity": "CommunityCorrections",
+   "category": "Java service component",
+   "segment": "Backend proposal handling",
+   "positioning": "Central orchestrator for propose, accept, decline, withdraw; handles gating, notifications, rate limits",
+   "key_facts": "Manages state transitions; handles ACCEPTING claim with 10-min timeout; integrates with RepositoryReviewedBodyEdits"
+  },
+  {
+   "type": "landscape",
+   "entity": "RepositoryReviewedBodyEdits",
+   "category": "Java service component",
+   "segment": "Git integration",
+   "positioning": "Handles actual file modification; detects ALREADY_APPLIED; preserves bytes before body",
+   "key_facts": "Preserves BOM and CRLF; returns null on ALREADY_APPLIED; writes outside transaction for GitHub credentials"
+  },
+  {
+   "type": "landscape",
+   "entity": "correction-proposal.tsx",
+   "category": "React UI component",
+   "segment": "Reader-facing suggestion form",
+   "positioning": "Renders proposal submission UI; shows status; hides withdraw button during ACCEPTING",
+   "key_facts": "Uses .catch(() => undefined) to isolate mine query failure; shows credit checkbox; reads mine proposals on mount"
+  }
+ ],
+ "model": "haiku",
+ "_recall": 0.6
+}

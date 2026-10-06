@@ -1,0 +1,125 @@
+{
+ "sid": "r3q03-04",
+ "terms": [
+  {
+   "term": "Metadata",
+   "count": 2,
+   "kind": "heading"
+  },
+  {
+   "term": "Activity",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Assignees",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Community correction workflow via pull requests #16",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Description",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Development",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Inputs from the data model (#14, resolved",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "Issue actions",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Labels",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Milestone",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Projects",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Question",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Relationships",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "fact-checked-politics",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "to join this conversation on GitHub",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "ADR",
+   "count": 1,
+   "kind": "acronym"
+  },
+  {
+   "term": "CI",
+   "count": 1,
+   "kind": "acronym"
+  },
+  {
+   "term": "PR",
+   "count": 1,
+   "kind": "acronym"
+  },
+  {
+   "term": "docs/data-model.md",
+   "count": 1,
+   "kind": "code"
+  },
+  {
+   "term": "schemas/",
+   "count": 1,
+   "kind": "code"
+  },
+  {
+   "term": "to change the speaker, set a status to",
+   "count": 1,
+   "kind": "code"
+  },
+  {
+   "term": "transcript.md",
+   "count": 1,
+   "kind": "code"
+  },
+  {
+   "term": "words.json",
+   "count": 1,
+   "kind": "code"
+  },
+  {
+   "term": "Claude Code",
+   "count": 1,
+   "kind": "ngram"
+  }
+ ]
+}

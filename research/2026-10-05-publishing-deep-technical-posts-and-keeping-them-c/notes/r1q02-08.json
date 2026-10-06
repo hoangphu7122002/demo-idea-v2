@@ -1,0 +1,573 @@
+{
+ "sid": "r1q02-08",
+ "url": "https://www.cesarsotovalero.net/blog/replace-disqus-with-a-better-alternative.html",
+ "title": "Replace the Disqus Commenting System on Your Blog",
+ "published": "",
+ "source_type": "blog",
+ "quality_flags": [
+  "undated",
+  "outdated"
+ ],
+ "terms": [
+  {
+   "term": "Replace the Disqus Commenting System on Your Blog",
+   "context": "page title heading"
+  },
+  {
+   "term": "Disqus",
+   "context": "I started using Disqus in 2018"
+  },
+  {
+   "term": "Disqus Commenting System",
+   "context": "Replace the Disqus Commenting System on Your Blog"
+  },
+  {
+   "term": "Commenting System",
+   "context": "Replace the Disqus Commenting System on Your Blog"
+  },
+  {
+   "term": "commenting management system",
+   "context": "arguably the leading commenting management system for both small and large websites"
+  },
+  {
+   "term": "Giscus",
+   "context": "I show you how I set up Giscus on this blog"
+  },
+  {
+   "term": "Gisqus",
+   "context": "Gisqus is an open-source commenting system (sic)"
+  },
+  {
+   "term": "GitHub Discussions",
+   "context": "open-source commenting system that relies on GitHub Discussions"
+  },
+  {
+   "term": "GitHub",
+   "context": "allow GitHub users to get rid of Disqus"
+  },
+  {
+   "term": "open-source",
+   "context": "great open-source alternatives out there"
+  },
+  {
+   "term": "Amit Bhawani",
+   "context": "— Amit Bhawani (@amitbhawani) February 6, 2017"
+  },
+  {
+   "term": "@disqus",
+   "context": "Woah, @disqus now forcing ads on the Commenting System"
+  },
+  {
+   "term": "What Happened with Disqus?",
+   "context": "section heading"
+  },
+  {
+   "term": "Why Replacing Disqus?",
+   "context": "section heading"
+  },
+  {
+   "term": "Spammy ads",
+   "context": "Disqus ads are just horrible. They cover a large portion"
+  },
+  {
+   "term": "Performance issues",
+   "context": "Disqus is know to degrade page load time"
+  },
+  {
+   "term": "Privacy concerns",
+   "context": "forcing visitors to log in with their social media accounts"
+  },
+  {
+   "term": "third party scripts",
+   "context": "calling third party scripts when loading ads"
+  },
+  {
+   "term": "Alternatives",
+   "context": "section heading"
+  },
+  {
+   "term": "Utterances",
+   "context": "A lightweight comments widget built on top of GitHub Issues"
+  },
+  {
+   "term": "GitHub Issues",
+   "context": "might flood your repository's issues with comments"
+  },
+  {
+   "term": "Gitalk",
+   "context": "A modern component based on GitHub Issues and Preact"
+  },
+  {
+   "term": "Issues and Preact",
+   "context": "based on GitHub Issues and Preact"
+  },
+  {
+   "term": "Preact",
+   "context": "component based on GitHub Issues and Preact"
+  },
+  {
+   "term": "distraction free mode",
+   "context": "Facebook-like distraction free mode, hotkeys, and automatic language localization"
+  },
+  {
+   "term": "Note",
+   "context": "Note: These GitHub-based solutions are ideal for sites with developers"
+  },
+  {
+   "term": "Setting Up Giscus",
+   "context": "section heading"
+  },
+  {
+   "term": "GitHub pages",
+   "context": "This blog runs on GitHub pages, and Jekyll powers it"
+  },
+  {
+   "term": "Jekyll",
+   "context": "static site generator created by one of the GitHub founders"
+  },
+  {
+   "term": "static site generator",
+   "context": "Jekyll is a static site generator"
+  },
+  {
+   "term": "GitHub API rate limits",
+   "context": "no need to worry about GitHub API rate limits"
+  },
+  {
+   "term": "API",
+   "context": "GitHub Discussions search API is used to find the Discussion"
+  },
+  {
+   "term": "How it works?",
+   "context": "bold subheading in Setting Up Giscus"
+  },
+  {
+   "term": "GitHub Discussions search API",
+   "context": "used to find the Discussion associated with the page"
+  },
+  {
+   "term": "mapping",
+   "context": "based on a chosen mapping (URL, pathname, <title>, etc.)"
+  },
+  {
+   "term": "giscus bot",
+   "context": "giscus bot will automatically create a discussion"
+  },
+  {
+   "term": "GitHub OAuth flow",
+   "context": "authorize the giscus app to post on their behalf using the GitHub OAuth flow"
+  },
+  {
+   "term": "giscus app",
+   "context": "The giscus app is installed on the repository"
+  },
+  {
+   "term": "Discussions feature",
+   "context": "The Discussions feature is enabled"
+  },
+  {
+   "term": "data-repo",
+   "context": "script attribute for giscus client"
+  },
+  {
+   "term": "data-repo-id",
+   "context": "data-repo-id=\"REPO_ID\""
+  },
+  {
+   "term": "data-category",
+   "context": "data-category=\"Announcements\""
+  },
+  {
+   "term": "data-category-id",
+   "context": "data-category-id=\"CATEGORY_ID\""
+  },
+  {
+   "term": "data-mapping",
+   "context": "data-mapping=\"pathname\""
+  },
+  {
+   "term": "data-reactions-enabled",
+   "context": "data-reactions-enabled=\"1\""
+  },
+  {
+   "term": "data-emit-metadata",
+   "context": "data-emit-metadata=\"1\""
+  },
+  {
+   "term": "data-theme",
+   "context": "data-theme=\"CUSTOM_CSS\""
+  },
+  {
+   "term": "data-lang",
+   "context": "data-lang=\"en\""
+  },
+  {
+   "term": "REPO_ID",
+   "context": "REPO_ID and CATEGORY_ID can be obtained using the Giscus form"
+  },
+  {
+   "term": "CATEGORY_ID",
+   "context": "REPO_ID and CATEGORY_ID can be obtained using the Giscus form"
+  },
+  {
+   "term": "CUSTOM_CSS",
+   "context": "look and feel customized via CUSTOM_CSS path"
+  },
+  {
+   "term": "CSS",
+   "context": "customized CSS path"
+  },
+  {
+   "term": "Additional Configurations",
+   "context": "section heading"
+  },
+  {
+   "term": "giscus.json",
+   "context": "creating a .giscus.json file in the root of the repository"
+  },
+  {
+   "term": ".giscus.json",
+   "context": "creating a .giscus.json file in the root of the repository"
+  },
+  {
+   "term": "origins",
+   "context": "origins and originsRegex keys restrict the domains"
+  },
+  {
+   "term": "originsRegex",
+   "context": "origins and originsRegex keys restrict the domains"
+  },
+  {
+   "term": "defaultCommentOrder",
+   "context": "\"defaultCommentOrder\": \"oldest\""
+  },
+  {
+   "term": "Conclusion",
+   "context": "section heading"
+  },
+  {
+   "term": "Microsoft",
+   "context": "GitHub, a Microsoft product, so not wholly exempt from future changes"
+  },
+  {
+   "term": "Hacker News",
+   "context": "share links: Twitter LinkedIn Facebook Reddit Telegram Hacker News"
+  },
+  {
+   "term": "Related Posts",
+   "context": "section heading"
+  },
+  {
+   "term": "Clean Commit Messages",
+   "context": "Related post, Posted on January 12, 2021"
+  },
+  {
+   "term": "Enhance Your Readme With Asciinema",
+   "context": "Related post, Posted on April 5, 2021"
+  },
+  {
+   "term": "Enhance Your Readme With",
+   "context": "Enhance Your Readme With Asciinema"
+  },
+  {
+   "term": "SDD and the Future of Software Development",
+   "context": "Related post, Posted on February 1, 2026"
+  },
+  {
+   "term": "SDD",
+   "context": "SDD and the Future of Software Development"
+  },
+  {
+   "term": "Future of Software Development",
+   "context": "SDD and the Future of Software Development"
+  }
+ ],
+ "claims": [
+  {
+   "claim": "Author started using Disqus in 2018 when it was arguably the leading commenting system",
+   "quote": "I started using Disqus in 2018.",
+   "numbers": [
+    "2018"
+   ]
+  },
+  {
+   "claim": "Disqus began showing ads on author's blog in January 2021",
+   "quote": "in January 2021, Disqus started polluting my blog with unwanted ads",
+   "numbers": [
+    "January 2021",
+    "three years"
+   ]
+  },
+  {
+   "claim": "Disqus charges $10/month per site to remove ads",
+   "quote": "Disqus is charging a monthly fee of $10/month per site to remove its own imposed ads",
+   "numbers": [
+    "$10/month per site"
+   ]
+  },
+  {
+   "claim": "Change affects many small businesses and bloggers relying on Disqus",
+   "quote": "This change affects a large number of small businesses and bloggers",
+   "numbers": []
+  },
+  {
+   "claim": "Giscus is an open-source commenting system relying on GitHub Discussions",
+   "quote": "open-source commenting system that relies on GitHub Discussions",
+   "numbers": []
+  },
+  {
+   "claim": "Tweet from Feb 2017 complains Disqus forces ads that pay nothing",
+   "quote": "These ads pay nothing & they force them.",
+   "numbers": [
+    "February 6, 2017"
+   ]
+  },
+  {
+   "claim": "Number of comments is an accurate measure of publication popularity (author's view)",
+   "quote": "the number of comments is an accurate measure of the popularity of a publication",
+   "numbers": []
+  },
+  {
+   "claim": "Moderating comments consumes considerable time",
+   "quote": "moderating visitor comments can consume a considerable amount of time",
+   "numbers": []
+  },
+  {
+   "claim": "Disqus offers ad removal for an inexpensive monthly fee",
+   "quote": "For an inexpensive monthly fee publishers will be able to completely remove ads",
+   "numbers": []
+  },
+  {
+   "claim": "Author calls the ad-removal fee a bad move for small blogs",
+   "quote": "This is a bad move from Disqus, especially for small blogs",
+   "numbers": []
+  },
+  {
+   "claim": "Disqus ads cover large screen portion and tend to be click bait or fake news",
+   "quote": "They cover a large portion of the screen and tend to be either click bait or fake news.",
+   "numbers": []
+  },
+  {
+   "claim": "Disqus degrades page load time via comment syncing and third-party ad scripts",
+   "quote": "Disqus is know to degrade page load time.",
+   "numbers": []
+  },
+  {
+   "claim": "Disqus forces visitors to log in with social accounts, raising privacy issues",
+   "quote": "forcing visitors to log in with their social media accounts when commenting",
+   "numbers": []
+  },
+  {
+   "claim": "Giscus preferred; supports replies since built on GitHub discussions",
+   "quote": "It relies on GitHub discussions, which means that it supports replies",
+   "numbers": []
+  },
+  {
+   "claim": "Utterances is built on GitHub Issues, widely used, may flood repo issues over time",
+   "quote": "given enough time, it might flood your repository's issues with comments",
+   "numbers": []
+  },
+  {
+   "claim": "Gitalk based on GitHub Issues and Preact; has distraction free mode, hotkeys, localization",
+   "quote": "Facebook-like distraction free mode, hotkeys, and automatic language localization",
+   "numbers": []
+  },
+  {
+   "claim": "GitHub-based solutions suit developer-skewed audiences with GitHub accounts",
+   "quote": "ideal for sites with an audience that skews towards developers",
+   "numbers": []
+  },
+  {
+   "claim": "Blog runs on GitHub Pages with Jekyll, deployed free",
+   "quote": "I can deploy my website on GitHub completely free",
+   "numbers": []
+  },
+  {
+   "claim": "Jekyll is a static site generator created by one of GitHub's founders",
+   "quote": "Jekyll is a static site generator created by one of the GitHub founders",
+   "numbers": []
+  },
+  {
+   "claim": "Giscus uses GitHub Discussions as backing store; supports replies, reactions, easier moderation",
+   "quote": "supports comments replies, more engaging discussion reactions, and is easier to moderate",
+   "numbers": []
+  },
+  {
+   "claim": "Giscus avoids API rate limits, server-side code, manual post-issue linking, and leaving the site",
+   "quote": "no need to worry about GitHub API rate limits, managing server-side code",
+   "numbers": []
+  },
+  {
+   "claim": "Giscus finds discussion via Discussions search API using chosen mapping; bot creates discussion on first comment or reaction",
+   "quote": "the giscus bot will automatically create a discussion the first time someone leaves a comment or reaction",
+   "numbers": []
+  },
+  {
+   "claim": "Commenters must authorize giscus app via GitHub OAuth, or comment on GitHub directly; moderation on GitHub",
+   "quote": "visitors must authorize the giscus app to post on their behalf using the GitHub OAuth flow",
+   "numbers": []
+  },
+  {
+   "claim": "Giscus requires three things: public repo, giscus app installed, Discussions enabled",
+   "quote": "the GitHub repo has to meet only three requirement",
+   "numbers": [
+    "3 requirements"
+   ]
+  },
+  {
+   "claim": "REPO_ID and CATEGORY_ID obtained from Giscus form; theme customizable via CUSTOM_CSS path",
+   "quote": "The REPO_ID and CATEGORY_ID can be obtained using the Giscus form.",
+   "numbers": []
+  },
+  {
+   "claim": "Author overrides font sizes: mr-2 20px, .text-sm 18px, .text-xs 12px",
+   "quote": "",
+   "numbers": [
+    "20px",
+    "18px",
+    "12px"
+   ]
+  },
+  {
+   "claim": "Giscus extra config via .giscus.json in repo root; origins and originsRegex restrict domains loading discussions",
+   "quote": "restrict the domains that can load this website's repository discussions via giscus",
+   "numbers": []
+  },
+  {
+   "claim": "Author config sets defaultCommentOrder to oldest and allows localhost via regex",
+   "quote": "",
+   "numbers": []
+  },
+  {
+   "claim": "Author chose Giscus: lightweight, open-source, free, ad-free",
+   "quote": "I prefer a lightweight, open-source, and free solution for handling my blog comments.",
+   "numbers": []
+  },
+  {
+   "claim": "Giscus depends on GitHub (Microsoft), so exposed to future changes; fee for public repos unlikely",
+   "quote": "it is highly unlikely to expect some sort of fee for public repositories",
+   "numbers": []
+  },
+  {
+   "claim": "Related posts: Clean Commit Messages (Jan 12, 2021), Enhance Your Readme With Asciinema (Apr 5, 2021), SDD and the Future of Software Development (Feb 1, 2026)",
+   "quote": "",
+   "numbers": [
+    "January 12, 2021",
+    "April 5, 2021",
+    "February 1, 2026"
+   ]
+  }
+ ],
+ "analysis_rows": [
+  {
+   "type": "landscape",
+   "entity": "Disqus",
+   "category": "hosted commenting system",
+   "segment": "small and large websites, bloggers",
+   "positioning": "formerly leading; now ad-supported with paid ad removal",
+   "key_facts": "ads from Jan 2021 on author's blog; $10/month per site to remove ads"
+  },
+  {
+   "type": "landscape",
+   "entity": "Giscus",
+   "category": "open-source comment widget on GitHub Discussions",
+   "segment": "developer blogs with GitHub-using audience",
+   "positioning": "author's preferred; replies, reactions, easy moderation, no server code",
+   "key_facts": "needs public repo, giscus app installed, Discussions enabled"
+  },
+  {
+   "type": "landscape",
+   "entity": "Utterances",
+   "category": "open-source comment widget on GitHub Issues",
+   "segment": "developer blogs",
+   "positioning": "lightweight, widely used",
+   "key_facts": "may flood repo issues with comments"
+  },
+  {
+   "type": "landscape",
+   "entity": "Gitalk",
+   "category": "open-source comment component on GitHub Issues and Preact",
+   "segment": "developer blogs",
+   "positioning": "distraction free mode, hotkeys, auto localization",
+   "key_facts": ""
+  },
+  {
+   "type": "landscape",
+   "entity": "Jekyll",
+   "category": "static site generator",
+   "segment": "GitHub Pages bloggers",
+   "positioning": "free deployment on GitHub",
+   "key_facts": "created by one of the GitHub founders"
+  },
+  {
+   "type": "comparison",
+   "option": "Disqus",
+   "criterion": "ads",
+   "value": "Spammy; cover large screen portion; click bait or fake news"
+  },
+  {
+   "type": "comparison",
+   "option": "Disqus",
+   "criterion": "performance",
+   "value": "degrades page load time"
+  },
+  {
+   "type": "comparison",
+   "option": "Disqus",
+   "criterion": "privacy",
+   "value": "forces social media login; privacy issues"
+  },
+  {
+   "type": "comparison",
+   "option": "Disqus",
+   "criterion": "price",
+   "value": "$10/month per site to remove ads"
+  },
+  {
+   "type": "comparison",
+   "option": "Giscus",
+   "criterion": "features",
+   "value": "supports replies, reactions, easier moderation"
+  },
+  {
+   "type": "comparison",
+   "option": "Giscus",
+   "criterion": "cost/ads",
+   "value": "free, ad-free, open-source"
+  },
+  {
+   "type": "comparison",
+   "option": "Giscus",
+   "criterion": "risk",
+   "value": "relies on GitHub (Microsoft); future changes possible but fee unlikely for public repos"
+  },
+  {
+   "type": "comparison",
+   "option": "Utterances",
+   "criterion": "scalability",
+   "value": "might flood repository issues with comments"
+  },
+  {
+   "type": "comparison",
+   "option": "Gitalk",
+   "criterion": "features",
+   "value": "distraction free mode, hotkeys, automatic language localization"
+  },
+  {
+   "type": "root_cause",
+   "symptom": "Disqus slows page load",
+   "cause": "syncing comments with server and third-party scripts for ads",
+   "evidence": "stated by author, no benchmark",
+   "fix": "replace with Giscus"
+  },
+  {
+   "type": "root_cause",
+   "symptom": "Disqus ads and fee on small blogs",
+   "cause": "Disqus monetization via forced ads, paid removal",
+   "evidence": "author's blog since Jan 2021; 2017 tweet",
+   "fix": "switch to open-source GitHub-based alternatives"
+  }
+ ],
+ "model": "sonnet",
+ "_recall": 1.0
+}

@@ -1,0 +1,62 @@
+{"rows": [
+  {
+    "type": "pain",
+    "source": "reddit",
+    "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1vehe64/book_i_bought_didnt_edit_out_the_ai_prompt/",
+    "date": "2026-08-03",
+    "quote_or_number": "Absolutely worthless book. Didn't even remove the prompt in the introduction. The whole book, a travel guide, was generalities and no specifics.",
+    "persona_match": "n",
+    "theme": "unedited content quality",
+    "note": "Reader pain about published content lacking proper editing and specificity"
+  },
+  {
+    "type": "pain",
+    "source": "reddit",
+    "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1pmk9df/three_weeks_of_hard_work_on_a_paper_all_for/",
+    "date": "2025-12-14",
+    "quote_or_number": "I spent three weeks on the previous assignment (position paper/argumentative essay) arguing against the use of AI and managed over 3000 words for it which I was really proud of and really wanting feedback on so I could improve my writing.",
+    "persona_match": "n",
+    "theme": "feedback on technical writing",
+    "note": "Writer spent significant effort on technical writing but struggled to get feedback for improvement"
+  },
+  {
+    "type": "spend",
+    "source": "reddit",
+    "url": "https://www.reddit.com/r/3Dprinting/comments/1up0epa/my_very_first_3d_printing_and_blender_project/",
+    "date": "2026-07-06",
+    "quote_or_number": "Spent weeks on automotive putty, endless sanding, priming, and more sanding to completely get rid of the layer lines. If you'd like to see the complete step-by-step creation process, the post-processing stages, and a cinematic presentation, I've put together a video. I'd love to hear your feedback!",
+    "persona_match": "n",
+    "theme": "seeking technical work feedback",
+    "note": "Detailed technical documentation with explicit request for reader feedback"
+  },
+  {
+    "type": "spend",
+    "source": "reddit",
+    "url": "https://www.reddit.com/r/linux/comments/1rshc1f/i_traced_2_billion_in_nonprofit_grants_and_45/",
+    "date": "2026-03-13",
+    "quote_or_number": "I traced $2 billion in nonprofit grants and 45 states of lobbying records to figure out who's behind the age verification bills. Every source cited here is a public record.",
+    "persona_match": "y",
+    "theme": "deep technical investigation",
+    "note": "Solo researcher published detailed investigation with documented sources; exactly the type of deep technical content persona would write"
+  },
+  {
+    "type": "pain",
+    "source": "reddit",
+    "url": "https://www.reddit.com/r/InterstellarKinetics/comments/1tzweuo/warning_university_of_california_math_and_science/",
+    "date": "2026-06-08",
+    "quote_or_number": "Nearly a third of students enrolling in first-semester calculus at UC Berkeley are now displaying what the faculty letter calls severe preparation deficits, and professors say they are being forced to reteach middle school mathematics inside courses that are supposed to be preparing students for science, engineering, economics, and other quantitatively demanding fields.",
+    "persona_match": "n",
+    "theme": "technical content accuracy critical",
+    "note": "Pain about importance of accurate, well-maintained technical content and the cost of outdated material"
+  },
+  {
+    "type": "spend",
+    "source": "reddit",
+    "url": "https://www.reddit.com/r/wallstreetbets/comments/1ucpnbj/the_next_financial_crisis_is_here_and_its_not/",
+    "date": "2026-06-22",
+    "quote_or_number": "Increasing amount of companies are taking on private credit, up from $500B in 2020 to $2+ trillion in 2026, expected to grow past $4 trillion by 2030. The IMF estimates that roughly 40% of private credit borrowers operate with negative free cash flow, up from 25% in 2021.",
+    "persona_match": "y",
+    "theme": "deep technical analysis",
+    "note": "Solo author published deep technical analysis with data and systems thinking; representative of persona's blog content style"
+  }
+]}

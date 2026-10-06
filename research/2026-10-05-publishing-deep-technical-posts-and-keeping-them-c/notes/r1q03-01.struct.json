@@ -1,0 +1,205 @@
+{
+ "sid": "r1q03-01",
+ "terms": [
+  {
+   "term": "SEO",
+   "count": 5,
+   "kind": "acronym"
+  },
+  {
+   "term": "Karl Hughes",
+   "count": 3,
+   "kind": "heading"
+  },
+  {
+   "term": "Continue Reading",
+   "count": 2,
+   "kind": "heading"
+  },
+  {
+   "term": "Frequently Asked Questions",
+   "count": 2,
+   "kind": "heading"
+  },
+  {
+   "term": "Subscribe to Our Newsletter",
+   "count": 2,
+   "kind": "heading"
+  },
+  {
+   "term": "AEO",
+   "count": 2,
+   "kind": "acronym"
+  },
+  {
+   "term": "CAT",
+   "count": 2,
+   "kind": "acronym"
+  },
+  {
+   "term": "CTO",
+   "count": 2,
+   "kind": "acronym"
+  },
+  {
+   "term": "GEO",
+   "count": 2,
+   "kind": "acronym"
+  },
+  {
+   "term": "1. Remove Irrelevant Content",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "2. Merge Redundant or Similar Posts",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "3. Update Existing Posts That Rank Well",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "4. Build Internal Links",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "5. Update Post Dates and Re-Promote",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "About the Author",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Build internal links",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "Case Studies",
+   "count": 3,
+   "kind": "ngram"
+  },
+  {
+   "term": "Case Study 1: Recovering from a Google Penalty",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Case Study 2: Pkwy Digital’s Keyword Optimization",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Five Methods to RefreshBlog Posts",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Merge similar posts",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "Planning My Approach To Refresh Blogs",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Refresh Blog Posts The",
+   "count": 3,
+   "kind": "ngram"
+  },
+  {
+   "term": "Remove irrelevant content",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "Republish and re-promote",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "Results of the Refresh Blog Campaign",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Right Way",
+   "count": 3,
+   "kind": "ngram"
+  },
+  {
+   "term": "TL;DR",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "The Challenge in Keeping a Technical Blog Up-to-Date",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Update high-ranking posts",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "Want to learn more about how we work?",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Why Refresh Old Blog Posts?",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Case Study",
+   "count": 2,
+   "kind": "ngram"
+  },
+  {
+   "term": "Content Audit Tool",
+   "count": 2,
+   "kind": "ngram"
+  },
+  {
+   "term": "DR",
+   "count": 1,
+   "kind": "acronym"
+  },
+  {
+   "term": "Engineering Manager",
+   "count": 2,
+   "kind": "ngram"
+  },
+  {
+   "term": "Pkwy Digital",
+   "count": 2,
+   "kind": "ngram"
+  },
+  {
+   "term": "TL",
+   "count": 1,
+   "kind": "acronym"
+  },
+  {
+   "term": "Build Internal Links",
+   "count": 1,
+   "kind": "ngram"
+  },
+  {
+   "term": "Cloudflare Worker",
+   "count": 1,
+   "kind": "ngram"
+  }
+ ]
+}

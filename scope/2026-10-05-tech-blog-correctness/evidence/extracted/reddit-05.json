@@ -1,0 +1,64 @@
+{
+  "rows": [
+    {
+      "type": "pain",
+      "source": "reddit r/ExperiencedDevs",
+      "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1utsi51/what_are_some_technical_books_and_blogs_with_a/",
+      "date": "2026-07-11",
+      "quote_or_number": "it feels like it's getting harder and harder to find sources of information that (a) don't try to sell something, (b) have a high SNR, (c) are not entirely generated or rewritten by LLMs",
+      "persona_match": "n",
+      "theme": "quality blog scarcity",
+      "note": "Experienced dev searching for high-SNR technical blogs; indicates reader demand for quality curated content without commercial pressure or LLM content"
+    },
+    {
+      "type": "competitor",
+      "source": "reddit r/ExperiencedDevs",
+      "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1utsi51/what_are_some_technical_books_and_blogs_with_a/",
+      "date": "2026-07-11",
+      "quote_or_number": "brandur.org, increment.com, notes.eatonphil.com, morling.dev, seangoedecke.com, eli.thegreenplace.net, brooker.co.za/blog",
+      "persona_match": "n",
+      "theme": "self-hosted tech blogs",
+      "note": "Popular self-hosted technical blogs by experienced engineers (Brandur Leach, Phil Eaton, Marc Brooker) writing deep content on Go, databases, distributed systems"
+    },
+    {
+      "type": "pain",
+      "source": "reddit r/ExperiencedDevs",
+      "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1qyu0en/why_is_there_no_serious_blogging_platform_for/",
+      "date": "2026-02-08",
+      "quote_or_number": "Why hasn't anyone built a platform with a quality threshold, proper technical formatting, and an engaged community of senior engineers?",
+      "persona_match": "n",
+      "theme": "blogging platform gap",
+      "note": "Developer from Russian internet noting 20-year gap in English-speaking world for serious dev blogging platform with quality gatekeeping and community"
+    },
+    {
+      "type": "competitor",
+      "source": "reddit r/ExperiencedDevs",
+      "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1qyu0en/why_is_there_no_serious_blogging_platform_for/",
+      "date": "2026-02-08",
+      "quote_or_number": "Dev/Medium with dumpster quality content and Hacker News which is exceptional however not a blogging platform on its own",
+      "persona_match": "n",
+      "theme": "existing platform gaps",
+      "note": "Critique of Dev/Medium as low-quality; Hacker News mentioned as partial alternative but lacks blogging-specific features"
+    },
+    {
+      "type": "pain",
+      "source": "reddit r/ExperiencedDevs",
+      "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1qy4w3q/in_2026_should_people_still_write_blogs/",
+      "date": "2026-02-07",
+      "quote_or_number": "I want to write a blog, but in 2026, it feels like blogging doesn't mean anything. AI is everywhere, and people can ask and get answers instantly",
+      "persona_match": "y",
+      "theme": "blogging relevance doubt",
+      "note": "Technical author wants to write blog but fears irrelevance in 2026 due to AI; seeks meaning/engagement to justify effort"
+    },
+    {
+      "type": "spend",
+      "source": "reddit r/ExperiencedDevs",
+      "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1uzeexw/what_habitslifehacksmethods_made_you_more/",
+      "date": "2026-07-17",
+      "quote_or_number": "Working on technical writing skills. Mostly by reading the book and blog on https://refactoringenglish.com/",
+      "persona_match": "n",
+      "theme": "technical writing investment",
+      "note": "Senior engineer investing time/resources in improving technical writing ability; shows value placed on communication quality"
+    }
+  ]
+}

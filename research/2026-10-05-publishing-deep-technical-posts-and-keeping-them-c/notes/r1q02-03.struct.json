@@ -1,0 +1,95 @@
+{
+ "sid": "r1q02-03",
+ "terms": [
+  {
+   "term": "ANDREW30",
+   "count": 2,
+   "kind": "bold"
+  },
+  {
+   "term": "Dometrain Pro",
+   "count": 2,
+   "kind": "bold"
+  },
+  {
+   "term": "NET",
+   "count": 3,
+   "kind": "acronym"
+  },
+  {
+   "term": "Commenting on blog posts",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Considering replacing Disqus with Giscus",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Considering replacing Disqus with GiscusSearchCloseFacebook",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Sign up for the pro version of Disqus",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Sponsored byDometrain Courses",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "Tags",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Use a GitHub-based comment system",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "What's the verdict?",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "ASP",
+   "count": 1,
+   "kind": "acronym"
+  },
+  {
+   "term": "Allow Ads",
+   "count": 1,
+   "kind": "ngram"
+  },
+  {
+   "term": "Andrew Lock",
+   "count": 1,
+   "kind": "ngram"
+  },
+  {
+   "term": "Net Escapades",
+   "count": 1,
+   "kind": "ngram"
+  },
+  {
+   "term": "Table of Contents",
+   "count": 1,
+   "kind": "ngram"
+  },
+  {
+   "term": "Third Edition",
+   "count": 1,
+   "kind": "ngram"
+  },
+  {
+   "term": "Utterances and Giscus",
+   "count": 1,
+   "kind": "ngram"
+  }
+ ]
+}

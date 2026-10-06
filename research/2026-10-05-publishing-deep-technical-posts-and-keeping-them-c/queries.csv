@@ -1,0 +1,14 @@
+round,qid,query,origin,results,screened_in,duplicates
+1,r1q01,best blogging platform with inline reader suggestions for technical authors 2026,paraphrase,8,4,0
+1,r1q02,Giscus Hypothesis alternatives complaints inline annotation blog,paraphrase,8,3,0
+1,r1q03,why technical bloggers struggle to keep posts up to date and accurate,paraphrase,8,2,0
+2,r2q01,keeping outdated technical tutorials accurate: version drift and update workflow for developer blogs,term,8,8,0
+2,r2q02,Hashnode Dev.to editing old posts reader feedback corrections limitations,term,8,5,0
+2,r2q03,blog post 'last verified' date staleness indicator outdated content warning,expand,8,8,0
+2,r2q04,'suggest an edit' GitHub pull request link on personal blog posts reader corrections,expand,8,7,0
+2,r2q05,docs-as-code link rot and stale code sample detection for blogs 2026,expand,8,4,0
+3,r3q01,documentation drift detection for personal technical blog posts code samples,term,8,2,0
+3,r3q02,freshness check last-reviewed date workflow for technical blog articles,term,8,6,0
+3,r3q03,GitHub suggested changes as reader correction flow for blog posts UX,term,8,4,1
+3,r3q04,outdated content notification plugin Hugo Astro static blog old posts,term,8,6,2
+3,r3q05,Swimm Mintlify GitBook auto-sync docs limitations criticism,expand,8,3,0

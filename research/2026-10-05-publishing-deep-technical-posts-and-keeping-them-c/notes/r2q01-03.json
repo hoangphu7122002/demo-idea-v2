@@ -1,0 +1,316 @@
+{
+ "sid": "r2q01-03",
+ "url": "https://buildwithfern.com/post/generated-vs-manual-documentation-which-approach",
+ "title": "Generated vs manual docs: Jan 2026 guide | Fern",
+ "published": "2026-02-09",
+ "source_type": "vendor",
+ "quality_flags": [
+  "vendor-claim"
+ ],
+ "terms": [
+  {
+   "term": "API",
+   "context": "specification defines API contract"
+  },
+  {
+   "term": "OpenAPI",
+   "context": "API specifications like OpenAPI or Fern Definition"
+  },
+  {
+   "term": "AsyncAPI",
+   "context": "API specs like OpenAPI, AsyncAPI, or similar"
+  },
+  {
+   "term": "Fern Definition",
+   "context": "API spec files with OpenAPI or Fern Definition"
+  },
+  {
+   "term": "CMS",
+   "context": "content exists in CMSs, wikis, or Markdown files"
+  },
+  {
+   "term": "CI/CD",
+   "context": "CI/CD pipelines automate documentation deployment"
+  },
+  {
+   "term": "API drift",
+   "context": "API drift occurs when API behavior diverges from documentation"
+  },
+  {
+   "term": "single source of truth",
+   "context": "API specification is single source of truth"
+  },
+  {
+   "term": "docs-as-code",
+   "context": "Docs-as-code stores documentation in version control"
+  },
+  {
+   "term": "SDK",
+   "context": "generates SDKs from specs while supporting tutorials"
+  },
+  {
+   "term": "API reference",
+   "context": "API reference documentation endpoint specifications"
+  },
+  {
+   "term": "code snippets",
+   "context": "code examples and snippets across languages"
+  },
+  {
+   "term": "API Explorer",
+   "context": "API Explorer populates directly from spec definitions"
+  },
+  {
+   "term": "MDX",
+   "context": "guides written in MDX files alongside generated references"
+  },
+  {
+   "term": "docs.yml",
+   "context": "docs.yml configuration combines content types into navigation"
+  },
+  {
+   "term": "version control",
+   "context": "Git version control enables collaboration"
+  },
+  {
+   "term": "GitHub Actions",
+   "context": "CI workflows through GitHub Actions"
+  },
+  {
+   "term": "conceptual guides",
+   "context": "conceptual guides and tutorials require human authorship"
+  },
+  {
+   "term": "Fern",
+   "context": "Fern generates API docs and SDKs from specs"
+  },
+  {
+   "term": "Nathan Lian",
+   "context": "author of the post"
+  },
+  {
+   "term": "integration friction",
+   "context": "only 10% document APIs creating integration friction"
+  },
+  {
+   "term": "response schemas",
+   "context": "response schemas change while documentation stays frozen"
+  },
+  {
+   "term": "developer portal",
+   "context": "developer portal updates without human intervention"
+  },
+  {
+   "term": "specification",
+   "context": "API specification as authoritative description"
+  },
+  {
+   "term": "synchronization",
+   "context": "synchronization between code and documentation"
+  },
+  {
+   "term": "breaking changes",
+   "context": "Fern handles breaking changes and version bumps"
+  },
+  {
+   "term": "request/response",
+   "context": "request/response schemas from spec"
+  },
+  {
+   "term": "endpoint",
+   "context": "endpoint changes requires updates"
+  },
+  {
+   "term": "pull request",
+   "context": "code review catch documentation gaps before merging"
+  },
+  {
+   "term": "merge conflict",
+   "context": "merge conflict resolution in version control"
+  }
+ ],
+ "claims": [
+  {
+   "claim": "Only 10% of organizations fully document their APIs",
+   "quote": "only 10% of organizations fully document their APIs",
+   "numbers": [
+    "10%"
+   ]
+  },
+  {
+   "claim": "Manual documentation updates take 4-6 hours per release",
+   "quote": "Manual updates can take 4–6 hours per release",
+   "numbers": [
+    "4-6 hours"
+   ]
+  },
+  {
+   "claim": "Generated documentation takes minutes to review with automation handling the rest",
+   "quote": "generated documentation takes minutes to review",
+   "numbers": []
+  },
+  {
+   "claim": "CI/CD integration speeds up development by 20%",
+   "quote": "speeds up development by 20%",
+   "numbers": [
+    "20%"
+   ]
+  },
+  {
+   "claim": "CI/CD integration cuts support tickets by 40%",
+   "quote": "cuts support tickets by 40%",
+   "numbers": [
+    "40%"
+   ]
+  },
+  {
+   "claim": "Code snippets generate across nine languages simultaneously",
+   "quote": "Code snippets generate across nine languages",
+   "numbers": [
+    "9"
+   ]
+  },
+  {
+   "claim": "Generated docs sync automatically with API specs eliminating drift",
+   "quote": "Generated docs sync automatically with API specs, eliminating drift",
+   "numbers": []
+  },
+  {
+   "claim": "API drift occurs when API behavior diverges from documentation",
+   "quote": "API drift occurs when an API's behavior diverges from its documentation",
+   "numbers": []
+  },
+  {
+   "claim": "Fern generates both documentation and SDKs while handling breaking changes",
+   "quote": "Fern extends this further by generating both documentation and SDKs while automatically handling breaking changes",
+   "numbers": []
+  },
+  {
+   "claim": "Spec-driven workflows eliminate human coordination for documentation updates",
+   "quote": "This automation eliminates human coordination. No manual updates or notifications required.",
+   "numbers": []
+  }
+ ],
+ "analysis_rows": [
+  {
+   "type": "comparison",
+   "option": "Generated documentation",
+   "criterion": "Source of truth",
+   "value": "API specification files (OpenAPI, Fern Definition, AsyncAPI)"
+  },
+  {
+   "type": "comparison",
+   "option": "Manual documentation",
+   "criterion": "Source of truth",
+   "value": "Separate CMS, wikis, or Markdown files that require manual updates independent of code"
+  },
+  {
+   "type": "comparison",
+   "option": "Generated documentation",
+   "criterion": "Synchronization method",
+   "value": "Automatic regeneration whenever spec changes are committed to version control"
+  },
+  {
+   "type": "comparison",
+   "option": "Manual documentation",
+   "criterion": "Synchronization method",
+   "value": "Manual coordination between engineering and documentation teams"
+  },
+  {
+   "type": "comparison",
+   "option": "Generated documentation",
+   "criterion": "Maintenance time per release",
+   "value": "Minutes for reviewing spec changes; automation handles regeneration across all sections"
+  },
+  {
+   "type": "comparison",
+   "option": "Manual documentation",
+   "criterion": "Maintenance time per release",
+   "value": "4–6 hours per release to manually update descriptions, examples, and code snippets"
+  },
+  {
+   "type": "comparison",
+   "option": "Generated documentation",
+   "criterion": "API drift risk",
+   "value": "Minimal – documentation always reflects current spec as single source of truth"
+  },
+  {
+   "type": "comparison",
+   "option": "Manual documentation",
+   "criterion": "API drift risk",
+   "value": "High – documentation frequently lags behind API changes"
+  },
+  {
+   "type": "comparison",
+   "option": "Generated documentation",
+   "criterion": "CI/CD integration",
+   "value": "Native integration; spec commits trigger automatic doc generation and deployment as a single unit"
+  },
+  {
+   "type": "comparison",
+   "option": "Manual documentation",
+   "criterion": "CI/CD integration",
+   "value": "Requires separate publication workflow with manual review and CMS export steps"
+  },
+  {
+   "type": "comparison",
+   "option": "Generated documentation",
+   "criterion": "Version management",
+   "value": "Automatic multi-version support from different spec files"
+  },
+  {
+   "type": "comparison",
+   "option": "Manual documentation",
+   "criterion": "Version management",
+   "value": "Manual creation and maintenance of separate docs for each version"
+  },
+  {
+   "type": "comparison",
+   "option": "Generated documentation",
+   "criterion": "Code example updates",
+   "value": "Automatic regeneration across all supported languages (Python, TypeScript, Go, Java, etc.)"
+  },
+  {
+   "type": "comparison",
+   "option": "Manual documentation",
+   "criterion": "Code example updates",
+   "value": "Manual updates required for each language and each endpoint change"
+  },
+  {
+   "type": "comparison",
+   "option": "Generated documentation",
+   "criterion": "Best use cases",
+   "value": "API reference documentation, endpoint specifications, request/response schemas, authentication methods"
+  },
+  {
+   "type": "comparison",
+   "option": "Manual documentation",
+   "criterion": "Best use cases",
+   "value": "Conceptual guides, tutorials, architectural decisions, migration instructions, troubleshooting resources"
+  },
+  {
+   "type": "landscape",
+   "entity": "Fern",
+   "category": "API documentation and SDK generation platform",
+   "segment": "Developers, API teams",
+   "positioning": "Generates API documentation and SDKs from specifications while supporting human-written conceptual guides; handles breaking changes and version management automatically",
+   "key_facts": "Reads OpenAPI or Fern Definition files; generates code snippets across nine languages; supports multi-version documentation; integrates with CI/CD via GitHub Actions; uses docs.yml configuration"
+  },
+  {
+   "type": "root_cause",
+   "symptom": "API documentation falls out of sync with actual API behavior",
+   "cause": "Manual documentation requires coordination between code changes and documentation updates; teams must maintain separate content not linked to API specification",
+   "evidence": "Only 10% of organizations fully document their APIs; manual updates take 4-6 hours per release; developers waste hours troubleshooting phantom issues when docs don't match API behavior",
+   "fix": "Use spec-driven approach where API specification is single source of truth; automate documentation regeneration whenever spec changes; integrate into CI/CD pipelines"
+  },
+  {
+   "type": "root_cause",
+   "symptom": "Documentation maintenance creates high operational costs",
+   "cause": "Manual documentation requires coordination across engineers and writers; every API change requires updating descriptions, examples, code snippets; separate CMS/wiki requires export and manual publication steps",
+   "evidence": "Manual updates take 4-6 hours per release; separate publication workflow delays docs even when API ships on time; developers see mismatch between promise and actual API behavior",
+   "fix": "Implement generated documentation from specs with automatic regeneration; integrate docs into same CI/CD pipeline as code; use hybrid approach generating references while manually authoring guides"
+  }
+ ],
+ "model": "haiku",
+ "_recall": 0.55
+}

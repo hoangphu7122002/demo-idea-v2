@@ -1,0 +1,72 @@
+{
+  "qid": "r3q03",
+  "round": 3,
+  "query": "GitHub suggested changes as reader correction flow for blog posts UX",
+  "origin": "term",
+  "results": [
+    {
+      "rank": 1,
+      "url": "https://github.com/thiepn/wordstrike/pull/129",
+      "title": "Flow post-release UX corrections by thiepn · Pull Request #129 · thiepn/wordstrike",
+      "snippet": "",
+      "include": false,
+      "reason": "off-topic"
+    },
+    {
+      "rank": 2,
+      "url": "https://haacked.com/archive/2019/06/03/suggested-changes/",
+      "title": "Suggesting Changes on GitHub",
+      "snippet": "",
+      "include": true,
+      "reason": "primary"
+    },
+    {
+      "rank": 3,
+      "url": "https://github.com/dtubb/fichero/issues/5154",
+      "title": "UX gap: type a correction in the Reader as a new reading; Return splits a line, Backspace joins · Issue #5154 · dtubb/fichero",
+      "snippet": "",
+      "include": false,
+      "reason": "off-topic"
+    },
+    {
+      "rank": 4,
+      "url": "https://github.com/PatrickNLT/fact-checked-politics/issues/16",
+      "title": "Community correction workflow via pull requests · Issue #16 · PatrickNLT/fact-checked-politics",
+      "snippet": "",
+      "include": true,
+      "reason": "relevant"
+    },
+    {
+      "rank": 5,
+      "url": "https://chbrown13.github.io/papers/suggestions.pdf",
+      "title": "Understanding the Impact of GitHub Suggested Changes ...",
+      "snippet": "",
+      "include": true,
+      "reason": "primary"
+    },
+    {
+      "rank": 6,
+      "url": "https://github.com/marketplace/actions/suggest-changes-action",
+      "title": "Suggest Changes Action - GitHub Marketplace",
+      "snippet": "",
+      "include": true,
+      "reason": "relevant"
+    },
+    {
+      "rank": 7,
+      "url": "https://github.blog/changelog/2026-01-22-improved-pull-request-files-changed-page-on-by-default/",
+      "title": "Improved pull request \"Files changed\" page on by default - GitHub Changelog",
+      "snippet": "",
+      "include": true,
+      "reason": "primary"
+    },
+    {
+      "rank": 8,
+      "url": "https://github.com/M763468/PDFScoreBar/issues/396",
+      "title": "[UX] Redesign the user-facing correction interface around review tasks · Issue #396 · M763468/PDFScoreBar",
+      "snippet": "",
+      "include": false,
+      "reason": "off-topic"
+    }
+  ]
+}

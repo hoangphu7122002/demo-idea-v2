@@ -1,0 +1,165 @@
+{
+ "sid": "r2q01-02",
+ "terms": [
+  {
+   "term": "Blog Auditor",
+   "count": 7,
+   "kind": "bold"
+  },
+  {
+   "term": "PRs",
+   "count": 9,
+   "kind": "acronym"
+  },
+  {
+   "term": "Slide Deck Maintainer",
+   "count": 6,
+   "kind": "bold"
+  },
+  {
+   "term": "Documentation Noob Tester",
+   "count": 5,
+   "kind": "bold"
+  },
+  {
+   "term": "Daily Documentation Updater",
+   "count": 4,
+   "kind": "bold"
+  },
+  {
+   "term": "Documentation Unbloat",
+   "count": 4,
+   "kind": "bold"
+  },
+  {
+   "term": "Glossary Maintainer",
+   "count": 4,
+   "kind": "bold"
+  },
+  {
+   "term": "PR",
+   "count": 5,
+   "kind": "acronym"
+  },
+  {
+   "term": "Continuous Documentation Workflows",
+   "count": 3,
+   "kind": "heading"
+  },
+  {
+   "term": "Learn More",
+   "count": 3,
+   "kind": "heading"
+  },
+  {
+   "term": "Multi-device Docs Tester",
+   "count": 3,
+   "kind": "bold"
+  },
+  {
+   "term": "Quick Start",
+   "count": 3,
+   "kind": "bold"
+  },
+  {
+   "term": "Using These Workflows",
+   "count": 3,
+   "kind": "heading"
+  },
+  {
+   "term": "AI",
+   "count": 4,
+   "kind": "acronym"
+  },
+  {
+   "term": "Technical Doc Writer",
+   "count": 2,
+   "kind": "bold"
+  },
+  {
+   "term": "API",
+   "count": 2,
+   "kind": "acronym"
+  },
+  {
+   "term": "Management Workflows",
+   "count": 4,
+   "kind": "ngram"
+  },
+  {
+   "term": "6 audits",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "6 audits completed",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "9 merged PRs (43% merge rate",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "Continuous Documentation",
+   "count": 3,
+   "kind": "ngram"
+  },
+  {
+   "term": "Docs Tester",
+   "count": 3,
+   "kind": "ngram"
+  },
+  {
+   "term": "GitHub Agentic Workflows",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "Meet the Workflows: Continuous Documentation",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Next Up: Issue & PR Management Workflows",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "validation-only workflow",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "Agent Factory",
+   "count": 2,
+   "kind": "ngram"
+  },
+  {
+   "term": "Agentic Workflows",
+   "count": 2,
+   "kind": "ngram"
+  },
+  {
+   "term": "Continuous Improvement",
+   "count": 2,
+   "kind": "ngram"
+  },
+  {
+   "term": "gh aw compile",
+   "count": 1,
+   "kind": "code"
+  },
+  {
+   "term": "Don Syme",
+   "count": 1,
+   "kind": "ngram"
+  },
+  {
+   "term": "Mara Kiefer",
+   "count": 1,
+   "kind": "ngram"
+  }
+ ]
+}

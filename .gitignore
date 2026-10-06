@@ -15,3 +15,6 @@ __pycache__/
 .claude/pr-team/state.json
 .claude/pr-team/shots/
 .claude/worktrees/
+
+# reference clones (plugin source, template)
+/archive/

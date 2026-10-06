@@ -1,0 +1,306 @@
+{
+ "sid": "r3q03-06",
+ "url": "https://github.com/marketplace/actions/suggest-changes-action",
+ "title": "Suggest Changes Action · Actions · GitHub Marketplace · GitHub",
+ "published": "",
+ "source_type": "vendor",
+ "quality_flags": [
+  "vendor-claim"
+ ],
+ "terms": [
+  {
+   "term": "Suggest Changes Action",
+   "context": "GitHub Action that creates review suggestions from working directory changes"
+  },
+  {
+   "term": "pull_request",
+   "context": "GitHub event type, workflow trigger for pull requests"
+  },
+  {
+   "term": "pull_request_target",
+   "context": "Alternative GitHub event type, grants GITHUB_TOKEN write permissions from forks"
+  },
+  {
+   "term": "git diff",
+   "context": "Command used to detect changes in working directory"
+  },
+  {
+   "term": "suggested changes",
+   "context": "Feature that applies code suggestions in pull request reviews"
+  },
+  {
+   "term": "linter",
+   "context": "Tool that checks code style, example: markdownlint"
+  },
+  {
+   "term": "formatter",
+   "context": "Tool that automatically formats code"
+  },
+  {
+   "term": "GitHub Action",
+   "context": "Type of automation tool for GitHub workflows"
+  },
+  {
+   "term": "GitHub App token",
+   "context": "Token type for authentication, recommended for fork pull requests"
+  },
+  {
+   "term": "GITHUB_TOKEN",
+   "context": "Default GitHub token with limited permissions from forks"
+  },
+  {
+   "term": "personal access token",
+   "context": "Token type, abbreviated as PAT"
+  },
+  {
+   "term": "PAT",
+   "context": "Abbreviation for personal access token"
+  },
+  {
+   "term": "pull-requests: write",
+   "context": "Permission needed in workflow for this action"
+  },
+  {
+   "term": "contents: read",
+   "context": "Permission needed for actions/checkout"
+  },
+  {
+   "term": "review",
+   "context": "GitHub interaction type where suggestions are posted"
+  },
+  {
+   "term": "API",
+   "context": "GitHub API used for authenticated calls"
+  },
+  {
+   "term": "API rate limits",
+   "context": "GitHub enforces rate limits that can stop action processing"
+  },
+  {
+   "term": "workflow",
+   "context": "GitHub Actions automation workflow"
+  },
+  {
+   "term": "code-review",
+   "context": "Tag/category for this action"
+  },
+  {
+   "term": "APPROVE",
+   "context": "Review event action option"
+  },
+  {
+   "term": "REQUEST_CHANGES",
+   "context": "Review event action option that blocks merge"
+  },
+  {
+   "term": "COMMENT",
+   "context": "Default review event action option"
+  },
+  {
+   "term": "v3.1.2",
+   "context": "Latest version of Suggest Changes Action"
+  },
+  {
+   "term": "parkerbxyz",
+   "context": "Creator and maintainer of the action"
+  },
+  {
+   "term": "repository compromise",
+   "context": "Security risk when running untrusted code from pull requests"
+  },
+  {
+   "term": "secret exposure",
+   "context": "Security risk when running untrusted code from pull requests"
+  },
+  {
+   "term": "workflow runs",
+   "context": "Automated processes that can be triggered without PAT"
+  },
+  {
+   "term": "automated changes",
+   "context": "Changes made by linters or formatters that are suggested for review"
+  },
+  {
+   "term": "automated fixes",
+   "context": "Fixes applied by tools like markdownlint"
+  }
+ ],
+ "claims": [
+  {
+   "claim": "Suggest Changes Action takes changes from working directory using git diff and applies them as suggested changes in PR review",
+   "quote": "takes changes from the working directory (using `git diff`) and applies them as suggested changes",
+   "numbers": []
+  },
+  {
+   "claim": "Action gives contributors opportunity to review and accept automated changes",
+   "quote": "Gives contributors an opportunity to review and accept automated changes",
+   "numbers": []
+  },
+  {
+   "claim": "Enables semi-automated changes to pull requests without needing PAT or GitHub App installation token to trigger workflow runs",
+   "quote": "Enables semi-automated changes to pull requests without needing to use a personal access token (PAT)",
+   "numbers": []
+  },
+  {
+   "claim": "Action works on pull_request and pull_request_target events",
+   "quote": "works on `pull_request` and `pull_request_target` events",
+   "numbers": []
+  },
+  {
+   "claim": "Suggested changes can only be applied to files and lines that are part of the pull request diff",
+   "quote": "can only be applied to files and lines that are part of the pull request diff",
+   "numbers": []
+  },
+  {
+   "claim": "Suggested changes are limited to 3000 files per pull request",
+   "quote": "limited to 3000 files per pull request",
+   "numbers": [
+    "3000"
+   ]
+  },
+  {
+   "claim": "GitHub limits each review to 100 comments",
+   "quote": "GitHub currently limits each review to 100 comments",
+   "numbers": [
+    "100"
+   ]
+  },
+  {
+   "claim": "Using REQUEST_CHANGES blocks pull request from being merged until review is dismissed or reviewer approves",
+   "quote": "will block the pull request from being merged until the review is dismissed or the same reviewer approves",
+   "numbers": []
+  },
+  {
+   "claim": "Default GITHUB_TOKEN has read-only permissions for pull requests from forks",
+   "quote": "GITHUB_TOKEN has read-only permissions for pull requests from forks",
+   "numbers": []
+  },
+  {
+   "claim": "Action version 3.1.2 is latest version",
+   "quote": "v3.1.2 Latest",
+   "numbers": []
+  },
+  {
+   "claim": "Action has 22 stars",
+   "quote": "Star22 (22)",
+   "numbers": [
+    "22"
+   ]
+  },
+  {
+   "claim": "Action has 12 contributors",
+   "quote": "Contributors12 (12)",
+   "numbers": [
+    "12"
+   ]
+  },
+  {
+   "claim": "Action has 8 pull requests",
+   "quote": "Pull requests8 (8)",
+   "numbers": [
+    "8"
+   ]
+  },
+  {
+   "claim": "Action is not certified by GitHub",
+   "quote": "is not certified by GitHub",
+   "numbers": []
+  },
+  {
+   "claim": "Using pull_request_target runs workflow in context of base repository",
+   "quote": "workflow runs in the context of the base repository",
+   "numbers": []
+  },
+  {
+   "claim": "Running untrusted code in pull_request_target context can lead to repository compromise and secret exposure",
+   "quote": "can lead to security vulnerabilities including repository compromise and secret exposure",
+   "numbers": []
+  },
+  {
+   "claim": "If rate limits exceeded, action logs warning with reset time and stops processing",
+   "quote": "will log a warning with the reset time when available and stop processing",
+   "numbers": []
+  },
+  {
+   "claim": "If changes generate more than 100 suggestions, action posts first 100 and explains additional may be posted later",
+   "quote": "will post the first 100 suggestions and explain that additional suggestions may be posted on future workflow runs",
+   "numbers": [
+    "100"
+   ]
+  }
+ ],
+ "analysis_rows": [
+  {
+   "type": "landscape",
+   "entity": "Suggest Changes Action",
+   "category": "GitHub Action",
+   "segment": "code-review automation",
+   "positioning": "automated code review suggestions from working directory changes",
+   "key_facts": "Version v3.1.2, Created by parkerbxyz, 22 stars, 12 contributors, 8 pull requests, not certified by GitHub"
+  },
+  {
+   "type": "landscape",
+   "entity": "markdownlint",
+   "category": "Linter tool",
+   "segment": "markdown code quality",
+   "positioning": "used in example workflow to fix markdown style issues",
+   "key_facts": "Referenced in complete example, paired with suggest-changes action"
+  },
+  {
+   "type": "landscape",
+   "entity": "GitHub Actions",
+   "category": "Automation platform",
+   "segment": "CI/CD and workflow automation",
+   "positioning": "platform for automating GitHub workflows",
+   "key_facts": "Supports pull_request and pull_request_target events, has API rate limits"
+  },
+  {
+   "type": "landscape",
+   "entity": "GitHub App token",
+   "category": "Authentication mechanism",
+   "segment": "secure authentication for forks",
+   "positioning": "recommended solution for pull requests from forks",
+   "key_facts": "Provides write permissions, more secure than pull_request_target"
+  },
+  {
+   "type": "comparison",
+   "option": "pull_request event",
+   "criterion": "Security for fork PRs",
+   "value": "More secure, runs in fork context"
+  },
+  {
+   "type": "comparison",
+   "option": "pull_request_target event",
+   "criterion": "Security for fork PRs",
+   "value": "Less secure, runs in base repo context, risk of compromise and secret exposure"
+  },
+  {
+   "type": "comparison",
+   "option": "GITHUB_TOKEN from pull_request",
+   "criterion": "Permissions for fork PRs",
+   "value": "Read-only, cannot create review comments"
+  },
+  {
+   "type": "comparison",
+   "option": "GitHub App token",
+   "criterion": "Permissions for fork PRs",
+   "value": "Write permissions, can create review comments"
+  },
+  {
+   "type": "root_cause",
+   "symptom": "GITHUB_TOKEN insufficient permissions from fork pull requests",
+   "cause": "Default GITHUB_TOKEN has read-only permissions for fork PRs",
+   "evidence": "Stated in documentation: The default GITHUB_TOKEN has read-only permissions for pull requests from forks",
+   "fix": "Use GitHub App token or pull_request_target event, with GitHub App token being recommended"
+  },
+  {
+   "type": "root_cause",
+   "symptom": "More than 100 suggestions cannot be posted",
+   "cause": "GitHub API limits each review to 100 comments",
+   "evidence": "Stated limitation: GitHub currently limits each review to 100 comments",
+   "fix": "Action posts first 100 and additional suggestions on future workflow runs"
+  }
+ ],
+ "model": "haiku",
+ "_recall": 0.7
+}

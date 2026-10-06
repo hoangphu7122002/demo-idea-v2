@@ -1,0 +1,72 @@
+{
+  "qid": "r2q05",
+  "round": 2,
+  "query": "docs-as-code link rot and stale code sample detection for blogs 2026",
+  "origin": "expand",
+  "results": [
+    {
+      "rank": 1,
+      "url": "https://github.com/EziAgric/EziAgric/issues/276",
+      "title": "Stale documentation detection linking docs to code anchors · Issue #276 · EziAgric/EziAgric",
+      "snippet": "",
+      "include": false,
+      "reason": "thin GitHub issue specific to one project"
+    },
+    {
+      "rank": 2,
+      "url": "https://github.com/Promptless/promptless.ai/pull/1102",
+      "title": "content: When AI Coding Agents Read Stale Docs, They Implement Them by frances720 · Pull Request #1102 · Promptless/promptless.ai",
+      "snippet": "",
+      "include": false,
+      "reason": "thin GitHub PR not substantive"
+    },
+    {
+      "rank": 3,
+      "url": "https://github.com/petry-projects/.github-private/issues/1962",
+      "title": "Docs Health Check — stale files detected 2026-09-27 · Issue #1962 · petry-projects/.github-private",
+      "snippet": "",
+      "include": false,
+      "reason": "thin GitHub issue specific project"
+    },
+    {
+      "rank": 4,
+      "url": "https://buildwithfern.com/post/docs-linting-guide",
+      "title": "Docs Linting Guide - January 2026",
+      "snippet": "",
+      "include": true,
+      "reason": "primary vendor engineering blog linting"
+    },
+    {
+      "rank": 5,
+      "url": "https://www.docsie.io/blog/glossary/docs-as-code/",
+      "title": "Docs-as-Code: Definition, Examples & Best Practices (2026)",
+      "snippet": "",
+      "include": false,
+      "reason": "seo listicle glossary entry thin"
+    },
+    {
+      "rank": 6,
+      "url": "https://dualite.dev/blogs/code-documentation-best-practices",
+      "title": "Code Documentation Best Practices in 2026: AI Tools, JSDoc, and Auto-Generated Docs - Dualite - Build products and websites in minutes",
+      "snippet": "",
+      "include": true,
+      "reason": "relevant blog post covers documentation best practices"
+    },
+    {
+      "rank": 7,
+      "url": "https://gitdoc.ai/resources/documentation-in-software",
+      "title": "Effective Documentation in Software: Fix 'Doc Rot' in 2026 — GitDoc",
+      "snippet": "",
+      "include": true,
+      "reason": "primary vendor engineering blog doc rot focus"
+    },
+    {
+      "rank": 8,
+      "url": "https://pith.science/paper/2606.09090",
+      "title": "Context Rot in AI-Assisted Software Development: Repurposing Documentation Consistency for AI Configuration Artifacts · Pith",
+      "snippet": "",
+      "include": true,
+      "reason": "primary research paper on context rot documentation"
+    }
+  ]
+}

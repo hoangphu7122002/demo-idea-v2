@@ -1,0 +1,114 @@
+{
+  "rows": [
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=21290457",
+      "date": "2019-10-18",
+      "quote_or_number": "Keeping that documentation accurate and up-to-date as I developed the library across minor and major versions soon became a massive burden which eventually led me to put further development on hold",
+      "persona_match": "y",
+      "theme": "docs staleness burden",
+      "note": "Developer struggling with keeping technical documentation current over time; core pain for content maintenance"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=5761932",
+      "date": "2013-05-24",
+      "quote_or_number": "I wanted it for feedback when drafting blog posts, and also to let people truly engage and critique my writing, when I'm talking about history or religion",
+      "persona_match": "y",
+      "theme": "inline feedback for blogs",
+      "note": "Blogger wants inline comments for reader feedback and critique on technical/complex posts"
+    },
+    {
+      "type": "competitor",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=23972562",
+      "date": "2020-07-28",
+      "quote_or_number": "Instead of comment threads at the bottom, I imagine the comments inserted/attached inline in the text, perhaps only visible with mouse hover or appearing in a sidebar",
+      "persona_match": "n",
+      "theme": "inline comments system",
+      "note": "Remark42 comment engine; user imagining inline commenting instead of bottom threads"
+    },
+    {
+      "type": "competitor",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=7681270",
+      "date": "2014-05-01",
+      "quote_or_number": "We want to build a peer review platform that allows layers of discussion on top of a single document. One of the biggest challenges we face is that contextual commenting at a large scale has yet to be achieved",
+      "persona_match": "n",
+      "theme": "inline comments platform",
+      "note": "Academia.edu building peer review with inline/contextual commenting; acknowledged technical challenge"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=30584308",
+      "date": "2022-03-07",
+      "quote_or_number": "The general context is hiring managers under-/dis-valuing writing ability for technical people, and Patrick countering that a significant part of the value of their team is him, who is known for his writing",
+      "persona_match": "y",
+      "theme": "writing valued in tech",
+      "note": "Technical writing is undervalued; strong correlation between writing quality and career impact"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=14530906",
+      "date": "2017-06-11",
+      "quote_or_number": "I've had more success due to writing technical blog posts than anything. It's way more useful / beneficial then fluffing up a GitHub profile",
+      "persona_match": "y",
+      "theme": "blog impact career",
+      "note": "Technical blog posts more valuable for career/opportunities than GitHub projects"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=14271139",
+      "date": "2017-05-05",
+      "quote_or_number": "At the end of my senior year, I received an e-mail from a Software QA Manager at Apple (who followed my comments at the bottom of TechCrunch articles) inviting me for an on-site interview",
+      "persona_match": "y",
+      "theme": "online comments attract opportunities",
+      "note": "Technical comments on blogs/articles attract career opportunities and recruiter attention"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=8813453",
+      "date": "2014-12-30",
+      "quote_or_number": "In the programming field I work in, I'd guess about 90% of all tutorials / tech blog posts are poorly written",
+      "persona_match": "y",
+      "theme": "blog quality problems",
+      "note": "Most technical blog posts are poorly written; quality is major issue in technical content"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=27673231",
+      "date": "2021-06-29",
+      "quote_or_number": "There's the technical aspect of a HTML form, processing submissions, compiling a list of submissions, and then integrating those as an assembly into a larger context: below an blog post",
+      "persona_match": "y",
+      "theme": "blog comment systems",
+      "note": "Discussion of technical implementation needed for blog comment systems"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=5362159",
+      "date": "2013-03-12",
+      "quote_or_number": "Everything changed when I met my mentor (a figurehead in the Ruby community) online via a comment that I had left on his blog",
+      "persona_match": "y",
+      "theme": "blog comments drive connections",
+      "note": "Blog comments enable meaningful professional connections and mentorship"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=35201529",
+      "date": "2023-03-17",
+      "quote_or_number": "Writing regularly has been both a great outlet for me, as well as an important secondary skill at work. I'm always known as 'the writer' on the team",
+      "persona_match": "y",
+      "theme": "benefits of technical blogging",
+      "note": "Solo technical writer benefits from blogging: skill development, career identity, impact"
+    }
+  ]
+}

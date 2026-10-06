@@ -1,0 +1,373 @@
+{
+ "sid": "r2q03-03",
+ "url": "https://visualmodo.com/old-post-notice-for-wordpress-how-to-auto-add-outdated-content-notification-to-your-blog/",
+ "title": "Old WordPress Post Notice: Add Outdated Content Notification",
+ "published": "2026-05-17",
+ "source_type": "blog",
+ "quality_flags": [
+  "vendor-claim"
+ ],
+ "terms": [
+  {
+   "term": "DX Out of Date",
+   "context": "plugin to auto-add old post notifications"
+  },
+  {
+   "term": "WP LastModifiedInfo",
+   "context": "plugin to display last modified date instead of published date"
+  },
+  {
+   "term": "WordPress",
+   "context": "platform for blog posts and content management"
+  },
+  {
+   "term": "content degradation",
+   "context": "stale blog posts can be a problem for growing WordPress blogs"
+  },
+  {
+   "term": "stale content",
+   "context": "old posts that may be outdated, wrong, or inappropriate"
+  },
+  {
+   "term": "outdated content notification",
+   "context": "warning displayed on old posts to inform users"
+  },
+  {
+   "term": "bounce rates",
+   "context": "higher bounce rates result from outdated content"
+  },
+  {
+   "term": "search rankings",
+   "context": "lower search rankings caused by stale blog posts"
+  },
+  {
+   "term": "last modified date",
+   "context": "alternative to published date, shows when post was updated"
+  },
+  {
+   "term": "publish date",
+   "context": "original publication date of a post"
+  },
+  {
+   "term": "Block Editor",
+   "context": "WordPress editor where Expired Notifications tab is located"
+  },
+  {
+   "term": "Expired Notifications tab",
+   "context": "section in Block Editor to hide old post notifications on individual posts"
+  },
+  {
+   "term": "single.php",
+   "context": "WordPress theme template file for displaying single posts"
+  },
+  {
+   "term": "custom CSS",
+   "context": "styling method for old post notifications and modified date notices"
+  },
+  {
+   "term": "human_time_diff",
+   "context": "WordPress function to display time difference in human-readable format"
+  },
+  {
+   "term": "post modification date",
+   "context": "get_the_modified_time function to retrieve when post was last updated"
+  },
+  {
+   "term": "post publication date",
+   "context": "get_the_time function to retrieve original post publication timestamp"
+  },
+  {
+   "term": "time range",
+   "context": "WP LastModifiedInfo allows setting interval, limited to 30 days only"
+  },
+  {
+   "term": "global display toggle",
+   "context": "WP LastModifiedInfo setting to enable last changed information display"
+  },
+  {
+   "term": "override publish date",
+   "context": "option to replace published date with last modified date"
+  },
+  {
+   "term": "Larissa Lopes",
+   "context": "content writer and digital strategist at Visualmodo"
+  },
+  {
+   "term": "Visualmodo",
+   "context": "publisher of the article"
+  },
+  {
+   "term": "user experience",
+   "context": "poor experience when viewing outdated content"
+  },
+  {
+   "term": "blog posts",
+   "context": "articles that may become outdated over time"
+  },
+  {
+   "term": "niche",
+   "context": "industry or topic area where content relevance varies"
+  },
+  {
+   "term": "Settings page",
+   "context": "where DX Out of Date plugin is configured"
+  },
+  {
+   "term": "color customization",
+   "context": "option to choose notification box color in DX Out of Date"
+  },
+  {
+   "term": "notification message",
+   "context": "custom message shown on old posts via plugin"
+  },
+  {
+   "term": "post type selection",
+   "context": "DX Out of Date allows choosing which post types show notifications"
+  },
+  {
+   "term": "Save Changes button",
+   "context": "action to store DX Out of Date plugin settings"
+  }
+ ],
+ "claims": [
+  {
+   "claim": "Content degradation (stale blog posts) can be a problem for a growing WordPress blog",
+   "quote": "Content degradation (stale blog posts) can be a problem",
+   "numbers": []
+  },
+  {
+   "claim": "Outdated content can become irrelevant, wrong, or inappropriate over time",
+   "quote": "content can sometimes become irrelevant, wrong, or inappropriate over time",
+   "numbers": []
+  },
+  {
+   "claim": "Outdated content leads to poor user experience, higher bounce rates, and lower search rankings",
+   "quote": "poor user experience, higher bounce rates, and lower search rankings",
+   "numbers": []
+  },
+  {
+   "claim": "Many bloggers add last updated date instead of published date as an alternative solution",
+   "quote": "simply adding a last updated date instead of published date",
+   "numbers": []
+  },
+  {
+   "claim": "DX Out of Date plugin is the first method to auto-add old post notices for WordPress",
+   "quote": "install and activate the DX Out of Date plugin",
+   "numbers": []
+  },
+  {
+   "claim": "DX Out of Date plugin lets users set period and duration for when posts are considered stale",
+   "quote": "choose the period and duration. This is when the plugin considers the post stale",
+   "numbers": []
+  },
+  {
+   "claim": "DX Out of Date plugin allows custom message for old posts and can be hidden per post",
+   "quote": "provide a custom message to show on old posts and allow notifications to show on all old posts. Don't worry; you can hide it",
+   "numbers": []
+  },
+  {
+   "claim": "DX Out of Date offers color customization and custom CSS options for notification box",
+   "quote": "choose the post type and color for the notification box on the settings page and add custom CSS if needed",
+   "numbers": []
+  },
+  {
+   "claim": "DX Out of Date can hide notifications on individual posts via Expired Notifications tab in Block Editor",
+   "quote": "Expired Notifications tab in the Posts pane of the Block Editor. From here, turn off the notification option",
+   "numbers": []
+  },
+  {
+   "claim": "DX Out of Date plugin uses post publication date to determine age",
+   "quote": "plugin uses the post's publication date to determine age",
+   "numbers": []
+  },
+  {
+   "claim": "WP LastModifiedInfo plugin is the second method showing last modified date of posts",
+   "quote": "install and activate the WP LastModifiedInfo plugin",
+   "numbers": []
+  },
+  {
+   "claim": "WP LastModifiedInfo allows users to display modified date without showing old post message",
+   "quote": "user can see when the post was last updated without displaying the old post message",
+   "numbers": []
+  },
+  {
+   "claim": "WP LastModifiedInfo time range is limited to 30 days only",
+   "quote": "interval is limited to 30 days only",
+   "numbers": [
+    "30"
+   ]
+  },
+  {
+   "claim": "WP LastModifiedInfo shows last updated date for all posts including recent ones",
+   "quote": "show the last updated date for all posts, including the most recent posts",
+   "numbers": []
+  },
+  {
+   "claim": "WP LastModifiedInfo provides three blocks for manual insertion into posts or pages",
+   "quote": "three blocks that you can manually insert into a post or page to display the latest modified information",
+   "numbers": [
+    "3"
+   ]
+  },
+  {
+   "claim": "WP LastModifiedInfo allows custom CSS styling for last update date notices",
+   "quote": "option to use custom CSS to style your last update date notice",
+   "numbers": []
+  },
+  {
+   "claim": "Method 3 requires manually adding code to WordPress theme file single.php",
+   "quote": "manually add the code to your WordPress theme file. If you haven't read it yet, check out the Guide on Adding Custom Code Snippets to WordPress",
+   "numbers": []
+  },
+  {
+   "claim": "Method 3 code example defines old posts as articles published at least one year ago",
+   "quote": "Define old post duration to one year",
+   "numbers": [
+    "1"
+   ]
+  },
+  {
+   "claim": "Method 3 code checks if post is older than one year before displaying notice",
+   "quote": "Check to see if a post is older than a year",
+   "numbers": [
+    "1"
+   ]
+  },
+  {
+   "claim": "Method 3 code uses human_time_diff function to display last updated time in readable format",
+   "quote": "human_time_diff($lastmodified,current_time",
+   "numbers": []
+  },
+  {
+   "claim": "Method 3 code displays different notices depending on whether post was updated after publication",
+   "quote": "check if the post was updated after being published",
+   "numbers": []
+  },
+  {
+   "claim": "Method 3 uses WordPress functions get_the_modified_time() and get_the_time() to get timestamps",
+   "quote": "get_the_modified_time and get_the_time",
+   "numbers": []
+  },
+  {
+   "claim": "Custom CSS can style old post notifications with background color, padding, border, and font properties",
+   "quote": "background: #fbffd8; padding: 10px; border: 1px solid orange; font-size: small; font-weight: bold",
+   "numbers": []
+  }
+ ],
+ "analysis_rows": [
+  {
+   "type": "landscape",
+   "entity": "DX Out of Date",
+   "category": "WordPress plugin",
+   "segment": "WordPress blog owners, content teams managing multiple old articles",
+   "positioning": "Plugin-based solution for automatic stale content notifications with granular control",
+   "key_facts": "Allows setting custom stale period, notification message, color, and post type filtering. Can be disabled per post via Block Editor"
+  },
+  {
+   "type": "landscape",
+   "entity": "WP LastModifiedInfo",
+   "category": "WordPress plugin",
+   "segment": "WordPress blog owners wanting transparency on content freshness",
+   "positioning": "Plugin displaying last modified date instead of or alongside publish date",
+   "key_facts": "Shows modification date for all posts; time range limited to 30 days. Provides three blocks for manual insertion"
+  },
+  {
+   "type": "landscape",
+   "entity": "WordPress theme customization (single.php)",
+   "category": "Code-based method",
+   "segment": "Developers comfortable with PHP and theme editing",
+   "positioning": "Manual code implementation for maximum flexibility in stale content handling",
+   "key_facts": "Requires editing single.php template; uses PHP functions get_the_time(), get_the_modified_time(), human_time_diff()"
+  },
+  {
+   "type": "comparison",
+   "option": "Method 1 - DX Out of Date plugin",
+   "criterion": "Ease of use",
+   "value": "Simple, no coding required; recommended for all users"
+  },
+  {
+   "type": "comparison",
+   "option": "Method 2 - WP LastModifiedInfo plugin",
+   "criterion": "Ease of use",
+   "value": "Simple, no coding required"
+  },
+  {
+   "type": "comparison",
+   "option": "Method 3 - Code method",
+   "criterion": "Ease of use",
+   "value": "Requires manual code addition to theme file"
+  },
+  {
+   "type": "comparison",
+   "option": "Method 1 - DX Out of Date plugin",
+   "criterion": "Customization flexibility",
+   "value": "High: custom period, message, color, post types, per-post hiding"
+  },
+  {
+   "type": "comparison",
+   "option": "Method 2 - WP LastModifiedInfo plugin",
+   "criterion": "Customization flexibility",
+   "value": "Medium: limited to 30-day time range; can choose display position (override, before, after, manual)"
+  },
+  {
+   "type": "comparison",
+   "option": "Method 3 - Code method",
+   "criterion": "Customization flexibility",
+   "value": "Very high: can implement any logic and display format"
+  },
+  {
+   "type": "comparison",
+   "option": "Method 1 - DX Out of Date plugin",
+   "criterion": "Notification approach",
+   "value": "Explicit warning message on old posts"
+  },
+  {
+   "type": "comparison",
+   "option": "Method 2 - WP LastModifiedInfo plugin",
+   "criterion": "Notification approach",
+   "value": "Transparent modified date display without warning message"
+  },
+  {
+   "type": "comparison",
+   "option": "Method 3 - Code method",
+   "criterion": "Notification approach",
+   "value": "Custom approach: can show different messages for updated vs never-updated old posts"
+  },
+  {
+   "type": "comparison",
+   "option": "Method 2 - WP LastModifiedInfo plugin",
+   "criterion": "Issue with all posts",
+   "value": "Shows last updated date for recent posts too, limited interval to 30 days only"
+  },
+  {
+   "type": "root_cause",
+   "symptom": "WordPress blogs have many old articles that become outdated, irrelevant, or wrong over time",
+   "cause": "Resource constraints - site may contain many old articles and team may not have enough resources to update all of them",
+   "evidence": "Article states: site may contain many old articles and you may not have enough resources to update them",
+   "fix": "Add old post notification to inform users that content is out of date"
+  },
+  {
+   "type": "root_cause",
+   "symptom": "Old posts with outdated content continue to receive search traffic",
+   "cause": "Content degradation causes poor user experience, higher bounce rates, and lower search rankings",
+   "evidence": "Article states these consequences of stale content",
+   "fix": "Either update the post with new information or display outdated content notification"
+  },
+  {
+   "type": "root_cause",
+   "symptom": "DX Out of Date plugin continues showing old post notification on updated posts",
+   "cause": "Plugin uses post publication date to determine age, not modification date",
+   "evidence": "Article states: plugin uses the post's publication date to determine age",
+   "fix": "Manually turn off notification in Expired Notifications tab after updating post"
+  },
+  {
+   "type": "root_cause",
+   "symptom": "WP LastModifiedInfo shows modification date on recent posts as well",
+   "cause": "Plugin displays modification date for all posts by default",
+   "evidence": "Article notes: show the last updated date for all posts, including the most recent posts",
+   "fix": "Set time range interval in plugin settings to filter display (limited to 30 days only)"
+  }
+ ],
+ "model": "haiku",
+ "_recall": 0.5
+}

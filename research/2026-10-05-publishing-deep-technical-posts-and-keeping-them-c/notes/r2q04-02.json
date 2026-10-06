@@ -1,0 +1,381 @@
+{
+ "sid": "r2q04-02",
+ "url": "https://haacked.com/archive/2019/06/03/suggested-changes/",
+ "title": "Suggesting Changes on GitHub | You’ve Been Haacked",
+ "published": "2019-06-03",
+ "source_type": "blog",
+ "quality_flags": [
+  "outdated"
+ ],
+ "terms": [
+  {
+   "term": "Suggesting Changes on GitHub | You’ve Been Haacked",
+   "context": "page title"
+  },
+  {
+   "term": "Suggesting Changes on GitHub",
+   "context": "# Suggesting Changes on GitHub, Jun 3, 2019"
+  },
+  {
+   "term": "Suggesting Changes",
+   "context": "Suggesting Changes on GitHub"
+  },
+  {
+   "term": "You’ve Been Haacked",
+   "context": "Suggesting Changes on GitHub | You’ve Been Haacked"
+  },
+  {
+   "term": "You've been Haacked",
+   "context": "You've been Haacked is a blog about Technology, Software, Management, and Open Source"
+  },
+  {
+   "term": "Been Haacked",
+   "context": "You’ve Been Haacked"
+  },
+  {
+   "term": "Haacked",
+   "context": "haacked.com; @haacked@hachyderm.io"
+  },
+  {
+   "term": "haacked",
+   "context": "haacked social links"
+  },
+  {
+   "term": "@haacked@hachyderm.io",
+   "context": "Mastodon handle in footer links"
+  },
+  {
+   "term": "Thomas Levesque",
+   "context": "Thomas Levesque • June 3rd, 2019 comment"
+  },
+  {
+   "term": "5 responses",
+   "context": "### 5 responses (comments heading)"
+  },
+  {
+   "term": "Comments",
+   "context": "## Comments"
+  },
+  {
+   "term": "Phil Haack",
+   "context": "post author"
+  },
+  {
+   "term": "Sarah Guthals",
+   "context": "I and my co-author Sarah Guthals wrote"
+  },
+  {
+   "term": "GitHub for Dummies",
+   "context": "many more like it in the GitHub for Dummies book"
+  },
+  {
+   "term": "Angel Rosario",
+   "context": "Angel Rosario • November 7th, 2025"
+  },
+  {
+   "term": "Olafski",
+   "context": "Olafski • June 5th, 2019"
+  },
+  {
+   "term": "Spike",
+   "context": "Spike • March 24th, 2020"
+  },
+  {
+   "term": "Shelby",
+   "context": "Shelby • January 22nd, 2021"
+  },
+  {
+   "term": "GitHub",
+   "context": "GitHub has a suggested Changes feature"
+  },
+  {
+   "term": "suggested Changes",
+   "context": "GitHub has a suggested Changes feature that does this"
+  },
+  {
+   "term": "Suggested changes",
+   "context": "Suggested changes is extremely useful for small fixes"
+  },
+  {
+   "term": "suggestion block",
+   "context": "adds a suggestion block to the comment text area"
+  },
+  {
+   "term": "suggest edit",
+   "context": "Found a typo or mistake in the post? suggest edit"
+  },
+  {
+   "term": "pull request",
+   "context": "submit a pull request to fix it"
+  },
+  {
+   "term": "PRs",
+   "context": "repository I sometimes make small PRs for"
+  },
+  {
+   "term": "PR",
+   "context": "add changes to a PR that might be about something else"
+  },
+  {
+   "term": "fork",
+   "context": "the person must fork the repository to their account first"
+  },
+  {
+   "term": "Files changed tab",
+   "context": "go to the Files changed tab of a pull request"
+  },
+  {
+   "term": "co-committer",
+   "context": "creates a commit with the commenter as a co-committer"
+  },
+  {
+   "term": "commit suggestion",
+   "context": "only two action buttons: commit suggestion and add suggestion to batch"
+  },
+  {
+   "term": "add suggestion to batch",
+   "context": "the 2nd one is obviously not going to do anything final"
+  },
+  {
+   "term": "add single comment",
+   "context": "When I clicked add single comment I get the diff panel"
+  },
+  {
+   "term": "diff",
+   "context": "it will show up to the maintainer as a diff"
+  },
+  {
+   "term": "diff panel",
+   "context": "I get the diff panel, which is great"
+  },
+  {
+   "term": "maintainers",
+   "context": "act of kindness to the maintainers"
+  },
+  {
+   "term": "write access",
+   "context": "they don't have write access to the repository"
+  },
+  {
+   "term": "markdown",
+   "context": "collaborating on markdown documents in a repository"
+  },
+  {
+   "term": "UX",
+   "context": "GitHub needs to hire a UX engineer"
+  },
+  {
+   "term": "UI/UX",
+   "context": "programmers are terrible UI/UX designers"
+  },
+  {
+   "term": "UI",
+   "context": "UI/UX designers"
+  },
+  {
+   "term": "build checks",
+   "context": "commit it to the source branch (and run any build checks!)"
+  },
+  {
+   "term": "source branch",
+   "context": "commit it to the source branch"
+  },
+  {
+   "term": "Open Source",
+   "context": "blog about Technology, Software, Management, and Open Source"
+  },
+  {
+   "term": "oss",
+   "context": "tags: github oss tip"
+  },
+  {
+   "term": "rss",
+   "context": "footer link rss"
+  },
+  {
+   "term": "Remember me",
+   "context": "comment form label"
+  },
+  {
+   "term": "avatar",
+   "context": "commenter sees their avatar in the history of the file"
+  }
+ ],
+ "claims": [
+  {
+   "claim": "Fixing a typo via PR requires forking, editing and creating a PR, which is heavyweight for contributors without write access",
+   "quote": "it’s a bit of a heavyweight operation for the person submitting the fix",
+   "numbers": []
+  },
+  {
+   "claim": "Forks pollute the contributor's repository list unless deleted",
+   "quote": "The forked repository pollutes their list of repositories",
+   "numbers": []
+  },
+  {
+   "claim": "Specifying the change in a comment shifts work to the maintainer, so it often never gets done",
+   "quote": "Chances are, it’s too much trouble and they don’t get around to it.",
+   "numbers": []
+  },
+  {
+   "claim": "GitHub Suggested Changes has existed since October 2018 but is not well known",
+   "quote": "It’s been around since October 2018, but is still not that well-known.",
+   "numbers": [
+    "October 2018"
+   ]
+  },
+  {
+   "claim": "Suggestions are made from the Files changed tab of a pull request via a plus/minus button in the line comment form",
+   "quote": "",
+   "numbers": []
+  },
+  {
+   "claim": "Maintainer sees suggestion as a diff and accepts with two clicks",
+   "quote": "Technically, it’s two clicks, but let’s not quibble over clicks.",
+   "numbers": [
+    "2 clicks"
+   ]
+  },
+  {
+   "claim": "Accepted suggestion creates a commit with commenter as co-committer, giving credit and avatar in file history",
+   "quote": "",
+   "numbers": []
+  },
+  {
+   "claim": "Maintainers can retroactively wrap a plain comment in a suggestion block to credit the commenter",
+   "quote": "",
+   "numbers": []
+  },
+  {
+   "claim": "Author finds suggested changes useful for markdown docs collaboration",
+   "quote": "I’ve found it very useful when collaborating on markdown documents",
+   "numbers": []
+  },
+  {
+   "claim": "Post has a per-post 'suggest edit' link for typos",
+   "quote": "Found a typo or mistake in the post? suggest edit",
+   "numbers": []
+  },
+  {
+   "claim": "Commenter Thomas Levesque could not see the button and objected that it only works from pull requests, not from the file itself",
+   "quote": "Why can’t we do it directly from the file itself?",
+   "numbers": [
+    "2019-06-03"
+   ]
+  },
+  {
+   "claim": "Olafski: only working on existing PRs is limiting and would add changes to a PR about something else",
+   "quote": "only being able to do this on existing PRs would be limiting",
+   "numbers": [
+    "2019-06-05"
+   ]
+  },
+  {
+   "claim": "Spike: UI labels 'commit suggestion' mislead; it actually commits to the source branch and triggers build checks",
+   "quote": "Github needs to hire a UX engineer who understands some basic principles.",
+   "numbers": [
+    "2020-03-24"
+   ]
+  },
+  {
+   "claim": "Shelby accidentally committed to coworker's branch and could not suggest changes to a file the author had not touched",
+   "quote": "I could not make the change on a file that the original person had not touched",
+   "numbers": [
+    "2021-01-22"
+   ]
+  },
+  {
+   "claim": "Angel Rosario says in 2025 the feature is still not well known in their team",
+   "quote": "this feature is still not well-known",
+   "numbers": [
+    "2025-11-07",
+    "7 years after October 2018"
+   ]
+  },
+  {
+   "claim": "Post has 5 responses spanning 2019 to 2025",
+   "quote": "5 responses",
+   "numbers": [
+    "5 responses"
+   ]
+  }
+ ],
+ "analysis_rows": [
+  {
+   "type": "landscape",
+   "entity": "GitHub Suggested Changes",
+   "category": "feature in PR review",
+   "segment": "OSS maintainers and contributors making small fixes",
+   "positioning": "Suggest exact change in a comment; maintainer accepts in one or two clicks; co-author credit",
+   "key_facts": "Around since October 2018; still not well-known (per 2019 post and 2025 comment)"
+  },
+  {
+   "type": "landscape",
+   "entity": "Pull request fork-edit-PR workflow",
+   "category": "contribution workflow",
+   "segment": "contributors without write access",
+   "positioning": "Standard fix route, heavyweight",
+   "key_facts": "Requires fork, edit, PR; fork pollutes repo list"
+  },
+  {
+   "type": "landscape",
+   "entity": "haacked.com 'suggest edit' link",
+   "category": "blog reader-correction link",
+   "segment": "blog readers",
+   "positioning": "Per-post link to report typo or mistake",
+   "key_facts": "Shown on 2019 post"
+  },
+  {
+   "type": "landscape",
+   "entity": "GitHub for Dummies",
+   "category": "book",
+   "segment": "GitHub learners",
+   "positioning": "Source of tips by Phil Haack and Sarah Guthals",
+   "key_facts": "Author plans more tip posts"
+  },
+  {
+   "type": "root_cause",
+   "symptom": "Reader typo fixes via PR rarely happen",
+   "cause": "Fork, edit, create PR is heavy for a one-word fix",
+   "evidence": "Author's description of the steps",
+   "fix": "Use GitHub suggested changes"
+  },
+  {
+   "type": "root_cause",
+   "symptom": "Fix specified in a comment often never applied",
+   "cause": "Maintainer must review comment and redo change manually",
+   "evidence": "Author statement",
+   "fix": "Suggestion block accepted with a click"
+  },
+  {
+   "type": "root_cause",
+   "symptom": "Users cannot find or use suggested changes",
+   "cause": "Only available from PR Files changed tab, not from file view",
+   "evidence": "Comments by Thomas Levesque and Olafski",
+   "fix": "none stated"
+  },
+  {
+   "type": "root_cause",
+   "symptom": "Users accidentally commit instead of suggest",
+   "cause": "Button labeled 'commit suggestion' commits to source branch",
+   "evidence": "Spike and Shelby comments",
+   "fix": "none stated"
+  },
+  {
+   "type": "root_cause",
+   "symptom": "Cannot suggest changes on a file the PR author did not touch",
+   "cause": "Suggestions limited to files in the PR diff",
+   "evidence": "Shelby comment",
+   "fix": "none stated"
+  },
+  {
+   "type": "root_cause",
+   "symptom": "Feature remains unknown years later",
+   "cause": "Poor discoverability",
+   "evidence": "Angel Rosario 2025 comment about team reactions",
+   "fix": "none stated"
+  }
+ ],
+ "model": "sonnet",
+ "_recall": 1.0
+}

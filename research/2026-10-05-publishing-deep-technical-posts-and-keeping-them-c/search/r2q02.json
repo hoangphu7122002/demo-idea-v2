@@ -1,0 +1,72 @@
+{
+  "qid": "r2q02",
+  "round": 2,
+  "query": "Hashnode Dev.to editing old posts reader feedback corrections limitations",
+  "origin": "term",
+  "results": [
+    {
+      "rank": 1,
+      "url": "https://dev.to/rulestack/85-hours-unseen-while-every-check-was-green-the-hashnode-thread-our-poller-never-read-4bd0",
+      "title": "8.5 hours unseen while every check was green: the Hashnode thread our poller never read - DEV Community",
+      "snippet": "",
+      "include": false,
+      "reason": "off-topic monitoring issue not editing"
+    },
+    {
+      "rank": 2,
+      "url": "https://hashnode.com/post/how-to-edit-your-post-slug-on-hashnode-ckel6p1sl00k8ijs1apw48tzk",
+      "title": "How to edit your post slug on Hashnode - Hashnode",
+      "snippet": "",
+      "include": true,
+      "reason": "primary editing documentation for posts"
+    },
+    {
+      "rank": 3,
+      "url": "https://hashnode.com/post/where-do-you-editdelete-a-post-ckdn3c97d007y3bs16564hq3x",
+      "title": "Where do you edit/delete a post? - Hashnode",
+      "snippet": "",
+      "include": true,
+      "reason": "primary official editing documentation"
+    },
+    {
+      "rank": 4,
+      "url": "https://hashnode.com/blog/publishing-a-blog-post-to-hashnode-using-a-custom-editing-interface",
+      "title": "Publishing a blog post to Hashnode using a custom editing interface",
+      "snippet": "",
+      "include": true,
+      "reason": "primary blog editing interface documentation"
+    },
+    {
+      "rank": 5,
+      "url": "https://townhall.hashnode.com/why-you-should-republish-your-devblog-posts-and-how-to-do-it",
+      "title": "Why You Should Republish Your Devblog Posts and How to Do It",
+      "snippet": "",
+      "include": true,
+      "reason": "primary official staleness and updates guide"
+    },
+    {
+      "rank": 6,
+      "url": "https://www.blogbowl.io/blog/posts/hashnode-vs-dev-to-which-platform-is-best-for-developers-in-2025",
+      "title": "Hashnode vs Dev.to: Which Platform is Best for Developers in 2025?",
+      "snippet": "",
+      "include": false,
+      "reason": "seo comparison listicle aggregator"
+    },
+    {
+      "rank": 7,
+      "url": "https://townhall.hashnode.com/what-can-i-post-on-hashnode",
+      "title": "What Can I Post on Hashnode? And Who Owns My Content?",
+      "snippet": "",
+      "include": false,
+      "reason": "off-topic content policies not editing"
+    },
+    {
+      "rank": 8,
+      "url": "https://blog.eamonncottrell.com/re-publishing-hashnode-articles-to-dev-with-github-actions",
+      "title": "Re-Publishing Hashnode Articles to DEV with GitHub Actions",
+      "snippet": "",
+      "include": true,
+      "reason": "relevant cross-platform publishing workflow"
+    }
+  ]
+}

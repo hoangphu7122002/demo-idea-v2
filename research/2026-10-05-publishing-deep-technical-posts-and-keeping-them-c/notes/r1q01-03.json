@@ -1,0 +1,1181 @@
+{
+ "sid": "r1q01-03",
+ "url": "https://leadadvisors.com/blog/best-blogging-platform/",
+ "title": "17 Best Blogging Platforms in 2025–2026 (Ranked by Use Case, Budget & Skill Level)",
+ "published": "2026-01-09",
+ "source_type": "vendor",
+ "quality_flags": [
+  "vendor-claim",
+  "seo"
+ ],
+ "terms": [
+  {
+   "term": "1. Moving from Blog → Newsletter",
+   "context": "migration strategy for publishing approach"
+  },
+  {
+   "term": "1. No Export Option",
+   "context": "red flag indicating content portability risk"
+  },
+  {
+   "term": "1. The Rise of Newsletter-First Publishing",
+   "context": "industry trend in 2025-2026"
+  },
+  {
+   "term": "1. Transparent Costs",
+   "context": "pricing transparency requirement"
+  },
+  {
+   "term": "1. WordPress (Self-Hosted)",
+   "context": "platform #1 rated for serious bloggers"
+  },
+  {
+   "term": "2. Ghost (Self-Hosted or Hosted)",
+   "context": "platform #2 modern publishing alternative"
+  },
+  {
+   "term": "3. Wix",
+   "context": "platform #3 ease of use focused"
+  },
+  {
+   "term": "4. Squarespace",
+   "context": "platform #4 design-focused"
+  },
+  {
+   "term": "5. Hostinger Website Builder",
+   "context": "platform #5 budget-conscious option"
+  },
+  {
+   "term": "6. Blogger",
+   "context": "platform #6 free option from Google"
+  },
+  {
+   "term": "7. Medium",
+   "context": "platform #7 built-in audience"
+  },
+  {
+   "term": "8. LinkedIn Articles",
+   "context": "platform #8 professional network integration"
+  },
+  {
+   "term": "9. Substack",
+   "context": "platform #9 newsletter-first publishing"
+  },
+  {
+   "term": "10. Beehiiv",
+   "context": "platform #10 advanced newsletter features"
+  },
+  {
+   "term": "11. Micro.blog",
+   "context": "platform #11 indie web emphasis"
+  },
+  {
+   "term": "12. Scribbles",
+   "context": "platform #12 minimal blogging"
+  },
+  {
+   "term": "13. Bear",
+   "context": "platform #13 privacy-first blogging"
+  },
+  {
+   "term": "14. Pika",
+   "context": "platform #14 minimal with personality"
+  },
+  {
+   "term": "15. Mataroa",
+   "context": "platform #15 distraction-free writing"
+  },
+  {
+   "term": "16. Webflow",
+   "context": "platform #16 design tool with CMS"
+  },
+  {
+   "term": "17. Hashnode / Dev.to",
+   "context": "platform #17 developer community platforms"
+  },
+  {
+   "term": "Pros",
+   "context": "platform advantages listed for each option"
+  },
+  {
+   "term": "Cons",
+   "context": "platform disadvantages listed for each option"
+  },
+  {
+   "term": "What makes it special",
+   "context": "unique differentiators for each platform"
+  },
+  {
+   "term": "Best for",
+   "context": "target user persona recommendations"
+  },
+  {
+   "term": "UX",
+   "context": "User Experience design considerations"
+  },
+  {
+   "term": "Key Factors to Consider",
+   "context": "criteria for choosing blogging platform"
+  },
+  {
+   "term": "Additional Niche Options",
+   "context": "specialized platforms for specific use cases"
+  },
+  {
+   "term": "Final Verdict",
+   "context": "summary recommendations for platform selection"
+  },
+  {
+   "term": "Pricing Breakdown",
+   "context": "cost analysis and transparency section"
+  },
+  {
+   "term": "Red Flags to Watch For",
+   "context": "warnings about platform limitations"
+  },
+  {
+   "term": "Migration Paths",
+   "context": "guidance for switching between platforms"
+  },
+  {
+   "term": "Platform Selector",
+   "context": "quick matching tool for finding suitable platform"
+  },
+  {
+   "term": "Duane Martinez",
+   "context": "SEO Content Specialist author"
+  },
+  {
+   "term": "self-hosted WordPress",
+   "context": "powers over 43% of all websites globally"
+  },
+  {
+   "term": "WordPress",
+   "context": "trusted by TechCrunch, The New Yorker, Sony Music"
+  },
+  {
+   "term": "WooCommerce",
+   "context": "powering 39% of all online stores"
+  },
+  {
+   "term": "Yoast",
+   "context": "advanced seo tools plugin"
+  },
+  {
+   "term": "Rank Math",
+   "context": "advanced seo tools plugin"
+  },
+  {
+   "term": "Ghost",
+   "context": "modern alternative for writers, 19x faster than WordPress"
+  },
+  {
+   "term": "Node.js",
+   "context": "Ghost built on modern tech"
+  },
+  {
+   "term": "Wix",
+   "context": "drag-and-drop website builder, 250 million users"
+  },
+  {
+   "term": "Wix ADI",
+   "context": "Artificial Design Intelligence builds site automatically"
+  },
+  {
+   "term": "Squarespace",
+   "context": "design-focused platform, 4.2 million websites"
+  },
+  {
+   "term": "Hostinger Website Builder",
+   "context": "AI-powered website builder, 2 million customers"
+  },
+  {
+   "term": "Blogger",
+   "context": "Google's free blogging platform since 1999"
+  },
+  {
+   "term": "Medium",
+   "context": "built-in audience of 100 million monthly readers"
+  },
+  {
+   "term": "Medium Partner Program",
+   "context": "earn money based on member reading time"
+  },
+  {
+   "term": "LinkedIn Articles",
+   "context": "professional blogging platform, 1 billion members"
+  },
+  {
+   "term": "Substack",
+   "context": "newsletter publishing platform, 2 million paid subscriptions"
+  },
+  {
+   "term": "Beehiiv",
+   "context": "Substack's more powerful cousin, 35,000 newsletters"
+  },
+  {
+   "term": "Beehiiv ad network",
+   "context": "paid out over 5 million to creators"
+  },
+  {
+   "term": "Micro.blog",
+   "context": "indie web blogging platform, 100,000 blogs hosted"
+  },
+  {
+   "term": "IndieWeb",
+   "context": "principles emphasizing content ownership"
+  },
+  {
+   "term": "Scribbles",
+   "context": "minimal blogging platform (scribbles.page)"
+  },
+  {
+   "term": "Bear",
+   "context": "privacy-first, fast blogging platform (bearblog.dev)"
+  },
+  {
+   "term": "Pika",
+   "context": "minimal blogging with personality (pika.page)"
+  },
+  {
+   "term": "Mataroa",
+   "context": "stripped-down writing platform (mataroa.blog)"
+  },
+  {
+   "term": "Webflow",
+   "context": "web design tool with CMS, 3.5 million websites"
+  },
+  {
+   "term": "Hashnode",
+   "context": "developer-focused platform, 40,000 developer blogs"
+  },
+  {
+   "term": "Dev.to",
+   "context": "developer platform, 1.3 million registered developers"
+  },
+  {
+   "term": "Google PageSpeed Insights",
+   "context": "performance measurement tool"
+  },
+  {
+   "term": "schema markup",
+   "context": "SEO technical implementation"
+  },
+  {
+   "term": "301 redirects",
+   "context": "SEO migration technique"
+  },
+  {
+   "term": "newsletter-first publishing",
+   "context": "publishing strategy prioritizing email"
+  },
+  {
+   "term": "drag-and-drop builder",
+   "context": "UI design approach for beginners"
+  },
+  {
+   "term": "G2",
+   "context": "software review platform"
+  },
+  {
+   "term": "Trustpilot",
+   "context": "customer review platform"
+  },
+  {
+   "term": "Capterra",
+   "context": "software review platform"
+  },
+  {
+   "term": "Product Hunt",
+   "context": "product discovery platform"
+  },
+  {
+   "term": "AlternativeTo",
+   "context": "software alternatives platform"
+  },
+  {
+   "term": "RSS feeds",
+   "context": "content syndication format"
+  },
+  {
+   "term": "SMTP providers",
+   "context": "email sending service"
+  },
+  {
+   "term": "CDN",
+   "context": "Content Delivery Network"
+  },
+  {
+   "term": "ecommerce transaction fees",
+   "context": "payment processing costs"
+  }
+ ],
+ "claims": [
+  {
+   "claim": "WordPress powers 43% of all websites globally",
+   "quote": "WordPress powers over 43% of all websites globally",
+   "numbers": [
+    "43%",
+    "810 million websites as of 2025"
+   ]
+  },
+  {
+   "claim": "WordPress receives 4.4/5 rating from over 9,000 users on G2",
+   "quote": "",
+   "numbers": [
+    "4.4/5",
+    "9000 users"
+   ]
+  },
+  {
+   "claim": "WooCommerce powers 39% of all online stores",
+   "quote": "",
+   "numbers": [
+    "39%"
+   ]
+  },
+  {
+   "claim": "WordPress has over 60,000 plugins and 11,000 themes",
+   "quote": "",
+   "numbers": [
+    "60000 plugins",
+    "11000 themes"
+   ]
+  },
+  {
+   "claim": "Ghost is 19x faster than WordPress for content delivery",
+   "quote": "19x faster than WordPress",
+   "numbers": [
+    "19x"
+   ]
+  },
+  {
+   "claim": "Ghost powers over 10 million posts",
+   "quote": "",
+   "numbers": [
+    "10 million posts"
+   ]
+  },
+  {
+   "claim": "Ghost users give 4.6/5 stars on Capterra based on over 100 reviews",
+   "quote": "",
+   "numbers": [
+    "4.6/5",
+    "100 reviews"
+   ]
+  },
+  {
+   "claim": "Ghost sites average 0.8-second load times compared to 2.6 seconds for WordPress",
+   "quote": "",
+   "numbers": [
+    "0.8 seconds",
+    "2.6 seconds"
+   ]
+  },
+  {
+   "claim": "Wix has 250 million users worldwide with 9 million live sites",
+   "quote": "",
+   "numbers": [
+    "250 million users",
+    "9 million sites"
+   ]
+  },
+  {
+   "claim": "Wix holds 4.2/5 stars on Trustpilot based on 37,000 reviews",
+   "quote": "",
+   "numbers": [
+    "4.2/5",
+    "37000 reviews"
+   ]
+  },
+  {
+   "claim": "Wix average setup time is 30-60 minutes",
+   "quote": "",
+   "numbers": [
+    "30-60 minutes"
+   ]
+  },
+  {
+   "claim": "Wix has 800+ professionally designed templates",
+   "quote": "",
+   "numbers": [
+    "800+ templates"
+   ]
+  },
+  {
+   "claim": "Wix plans start at $17/month",
+   "quote": "",
+   "numbers": [
+    "$17/month"
+   ]
+  },
+  {
+   "claim": "Squarespace powers 4.2 million websites receiving over 50 million visits monthly",
+   "quote": "",
+   "numbers": [
+    "4.2 million",
+    "50 million visits"
+   ]
+  },
+  {
+   "claim": "Squarespace ratings 4.4/5 on G2 with over 5,800 reviews",
+   "quote": "",
+   "numbers": [
+    "4.4/5",
+    "5800 reviews"
+   ]
+  },
+  {
+   "claim": "Squarespace ratings 4.0/5 on Trustpilot with over 8,000 reviews",
+   "quote": "",
+   "numbers": [
+    "4.0/5",
+    "8000 reviews"
+   ]
+  },
+  {
+   "claim": "All Squarespace templates achieve 90+ scores on Google PageSpeed Insights",
+   "quote": "",
+   "numbers": [
+    "90+"
+   ]
+  },
+  {
+   "claim": "Squarespace costs $16-$49/month",
+   "quote": "",
+   "numbers": [
+    "$16/mo",
+    "$49/mo"
+   ]
+  },
+  {
+   "claim": "Hostinger serves over 2 million customers",
+   "quote": "",
+   "numbers": [
+    "2 million customers"
+   ]
+  },
+  {
+   "claim": "Hostinger maintains 4.6/5 rating on Trustpilot from over 14,000 reviews",
+   "quote": "",
+   "numbers": [
+    "4.6/5",
+    "14000 reviews"
+   ]
+  },
+  {
+   "claim": "Hostinger website builder created over 500,000 sites since 2022",
+   "quote": "",
+   "numbers": [
+    "500000 sites"
+   ]
+  },
+  {
+   "claim": "Hostinger average build time is 3-5 minutes",
+   "quote": "",
+   "numbers": [
+    "3-5 minutes"
+   ]
+  },
+  {
+   "claim": "Hostinger starts at $2.99/month",
+   "quote": "",
+   "numbers": [
+    "$2.99/month"
+   ]
+  },
+  {
+   "claim": "Blogger has been around since 1999",
+   "quote": "",
+   "numbers": [
+    "1999"
+   ]
+  },
+  {
+   "claim": "Blogger boasts 99.9% uptime",
+   "quote": "",
+   "numbers": [
+    "99.9%"
+   ]
+  },
+  {
+   "claim": "Medium has over 100 million monthly readers",
+   "quote": "",
+   "numbers": [
+    "100 million readers"
+   ]
+  },
+  {
+   "claim": "Medium publishes stories from 170,000+ writers",
+   "quote": "",
+   "numbers": [
+    "170000 writers"
+   ]
+  },
+  {
+   "claim": "Medium rates 4.0/5 on Trustpilot from 2,000+ reviews",
+   "quote": "",
+   "numbers": [
+    "4.0/5",
+    "2000 reviews"
+   ]
+  },
+  {
+   "claim": "Top Medium writers earn $5,000-$25,000+ monthly",
+   "quote": "",
+   "numbers": [
+    "$5000-$25000+"
+   ]
+  },
+  {
+   "claim": "LinkedIn has 1 billion members",
+   "quote": "",
+   "numbers": [
+    "1 billion members"
+   ]
+  },
+  {
+   "claim": "LinkedIn sees 9 billion content impressions weekly",
+   "quote": "",
+   "numbers": [
+    "9 billion impressions"
+   ]
+  },
+  {
+   "claim": "LinkedIn articles receive 9x more impressions than external links",
+   "quote": "",
+   "numbers": [
+    "9x"
+   ]
+  },
+  {
+   "claim": "LinkedIn influencer articles achieve 30-50% engagement rates",
+   "quote": "",
+   "numbers": [
+    "30-50%"
+   ]
+  },
+  {
+   "claim": "Substack has over 2 million paid subscriptions",
+   "quote": "",
+   "numbers": [
+    "2 million subscriptions"
+   ]
+  },
+  {
+   "claim": "Substack writers earn over $300 million since launch",
+   "quote": "",
+   "numbers": [
+    "$300 million"
+   ]
+  },
+  {
+   "claim": "Top 10 Substack publications generate over $25 million annually",
+   "quote": "",
+   "numbers": [
+    "$25 million"
+   ]
+  },
+  {
+   "claim": "Substack hosts over 35,000 paid publications",
+   "quote": "",
+   "numbers": [
+    "35000 publications"
+   ]
+  },
+  {
+   "claim": "Substack newsletters average 40-50% open rates",
+   "quote": "",
+   "numbers": [
+    "40-50%"
+   ]
+  },
+  {
+   "claim": "Substack takes 10% of paid subscriptions",
+   "quote": "",
+   "numbers": [
+    "10%"
+   ]
+  },
+  {
+   "claim": "Beehiiv powers over 35,000 newsletters",
+   "quote": "",
+   "numbers": [
+    "35000 newsletters"
+   ]
+  },
+  {
+   "claim": "Beehiiv facilitates over 2 billion emails sent annually",
+   "quote": "",
+   "numbers": [
+    "2 billion emails"
+   ]
+  },
+  {
+   "claim": "Beehiiv maintains 4.8/5-star rating on G2 from over 200 reviews",
+   "quote": "",
+   "numbers": [
+    "4.8/5",
+    "200 reviews"
+   ]
+  },
+  {
+   "claim": "Beehiiv ad network paid out over $5 million to creators",
+   "quote": "",
+   "numbers": [
+    "$5 million"
+   ]
+  },
+  {
+   "claim": "Micro.blog hosts over 100,000 blogs",
+   "quote": "",
+   "numbers": [
+    "100000 blogs"
+   ]
+  },
+  {
+   "claim": "98% of Micro.blog users report satisfaction with content ownership",
+   "quote": "",
+   "numbers": [
+    "98%"
+   ]
+  },
+  {
+   "claim": "Micro.blog costs $5/month",
+   "quote": "",
+   "numbers": [
+    "$5/month"
+   ]
+  },
+  {
+   "claim": "Scribbles costs $6/month",
+   "quote": "",
+   "numbers": [
+    "$6/month"
+   ]
+  },
+  {
+   "claim": "Bear hosts over 20,000 blogs serving millions of page views monthly",
+   "quote": "",
+   "numbers": [
+    "20000 blogs"
+   ]
+  },
+  {
+   "claim": "Bear sites achieve perfect 100 scores on PageSpeed Insights",
+   "quote": "",
+   "numbers": [
+    "100 scores"
+   ]
+  },
+  {
+   "claim": "Bear sites load in under 1 second consistently",
+   "quote": "",
+   "numbers": [
+    "1 second"
+   ]
+  },
+  {
+   "claim": "Bear blogs use 90% less bandwidth than typical WordPress sites",
+   "quote": "",
+   "numbers": [
+    "90% less"
+   ]
+  },
+  {
+   "claim": "Bear premium is $5/month",
+   "quote": "",
+   "numbers": [
+    "$5/month"
+   ]
+  },
+  {
+   "claim": "Pika custom domain support costs $5/month",
+   "quote": "",
+   "numbers": [
+    "$5/month"
+   ]
+  },
+  {
+   "claim": "Mataroa costs $9/year",
+   "quote": "",
+   "numbers": [
+    "$9/year"
+   ]
+  },
+  {
+   "claim": "Webflow powers over 3.5 million websites",
+   "quote": "",
+   "numbers": [
+    "3.5 million websites"
+   ]
+  },
+  {
+   "claim": "Webflow has over 300,000 active designers",
+   "quote": "",
+   "numbers": [
+    "300000 designers"
+   ]
+  },
+  {
+   "claim": "Webflow rates 4.5/5 on G2 from over 500 reviews",
+   "quote": "",
+   "numbers": [
+    "4.5/5",
+    "500 reviews"
+   ]
+  },
+  {
+   "claim": "Webflow rates 4.6/5 on Capterra",
+   "quote": "",
+   "numbers": [
+    "4.6/5"
+   ]
+  },
+  {
+   "claim": "Webflow sites average 85+ on Google PageSpeed when optimized",
+   "quote": "",
+   "numbers": [
+    "85+"
+   ]
+  },
+  {
+   "claim": "Webflow costs $14-$39+/month",
+   "quote": "",
+   "numbers": [
+    "$14/mo",
+    "$39+/mo"
+   ]
+  },
+  {
+   "claim": "Hashnode hosts over 40,000 developer blogs",
+   "quote": "",
+   "numbers": [
+    "40000 blogs"
+   ]
+  },
+  {
+   "claim": "Hashnode has more than 1 million monthly active readers",
+   "quote": "",
+   "numbers": [
+    "1 million readers"
+   ]
+  },
+  {
+   "claim": "Dev.to has 1.3 million registered developers",
+   "quote": "",
+   "numbers": [
+    "1.3 million"
+   ]
+  },
+  {
+   "claim": "Dev.to attracts 20 million unique visitors monthly",
+   "quote": "",
+   "numbers": [
+    "20 million visitors"
+   ]
+  },
+  {
+   "claim": "Dev.to posts average 10-15x more engagement than standalone tech blogs",
+   "quote": "",
+   "numbers": [
+    "10-15x"
+   ]
+  },
+  {
+   "claim": "Two-thirds of full-time bloggers prefer WordPress",
+   "quote": "",
+   "numbers": [
+    "2/3"
+   ]
+  },
+  {
+   "claim": "WordPress self-hosted costs $50-$300 yearly",
+   "quote": "",
+   "numbers": [
+    "$50-$300/year"
+   ]
+  },
+  {
+   "claim": "Ghost hosted costs $9-$199/month",
+   "quote": "",
+   "numbers": [
+    "$9/mo",
+    "$199/mo"
+   ]
+  },
+  {
+   "claim": "Beehiiv costs Free-$99/month",
+   "quote": "",
+   "numbers": [
+    "Free",
+    "$99/month"
+   ]
+  }
+ ],
+ "analysis_rows": [
+  {
+   "type": "landscape",
+   "entity": "WordPress (self-hosted)",
+   "category": "CMS/Blogging Platform",
+   "segment": "Professional bloggers, online businesses, serious content creators",
+   "positioning": "Industry-leading flexibility, unmatched customization, enterprise-scale",
+   "key_facts": "Powers 43% of websites; 810 million websites; 4.4/5 G2 rating from 9000 users; 60000+ plugins; 11000+ themes; trusted by TechCrunch, The New Yorker, Sony Music"
+  },
+  {
+   "type": "landscape",
+   "entity": "Ghost",
+   "category": "Modern Publishing Platform",
+   "segment": "Professional writers, newsletter entrepreneurs, paid communities",
+   "positioning": "Modern alternative to WordPress, 19x faster, newsletter-native, distraction-free writing",
+   "key_facts": "Powers 10 million posts; 4.6/5 Capterra from 100+ reviews; 0.8s load times vs 2.6s WordPress; trusted by Mozilla, Cloudflare, DuckDuckGo"
+  },
+  {
+   "type": "landscape",
+   "entity": "Wix",
+   "category": "Drag-and-drop Website Builder",
+   "segment": "Beginners, small businesses, non-technical users",
+   "positioning": "Easiest setup, visual editing, AI-powered design assistance",
+   "key_facts": "250 million users; 9 million live sites; 4.2/5 G2 from 1600 users; 4.2/5 Trustpilot from 37000 reviews; 30-60 min setup; 800+ templates; starts $17/month"
+  },
+  {
+   "type": "landscape",
+   "entity": "Squarespace",
+   "category": "Design-Focused Website Builder",
+   "segment": "Creatives, photographers, designers, visual brands",
+   "positioning": "Award-winning templates, beautiful responsive design, integrated features",
+   "key_facts": "4.2 million websites; 50 million monthly visits; 4.4/5 G2 from 5800 reviews; 4.0/5 Trustpilot from 8000 reviews; all templates 90+ PageSpeed; $16-$49/month"
+  },
+  {
+   "type": "landscape",
+   "entity": "Hostinger Website Builder",
+   "category": "AI-Powered Website Builder",
+   "segment": "Budget-conscious beginners, AI assistance seekers",
+   "positioning": "Affordable, AI-generated content, fastest setup, budget-first",
+   "key_facts": "2 million customers; 4.6/5 Trustpilot from 14000 reviews; 500000 sites created since 2022; 3-5 min build time; starts $2.99/month"
+  },
+  {
+   "type": "landscape",
+   "entity": "Blogger",
+   "category": "Free Blogging Platform",
+   "segment": "Beginners, hobby writers, personal diaries",
+   "positioning": "Completely free, Google-backed, no-frills, reliable",
+   "key_facts": "Since 1999; 99.9% uptime; 3.8/5 G2 rating; millions of active blogs; free subdomain or custom domain"
+  },
+  {
+   "type": "landscape",
+   "entity": "Medium",
+   "category": "Audience-First Publishing Platform",
+   "segment": "Writers, thought leaders, authority builders",
+   "positioning": "Built-in audience reach, algorithm-driven discovery, partner monetization",
+   "key_facts": "100 million monthly readers; 170000+ writers; 4.0/5 Trustpilot from 2000+ reviews; top writers earn $5000-$25000+ monthly; Partner Program earnings inconsistent"
+  },
+  {
+   "type": "landscape",
+   "entity": "LinkedIn Articles",
+   "category": "Professional Publishing Platform",
+   "segment": "B2B professionals, thought leaders, executives",
+   "positioning": "Professional network integration, B2B reach, credibility boost",
+   "key_facts": "1 billion members; 9 billion content impressions weekly; articles get 9x more impressions than external links; 30-50% engagement for influencers; free"
+  },
+  {
+   "type": "landscape",
+   "entity": "Substack",
+   "category": "Newsletter Publishing Platform",
+   "segment": "Newsletter entrepreneurs, journalists, direct-to-reader creators",
+   "positioning": "Simplicity-first newsletter platform, payment processing, writer-friendly",
+   "key_facts": "2 million paid subscriptions; $300 million earned by writers; 35000 paid publications; top 10 earn $25 million annually; 40-50% open rates; takes 10% of revenue"
+  },
+  {
+   "type": "landscape",
+   "entity": "Beehiiv",
+   "category": "Advanced Newsletter Platform",
+   "segment": "Newsletter businesses, media creators, advanced marketers",
+   "positioning": "Substack alternative, advanced features, monetization network",
+   "key_facts": "35000 newsletters; 2 billion emails annually; 4.8/5 G2 from 200 reviews; ad network paid $5 million; free plan up to 2500 subscribers; $0-$99/month"
+  },
+  {
+   "type": "landscape",
+   "entity": "Micro.blog",
+   "category": "IndieWeb Blogging Platform",
+   "segment": "IndieWeb enthusiasts, privacy-focused writers, indie communities",
+   "positioning": "Content ownership, IndieWeb principles, social discovery without toxicity",
+   "key_facts": "100000 blogs; 4.7/5 AlternativeTo; 98% satisfaction with content ownership; $5/month hosted or own domain; no algorithms or ads"
+  },
+  {
+   "type": "landscape",
+   "entity": "Scribbles",
+   "category": "Minimalist Blogging Platform",
+   "segment": "Minimalist writers, simplicity seekers",
+   "positioning": "Minimal design, distraction-free, clean interface",
+   "key_facts": "$6/month; custom domain support; Markdown writing; no ads or tracking; minimal feature set"
+  },
+  {
+   "type": "landscape",
+   "entity": "Bear",
+   "category": "Privacy-First Blogging Platform",
+   "segment": "Privacy-conscious writers, minimalists, text-focused content",
+   "positioning": "Lightning-fast, no JavaScript, privacy-focused, minimal",
+   "key_facts": "20000+ blogs; perfect 100 PageSpeed scores; <1 second load; 90% less bandwidth than WordPress; free or $5/month; no tracking"
+  },
+  {
+   "type": "landscape",
+   "entity": "Pika",
+   "category": "Minimal Blogging Platform",
+   "segment": "Beginners, personal bloggers, simplicity-seekers",
+   "positioning": "Minimal with personality, approachable, easy setup",
+   "key_facts": "Free or $5/month; minutes to setup; simple design; custom domain support; growing community"
+  },
+  {
+   "type": "landscape",
+   "entity": "Mataroa",
+   "category": "Distraction-Free Writing Platform",
+   "segment": "Journalers, documentation writers, simplicity-obsessed",
+   "positioning": "No analytics, no distractions, pure writing focus",
+   "key_facts": "$9/year; no analytics; custom domain; newsletter functionality; no SEO tools; minimal community"
+  },
+  {
+   "type": "landscape",
+   "entity": "Webflow",
+   "category": "Web Design Tool with CMS",
+   "segment": "Designers, developers, agencies, custom-design focused",
+   "positioning": "Designer-level control, visual interface with code output, production-ready",
+   "key_facts": "3.5 million websites; 300000 active designers; 4.5/5 G2 from 500 reviews; 4.6/5 Capterra; 85+ PageSpeed; $14-$39+/month"
+  },
+  {
+   "type": "landscape",
+   "entity": "Hashnode",
+   "category": "Developer Blogging Platform",
+   "segment": "Technical writers, developers, DevOps engineers",
+   "positioning": "Developer-focused, code syntax highlighting, technical community",
+   "key_facts": "40000 developer blogs; 1 million monthly active readers; 4.5+/5 Product Hunt; free with custom domain support; 10-15x engagement vs standalone"
+  },
+  {
+   "type": "landscape",
+   "entity": "Dev.to",
+   "category": "Developer Community Platform",
+   "segment": "Software developers, technical writers, programming educators",
+   "positioning": "Developer community, code formatting, discovery algorithm",
+   "key_facts": "1.3 million registered developers; 20 million unique visitors monthly; 4.5+/5 Product Hunt; free; 10-15x engagement"
+  }
+ ],
+ "comparison_rows": [
+  {
+   "type": "comparison",
+   "option": "WordPress (self-hosted)",
+   "criterion": "Ease of Use",
+   "value": "Medium"
+  },
+  {
+   "type": "comparison",
+   "option": "WordPress (self-hosted)",
+   "criterion": "Customization",
+   "value": "Excellent"
+  },
+  {
+   "type": "comparison",
+   "option": "WordPress (self-hosted)",
+   "criterion": "SEO",
+   "value": "Excellent"
+  },
+  {
+   "type": "comparison",
+   "option": "WordPress (self-hosted)",
+   "criterion": "Ownership",
+   "value": "Full"
+  },
+  {
+   "type": "comparison",
+   "option": "WordPress (self-hosted)",
+   "criterion": "Monetization",
+   "value": "Excellent"
+  },
+  {
+   "type": "comparison",
+   "option": "WordPress (self-hosted)",
+   "criterion": "Starting Cost",
+   "value": "$3–10/mo + hosting"
+  },
+  {
+   "type": "comparison",
+   "option": "Ghost (hosted)",
+   "criterion": "Ease of Use",
+   "value": "Medium"
+  },
+  {
+   "type": "comparison",
+   "option": "Ghost (hosted)",
+   "criterion": "Customization",
+   "value": "Good"
+  },
+  {
+   "type": "comparison",
+   "option": "Ghost (hosted)",
+   "criterion": "SEO",
+   "value": "Excellent"
+  },
+  {
+   "type": "comparison",
+   "option": "Ghost (hosted)",
+   "criterion": "Starting Cost",
+   "value": "$9/mo"
+  },
+  {
+   "type": "comparison",
+   "option": "Wix",
+   "criterion": "Ease of Use",
+   "value": "Excellent"
+  },
+  {
+   "type": "comparison",
+   "option": "Wix",
+   "criterion": "Customization",
+   "value": "Good"
+  },
+  {
+   "type": "comparison",
+   "option": "Wix",
+   "criterion": "SEO",
+   "value": "Good"
+  },
+  {
+   "type": "comparison",
+   "option": "Wix",
+   "criterion": "Starting Cost",
+   "value": "$17/mo"
+  },
+  {
+   "type": "comparison",
+   "option": "Squarespace",
+   "criterion": "Ease of Use",
+   "value": "Good"
+  },
+  {
+   "type": "comparison",
+   "option": "Squarespace",
+   "criterion": "Customization",
+   "value": "Good"
+  },
+  {
+   "type": "comparison",
+   "option": "Squarespace",
+   "criterion": "Starting Cost",
+   "value": "$16–$49/mo"
+  },
+  {
+   "type": "comparison",
+   "option": "Hostinger Builder",
+   "criterion": "Ease of Use",
+   "value": "Excellent"
+  },
+  {
+   "type": "comparison",
+   "option": "Hostinger Builder",
+   "criterion": "Starting Cost",
+   "value": "$2.99/mo"
+  },
+  {
+   "type": "comparison",
+   "option": "Blogger",
+   "criterion": "Starting Cost",
+   "value": "Free"
+  },
+  {
+   "type": "comparison",
+   "option": "Medium",
+   "criterion": "Starting Cost",
+   "value": "Free"
+  },
+  {
+   "type": "comparison",
+   "option": "LinkedIn",
+   "criterion": "Starting Cost",
+   "value": "Free"
+  },
+  {
+   "type": "comparison",
+   "option": "Substack",
+   "criterion": "Ease of Use",
+   "value": "Excellent"
+  },
+  {
+   "type": "comparison",
+   "option": "Substack",
+   "criterion": "Starting Cost",
+   "value": "Free (10% fee)"
+  },
+  {
+   "type": "comparison",
+   "option": "Beehiiv",
+   "criterion": "Starting Cost",
+   "value": "Free–$49/mo"
+  },
+  {
+   "type": "comparison",
+   "option": "Bear",
+   "criterion": "Starting Cost",
+   "value": "Free–$5/mo"
+  },
+  {
+   "type": "comparison",
+   "option": "Mataroa",
+   "criterion": "Starting Cost",
+   "value": "$9/year"
+  },
+  {
+   "type": "comparison",
+   "option": "Webflow",
+   "criterion": "Ease of Use",
+   "value": "Poor"
+  },
+  {
+   "type": "comparison",
+   "option": "Webflow",
+   "criterion": "Customization",
+   "value": "Excellent"
+  },
+  {
+   "type": "comparison",
+   "option": "Webflow",
+   "criterion": "Starting Cost",
+   "value": "$14/mo"
+  }
+ ],
+ "key_themes": [
+  "newsletter-first publishing trend",
+  "minimalist platform growth",
+  "self-hosted vs SaaS tradeoff",
+  "WordPress dominance in serious blogging",
+  "content ownership concerns",
+  "SEO capabilities importance",
+  "monetization strategies vary by platform",
+  "migration complexity and platform lock-in",
+  "built-in audience discovery mechanism",
+  "pricing opacity in long-term costs"
+ ],
+ "notable_quotes": [
+  "This 2026, blogging is not just about having a website; it's about newsletter-first publishing, minimalist writing spaces, and all-in-one online business platforms",
+  "There is, therefore, no single 'best blogging platform' that fits all; however, there is definitely one that perfectly suits your needs",
+  "Ghost is 19x faster than WordPress for content delivery",
+  "Substack newsletters average open rates of 40-50%, far above the industry standard",
+  "Over two-thirds of full-time bloggers say they prefer WordPress when building a long-term content asset",
+  "Bear sites load in milliseconds because there's no JavaScript, no tracking, no unnecessary code—just pure HTML and CSS",
+  "You publish, and Medium's algorithm shows your work to interested readers. No SEO grinding, no social media promotion needed—just good writing"
+ ],
+ "red_flags_mentioned": [
+  "No export option - content not portable",
+  "Overly limited customization - restrictive templates",
+  "Ads placed on content - unprofessional appearance",
+  "Weak SEO tools - no custom URLs, metadata, schema markup",
+  "Unclear financial stability - risk of platform shutdown",
+  "Closed ecosystems - vendor lock-in risks"
+ ],
+ "migration_guidance": {
+  "blog_to_newsletter": "Platforms like Ghost and Beehiiv support web-to-email publishing, keeping archive while shifting email-first",
+  "newsletter_to_blog": "Export from Substack/Beehiiv, import to WordPress, Ghost, or Webflow for better SEO",
+  "saas_to_self_hosted": "Export content, map URLs, setup 301 redirects to avoid SEO losses",
+  "minimalist_to_scalable": "Export Markdown from Bear/Pika/Mataroa, import to complete CMS"
+ },
+ "model": "haiku",
+ "_recall": 1.0
+}

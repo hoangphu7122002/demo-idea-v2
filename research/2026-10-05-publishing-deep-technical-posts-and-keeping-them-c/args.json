@@ -1,0 +1,36 @@
+{
+ "run_dir": "/Users/hoangphu/demo-idea-v2/research/2026-10-05-publishing-deep-technical-posts-and-keeping-them-c",
+ "skill_dir": "/Users/hoangphu/demo-idea/archive/bach-workflow/plugins/bach/skills/web-research",
+ "today": "2026-10-05",
+ "topic": "Publishing deep technical posts and keeping them correct over time (reader suggestions, staleness signals) for solo technical authors: existing tools, complaints, workarounds, standout UX",
+ "purpose": "2-day demo scoping; competitor landscape + why existing tools fail",
+ "recency": "last 24 months",
+ "types": [
+  "landscape",
+  "comparison",
+  "root_cause"
+ ],
+ "types_spec": "- type \"landscape\" (Who and what is in space X?): One row per named entity that plays a role in the space. Columns: \"entity\" (company, product, project, standard, or org), \"category\" (what kind of thing it is), \"segment\" (market/user segment it targets), \"positioning\" (how it is positioned or differentiated), \"key_facts\" (funding, size, launch date, adoption, as stated).\n- type \"comparison\" (A vs B vs C?): One row per option x criterion cell the page actually states. Never infer missing cells. Columns: \"option\" (the thing being compared), \"criterion\" (the dimension compared on), \"value\" (the stated value/judgement for this option on this criterion).\n- type \"root_cause\" (Why does X fail?): One row per symptom-cause pair. Columns: \"symptom\" (observable problem), \"cause\" (stated root cause), \"evidence\" (how the page shows it (log, repro, benchmark)), \"fix\" (stated fix or workaround).",
+ "budget": {
+  "cap": 30,
+  "per_query": 3,
+  "terms_per_round": 3,
+  "max_queries": 5,
+  "max_rounds": 3,
+  "max_results": 8
+ },
+ "queue": [
+  {
+   "query": "best blogging platform with inline reader suggestions for technical authors 2026",
+   "origin": "paraphrase"
+  },
+  {
+   "query": "Giscus Hypothesis alternatives complaints inline annotation blog",
+   "origin": "paraphrase"
+  },
+  {
+   "query": "why technical bloggers struggle to keep posts up to date and accurate",
+   "origin": "paraphrase"
+  }
+ ]
+}

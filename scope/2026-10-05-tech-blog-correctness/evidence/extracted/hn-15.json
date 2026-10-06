@@ -1,0 +1,14 @@
+{
+  "rows": [
+    {
+      "type": "competitor",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=20224737",
+      "date": "2019-06-19",
+      "quote_or_number": "I didn't love any of the others (and wanted greater configurability), so I made my own",
+      "persona_match": "y",
+      "theme": "static site blogging",
+      "note": "Solo engineer building custom static site generator for personal blog; shows dissatisfaction with existing blogging platforms"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+ "sid": "r3q03-06",
+ "terms": [
+  {
+   "term": "Suggest Changes Action",
+   "count": 8,
+   "kind": "heading"
+  },
+  {
+   "term": "pull_request_target",
+   "count": 6,
+   "kind": "code"
+  },
+  {
+   "term": "Default",
+   "count": 3,
+   "kind": "bold"
+  },
+  {
+   "term": "COMMENT",
+   "count": 4,
+   "kind": "code"
+  },
+  {
+   "term": "API",
+   "count": 3,
+   "kind": "acronym"
+  },
+  {
+   "term": "About",
+   "count": 2,
+   "kind": "heading"
+  },
+  {
+   "term": "Contributors12 (12",
+   "count": 2,
+   "kind": "heading"
+  },
+  {
+   "term": "GITHUB_TOKEN",
+   "count": 3,
+   "kind": "code"
+  },
+  {
+   "term": "Resources",
+   "count": 2,
+   "kind": "heading"
+  },
+  {
+   "term": "Tags",
+   "count": 2,
+   "kind": "heading"
+  },
+  {
+   "term": "comment",
+   "count": 2,
+   "kind": "heading"
+  },
+  {
+   "term": "event",
+   "count": 2,
+   "kind": "heading"
+  },
+  {
+   "term": "token",
+   "count": 2,
+   "kind": "heading"
+  },
+  {
+   "term": "APPROVE",
+   "count": 2,
+   "kind": "code"
+  },
+  {
+   "term": "REQUEST_CHANGES",
+   "count": 2,
+   "kind": "code"
+  },
+  {
+   "term": "pull_request",
+   "count": 2,
+   "kind": "code"
+  },
+  {
+   "term": "Basic example",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Complete example",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Inputs",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Limitations",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Option 1: Use a GitHub App token (recommended",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Option 2: Use `pull_request_target` event",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Pull requests from forks",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Quickstart",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Suggest changes",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Usage",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "${{ github.token }}",
+   "count": 1,
+   "kind": "code"
+  },
+  {
+   "term": "PAT",
+   "count": 1,
+   "kind": "acronym"
+  },
+  {
+   "term": "git diff",
+   "count": 1,
+   "kind": "code"
+  },
+  {
+   "term": "pull-requests: write",
+   "count": 1,
+   "kind": "code"
+  }
+ ]
+}

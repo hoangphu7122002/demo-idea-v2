@@ -1,0 +1,37 @@
+{
+ "files": [
+  "/Users/hoangphu/demo-idea-v2/scope/2026-10-05-tech-blog-correctness/evidence/raw/reddit-00.json",
+  "/Users/hoangphu/demo-idea-v2/scope/2026-10-05-tech-blog-correctness/evidence/raw/reddit-02.json",
+  "/Users/hoangphu/demo-idea-v2/scope/2026-10-05-tech-blog-correctness/evidence/raw/reddit-03.json",
+  "/Users/hoangphu/demo-idea-v2/scope/2026-10-05-tech-blog-correctness/evidence/raw/reddit-04.json",
+  "/Users/hoangphu/demo-idea-v2/scope/2026-10-05-tech-blog-correctness/evidence/raw/reddit-05.json",
+  "/Users/hoangphu/demo-idea-v2/scope/2026-10-05-tech-blog-correctness/evidence/raw/reddit-06.json",
+  "/Users/hoangphu/demo-idea-v2/scope/2026-10-05-tech-blog-correctness/evidence/raw/reddit-08.json",
+  "/Users/hoangphu/demo-idea-v2/scope/2026-10-05-tech-blog-correctness/evidence/raw/hn-10.json",
+  "/Users/hoangphu/demo-idea-v2/scope/2026-10-05-tech-blog-correctness/evidence/raw/hn-11.json",
+  "/Users/hoangphu/demo-idea-v2/scope/2026-10-05-tech-blog-correctness/evidence/raw/hn-12.json",
+  "/Users/hoangphu/demo-idea-v2/scope/2026-10-05-tech-blog-correctness/evidence/raw/hn-13.json",
+  "/Users/hoangphu/demo-idea-v2/scope/2026-10-05-tech-blog-correctness/evidence/raw/hn-14.json",
+  "/Users/hoangphu/demo-idea-v2/scope/2026-10-05-tech-blog-correctness/evidence/raw/hn-15.json",
+  "/Users/hoangphu/demo-idea-v2/scope/2026-10-05-tech-blog-correctness/evidence/raw/hn-16.json",
+  "/Users/hoangphu/demo-idea-v2/scope/2026-10-05-tech-blog-correctness/evidence/raw/hn-17.json"
+ ],
+ "items": 384,
+ "failures": [
+  {
+   "kind": "reddit",
+   "args": [
+    "inline comments technical blog"
+   ],
+   "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "kind": "reddit",
+   "args": [
+    "MachineLearning",
+    "inline comments technical blog"
+   ],
+   "error": "HTTP Error 429: Too Many Requests"
+  }
+ ]
+}

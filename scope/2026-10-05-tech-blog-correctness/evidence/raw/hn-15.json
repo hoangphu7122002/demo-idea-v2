@@ -1,0 +1,33 @@
+{
+ "query_url": "https://hn.algolia.com/api/v1/search?query=suggest+edit+blog+post&tags=story&hitsPerPage=40",
+ "args": [
+  "suggest edit blog post",
+  "story"
+ ],
+ "items": [
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=20224737",
+   "date": "2019-06-19",
+   "title": "Show HN: Personal Site, and the Static Site Generator I Wrote to Build It",
+   "text": "Hi HN, This one's a twofer. First, I'm showing off my personal site and blog, garrettgoss.com [1]. I'm looking to make a career change \u2014 from biomedical engineering/biomedical research, to research and development engineering in the consumer product development/additive manufacturing space \u2014 and felt that my prior work experience inadequately reflected my true interests and skills, which are better exemplified by my side projects. I put this together for myself, to better document my own work, for the broader internet, to share some of the projects I've developed to those who might be interested, and for potential employers, to help demonstrate that I am more than what my resume might suggest. I'm interested to hear your thoughts on how I did with the latter two goals, as well as any suggestions you might have for doing better. Second, I'm showing off the static site generator I made to build it, which I wrote about in a blog post here [2], and is available on GitHub here [3]. I know that these are a dime-a-dozen around here, but I didn't love any of the others (and wanted greater configurability), so I made my own. After writing a new post (or making edits to an existing one, or making changes to any of the templates), I regenerate the above site with a single line `python3 sitegen.py`, preview it locally (handled automatically), and sync the changes to Amazon S3 (again with a single line) via their command line interface. I still aim to move some things around a little bit in the code (which is why I bulk import everything in `__init__.py`), but it's functional and (IMO) reasonably well documented. If you happen to take a look, I'd love to hear your comments about it as well. Thanks! [1] https://garrettgoss.com [2] https://garrettgoss.com/blog/2019/05/sitegen.html [3] https://github.com/ggoss/sitegen",
+   "points": 13
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=34796165",
+   "date": "2023-02-14",
+   "title": "Show HN: Next-gen spreadsheet GRID launches GPT-3 powered formula copilot",
+   "text": "Hi Hacker News, we are submitting again after getting some great feedback on our first post about GRID. We at GRID (a spreadsheet SaaS based in Reykjavik, Iceland) just launched the 2.0 version of our product today. GRID combines the power of spreadsheets and presentation/text editing software into one product. You can edit your spreadsheet, and create an interactive doc on top of it which is connected to the underlying spreadsheet data. In today's launch, we introduced our GPT-3 powered formula assistant that allows you to write out queries in natural language, and the assistant will suggest formulas, right there in the cell. We would love to hear your thoughts and feedback. Here's a video that shows what the formula assistant can do: https://www.youtube.com/watch?v=UIfAnEvDCdo&t=15s Check out this blog our founder wrote about the various ways GPT could be leveraged for spreadsheets: https://medium.grid.is/gpt-3-and-spreadsheets-4808acfda30d",
+   "points": 16
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=34794922",
+   "date": "2023-02-14",
+   "title": "Show HN: Next-gen spreadsheet GRID launches GPT-3 powered formula copilot",
+   "text": "Hi Hacker News, We at GRID (a spreadsheet SaaS based in Reykjavik, Iceland) just launched GRID 2.0 today. GRID combines the power of spreadsheets and presentation/text editing software into one product. You can edit your spreadsheet, and create an interactive doc on top of it which is connected to the underlying spreadsheet data. In today's launch, we introduced our GPT-3 powered formula assistant that allows you to write out queries in natural language, and the assistant will suggest formulas, right there in the cell. We would love to hear your thoughts and feedback. We are live on Product Hunt: https://www.producthunt.com/posts/grid-2-0 Read more about the launch: https://grid.is/blog/launching-grid-2-0-the-magical-surface-... Check out this blog our founder wrote about the various ways GPT could be leveraged for spreadsheets: https://medium.grid.is/gpt-3-and-spreadsheets-4808acfda30d",
+   "points": 5
+  }
+ ]
+}

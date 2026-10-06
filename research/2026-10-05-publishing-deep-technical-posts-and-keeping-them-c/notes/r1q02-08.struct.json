@@ -1,0 +1,180 @@
+{
+ "sid": "r1q02-08",
+ "terms": [
+  {
+   "term": "Additional Configurations",
+   "count": 2,
+   "kind": "heading"
+  },
+  {
+   "term": "Clean Commit Messages",
+   "count": 2,
+   "kind": "heading"
+  },
+  {
+   "term": "Related Posts",
+   "count": 2,
+   "kind": "heading"
+  },
+  {
+   "term": "Setting Up Giscus",
+   "count": 2,
+   "kind": "heading"
+  },
+  {
+   "term": "API",
+   "count": 2,
+   "kind": "acronym"
+  },
+  {
+   "term": "Alternatives",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Conclusion",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Enhance Your Readme With Asciinema",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Giscus",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "Gitalk",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "How it works?",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "Note",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "Performance issues",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "Privacy concerns",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "Replace the Disqus Commenting System on Your Blog",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "SDD and the Future of Software Development",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Spammy ads",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "Utterances",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "What Happened with Disqus?",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Why Replacing Disqus?",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "CATEGORY_ID",
+   "count": 1,
+   "kind": "code"
+  },
+  {
+   "term": "CSS",
+   "count": 1,
+   "kind": "acronym"
+  },
+  {
+   "term": "CUSTOM_CSS",
+   "count": 1,
+   "kind": "code"
+  },
+  {
+   "term": "Disqus Commenting System",
+   "count": 2,
+   "kind": "ngram"
+  },
+  {
+   "term": "REPO_ID",
+   "count": 1,
+   "kind": "code"
+  },
+  {
+   "term": "SDD",
+   "count": 1,
+   "kind": "acronym"
+  },
+  {
+   "term": "giscus.json",
+   "count": 1,
+   "kind": "code"
+  },
+  {
+   "term": "origins",
+   "count": 1,
+   "kind": "code"
+  },
+  {
+   "term": "originsRegex",
+   "count": 1,
+   "kind": "code"
+  },
+  {
+   "term": "Amit Bhawani",
+   "count": 1,
+   "kind": "ngram"
+  },
+  {
+   "term": "Commenting System",
+   "count": 1,
+   "kind": "ngram"
+  },
+  {
+   "term": "Enhance Your Readme With",
+   "count": 1,
+   "kind": "ngram"
+  },
+  {
+   "term": "Future of Software Development",
+   "count": 1,
+   "kind": "ngram"
+  },
+  {
+   "term": "Hacker News",
+   "count": 1,
+   "kind": "ngram"
+  },
+  {
+   "term": "Issues and Preact",
+   "count": 1,
+   "kind": "ngram"
+  }
+ ]
+}

@@ -1,0 +1,436 @@
+{
+ "sid": "r3q04-01",
+ "url": "https://www.eliostruyf.com/migration-story-hugo-astro/",
+ "title": "My migration story from Hugo to Astro",
+ "published": "2025-03-17",
+ "source_type": "blog",
+ "quality_flags": [
+  "outdated"
+ ],
+ "terms": [
+  {
+   "term": "Hugo",
+   "context": "static site generator, migrated from to Astro"
+  },
+  {
+   "term": "Astro",
+   "context": "static site generator framework, migrated to"
+  },
+  {
+   "term": "JavaScript",
+   "context": "familiar syntax and programming language for migration"
+  },
+  {
+   "term": "TypeScript",
+   "context": "familiar syntax and programming language for migration"
+  },
+  {
+   "term": "React",
+   "context": "component library, easy integration in Astro"
+  },
+  {
+   "term": "Markdown",
+   "context": "content format, preferred over Hugo shortcodes"
+  },
+  {
+   "term": "MDX",
+   "context": "Markdown with JSX, Astro format"
+  },
+  {
+   "term": "Git submodules",
+   "context": "content management strategy, separate repo for blog"
+  },
+  {
+   "term": "Remark plugins",
+   "context": "plugins created to convert shortcodes to components"
+  },
+  {
+   "term": "shortcodes",
+   "context": "Hugo feature like {{< highlight >}}, {{< caption-new >}}"
+  },
+  {
+   "term": "partials",
+   "context": "Hugo feature, converted to Astro components"
+  },
+  {
+   "term": "components",
+   "context": "Astro feature, replaced Hugo partials"
+  },
+  {
+   "term": "static site",
+   "context": "type of website architecture"
+  },
+  {
+   "term": "Tailwind",
+   "context": "CSS framework with breaking changes"
+  },
+  {
+   "term": "JSON",
+   "context": "data file format for speaking sessions"
+  },
+  {
+   "term": "WordPress",
+   "context": "previous platform before Hugo migration in 2019"
+  },
+  {
+   "term": "astro-expressive-code",
+   "context": "library for styled code blocks"
+  },
+  {
+   "term": "Front Matter CMS",
+   "context": "custom tooling, VS Code extension"
+  },
+  {
+   "term": "VS Code",
+   "context": "editor for development and content management"
+  },
+  {
+   "term": "webpack",
+   "context": "bundler used in Hugo theme with React search"
+  },
+  {
+   "term": "Node.js",
+   "context": "runtime, version 16 dependency issue"
+  },
+  {
+   "term": "ChatGPT",
+   "context": "used to help convert HTML/Markdown to JSON"
+  },
+  {
+   "term": "GitHub Copilot",
+   "context": "AI tool used for session data conversion"
+  },
+  {
+   "term": "Azure Static Web Apps",
+   "context": "referenced in image captions and related articles"
+  },
+  {
+   "term": "Demo Time",
+   "context": "Astro project by Elio Struyf"
+  },
+  {
+   "term": "Elio Struyf",
+   "context": "author, Solutions Architect & Developer Expert"
+  },
+  {
+   "term": "CSS",
+   "context": "styling language, Tailwind config refactor"
+  },
+  {
+   "term": "symlinks",
+   "context": "symbolic links to content directories"
+  },
+  {
+   "term": "HTML blockquotes",
+   "context": "conversion target for callout shortcodes"
+  },
+  {
+   "term": "figure elements",
+   "context": "HTML structure for image captions"
+  },
+  {
+   "term": "Gist embeds",
+   "context": "GitHub Gist embedding, converted to HTML"
+  },
+  {
+   "term": "video embeds",
+   "context": "video partials conversion to HTML"
+  },
+  {
+   "term": "breakingChanges",
+   "context": "version updates in Astro and Tailwind"
+  },
+  {
+   "term": "page.rendered.html",
+   "context": "new API in Astro, replaced page.body"
+  },
+  {
+   "term": "utility-first",
+   "context": "Tailwind CSS approach"
+  },
+  {
+   "term": ".mjs",
+   "context": "module configuration format"
+  },
+  {
+   "term": "reading time",
+   "context": "example Remark plugin mentioned"
+  },
+  {
+   "term": "Before and After",
+   "context": "section heading showing website transformation screenshots"
+  },
+  {
+   "term": "Background",
+   "context": "section heading discussing migration history from WordPress to Hugo"
+  },
+  {
+   "term": "Content Conversion",
+   "context": "section heading covering Hugo to Astro content format conversion"
+  },
+  {
+   "term": "Code Highlighting",
+   "context": "section covering conversion of {{< highlight >}} shortcodes to markdown"
+  },
+  {
+   "term": "Use Data Files",
+   "context": "section heading on best practice of using JSON files for data"
+  },
+  {
+   "term": "Watch for Breaking Changes",
+   "context": "section heading warning about Astro and Tailwind version breaking changes"
+  },
+  {
+   "term": "Final Thoughts",
+   "context": "section heading with author conclusions about Astro migration"
+  },
+  {
+   "term": "Best Practices from the migration",
+   "context": "section heading introducing migration lessons learned"
+  },
+  {
+   "term": "Clone the repository",
+   "context": "git command heading for setting up submodule"
+  },
+  {
+   "term": "Create symbolic links to the content",
+   "context": "heading for symlinking content directories in Astro"
+  },
+  {
+   "term": "Comments",
+   "context": "section heading for page comments and feedback"
+  }
+ ],
+ "claims": [
+  {
+   "claim": "Author migrated blog from Hugo to Astro after years of good performance with Hugo",
+   "quote": "After years of good performance with Hugo, I decided to migrate my blog to Astro",
+   "numbers": []
+  },
+  {
+   "claim": "Three key reasons for migration: flexibility, familiar syntax (JavaScript/TypeScript), and ease of getting started",
+   "quote": "flexibility, the familiar syntax and programming language (JavaScript/TypeScript), and how easy it is to get started",
+   "numbers": []
+  },
+  {
+   "claim": "Author used Astro for small projects like Demo Time before the main migration",
+   "quote": "already used Astro a couple of times for some small projects (like Demo Time)",
+   "numbers": []
+  },
+  {
+   "claim": "Astro developer experience is incredibly smooth",
+   "quote": "The developer experience with Astro is incredibly smooth",
+   "numbers": []
+  },
+  {
+   "claim": "Astro enables easy React integration with components",
+   "quote": "I can make use of React in a relatively easy way",
+   "numbers": []
+  },
+  {
+   "claim": "In Hugo, author used webpack for React search functionality",
+   "quote": "hooked everything up with webpack, but it still used a version that depended on Node.js 16",
+   "numbers": [
+    "16"
+   ]
+  },
+  {
+   "claim": "Previous migration from WordPress to Hugo occurred in 2019",
+   "quote": "In 2019, I migrated my blog from WordPress to Hugo to go fully static",
+   "numbers": [
+    "2019"
+   ]
+  },
+  {
+   "claim": "Hugo worked flawlessly since 2019",
+   "quote": "Since 2019, it worked flawlessly",
+   "numbers": [
+    "2019"
+   ]
+  },
+  {
+   "claim": "Blog content is stored in separate repository with Git submodules",
+   "quote": "my blog content lives in a separate repository that I include in my website via a Git submodule",
+   "numbers": []
+  },
+  {
+   "claim": "Author has over 500 blog posts requiring conversion",
+   "quote": "As I have over 500 blog posts",
+   "numbers": [
+    "500"
+   ]
+  },
+  {
+   "claim": "Created Remark plugins to convert shortcodes and partials to components",
+   "quote": "created a couple of Remark plugins to convert the shortcodes/partials to Astro components",
+   "numbers": []
+  },
+  {
+   "claim": "Four main Remark plugins created: Callouts/Blockquotes, Image Captions, Gist Partials, Video Partials",
+   "quote": "wrote a couple of these plugins to handle the following partials: Callouts / Blockquotes, Image Captions, Gist Partials, Video Partials",
+   "numbers": [
+    "4"
+   ]
+  },
+  {
+   "claim": "Old code highlighting shortcode ({{< highlight >}}) was converted to triple backticks",
+   "quote": "I created a script to convert the old shortcode to the new syntax",
+   "numbers": []
+  },
+  {
+   "claim": "Author began using JSON data files for speaking sessions at beginning of 2024",
+   "quote": "At the beginning of 2024, I started using a JSON file to store this data",
+   "numbers": [
+    "2024"
+   ]
+  },
+  {
+   "claim": "ChatGPT and GitHub Copilot used for data conversion, with inconsistencies requiring manual work",
+   "quote": "used ChatGPT and GitHub Copilot to convert the complete HTML or Markdown to a JSON list. Unfortunately, this did not work as expected. There were too many inconsistencies",
+   "numbers": []
+  },
+  {
+   "claim": "Astro and Tailwind had breaking changes just before website launch",
+   "quote": "Just before putting my website live, I discovered that Astro and Tailwind had new major versions that introduced some breaking changes",
+   "numbers": []
+  },
+  {
+   "claim": "page.body API changed to page.rendered.html in new Astro version",
+   "quote": "page.body → page.rendered.html in Astro",
+   "numbers": []
+  },
+  {
+   "claim": "Tailwind config refactored from .mjs to utility-first class definitions in CSS",
+   "quote": "Tailwind config refactor from .mjs to utility-first class definitions in CSS",
+   "numbers": []
+  },
+  {
+   "claim": "Author uses astro-expressive-code for styled code blocks",
+   "quote": "I use astro-expressive-code, which renders beautifully styled and readable code blocks",
+   "numbers": []
+  },
+  {
+   "claim": "Post is marked as over a year old with potentially outdated information",
+   "quote": "This post is over a year old, some of this information may be out of date",
+   "numbers": [
+    "1"
+   ]
+  }
+ ],
+ "analysis_rows": [
+  {
+   "type": "landscape",
+   "entity": "Hugo",
+   "category": "Static site generator",
+   "segment": "Blog platforms",
+   "positioning": "Fast, simple, stable generator with shortcodes and partials system",
+   "key_facts": "Used since 2019, flawless performance, uses Go language"
+  },
+  {
+   "type": "landscape",
+   "entity": "Astro",
+   "category": "Static site generator framework",
+   "segment": "Modern blog platforms",
+   "positioning": "Flexible framework with component system, JavaScript/TypeScript support, easy to get started",
+   "key_facts": "Supports React integration, uses .astro files, Markdown/MDX support, has breaking changes in recent versions"
+  },
+  {
+   "type": "landscape",
+   "entity": "React",
+   "category": "Component library",
+   "segment": "Frontend frameworks",
+   "positioning": "Component-based UI library, integrates easily with Astro",
+   "key_facts": "Previously required webpack bundler in Hugo setup, now native integration in Astro"
+  },
+  {
+   "type": "landscape",
+   "entity": "Tailwind",
+   "category": "CSS framework",
+   "segment": "Styling solutions",
+   "positioning": "Utility-first CSS framework",
+   "key_facts": "Had breaking changes from .mjs config to utility-first class definitions, required config refactor"
+  },
+  {
+   "type": "landscape",
+   "entity": "Front Matter CMS",
+   "category": "Content management tool",
+   "segment": "Developer-focused CMS",
+   "positioning": "VS Code extension for content management",
+   "key_facts": "Custom tooling developed by author, integrates with decoupled content strategy"
+  },
+  {
+   "type": "landscape",
+   "entity": "GitHub Copilot",
+   "category": "AI development assistant",
+   "segment": "Developer tools",
+   "positioning": "AI-powered code completion and generation",
+   "key_facts": "Used for data conversion, more effective in inline chat with single items than batch processing"
+  },
+  {
+   "type": "comparison",
+   "option": "Hugo",
+   "criterion": "Content format",
+   "value": "Markdown with shortcodes and partials ({{< partial >}})"
+  },
+  {
+   "type": "comparison",
+   "option": "Astro",
+   "criterion": "Content format",
+   "value": "Markdown/MDX with components"
+  },
+  {
+   "type": "comparison",
+   "option": "Hugo",
+   "criterion": "Flexibility",
+   "value": "Less flexible for JavaScript/TypeScript integration"
+  },
+  {
+   "type": "comparison",
+   "option": "Astro",
+   "criterion": "Flexibility",
+   "value": "More flexible with native React integration and component system"
+  },
+  {
+   "type": "comparison",
+   "option": "Hugo",
+   "criterion": "Developer experience",
+   "value": "Stable and reliable, requires separate tooling for React"
+  },
+  {
+   "type": "comparison",
+   "option": "Astro",
+   "criterion": "Developer experience",
+   "value": "Smooth and quick to get started with modern syntax"
+  },
+  {
+   "type": "root_cause",
+   "symptom": "500+ blog posts needed conversion from shortcodes to components",
+   "cause": "Hugo and Astro have different markup systems - Hugo uses shortcodes and partials, Astro uses components",
+   "evidence": "Author created Remark plugins to automate conversion instead of manual updates",
+   "fix": "Created Remark plugins to convert: callout shortcodes to blockquotes, image captions to figure elements, Gist embeds to HTML, video embeds to HTML"
+  },
+  {
+   "type": "root_cause",
+   "symptom": "Old code highlighting shortcodes ({{< highlight >}}) incompatible with Astro",
+   "cause": "Hugo uses shortcodes, Astro expects standard Markdown triple backticks",
+   "evidence": "{{< highlight typescript >}} needed conversion to ```typescript",
+   "fix": "Created script with regex replacement to convert all old shortcode syntax to triple backticks format"
+  },
+  {
+   "type": "root_cause",
+   "symptom": "Data conversion from HTML/Markdown to JSON was inconsistent and time-consuming",
+   "cause": "Batch processing with ChatGPT/Copilot created too many inconsistencies, required extensive manual correction",
+   "evidence": "Author attempted batch conversion but found too many errors requiring correction",
+   "fix": "Switched to inline chat with GitHub Copilot processing single items at a time for more control and consistency"
+  },
+  {
+   "type": "root_cause",
+   "symptom": "Breaking changes in Astro and Tailwind discovered just before site launch",
+   "cause": "Major version updates (Astro and Tailwind) introduced API changes",
+   "evidence": "page.body → page.rendered.html in Astro; Tailwind config from .mjs to utility-first CSS",
+   "fix": "Updated code to use new API (page.rendered.html), refactored Tailwind config to utility-first approach"
+  }
+ ],
+ "model": "haiku",
+ "_recall": 1.0
+}

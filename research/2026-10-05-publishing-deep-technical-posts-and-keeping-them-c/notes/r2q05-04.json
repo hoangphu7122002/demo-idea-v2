@@ -1,0 +1,559 @@
+{
+ "sid": "r2q05-04",
+ "url": "https://buildwithfern.com/post/docs-linting-guide",
+ "title": "Docs Linting Guide - January 2026 | Fern",
+ "published": "2026-01-17",
+ "source_type": "vendor",
+ "quality_flags": [
+  "vendor-claim",
+  "seo"
+ ],
+ "terms": [
+  {
+   "term": "CI",
+   "context": "automating docs linting within your continuous integration (CI) pipeline"
+  },
+  {
+   "term": "continuous integration",
+   "context": "within your continuous integration (CI) pipeline"
+  },
+  {
+   "term": "CD",
+   "context": "Integrating linting into CI/CD pipelines"
+  },
+  {
+   "term": "CI/CD pipelines",
+   "context": "Integrating Vale and link checkers into CI/CD pipelines"
+  },
+  {
+   "term": "API",
+   "context": "documentation is often the primary interface to your API"
+  },
+  {
+   "term": "APIs",
+   "context": "As documentation grows alongside APIs and SDKs"
+  },
+  {
+   "term": "SDKs",
+   "context": "As documentation grows alongside APIs and SDKs"
+  },
+  {
+   "term": "AI",
+   "context": "AI-powered content generation"
+  },
+  {
+   "term": "MDX",
+   "context": "analyze Markdown or MDX files to validate prose"
+  },
+  {
+   "term": "TLDR",
+   "context": "**TLDR:**"
+  },
+  {
+   "term": "CLI",
+   "context": "Because Vale runs as a CLI command"
+  },
+  {
+   "term": "PR",
+   "context": "Fern Writer opens a PR that must pass the same Vale checks"
+  },
+  {
+   "term": "PRs",
+   "context": "automatically correct issues flagged by linters in pull requests; auto-merge documentation PRs"
+  },
+  {
+   "term": "DEV",
+   "context": "page footer"
+  },
+  {
+   "term": "Automated link checking to prevent documentation rot",
+   "context": "section heading"
+  },
+  {
+   "term": "Automated style and integrity checks",
+   "context": "section heading under How Fern automates documentation quality at scale"
+  },
+  {
+   "term": "Docs Linting Guide",
+   "context": "Docs Linting Guide - January 2026"
+  },
+  {
+   "term": "Docs Linting Guide - January 2026",
+   "context": "page H1 heading"
+  },
+  {
+   "term": "Docs Linting Guide - January 2026 | Fern",
+   "context": "page title"
+  },
+  {
+   "term": "FAQ",
+   "context": "section heading"
+  },
+  {
+   "term": "Fern",
+   "context": "Tools like Fern can automate documentation quality at scale"
+  },
+  {
+   "term": "Fern Writer",
+   "context": "Fern Writer, an AI agent, can generate content and automatically correct issues"
+  },
+  {
+   "term": "Final thoughts on scaling documentation standards",
+   "context": "section heading"
+  },
+  {
+   "term": "How Fern automates documentation quality at scale",
+   "context": "section heading"
+  },
+  {
+   "term": "Integrating linting into CI/CD pipelines",
+   "context": "section heading"
+  },
+  {
+   "term": "Intelligent maintenance and release orchestration",
+   "context": "section heading"
+  },
+  {
+   "term": "Keeping timestamps accurate with automation",
+   "context": "section heading"
+  },
+  {
+   "term": "Running Vale for prose style enforcement",
+   "context": "section heading"
+  },
+  {
+   "term": "What triggers documentation updates in a CI/CD pipeline?",
+   "context": "FAQ heading"
+  },
+  {
+   "term": "What is documentation linting, and why does it matter for developer experience?",
+   "context": "section heading"
+  },
+  {
+   "term": "What is the difference between documentation linting and standard grammar checking?",
+   "context": "FAQ heading"
+  },
+  {
+   "term": "What types of documentation issues can automated linting catch?",
+   "context": "FAQ heading"
+  },
+  {
+   "term": "Can AI-generated documentation pass the same quality checks as human-written content?",
+   "context": "FAQ heading"
+  },
+  {
+   "term": "How do automated link checkers prevent documentation from becoming outdated?",
+   "context": "FAQ heading"
+  },
+  {
+   "term": "Nathan Lian",
+   "context": "January 17, 2026·8 min read·Nathan Lian"
+  },
+  {
+   "term": "Because Vale",
+   "context": "Because Vale runs as a CLI command, it integrates easily into Git hooks"
+  },
+  {
+   "term": "Google Developer Documentation Style Guide",
+   "context": "import industry standards like the Microsoft Manual of Style or Google Developer Documentation Style Guide"
+  },
+  {
+   "term": "Last Updated",
+   "context": "guarantees that the \"Last Updated\" field reflects when content actually changed"
+  },
+  {
+   "term": "Microsoft Manual of Style",
+   "context": "import industry standards like the Microsoft Manual of Style"
+  },
+  {
+   "term": "Vale",
+   "context": "Vale has become a popular choice for technical writers and developers"
+  },
+  {
+   "term": "documentation linting",
+   "context": "Documentation linting brings the rigor of software engineering to technical writing"
+  },
+  {
+   "term": "docs linting",
+   "context": "Docs linting automates quality checks for technical writing"
+  },
+  {
+   "term": "linting",
+   "context": "linting has long been the safety net that catches problems before they reach production"
+  },
+  {
+   "term": "link rot",
+   "context": "This phenomenon, known as link rot, occurs naturally"
+  },
+  {
+   "term": "documentation rot",
+   "context": "Automated link checking to prevent documentation rot"
+  },
+  {
+   "term": "documentation debt",
+   "context": "Automated quality checks prevent documentation debt from accumulating"
+  },
+  {
+   "term": "link checker",
+   "context": "Integrating Vale and link checkers into CI/CD pipelines"
+  },
+  {
+   "term": "Git hooks",
+   "context": "it integrates easily into Git hooks and CI/CD pipelines"
+  },
+  {
+   "term": "Git commits",
+   "context": "Automated timestamp updates tied to Git commits"
+  },
+  {
+   "term": "commit date",
+   "context": "extract the latest commit date for each file during the build process"
+  },
+  {
+   "term": "version control",
+   "context": "tie timestamps directly to version control"
+  },
+  {
+   "term": "Markdown",
+   "context": "analyze Markdown or MDX files"
+  },
+  {
+   "term": "reStructuredText",
+   "context": "supports Markdown, reStructuredText, AsciiDoc, and HTML"
+  },
+  {
+   "term": "AsciiDoc",
+   "context": "supports Markdown, reStructuredText, AsciiDoc, and HTML"
+  },
+  {
+   "term": "HTML",
+   "context": "supports Markdown, reStructuredText, AsciiDoc, and HTML"
+  },
+  {
+   "term": "Vale comments",
+   "context": "selectively disable Vale in specific sections using Vale comments wrapped in MDX syntax"
+  },
+  {
+   "term": "Vale style packages",
+   "context": "import existing Vale style packages, or define custom rules"
+  },
+  {
+   "term": "custom rules",
+   "context": "Teams can also create custom rules aligned with their own terminology"
+  },
+  {
+   "term": "Capitalization",
+   "context": "Rule type: Enforce JavaScript over Javascript; Brand consistency"
+  },
+  {
+   "term": "Terminology",
+   "context": "Rule type: Require endpoint instead of route; Reduce ambiguity"
+  },
+  {
+   "term": "Hedging",
+   "context": "Rule type: Flag weak phrases like might or seems to; Improve confidence"
+  },
+  {
+   "term": "Voice",
+   "context": "Rule type: Flag passive voice; Improve clarity"
+  },
+  {
+   "term": "Jargon",
+   "context": "Rule type: Flag informal terms like basically or just; Improve precision"
+  },
+  {
+   "term": "passive voice",
+   "context": "flag vague language, passive voice, or non-inclusive terms"
+  },
+  {
+   "term": "alt text",
+   "context": "structural problems like missing alt text"
+  },
+  {
+   "term": "HTTP 403/404 errors",
+   "context": "scanning for HTTP 403/404 errors, server timeouts, or blocked connections"
+  },
+  {
+   "term": "404 error",
+   "context": "a developer clicks a reference and receives a 404 error"
+  },
+  {
+   "term": "GitHub Actions",
+   "context": "configure GitHub Actions to auto-merge documentation PRs"
+  },
+  {
+   "term": "Slack",
+   "context": "Teams request changes in Slack, and Fern Writer opens a PR"
+  },
+  {
+   "term": "time to first API call",
+   "context": "Error-free guides shorten time to first API call"
+  },
+  {
+   "term": "self-service",
+   "context": "reduce support volume by enabling accurate self-service"
+  },
+  {
+   "term": "cognitive load",
+   "context": "ambiguous instructions increase cognitive load"
+  },
+  {
+   "term": "context switching",
+   "context": "unclear docs only add to the context switching"
+  },
+  {
+   "term": "versioned APIs",
+   "context": "For teams managing versioned APIs, Fern automatically regenerates the API reference"
+  },
+  {
+   "term": "API reference",
+   "context": "Fern automatically regenerates the API reference when you push a new version"
+  },
+  {
+   "term": "release tags",
+   "context": "listen for specific tags or release branches"
+  },
+  {
+   "term": "Educational, Docs",
+   "context": "post category tags"
+  }
+ ],
+ "claims": [
+  {
+   "claim": "Documentation erodes trust slowly via broken links, inconsistent terminology, unclear instructions, style drift",
+   "quote": "Documentation rarely fails in dramatic ways. Instead, it erodes trust slowly",
+   "numbers": []
+  },
+  {
+   "claim": "Docs linters analyze Markdown/MDX to flag broken links, terminology, phrasing, formatting before publish",
+   "quote": "",
+   "numbers": []
+  },
+  {
+   "claim": "Developers spend roughly 35% of time maintaining code and documentation rather than shipping features",
+   "quote": "Developers already spend roughly 35% of their time maintaining code and documentation",
+   "numbers": [
+    "35%"
+   ]
+  },
+  {
+   "claim": "Error-free guides shorten time to first API call and reduce support volume",
+   "quote": "",
+   "numbers": []
+  },
+  {
+   "claim": "Vale is an open-source linter supporting Markdown, reStructuredText, AsciiDoc, HTML",
+   "quote": "",
+   "numbers": []
+  },
+  {
+   "claim": "Vale can import Microsoft Manual of Style or Google Developer Documentation Style Guide",
+   "quote": "",
+   "numbers": []
+  },
+  {
+   "claim": "Vale runs as CLI so integrates into Git hooks and CI/CD",
+   "quote": "Because Vale runs as a CLI command, it integrates easily into Git hooks",
+   "numbers": []
+  },
+  {
+   "claim": "CI doc errors block merge like failing test",
+   "quote": "block the merge just as a failing test would",
+   "numbers": []
+  },
+  {
+   "claim": "Automated checks free reviewers to focus on technical accuracy",
+   "quote": "",
+   "numbers": []
+  },
+  {
+   "claim": "Broken links degrade UX faster than almost any other docs flaw",
+   "quote": "",
+   "numbers": []
+  },
+  {
+   "claim": "Link rot: 23% of news webpages and 21% of government sites contain at least one broken link",
+   "quote": "23% of news webpages and 21% of government sites contain at least one broken link",
+   "numbers": [
+    "23%",
+    "21%"
+   ]
+  },
+  {
+   "claim": "Link checkers crawl docs, verify internal paths, ping external URLs, detect 403/404, timeouts, blocked connections",
+   "quote": "",
+   "numbers": [
+    "403",
+    "404"
+   ]
+  },
+  {
+   "claim": "Link checkers can run in CI, manually via platform, or scheduled",
+   "quote": "",
+   "numbers": []
+  },
+  {
+   "claim": "Old timestamps make users assume info is obsolete even if API unchanged",
+   "quote": "users often assume the information is obsolete, even if the API remains unchanged",
+   "numbers": []
+  },
+  {
+   "claim": "Manually updating dates is error-prone",
+   "quote": "",
+   "numbers": []
+  },
+  {
+   "claim": "Timestamps should derive from latest git commit date at build",
+   "quote": "",
+   "numbers": []
+  },
+  {
+   "claim": "Workflows can ignore whitespace and linter-fix commits when computing timestamp",
+   "quote": "",
+   "numbers": []
+  },
+  {
+   "claim": "Fern supports linting, link checking, deployment in one platform",
+   "quote": "",
+   "numbers": []
+  },
+  {
+   "claim": "Fern has native Vale integration, local or CI, custom rules, style packages",
+   "quote": "",
+   "numbers": []
+  },
+  {
+   "claim": "Fern can disable Vale in sections using Vale comments in MDX",
+   "quote": "",
+   "numbers": []
+  },
+  {
+   "claim": "Fern has built-in link checker",
+   "quote": "",
+   "numbers": []
+  },
+  {
+   "claim": "Fern Writer AI agent generates content and fixes linter issues in PRs; requests via Slack",
+   "quote": "",
+   "numbers": []
+  },
+  {
+   "claim": "Fern offers optional last-updated timestamps synced to Git commit history",
+   "quote": "",
+   "numbers": []
+  },
+  {
+   "claim": "Fern regenerates API reference on new version push",
+   "quote": "",
+   "numbers": []
+  },
+  {
+   "claim": "GitHub Actions can auto-merge docs PRs when features ship in other repos",
+   "quote": "",
+   "numbers": []
+  },
+  {
+   "claim": "Linting differs from grammar checking: enforces style guide and structure such as links and alt text",
+   "quote": "",
+   "numbers": []
+  },
+  {
+   "claim": "AI-generated docs must pass same Vale checks as human-written",
+   "quote": "",
+   "numbers": []
+  },
+  {
+   "claim": "Doc workflows can trigger on release tags/branches rather than every commit",
+   "quote": "",
+   "numbers": []
+  },
+  {
+   "claim": "Post is 8 min read by Nathan Lian, January 17, 2026",
+   "quote": "",
+   "numbers": [
+    "8 min",
+    "January 17, 2026"
+   ]
+  }
+ ],
+ "analysis_rows": [
+  {
+   "type": "landscape",
+   "entity": "Fern",
+   "category": "documentation platform (vendor)",
+   "segment": "API/SDK developer docs teams",
+   "positioning": "single platform consolidating linting, link checking, deployment rather than stitching separate tools",
+   "key_facts": "native Vale integration; built-in link checker; Fern Writer AI agent; git-synced last-updated timestamps"
+  },
+  {
+   "type": "landscape",
+   "entity": "Vale",
+   "category": "open-source prose linter",
+   "segment": "technical writers and developers in Git-based workflows",
+   "positioning": "configurable style and terminology rules, extensible, CLI",
+   "key_facts": "supports Markdown, reStructuredText, AsciiDoc, HTML; imports Microsoft and Google style guides"
+  },
+  {
+   "type": "landscape",
+   "entity": "Fern Writer",
+   "category": "AI documentation agent",
+   "segment": "docs teams using Slack and GitHub PRs",
+   "positioning": "generates content and auto-fixes linter-flagged issues in PRs",
+   "key_facts": "requests via Slack; opens PR; must pass same Vale checks"
+  },
+  {
+   "type": "landscape",
+   "entity": "Microsoft Manual of Style",
+   "category": "style guide",
+   "segment": "technical writing",
+   "positioning": "importable into Vale",
+   "key_facts": ""
+  },
+  {
+   "type": "landscape",
+   "entity": "Google Developer Documentation Style Guide",
+   "category": "style guide",
+   "segment": "technical writing",
+   "positioning": "importable into Vale",
+   "key_facts": ""
+  },
+  {
+   "type": "landscape",
+   "entity": "GitHub Actions",
+   "category": "CI automation",
+   "segment": "docs teams",
+   "positioning": "triggers docs builds on release tags and auto-merges docs PRs",
+   "key_facts": ""
+  },
+  {
+   "type": "root_cause",
+   "symptom": "Docs appear stale and are distrusted despite being accurate",
+   "cause": "Manually maintained or old dates on pages",
+   "evidence": "stated claim, no data",
+   "fix": "Derive Last Updated from latest git commit date at build; ignore whitespace/linter-fix commits"
+  },
+  {
+   "type": "root_cause",
+   "symptom": "Broken links and 404s erode docs authority",
+   "cause": "Link rot as external resources move or vanish and internal paths change in refactors",
+   "evidence": "23% of news webpages and 21% of government sites have at least one broken link",
+   "fix": "Automated link checkers in CI, manual trigger, or scheduled scans"
+  },
+  {
+   "type": "root_cause",
+   "symptom": "Style drift and inconsistent terminology across pages",
+   "cause": "Manual reviews cannot keep up as docs grow",
+   "evidence": "stated claim",
+   "fix": "Vale rules in CI/CD that block merges"
+  },
+  {
+   "type": "root_cause",
+   "symptom": "Global style check refreshes dates across whole site",
+   "cause": "Timestamps counted for non-substantive commits",
+   "evidence": "stated claim",
+   "fix": "Ignore specific commit types when calculating timestamp"
+  }
+ ],
+ "model": "sonnet",
+ "_recall": 1.0
+}

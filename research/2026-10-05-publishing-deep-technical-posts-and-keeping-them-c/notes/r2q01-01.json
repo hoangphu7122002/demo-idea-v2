@@ -1,0 +1,742 @@
+{
+ "sid": "r2q01-01",
+ "url": "https://www.gitbook.com/blog/keep-technical-documentation-accurate",
+ "title": "How to keep technical documentation accurate as code and products change",
+ "published": "2026-09-24",
+ "source_type": "vendor",
+ "quality_flags": [
+  "vendor-claim"
+ ],
+ "terms": [
+  {
+   "term": "documentation drift",
+   "context": "Documentation drift happens when code, APIs, or product behavior change without updates"
+  },
+  {
+   "term": "Accurate docs. Better answers",
+   "context": "Accurate docs. Better answers. Your docs are already feeding AI."
+  },
+  {
+   "term": "Enterprise",
+   "context": "Enterprise: Intelligent documentation that's built to scale"
+  },
+  {
+   "term": "FreedomPay",
+   "context": "How FreedomPay is rebuilding its integration experience with GitBook"
+  },
+  {
+   "term": "Product",
+   "context": "Product, Solutions, Resources, Pricing, Login nav"
+  },
+  {
+   "term": "Resources",
+   "context": "Resources: Documentation, Quickstart, API reference, Dev docs, Changelog"
+  },
+  {
+   "term": "Solutions",
+   "context": "Solutions: Use case, Public docs, API docs, Help center, Knowledge base"
+  },
+  {
+   "term": "The State of Docs Report 2026",
+   "context": "State of Docs brings together insights from documentation experts"
+  },
+  {
+   "term": "State of Docs",
+   "context": "The State of Docs Report 2026"
+  },
+  {
+   "term": "EIN",
+   "context": "Covina, CA 91723, USA. EIN: 320502699"
+  },
+  {
+   "term": "USA",
+   "context": "440 N Barranca Ave #7171, Covina, CA 91723, USA"
+  },
+  {
+   "term": "CA",
+   "context": "Covina, CA 91723"
+  },
+  {
+   "term": "INC",
+   "context": "© 2026 Copyright GitBook INC."
+  },
+  {
+   "term": "SDK",
+   "context": "SDK documentation | SDK maintainer | Public method or supported version change"
+  },
+  {
+   "term": "Barranca Ave",
+   "context": "440 N Barranca Ave #7171, Covina, CA 91723"
+  },
+  {
+   "term": "Assigning documentation ownership",
+   "context": "Section heading on ownership with table of areas and owners"
+  },
+  {
+   "term": "API",
+   "context": "API reference and examples | API service owner"
+  },
+  {
+   "term": "APIs",
+   "context": "code, APIs, or product behavior change without corresponding updates"
+  },
+  {
+   "term": "AI",
+   "context": "Your docs are already feeding AI."
+  },
+  {
+   "term": "MCP",
+   "context": "GitBook MCP gives compatible AI tools access to GitBook content"
+  },
+  {
+   "term": "CI",
+   "context": "A CI check could block merging when the documentation field is empty"
+  },
+  {
+   "term": "Git Sync",
+   "context": "Git Sync lets an engineer work through Git"
+  },
+  {
+   "term": "GitBook",
+   "context": "GitBook is a strong fit for release-linked docs"
+  },
+  {
+   "term": "GitBook Agent",
+   "context": "GitBook Agent can inspect docs context, identify gaps, and propose updates"
+  },
+  {
+   "term": "GitBook Assistant",
+   "context": "AI Tools: GitBook Agent, GitBook Assistant, AI Insights"
+  },
+  {
+   "term": "AI Insights",
+   "context": "AI Tools nav item"
+  },
+  {
+   "term": "GitBook MCP",
+   "context": "connectors: GitBook MCP (New)"
+  },
+  {
+   "term": "GitBook API",
+   "context": "GitBook API lets you connect GitBook with an external validator"
+  },
+  {
+   "term": "Content Gaps",
+   "context": "Content Gaps compares questions and connected records with published docs"
+  },
+  {
+   "term": "Quality checks",
+   "context": "GitBook's current Quality checks provide monitoring signals"
+  },
+  {
+   "term": "Broken Links",
+   "context": "Broken Links identifies inbound links to docs pages that return 404"
+  },
+  {
+   "term": "change requests",
+   "context": "change requests let a product manager or technical writer review and contribute"
+  },
+  {
+   "term": "diff view",
+   "context": "diff view shows reviewers exactly what will change before publication"
+  },
+  {
+   "term": "version history",
+   "context": "version history records how content changed and lets reviewers restore earlier versions"
+  },
+  {
+   "term": "Content variants",
+   "context": "Content variants keep separate documentation sets for product releases"
+  },
+  {
+   "term": "Documentation as code",
+   "context": "manages docs in version control and applies branching, reviews, automated checks"
+  },
+  {
+   "term": "documentation-as-code workflows",
+   "context": "link docs tasks to pull requests, product changes, and release gates"
+  },
+  {
+   "term": "Ownership mapping",
+   "context": "gives each docs area a named technical owner"
+  },
+  {
+   "term": "release gates",
+   "context": "Release gates connect product changes to docs work"
+  },
+  {
+   "term": "documentation impact decision",
+   "context": "Each pull request or product change requires a documentation impact decision"
+  },
+  {
+   "term": "pull request template",
+   "context": "pull request templates require a documentation impact decision"
+  },
+  {
+   "term": "definition of done",
+   "context": "The definition of done will require that decision before a change ships"
+  },
+  {
+   "term": "source comparisons",
+   "context": "Source comparisons test technical claims against code, specifications, or live behavior"
+  },
+  {
+   "term": "specification audit",
+   "context": "A specification audit works well for structured material"
+  },
+  {
+   "term": "live product sampling",
+   "context": "Live product sampling covers behavior that specifications may not describe"
+  },
+  {
+   "term": "freshness checks",
+   "context": "Freshness checks find pages that have escaped review"
+  },
+  {
+   "term": "freshness queue",
+   "context": "A freshness queue needs clear handling rules"
+  },
+  {
+   "term": "last-reviewed date",
+   "context": "record a last-reviewed date, an owner, and an appropriate review interval"
+  },
+  {
+   "term": "review interval",
+   "context": "Have the interval reflect the rate and risk of change"
+  },
+  {
+   "term": "versioned documentation",
+   "context": "prevents accurate instructions for an older release from appearing to describe the current product"
+  },
+  {
+   "term": "version controls",
+   "context": "version controls keep pages for older releases separate from current guidance"
+  },
+  {
+   "term": "backup ownership",
+   "context": "Backup ownership prevents reviews from waiting on one person"
+  },
+  {
+   "term": "monitor, diagnose, and repair",
+   "context": "Use three stages: monitor, diagnose, and repair"
+  },
+  {
+   "term": "Monitor likely problems",
+   "context": "Section heading"
+  },
+  {
+   "term": "Diagnose the cause",
+   "context": "Section heading"
+  },
+  {
+   "term": "Repair the documentation",
+   "context": "Section heading"
+  },
+  {
+   "term": "Keep final judgment with a person",
+   "context": "Section heading"
+  },
+  {
+   "term": "automated validation",
+   "context": "Automated validation works best when you separate three functions"
+  },
+  {
+   "term": "technical writer",
+   "context": "A technical writer can improve structure and clarity"
+  },
+  {
+   "term": "developer experience",
+   "context": "developer experience reviewer"
+  },
+  {
+   "term": "subject matter expert",
+   "context": "Higher-risk updates can require approval from a docs owner or subject matter expert"
+  },
+  {
+   "term": "404",
+   "context": "pages that return 404 responses"
+  },
+  {
+   "term": "redirects",
+   "context": "Update navigation, redirects, and version labels"
+  },
+  {
+   "term": "Pre-release documentation checklist",
+   "context": "Section heading"
+  },
+  {
+   "term": "Why documentation drifts",
+   "context": "Section heading"
+  },
+  {
+   "term": "Wiring documentation into the release process",
+   "context": "Section heading"
+  },
+  {
+   "term": "Comparing docs against source of truth",
+   "context": "Section heading"
+  },
+  {
+   "term": "Running freshness checks and managing versioned docs",
+   "context": "Section heading"
+  },
+  {
+   "term": "Can automated validation prevent documentation drift?",
+   "context": "FAQ heading"
+  },
+  {
+   "term": "What causes documentation drift?",
+   "context": "FAQ heading"
+  },
+  {
+   "term": "Who should own documentation accuracy?",
+   "context": "FAQ heading"
+  },
+  {
+   "term": "How often should technical documentation be reviewed?",
+   "context": "FAQ heading"
+  },
+  {
+   "term": "How does GitBook support documentation accuracy?",
+   "context": "FAQ heading"
+  },
+  {
+   "term": "TL;DR",
+   "context": "TL;DR section heading"
+  },
+  {
+   "term": "FAQs",
+   "context": "Section heading"
+  },
+  {
+   "term": "Conclusion",
+   "context": "Section heading"
+  },
+  {
+   "term": "Share",
+   "context": "Share heading"
+  },
+  {
+   "term": "Get the GitBook newsletter",
+   "context": "130k+ people read it every month"
+  },
+  {
+   "term": "Steve Ashby",
+   "context": "Steve Ashby, Content Lead"
+  },
+  {
+   "term": "Addison Schultz",
+   "context": "Addison Schultz, DevRel Lead"
+  },
+  {
+   "term": "Tal Gluck",
+   "context": "Tal Gluck, DevRel"
+  },
+  {
+   "term": "Docs Spotlight",
+   "context": "Docs Spotlight: How FreedomPay Turned Its Docs Into a Programmatic Handshake"
+  },
+  {
+   "term": "skill.md",
+   "context": "The best way to build a skill.md: start with AI, finish with humans"
+  },
+  {
+   "term": "Agent score",
+   "context": "Resources nav: Switch to GitBook, Buy vs build, Agent score, Skill generator"
+  },
+  {
+   "term": "Skill generator",
+   "context": "Resources nav item"
+  },
+  {
+   "term": "Custom components",
+   "context": "Product nav: Custom components, Built-in extensions"
+  },
+  {
+   "term": "Authenticated access",
+   "context": "Create & Publish: Git Sync, Authenticated access, Editor"
+  },
+  {
+   "term": "Tutorials & tips",
+   "context": "blog category"
+  }
+ ],
+ "claims": [
+  {
+   "claim": "Docs drift when code or product behavior changes without a docs update",
+   "quote": "Documentation drifts when code or product behavior changes without a corresponding content update.",
+   "numbers": []
+  },
+  {
+   "claim": "Code review can pass while a tutorial still uses a renamed API parameter; no build failure results",
+   "quote": "",
+   "numbers": []
+  },
+  {
+   "claim": "UI renames pass acceptance tests while screenshots and instructions stay outdated",
+   "quote": "",
+   "numbers": []
+  },
+  {
+   "claim": "Deprecated endpoints stay documented; examples break once endpoint removed",
+   "quote": "",
+   "numbers": []
+  },
+  {
+   "claim": "More frequent releases increase chances of divergence",
+   "quote": "Frequent releases increase the number of opportunities for divergence.",
+   "numbers": []
+  },
+  {
+   "claim": "Each docs area should have a named technical owner; API owner accountable for API accuracy",
+   "quote": "",
+   "numbers": []
+  },
+  {
+   "claim": "Ownership wikis go stale because changing a service owner does not update the release workflow",
+   "quote": "A separate ownership wiki often becomes stale",
+   "numbers": []
+  },
+  {
+   "claim": "One named owner should approve technical accuracy; shared responsibility lets omissions be deferred",
+   "quote": "",
+   "numbers": [
+    "1 named owner"
+   ]
+  },
+  {
+   "claim": "Each docs area needs a primary owner and a defined substitute",
+   "quote": "",
+   "numbers": [
+    "1 primary owner",
+    "1 substitute"
+   ]
+  },
+  {
+   "claim": "Each PR needs a docs impact decision: link update, open tracked task with owner and deadline, or explain no effect",
+   "quote": "",
+   "numbers": [
+    "3 options"
+   ]
+  },
+  {
+   "claim": "CI can block merging when docs field empty, linked task lacks owner, or required update missing",
+   "quote": "",
+   "numbers": []
+  },
+  {
+   "claim": "Emergency releases may bypass gate but must create follow-up task with owner and due date",
+   "quote": "",
+   "numbers": []
+  },
+  {
+   "claim": "Release gates enforce participation but cannot prove docs are correct",
+   "quote": "Release gates enforce participation, but they cannot prove that the docs are correct.",
+   "numbers": []
+  },
+  {
+   "claim": "GitBook Git Sync plus change requests give technical and non-technical contributors one review path",
+   "quote": "",
+   "numbers": []
+  },
+  {
+   "claim": "Same gate can be implemented with another repo and CI system",
+   "quote": "",
+   "numbers": []
+  },
+  {
+   "claim": "Prose review can leave incorrect endpoint or permission rule untouched; source validation checks claims against code/spec/product",
+   "quote": "",
+   "numbers": []
+  },
+  {
+   "claim": "Must define which source wins when docs and spec conflict",
+   "quote": "",
+   "numbers": []
+  },
+  {
+   "claim": "Sample live user journeys in a clean environment; auth, billing, destructive ops need closer checks",
+   "quote": "",
+   "numbers": []
+  },
+  {
+   "claim": "Automated checks need a defined source and failure condition; 'check the docs' is too vague for CI",
+   "quote": "",
+   "numbers": []
+  },
+  {
+   "claim": "Content Gaps compares questions and connected records with docs, flags missing/outdated/incorrect content ranked by severity",
+   "quote": "",
+   "numbers": []
+  },
+  {
+   "claim": "Content Gaps adds a daily signal",
+   "quote": "",
+   "numbers": [
+    "daily"
+   ]
+  },
+  {
+   "claim": "Reviewers ask GitBook Agent to draft a change request; a person still verifies governing source before merge",
+   "quote": "",
+   "numbers": []
+  },
+  {
+   "claim": "Page age does not determine correctness",
+   "quote": "Page age does not determine correctness.",
+   "numbers": []
+  },
+  {
+   "claim": "Freshness checks need last-reviewed date, owner, review interval",
+   "quote": "",
+   "numbers": []
+  },
+  {
+   "claim": "Stable conceptual pages may need annual review; deployment/auth instructions every release cycle",
+   "quote": "",
+   "numbers": [
+    "annual",
+    "every release cycle"
+   ]
+  },
+  {
+   "claim": "Mapping docs areas to repos/directories and flagging pages when code changes is a stronger signal than page age",
+   "quote": "",
+   "numbers": []
+  },
+  {
+   "claim": "Code-change flag creates a review task, not a declaration of inaccuracy",
+   "quote": "",
+   "numbers": []
+  },
+  {
+   "claim": "Avoid auto-publishing a stale label unless page age reliably indicates a problem for readers",
+   "quote": "",
+   "numbers": []
+  },
+  {
+   "claim": "Each supported version needs own docs scope, owner, and freshness checks; archive old versions rather than delete",
+   "quote": "",
+   "numbers": []
+  },
+  {
+   "claim": "Version history and content variants solve different problems",
+   "quote": "",
+   "numbers": []
+  },
+  {
+   "claim": "Broken Links flags inbound links to docs pages returning 404; does not crawl every internal or external link",
+   "quote": "",
+   "numbers": [
+    "404"
+   ]
+  },
+  {
+   "claim": "Current Quality checks are an early step toward broader automated validation, not a complete suite",
+   "quote": "",
+   "numbers": []
+  },
+  {
+   "claim": "GitBook Agent and MCP cannot decide whether an undocumented code change is intended or unfinished",
+   "quote": "",
+   "numbers": []
+  },
+  {
+   "claim": "Automated repair creates reviewable change rather than publishing instantly",
+   "quote": "",
+   "numbers": []
+  },
+  {
+   "claim": "Named reviewer must approve every change affecting documented behavior",
+   "quote": "",
+   "numbers": []
+  },
+  {
+   "claim": "Pre-release checklist has 14 items",
+   "quote": "",
+   "numbers": [
+    "14 items"
+   ]
+  },
+  {
+   "claim": "Automated validation cannot determine product intent or confirm every technical claim",
+   "quote": "",
+   "numbers": []
+  },
+  {
+   "claim": "Post published 24 Sep 2026 by Steve Ashby, Content Lead",
+   "quote": "",
+   "numbers": [
+    "24 Sep 2026"
+   ]
+  },
+  {
+   "claim": "GitBook newsletter read by 130k+ people monthly",
+   "quote": "",
+   "numbers": [
+    "130k+ people per month"
+   ]
+  },
+  {
+   "claim": "Related GitBook posts dated 2 Sep, 5 Aug, 27 Jul 2026",
+   "quote": "",
+   "numbers": [
+    "2 Sep 2026",
+    "5 Aug 2026",
+    "27 Jul 2026"
+   ]
+  },
+  {
+   "claim": "GitBook promotes Docs Spotlight webinar on FreedomPay dated Oct 27, 2026",
+   "quote": "",
+   "numbers": [
+    "Oct 27, 2026"
+   ]
+  },
+  {
+   "claim": "GitBook pitch: docs already feed AI, so accuracy determines whether users get right or wrong answers",
+   "quote": "Your docs are already feeding AI. Are users getting the right answers or the wrong ones?",
+   "numbers": []
+  }
+ ],
+ "analysis_rows": [
+  {
+   "type": "landscape",
+   "entity": "GitBook",
+   "category": "documentation platform (vendor)",
+   "segment": "technical and non-technical docs contributors, enterprise, API docs, help centers",
+   "positioning": "release-linked docs with one review path; people stay in control of accuracy",
+   "key_facts": "GitBook INC, Covina CA; newsletter 130k+ readers/month"
+  },
+  {
+   "type": "landscape",
+   "entity": "GitBook Agent",
+   "category": "AI docs agent",
+   "segment": "docs teams",
+   "positioning": "inspects docs context, identifies gaps, drafts change requests",
+   "key_facts": "output goes through review, not auto-published"
+  },
+  {
+   "type": "landscape",
+   "entity": "GitBook MCP",
+   "category": "MCP connector",
+   "segment": "teams using external AI tools",
+   "positioning": "gives compatible AI tools access to GitBook content via GitBook API",
+   "key_facts": "labelled New in nav"
+  },
+  {
+   "type": "landscape",
+   "entity": "Content Gaps",
+   "category": "GitBook feature",
+   "segment": "docs teams with support/dev conversations",
+   "positioning": "compares questions and connected records to docs, flags missing/outdated/incorrect content ranked by severity",
+   "key_facts": "daily signal"
+  },
+  {
+   "type": "landscape",
+   "entity": "Quality checks (Broken Links)",
+   "category": "GitBook feature",
+   "segment": "docs teams",
+   "positioning": "flags inbound links returning 404",
+   "key_facts": "early step; not a complete validation suite; does not crawl every link"
+  },
+  {
+   "type": "landscape",
+   "entity": "Git Sync",
+   "category": "GitBook feature",
+   "segment": "engineers",
+   "positioning": "lets engineers work through Git",
+   "key_facts": ""
+  },
+  {
+   "type": "landscape",
+   "entity": "Change requests / diff view / version history / content variants",
+   "category": "GitBook features",
+   "segment": "reviewers, product managers, technical writers",
+   "positioning": "review, preview diffs, restore earlier versions, separate docs per release",
+   "key_facts": ""
+  },
+  {
+   "type": "landscape",
+   "entity": "FreedomPay",
+   "category": "customer",
+   "segment": "payments, financial services",
+   "positioning": "rebuilding integration experience with GitBook; Docs Spotlight webinar",
+   "key_facts": "webinar Oct 27, 2026"
+  },
+  {
+   "type": "landscape",
+   "entity": "The State of Docs Report 2026",
+   "category": "industry report",
+   "segment": "documentation professionals",
+   "positioning": "insights from documentation experts across the industry",
+   "key_facts": ""
+  },
+  {
+   "type": "landscape",
+   "entity": "Documentation as code (docs-as-code)",
+   "category": "method",
+   "segment": "engineering teams",
+   "positioning": "docs in version control with branching, reviews, automated checks",
+   "key_facts": ""
+  },
+  {
+   "type": "root_cause",
+   "symptom": "Tutorial uses old API parameter name after rename",
+   "cause": "Code review verifies code, release workflow does not connect docs artifact",
+   "evidence": "described scenario, no build failure",
+   "fix": "link docs update to PR; docs impact decision; CI check"
+  },
+  {
+   "type": "root_cause",
+   "symptom": "Screenshots and instructions describe previous UI",
+   "cause": "Button rename or moved setting passes acceptance tests without docs change",
+   "evidence": "described scenario",
+   "fix": "repeat documented flow in release candidate; product owner review"
+  },
+  {
+   "type": "root_cause",
+   "symptom": "Examples keep sending new users to deprecated endpoint, then break at removal",
+   "cause": "Nothing requires docs change when deprecation begins",
+   "evidence": "described scenario",
+   "fix": "update trigger on endpoint change; compare docs to spec and tests"
+  },
+  {
+   "type": "root_cause",
+   "symptom": "Ownership wiki becomes stale",
+   "cause": "Changing a service owner does not update release workflow",
+   "evidence": "stated",
+   "fix": "keep ownership in repo ownership rules, PR templates, product tickets"
+  },
+  {
+   "type": "root_cause",
+   "symptom": "Omissions deferred",
+   "cause": "Shared responsibility without a final approver",
+   "evidence": "stated",
+   "fix": "one named owner approves technical accuracy; backup owner"
+  },
+  {
+   "type": "root_cause",
+   "symptom": "Passing release gate but docs still wrong",
+   "cause": "Gate confirms a page was edited, not that instructions match product",
+   "evidence": "stated",
+   "fix": "reviewers inspect docs diff alongside code change"
+  },
+  {
+   "type": "root_cause",
+   "symptom": "Recently edited page conflicts with release, or old page still accurate",
+   "cause": "Page age is not correctness",
+   "evidence": "stated",
+   "fix": "source comparison plus freshness checks plus code-change flags"
+  },
+  {
+   "type": "root_cause",
+   "symptom": "Automation cannot decide if undocumented code change is intended",
+   "cause": "AI tools lack product intent",
+   "evidence": "stated",
+   "fix": "product owner or engineer resolves ambiguity"
+  }
+ ],
+ "model": "sonnet",
+ "_recall": 1.0
+}

@@ -1,0 +1,329 @@
+{
+ "query_url": "https://hn.algolia.com/api/v1/search?query=blog+post+outdated&tags=comment&hitsPerPage=40",
+ "args": [
+  "blog post outdated",
+  "comment"
+ ],
+ "items": [
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=9420408",
+   "date": "2015-04-22",
+   "title": "Do Accounting in Clojure and Datomic",
+   "text": "Completely agree. Documentation is sparse, and blog posts outdated. The error messages don't help, either. Why can't stack traces show arguments, for the love of God? Can I get only my namespaces' traces? I will assume that the language is ok - most of the users won't be capable of diving into it, so just hide it by default...",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=7583279",
+   "date": "2014-04-13",
+   "title": "Practical Cryptography With Go",
+   "text": "> The randomness requirement for DSA is such a huge problem for DSA that it forms the centerpiece of Daniel Bernstein's critique of the NIST standards process. This is the bug that broke the PS3. I've been reading about this recently, but I'm confused. Wasn't the PS3 issue that the key was static ? That's not the opposite of randomized, because there could be a deterministic, yet message-specific scheme for generating the secret key. Or is that known to be unacceptable? > there is concern that the NIST curves are backdoored and should be disfavored and replaced with Curve25519 and curves of similar construction. I've heard the opposite, that the curves are not the problem but the choice of basepoint. E.g. [1] states: \"...the vulnerabilities in Dual-EC have precisely nothing to do with the specifics of the NIST standard elliptic curves themselves. The 'back door' in Dual-EC comes exclusively from the relationship between P and Q -- the latter of which is published only in the Dual-EC specification.\" Is it still a matter of dispute whether the curves themselves are suspect? Or is the referenced blog post outdated? [1]: http://blog.cryptographyengineering.com/2013/09/the-many-fla...",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=5705869",
+   "date": "2013-05-14",
+   "title": "\"Programmer. Come Work For Us\"",
+   "text": "I haven't done an ecommerce project in quite a while, what would you suggest instead of Magento? I had the dubious honor of setting up a heavily customized Magento site barely after they released 1.0 - it was a nightmare. No docs, barely any participation in the forums, blog posts with outdated (already) information... I didn't have a say in picking Magento and eventually the client moved to something else as updates and expansion became too much of a hassle.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=5232221",
+   "date": "2013-02-16",
+   "title": "Ember.js or Angular.js?",
+   "text": "> I think what the community sorely needs is a good Ember teacher I think what we really need is a tool to go around and mark outdated blog posts as outdated. There's also this: http://www.embercast.com/ . Not sure where it's going.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=49719386",
+   "date": "2026-09-15",
+   "title": "The case against JPEG XL",
+   "text": "I'm not sure if you're aware of this or not but juliobbv is the developer that fixed progressive AVIF, he is fully aware of how it works and how AV1 works in general. \"You'd waste a few KiB on encoding skip blocks\" This tells me you don't know how codecs work... skip blocks are not expensive to code, they are very cheap. Jake's blog post is outdated by the way, the progressive functionality is much more advanced than it was at that point in time because Julio worked on it.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=4080248",
+   "date": "2012-06-07",
+   "title": "Blogs are from the past, welcome feathers: blogless writing and sharing",
+   "text": "In our team, we all like to write. We want to share our thoughts and opinions. But blogging has it's own set of limitations and expectations that don't always fit with how we write. You need to manage a platform (either hosted or as a service) with everything that comes with it - setting up a theme, defining tags, categories and so on. You need to constantly write otherwise a new visitor may think your 2 month old blog post outdated and that you've moved on. Visitors also expect consistency of topic, while we may want to write a variety of posts about different aspects of our life and being. A flame post about the actress we hate, or a personal post about how life is going in general. What's more, the internet as we know it never forgets, while our opinions change. The word \"Blog\" comes from the combinations of the words \"web\" + \"log\", meaning that all blogs result in a list of all articles. We want to focus on each article and we want to give that article only to our readers. There are enough networks and services that allow you to share what you write with interested people, why do we need them to register and follow your blog as well? Rather than taking up your time to create an intricate blog, why not just offer a direct link to the article and save your readers time too? When that article is no longer relevant, and is not shared or read anymore, we believe it should slowly and automatically disappear. We believe writing is an important part for everybody's personal growth, but a blog with all it's limitations and expectations can be daunting to the casual writer. If you are curious and believe in our manifesto check out feathe.rs and sign up. We will open it up for everyone soon.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=39572012",
+   "date": "2024-03-02",
+   "title": "Ente: Open-Source, E2E Encrypted, Google Photos Alternative",
+   "text": "Hey, details on how we're providing E2EE with links has been documented here: https://ente.io/blog/building-shareable-links/ Some bits of the blog post are outdated, since the feature has matured since then. But the implementation details are roughly the same. TL;DR: The keys are added to the URL fragment (the part that follows the #), and these fragments are not accessible to the server.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=38449478",
+   "date": "2023-11-28",
+   "title": "PiDP-11",
+   "text": "Ah, I didn't catch that this blog post was outdated! Thanks for that.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=36973832",
+   "date": "2023-08-02",
+   "title": "Ask HN: Does FreeBSD Have a Future?",
+   "text": "The FreeBSD Foundation and FreeBSD Project members have been investing in and working on improving FreeBSD security for at least the last several years. Much of that \"FreeBSD \u2013 A Lesson in Poor Defaults\" blog post is outdated/incorrect/conjecture.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=32474409",
+   "date": "2022-08-15",
+   "title": "Twilio incident: What Signal users need to know",
+   "text": "Your 2017 blog post is outdated. See: https://community.signalusers.org/t/can-signal-please-update... and https://community.signalusers.org/t/dont-want-pin-dont-want-... See here for a discussion on how Intel's 'secure' enclave won't save you: https://community.signalusers.org/t/proper-secure-value-secu...",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=18894451",
+   "date": "2019-01-13",
+   "title": "Airbnb Is Moving Faster at Scale with GraphQL and Apollo",
+   "text": "I don't disagree with what you are suggesting. I personally prefer react over all other frameworks. And, there are many blog posts with outdated suggestions referring to the items you've referenced. Knowing which of those posts to skip over now that the proper solution has been named is what's really challenging about React (and, of course, JS in general). Probably the OP has seen two many of those posts and doesn't have the right frame of reference to know what to do, and Apollo looks like the same.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=12635876",
+   "date": "2016-10-04",
+   "title": "How it feels to learn JavaScript in 2016",
+   "text": "A common problem when I try to switch to platform that I haven't been paying close attention to. It is very difficult to quickly figure out what is the current stack of libraries and tools you should use if you are starting now. For example jump to the .NET and it is not so obvious should go for Core, Asp.net Core, how to do data access, which version of EF to use and so on. Usually it is very difficult to find this information from anywhere. Articles and blog posts get outdated fast. Material produced by vendors is usually a bit biased. You get to see all the good things, but they might forget to mention stuff that is still under development. If you are new to the field, you don't know the right people and right blogs.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=9527747",
+   "date": "2015-05-11",
+   "title": "New Debian project leader talks open source careers, PPAs and more",
+   "text": "The AUR is a little different than a PPA. Yes, both are user generated content not officially supported by the project. However at least in the AUR there is a centralized place for these packages, and an entity behind the AUR platform that can curate bad/malicious/negligent packages out. PPA's have a bad wrap for being, well... bad. Any user, anywhere. Here today, server gone tomorrow. Outdated blog posts from years ago with dead links, or bad advice/packages. It's not uncommon for a PPA to break a system. The AUR is more similar to rpmfusion repo or epel repo (centralized and somewhat governed). Where PPA's are just like tarballs on some random-joe's blog.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=8255171",
+   "date": "2014-09-02",
+   "title": "Building New SQL (2013) [pdf]",
+   "text": "I had similar ideas when I was in college. There are quite some projects trying to do similar things: http://htsql.org/ and my naive and outdated blog post from college http://dhruvb.com/blog/posts/specialized-syntax-for-quick-sq...",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=7163400",
+   "date": "2014-02-01",
+   "title": "Ask HN: Who is hiring? (February 2014)",
+   "text": "Tictail ( http://tictail.com ) \u2013 Stockholm, Sweden. Tictail is the easiest way to start an online store. We're home for 35000 stores and plan to grow 3x over the next year. We care deeply about user experience and want to make e-commerce as accessible as starting a blog. As a result, more than 80% of our store owners have recommended Tictail. We've also recently launched Tictail Apps, a platform for third-party developers to make apps for Tictail stores. We're currently 7 people in the tech team and we're looking to hire a few more talented engineers with a good product sense. The platform is mostly written in Python and production is currently served by Tornado, Flask and node.js. Our infrastructure is built on AWS and we use Chef for configuration management. Search is currently powered by Solr but we will soon be migrating to Elasticsearch. Here's a \u2013 somewhat outdated \u2013 blog post from Siavash, our CTO, describing the position in more detail: http://blog.tictail.com/post/45182662726/backend-developer-o... If you're interested, get in touch at jobs+hn@tictail.com and tell us a few things about yourself and a project you've enjoyed working on. Tack!",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=6293404",
+   "date": "2013-08-28",
+   "title": "Why I'm saying goodbye to Dropbox and hello to SpiderOak Hive",
+   "text": "I have only seen one outdated blog post benchmarking upload speed of the various services being suggested here. http://www.proposedsolution.com/downloads/online-storage-ser... As a Dropbox user, I find that the files get synced very quickly and I wonder if these alternatives (Spideroak/Wuala) being suggested will match that speed. That will be a factor as well to consider.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=5087490",
+   "date": "2013-01-20",
+   "title": "Securing Ubuntu",
+   "text": "Some commenters here seem to suggest that the advice on that blog post is somewhat outdated or suboptimal. I'm curious, is there something like a commonly agreed on best practice for securing/hardening a modern Ubuntu production web server? Would maybe anyone care to provide a bullet point list of the most important steps?",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=4722368",
+   "date": "2012-10-31",
+   "title": "Haskell in Production: The good, the bad, and the ugly",
+   "text": "That blog post seems fairly outdated. There are several lenses libraries that provide decent record support: http://stackoverflow.com/questions/5767129/lenses-fclabels-d... Personally, I'd much rather have a better baked-in record system, but that's unlikely to change substantially now.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=47085535",
+   "date": "2026-02-20",
+   "title": "Show HN: A physically-based GPU ray tracer written in Julia",
+   "text": "That post is 10 years old, stale, with all issues resolved and more. Waving around an outdated blogpost as if it would automatically invalidate everything is just silly at this point.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=46631995",
+   "date": "2026-01-15",
+   "title": "Banning Things for Other People Is Easy",
+   "text": "There are quite a few things wrong with this article, but above all, placing children on the same level as adults overlooks how crucial our early years are. Overall, this blog post feels somewhat outdated. I also can't clearly grasp the author's position: are they arguing that we should ban this for everyone, or not ban it at all? Or is the point simply that the people who write such bans or laws do so because the law doesn't apply to them?",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=46344432",
+   "date": "2025-12-21",
+   "title": "Measuring AI Ability to Complete Long Tasks",
+   "text": "I don't even remember things I did two years ago unless I leave good breadcrumbs and documentation. I don't think it's particularly worse than pulling in some dependency or framework from GitHub that will be completely different next year anyway. And Google's prone to change anything in Android anyway. Mobile or web seems like a foundation of quicksand, it's not anything I care about. The real takeaway is I can be productive without wasting my time on all the damn churn by just-in-time learning aided by these tools. I'm pretty sure I will remember how easy and correct it was to modify Caddy vs the months of putzing around building Rube Goldberg constellations of services crap that I did last year for a different thing and that even Claude wanted to do. I've done the whole wading through outdated blog posts and trying to read documentation on other projects that I was doing. Learning five different projects and having to maintain seven services running in docker just so that I can use a tool to capture photos and store them in a webapp that can only be used if connected to my own VPN is insane and it's why I am not a web developer. I will 100% remember what 200 lines of golang does after looking at it again. The 1000 lines of JavaScript that were and backend auth crap that no longer exists: good riddance. And no I don't trust my memory about what Gatsby said about Summer people without looking it up. I read Gatsby 30 years ago.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=44774384",
+   "date": "2025-08-03",
+   "title": "How I use Claude Code to implement new features in an existing complex codebase",
+   "text": "I agree with the notion here that things are moving so fast that most blog posts will be outdated quickly. However posts like this is valuable for new people to get a basic understanding of how these tools could be used in a very simple, beginner friendly, setup.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=43429989",
+   "date": "2025-03-20",
+   "title": "The Frontend Treadmill",
+   "text": "You may not have to today, but you will one day. They will remove zone.js and there will be a whole host of deprecated libraries and outdated blog posts about how to do things the \u201cangular\u201d way. If the vite dev server didnt feel so much snappier, I would lament it, however, I think overall its a nice change. And sure, just change components while you are in there, but this is for my blog libraries I work on in my spare time. A lot of the standalone stuff just feels like change for change sake and the scripts did not run against a library project. I tried to dig into the @angular/cli repo to try and figure out what was going on, but after reading a few classes noped out and just converted by hand. Only takes a couple of hours or a day to test, but thats 0 productivity time. Change detection is different now and leveraging ngOnChanges is def broken now, zone js removal is experimental, and all of it so Angular becomes more like React as far as I can tell. My new projects are Django with templates and post backs. Its a breath of fresh air.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=42702664",
+   "date": "2025-01-14",
+   "title": "Nix \u2013 Death by a Thousand Cuts",
+   "text": "for me there are two kinds of pain in software troubleshooting: 1) I Don't Know The State: there's some weird little bit of state hanging around somewhere I don't know about that's messing with my end result. Once I learn about this state, correcting it is trivial. I hate this kind of problem solving, it's not mentally stimulating, I don't learn a lot, looking up answers online is often not helpful. And when I fix it, I don't gain a lot beyond just the problem not happening anymore. (examples: secret config file i didn't know about, an application edited its own config, file permissions were wrong, symlink was wrong, cache is invalid, etc.) 2) I Don't Understand The Concept: the idea of what something is supposed to do or why hasn't clicked for me yet. Getting to that state will take some time as I wrap my head around it. Once I do, I have that knowledge forever and can build on it to understand even more concepts. I _love_ this kind of problem solving. It's mentally stimulating, it builds on itself, increases mastery, problems are easily found / troubleshot online because people are dealing with similar issues and not their own machine's personal state. NixOS has been almost entirely the second kind of problem solving for me. The first two weeks were basically a full time job of fussing with my config but once I got it, I got it forever. Writing my first derivation was confusing, but now it's easy and it'll always be easy. I think this is why Nix has been able to \"get away with\" having the abysmal, fragmented documentation that it has for so long - it's so good at being a near-stateless, all-encompassing declarative configuration that even outdated blog posts, random people's personal configs on github, even the nixpkgs source code can be helpful enough to solve your problem (and that's often all you have to go on!!!)",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=42376784",
+   "date": "2024-12-10",
+   "title": "Mise: Dev tools, env vars, task runner",
+   "text": "Thanks, but it was a rhetorical question :). My objections are to the fact that someone had to build this atrocity of a Venn diagram just to illustrate the python ecosystem: https://alpopkes.com/posts/python/figures/venn_diagram_updat... And in this very thread, people seem to accept that this is fine. There's nothing wrong with the fact that there are 6 separate tools just for building a package, some support publishing, some don't, some also manage environments or python versions? Which of these are currently supported, which are deprecated, which are going to become deprecated in 2025? But also there's a tool which only does publishing (twine)? The diagram is not even correct, because conda itself requires package building, except it's about building conda packages, which are cross-platform/language and separate from building a python package. Why is there a separate set of tools for package management and package publishing? The blog post is indeed helpful to allow someone new to python to at least see what options there are and roll the dice, but it will also raise extremely serious alarm bells that there's something fundamentally rotten at the core of the python ecosystem. The fact that I need to read some unofficial post from 2023 to gain an overview of the python packaging and environment management ecosystem is itself completely nuts. And I can guarantee you that by now this blog post is getting outdated, because some mad genius is cooking the new best tool and ready to unleash it on the unsuspecting world.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=40462999",
+   "date": "2024-05-24",
+   "title": "M2dir: Treating mails as files without going crazy",
+   "text": "Note that it seems some details of the spec have changed since the blog post was written, so the linked blog post is slightly outdated/lagging behind the actual spec document here: https://man.sr.ht/~bitfehler/m2dir/ (Which I discovered when I ran into this project yesterday.) via conversation on the mailing it seems there are currently two WIP Rust crates/libraries being developed to implement the spec--one by the primary spec writer & another by an \"email-interested\" :) 3rd party, developed independently (AIUI) in part as an exploration of library API design space.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=37551044",
+   "date": "2023-09-18",
+   "title": "The database servers powering Let's Encrypt (2021)",
+   "text": "Your random blog post is the outdated one. Their actual docs: https://docs.hetzner.com/robot/general/traffic/ And reports of throttling once you actually hit certain limits: https://lowendtalk.com/discussion/180504/hetzner-traffic-use...",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=37369655",
+   "date": "2023-09-03",
+   "title": "Focus: A simple and fast text editor written in Jai",
+   "text": "I'm a language implementor myself and just asked for a clear unique selling point of Jai, and guess what, there was indeed one fellow here who didn't question the question, but has personal experience and was able to give me the information I was interested in (see https://news.ycombinator.com/item?id=37369342 ), without me having to read or listen through dozens of outdated blog posts and presentations. I still think a language specification would be worthwhile, even during early development.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=34651459",
+   "date": "2023-02-04",
+   "title": "Major leak reveals new version of Microsoft Bing powered by ChatGPT-4 AI",
+   "text": "I'm not super familiar with chatGPT but how well does this address the issue of outdated blog posts and ancient reddit/forum posts?",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=34561875",
+   "date": "2023-01-28",
+   "title": "Features I'd Like in PostgreSQL",
+   "text": "Never agreed with something so much more in my life. Points 1-3 in particular. I understand their logic of not wanting to \"pollute\" the core products with these features.... but it's sort of past the point now where you're starting to expect this stuff in a modern database product (instead of add-ons, hacks, and outdated blog posts)",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=32670960",
+   "date": "2022-09-01",
+   "title": "Performance Improvements in .NET 7",
+   "text": "app.MapPut(\"ping/pong/yolo\", ([FromBody] Payload request) => {...}); record Payload(Foo Foo); record Foo(string Bar); or app.MapPut(\"ping/pong/yolo\", (JsonElement json) => {...}); Basically, just avoid outdated blog posts and articles :D",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=31968063",
+   "date": "2022-07-03",
+   "title": "V 0.3",
+   "text": "I think what was being referred to was any V GitHub posts, which would involve the V community. The V community has nothing to do with nor have any control over blogs and websites owned by others. As for Cadey, it appears the person is continually self promoting, to include odd accounts continually linking to old and outdated blog posts on its website, at the expense of the V language and any chance given (see almost any HN post on V). Cadey (or under various names) was the one that started off smearing V's author and the language with things like \"V is vaporware\", \"V is lying\", \"recommend against using it for anything\", hoping V would die off type nonsense, etc... Mind you, the attacks started against the very first released Alpha, as if it was supposed to be instantly production ready (and that is very much not how programming languages work). So other programming languages are given the benefit of the doubt of even after say 5 or 10 years of development, while V was supposed to be a finished polished language from day 1? Just plain ridiculousness and clear bad intentions.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=31349865",
+   "date": "2022-05-12",
+   "title": "Nvidia releases open-source GPU kernel modules",
+   "text": "It\u2019s not actually a driver. Note comments like \u201cInitialize driver-specific stuff\u201d in the code. Mesa refers to https://docs.mesa3d.org/systems.html and Vulkan refers to https://en.m.wikipedia.org/wiki/Vulkan To quote the linked blog post: > This blog post will be a tutorial of sorts (we won't have a functioning Vulkan driver in the end, sorry) > First off, every driver needs a name. We're not actually writing one here but it'll make the examples easier if we pretend we are. Just for the sake of example, I'm going to pick on NVIDIA because... Why not? Such a driver is clearly missing and really should happen soon. (Hint! Hint!) We're going to call this hypothetical new Vulkan driver NVK. That said\u2026 NVIDIA did release a Vulkan driver in January 2022 which supports Vulkan 1.3 so\u2026 this blog post is slightly outdated. But it certainly does not include or reference work on an actual NVIDIA driver.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=29727728",
+   "date": "2021-12-29",
+   "title": "Attrs \u2013 the Python library everyone needs (2016)",
+   "text": "Great, maybe OP shouldn\u2019t post and people shouldn\u2019t upvote outdated blog posts with bad advice",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=27464118",
+   "date": "2021-06-10",
+   "title": "Why Go Is Not Good (2014)",
+   "text": "Sorry! It\u2019s in the HTML. That said, nothing about the blog post has become outdated AFAIK, which makes my points a bit stronger if anything... I don\u2019t put anything on my blog unless I think it has a pretty long contextual lifetime.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=26738548",
+   "date": "2021-04-08",
+   "title": "Modern CI is too complex and misdirected",
+   "text": ">I do have a prejudice against people who tell me they learn something through a video. There are good video creators and good educational videos, but there\u2019s just too much trash. Bad content has absolutely nothing to do with the format. What a ridiculous statement. As if there aren't thousands of even worse articles, blog posts and incomplete/outdated documentation for every bad video. Does W3 schools ring a bell? >it\u2019s absurd that a 10 min read, can be a more than half hour video that never gets to the point It's absurd you're blaming bad content on the format, which is also ironic because you missed where I explicitly wrote in text that I prefer well made videos. Do you expect every single piece of text you come across to be a concise and up to date source of truth?",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=26079512",
+   "date": "2021-02-09",
+   "title": "Leveraging the Go Type System",
+   "text": "Semi related question: what resources do you recommend for go's state of the art regarding best practices, idiomatic project structure, tooling and the like? Preferably books, but I'll take anything. I searched recently and most of what I saw were either in depth books about the language itself, outdated blog posts, or non-relevant books that just happened to use go to explore an unrelated topic.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=2545768",
+   "date": "2011-05-13",
+   "title": "Rails 3 - Fully Loaded",
+   "text": "I agree, what he doesn't say is how much effort is often needed to get all of the moving parts working together. For example, integrating Devise with RSpec and Cucumber. And then switching to an ORM such as Mongoid. A good tutorial like Michael Hartl's teaches the basics of Rails but putting together your basic starter app can get complicated. Sometimes it takes combing through a dozen (mostly outdated) blog posts to find how things are supposed to be done \"Time.now\". I recently put together several detailed tutorials along with application templates that generate Rails starter apps using Devise, OmniAuth, RSpec, Cucumber, plus options for jQuery, Haml, etc. I loaded them up to my GitHub account and initially I was surprised at how many people were expressing appreciation and encouraging me to do more. Now I think I realize, it's not easy for many people to keep up with the ever-evolving Rails habitat. There's really a need for guidance that goes beyond the good intro tutorials and shows the steps need to assemble the pieces for real-world projects. edit: Here's a link to my GitHub account with the various example apps and tutorials: https://github.com/fortuity",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=25100849",
+   "date": "2020-11-15",
+   "title": "Show HN: I Created a Course on How to Create Your First Virtual Reality Website",
+   "text": "A friend reached out to me wanting to know how they can make their own virtual reality website. I looked around and found a few outdated blog posts, so I put this together to dump the basics of what I've learned working with WebVR websites since 2016. It's a beginner friendly guide that walks through what a virtual reality website is made of and how to make your very own, host it for free, and visit it in VR! I reached out to a few people already, but if anyone is interested I'd like to give you free access in exchange for an honest review. https://learn.metavly.com/",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=24831261",
+   "date": "2020-10-19",
+   "title": "Combating abuse without backdoors",
+   "text": "I've found the documentation to be excellent for developers and operators (maybe except for SDK documentation last I checked, but the source code is readable enough in that case). However to be blunt (and with the utmost respect for the work that you're doing) it is really, really poor when it comes to documenting client features, e.g. there's a poverty of \"how-tos\" for certain common things, which is especially crucial for nontechnical users. For example, just the other day I had a group jitsi call with everyone in my Matrix instance where I tried to onboard everyone on cross-signing. Most of the people in my community are non-technical and a couple barely understand what E2E encryption means. Unfortunately I didn't anticipate that the Element app would have significantly different menus between the Android and iOS apps, so I tried to consult the documentation... and couldn't find any whatsoever on cross-signing. I tried searching element.io, the `docs/` folders in each client's repo, and to be frank I ultimately gave up and turned it into a verification party I really think there needs to be more investment on this front -- as it stands, the onus is on operators to justify the overhead of E2E, and to figure out how to do XYZ on all the various clients from outdated blog posts, issue threads, and reading source code. Very rarely have I been able to find answers to questions in the actual documentation itself. Anyway, again, I appreciate the work that you're doing, and I'm confident this experience will improve given time. I'd love to help with it -- I've been building my own documentation as I go along, but not sure how to even get started contributing.",
+   "points": null
+  }
+ ]
+}

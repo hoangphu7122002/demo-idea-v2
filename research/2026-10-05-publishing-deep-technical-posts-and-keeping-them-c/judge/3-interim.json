@@ -1,0 +1,15 @@
+{"round":3,"phase":"interim","terms":[
+{"term":"documentation drift","score":7,"freq":1,"centrality":3,"novelty":0,"status":"expanded","sources":["r3q01-04"]},
+{"term":"drift score","score":6,"freq":1,"centrality":2,"novelty":3,"status":"queued","sources":["r3q01-04"]},
+{"term":"Suggest Changes Action","score":7,"freq":1,"centrality":3,"novelty":3,"status":"queued","sources":["r3q03-06"]},
+{"term":"community correction workflow via pull requests","score":7,"freq":1,"centrality":3,"novelty":3,"status":"queued","sources":["r3q03-04"]},
+{"term":"textlint","score":5,"freq":1,"centrality":2,"novelty":2,"status":"kept","sources":["r3q04-03"]},
+{"term":"Astro content collection","score":5,"freq":1,"centrality":2,"novelty":2,"status":"kept","sources":["r3q04-03"]},
+{"term":"ArchUnit","score":3,"freq":1,"centrality":0,"novelty":2,"status":"dropped","sources":["r3q01-04"]},
+{"term":"Shiki","score":3,"freq":1,"centrality":0,"novelty":2,"status":"dropped","sources":["r3q04-03"]}],
+"new_terms":5,"new_facts":5,"contradictions":[],
+"next_queue":[
+{"query":"non-developer reader correction workflow for markdown blog without GitHub account","origin":"term"},
+{"query":"GitHub Action suggest changes for reader-submitted typo fixes on blog repo","origin":"term"},
+{"query":"content drift score staleness metric for technical articles 2026","origin":"term"}],
+"stop":{"stop":false,"reason":"interim pass"}}

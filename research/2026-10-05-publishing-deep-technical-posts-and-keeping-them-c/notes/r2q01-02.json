@@ -1,0 +1,316 @@
+{
+ "sid": "r2q01-02",
+ "url": "https://github.github.com/gh-aw/blog/2026-01-13-meet-the-workflows-documentation/",
+ "title": "Meet the Workflows: Continuous Documentation | GitHub Agentic Workflows",
+ "published": "2026-01-13",
+ "source_type": "vendor",
+ "quality_flags": [],
+ "terms": [
+  {
+   "term": "Blog Auditor",
+   "context": "verifies blog posts are accessible and contain expected content"
+  },
+  {
+   "term": "Daily Documentation Updater",
+   "context": "reviews and updates documentation to ensure accuracy and completeness"
+  },
+  {
+   "term": "Documentation Noob Tester",
+   "context": "tests documentation as a new user would identifying confusing steps"
+  },
+  {
+   "term": "Documentation Unbloat",
+   "context": "reviews and simplifies documentation by reducing verbosity"
+  },
+  {
+   "term": "Glossary Maintainer",
+   "context": "keeps glossary synchronized with codebase caught terminology drift"
+  },
+  {
+   "term": "Multi-device Docs Tester",
+   "context": "tests documentation site across mobile tablet and desktop devices"
+  },
+  {
+   "term": "Slide Deck Maintainer",
+   "context": "maintains presentation slide decks keeps materials current"
+  },
+  {
+   "term": "Technical Doc Writer",
+   "context": "generates API docs from code maintains them when code changes"
+  },
+  {
+   "term": "Continuous Documentation Workflows",
+   "context": "agents that maintain high-quality documentation and content"
+  },
+  {
+   "term": "GitHub Agentic Workflows",
+   "context": "the technology behind the workflows"
+  },
+  {
+   "term": "validation-only workflow",
+   "context": "Blog Auditor creates audit reports rather than code changes"
+  },
+  {
+   "term": "Playwright",
+   "context": "used by Multi-device Docs Tester to verify responsive layouts"
+  },
+  {
+   "term": "Agent Factory",
+   "context": "Peli's Agent Factory documentation chamber where agents work"
+  },
+  {
+   "term": "merge rate",
+   "context": "percentage of proposed PRs that are merged across workflows"
+  },
+  {
+   "term": "causal chain",
+   "context": "Documentation Noob Tester creates chain from discussions to issues to PRs"
+  },
+  {
+   "term": "PR",
+   "context": "pull request"
+  },
+  {
+   "term": "API",
+   "context": "application programming interface"
+  },
+  {
+   "term": "AI agents",
+   "context": "autonomous agents that write and maintain documentation"
+  }
+ ],
+ "claims": [
+  {
+   "claim": "Daily Documentation Updater achieved 57 merged PRs out of 59 proposed",
+   "quote": "57 merged PRs out of 59 proposed (96% merge rate)",
+   "numbers": [
+    "57",
+    "59",
+    "96%"
+   ]
+  },
+  {
+   "claim": "Glossary Maintainer achieved 10 merged PRs out of 10 proposed",
+   "quote": "10 merged PRs out of 10 proposed (100% merge rate)",
+   "numbers": [
+    "10",
+    "10",
+    "100%"
+   ]
+  },
+  {
+   "claim": "Documentation Unbloat achieved 88 merged PRs out of 103 proposed",
+   "quote": "88 merged PRs out of 103 proposed (85% merge rate)",
+   "numbers": [
+    "88",
+    "103",
+    "85%"
+   ]
+  },
+  {
+   "claim": "Documentation Noob Tester produced 9 merged PRs via causal chain",
+   "quote": "9 merged PRs out of 21 proposed (43% merge rate)",
+   "numbers": [
+    "9",
+    "21",
+    "43%"
+   ]
+  },
+  {
+   "claim": "Slide Deck Maintainer achieved 2 merged PRs out of 5 proposed",
+   "quote": "2 merged PRs out of 5 proposed (40% merge rate)",
+   "numbers": [
+    "2",
+    "5",
+    "40%"
+   ]
+  },
+  {
+   "claim": "Multi-device Docs Tester achieved 2 merged PRs out of 2 proposed",
+   "quote": "2 merged PRs out of 2 proposed (100% merge rate)",
+   "numbers": [
+    "2",
+    "2",
+    "100%"
+   ]
+  },
+  {
+   "claim": "Blog Auditor completed 6 audits with 5 passed and 1 flagged issues",
+   "quote": "6 audits completed (5 passed, 1 flagged out-of-date content)",
+   "numbers": [
+    "6",
+    "5",
+    "1"
+   ]
+  },
+  {
+   "claim": "Documentation Noob Tester analyzed 62 discussions leading to 21 issues and 21 PRs",
+   "quote": "62 discussions analyzed → 21 issues created → 21 PRs",
+   "numbers": [
+    "62",
+    "21",
+    "21"
+   ]
+  },
+  {
+   "claim": "Glossary Maintainer identified terminology drift with three different terms for same concept",
+   "quote": "we're using three different terms for the same concept",
+   "numbers": [
+    "3"
+   ]
+  },
+  {
+   "claim": "Multi-device Docs Tester uses Playwright to test responsive layouts and accessibility",
+   "quote": "Playwright to verify our documentation site works across phones, tablets, and desktops",
+   "numbers": []
+  },
+  {
+   "claim": "Technical Doc Writer generates and maintains API documentation when code changes",
+   "quote": "generates API docs from code, but more importantly, it maintains them - updating docs when code changes",
+   "numbers": []
+  },
+  {
+   "claim": "AI-generated docs require human or agent review but are better than no documentation",
+   "quote": "AI-generated docs need human/agent review, but they're dramatically better than no docs",
+   "numbers": []
+  },
+  {
+   "claim": "This blog post is part 6 of a 19-part series on Agent Factory workflows",
+   "quote": "This is part 6 of a 19-part series exploring the workflows in Peli's Agent Factory",
+   "numbers": [
+    "6",
+    "19"
+   ]
+  },
+  {
+   "claim": "Blog Auditor is a validation-only workflow that flags outdated code examples and broken links",
+   "quote": "Blog Auditor is a validation-only workflow that creates audit reports rather than code changes",
+   "numbers": []
+  }
+ ],
+ "analysis_rows": [
+  {
+   "type": "landscape",
+   "entity": "Daily Documentation Updater",
+   "category": "documentation maintenance workflow",
+   "segment": "general documentation",
+   "positioning": "automated updater ensuring accuracy and completeness",
+   "key_facts": "96% merge rate (57/59 PRs)"
+  },
+  {
+   "type": "landscape",
+   "entity": "Glossary Maintainer",
+   "category": "terminology management workflow",
+   "segment": "terminology synchronization",
+   "positioning": "maintains consistency in terminology across codebase",
+   "key_facts": "100% merge rate (10/10 PRs), detects terminology drift"
+  },
+  {
+   "type": "landscape",
+   "entity": "Documentation Unbloat",
+   "category": "documentation simplification workflow",
+   "segment": "content refinement",
+   "positioning": "reduces verbosity and improves clarity",
+   "key_facts": "85% merge rate (88/103 PRs)"
+  },
+  {
+   "type": "landscape",
+   "entity": "Documentation Noob Tester",
+   "category": "usability testing workflow",
+   "segment": "user experience validation",
+   "positioning": "identifies confusing steps from new user perspective",
+   "key_facts": "43% merge rate (9/21 PRs), generates issues via causal chain (62 discussions → 21 issues → 21 PRs)"
+  },
+  {
+   "type": "landscape",
+   "entity": "Slide Deck Maintainer",
+   "category": "presentation maintenance workflow",
+   "segment": "presentation materials",
+   "positioning": "keeps presentation slides current without manual updates",
+   "key_facts": "40% merge rate (2/5 PRs)"
+  },
+  {
+   "type": "landscape",
+   "entity": "Multi-device Docs Tester",
+   "category": "responsive design testing workflow",
+   "segment": "cross-device compatibility",
+   "positioning": "verifies documentation site works across devices using Playwright",
+   "key_facts": "100% merge rate (2/2 PRs), tests mobile/tablet/desktop"
+  },
+  {
+   "type": "landscape",
+   "entity": "Blog Auditor",
+   "category": "content validation workflow",
+   "segment": "blog post accuracy",
+   "positioning": "validation-only workflow that flags outdated content",
+   "key_facts": "6 audits completed (5 passed, 1 flagged issues), identifies outdated code examples and broken links"
+  },
+  {
+   "type": "landscape",
+   "entity": "Technical Doc Writer",
+   "category": "API documentation generation workflow",
+   "segment": "API reference documentation",
+   "positioning": "generates and maintains API docs from code",
+   "key_facts": "updates documentation when code changes"
+  },
+  {
+   "type": "comparison",
+   "option": "Daily Documentation Updater",
+   "criterion": "merge rate",
+   "value": "96%"
+  },
+  {
+   "type": "comparison",
+   "option": "Glossary Maintainer",
+   "criterion": "merge rate",
+   "value": "100%"
+  },
+  {
+   "type": "comparison",
+   "option": "Documentation Unbloat",
+   "criterion": "merge rate",
+   "value": "85%"
+  },
+  {
+   "type": "comparison",
+   "option": "Documentation Noob Tester",
+   "criterion": "merge rate",
+   "value": "43%"
+  },
+  {
+   "type": "comparison",
+   "option": "Slide Deck Maintainer",
+   "criterion": "merge rate",
+   "value": "40%"
+  },
+  {
+   "type": "comparison",
+   "option": "Multi-device Docs Tester",
+   "criterion": "merge rate",
+   "value": "100%"
+  },
+  {
+   "type": "root_cause",
+   "symptom": "Documentation becomes outdated as code evolves",
+   "cause": "code evolves rapidly while documentation maintenance is manual and infrequent",
+   "evidence": "Terminology drifts, API examples become outdated, slide decks grow stale, blog posts reference deprecated features",
+   "fix": "AI agents run continuously to update documentation, validate accuracy, and maintain glossaries"
+  },
+  {
+   "type": "root_cause",
+   "symptom": "Documentation quality inconsistency across projects",
+   "cause": "terminology is not synchronized across codebase",
+   "evidence": "Glossary Maintainer caught three different terms being used for the same concept",
+   "fix": "Glossary Maintainer workflow keeps terminology synchronized"
+  },
+  {
+   "type": "root_cause",
+   "symptom": "Presentation slides and blog posts reference outdated features",
+   "cause": "manual maintenance cannot keep pace with code changes",
+   "evidence": "Blog Auditor flagged out-of-date content in audit",
+   "fix": "Slide Deck Maintainer and Blog Auditor continuously validate and update materials"
+  }
+ ],
+ "model": "haiku",
+ "_recall": 0.75
+}

@@ -1,0 +1,94 @@
+{
+  "rows": [
+    {
+      "type": "pain",
+      "source": "Trustpilot Ghost",
+      "url": "https://www.trustpilot.com/review/ghost.org",
+      "date": "2026-06-26",
+      "quote_or_number": "arrogant cs that will block and cancel immediately, with no recourse, and then lie about refunding you",
+      "persona_match": "y",
+      "theme": "customer service",
+      "note": "M A (GB), 1-star review"
+    },
+    {
+      "type": "pain",
+      "source": "Trustpilot Ghost",
+      "url": "https://www.trustpilot.com/review/ghost.org",
+      "date": "2026-06-22",
+      "quote_or_number": "A rep named Jon Hickman spoke to me disrespectfully, and I can't support a company that treats paying customers that way.",
+      "persona_match": "y",
+      "theme": "disrespectful support",
+      "note": "Khila James (US), 1-star review"
+    },
+    {
+      "type": "pain",
+      "source": "Trustpilot Ghost",
+      "url": "https://www.trustpilot.com/review/ghost.org",
+      "date": "2026-04-20",
+      "quote_or_number": "support agent kept sending me the same automated 'copy-paste' replies telling me to 'contact my bank'",
+      "persona_match": "y",
+      "theme": "unhelpful support",
+      "note": "The Surfers Health (PT), 1-star review"
+    },
+    {
+      "type": "pain",
+      "source": "Trustpilot Ghost",
+      "url": "https://www.trustpilot.com/review/ghost.org",
+      "date": "2026-01-20",
+      "quote_or_number": "I paid Ghost 6,010.82 baht but only received 5,785.93 baht back — not the full amount I paid.",
+      "persona_match": "y",
+      "theme": "refund issues",
+      "note": "mattowensrees (TH), 1-star review"
+    },
+    {
+      "type": "pain",
+      "source": "Trustpilot Ghost",
+      "url": "https://www.trustpilot.com/review/ghost.org",
+      "date": "2025-09-21",
+      "quote_or_number": "Something very odd here. Not part of all. Lower quarter of screen showing wide screen photos???",
+      "persona_match": "y",
+      "theme": "display bugs",
+      "note": "Jms (GB), 1-star review"
+    },
+    {
+      "type": "pain",
+      "source": "Trustpilot Ghost",
+      "url": "https://www.trustpilot.com/review/ghost.org",
+      "date": "2025-06-10",
+      "quote_or_number": "Horrible user interface. One of the least user friendly CMS platforms available",
+      "persona_match": "y",
+      "theme": "poor UX",
+      "note": "Jason D. (US), 1-star review"
+    },
+    {
+      "type": "pain",
+      "source": "Trustpilot Ghost",
+      "url": "https://www.trustpilot.com/review/ghost.org",
+      "date": "2024-07-01",
+      "quote_or_number": "They tell you that you can use it for free without telling you that it only last 2 weeks, and then you are forced to pay",
+      "persona_match": "y",
+      "theme": "misleading free trial",
+      "note": "Thomas (CA), 1-star review"
+    },
+    {
+      "type": "pain",
+      "source": "Trustpilot Ghost",
+      "url": "https://www.trustpilot.com/review/ghost.org",
+      "date": "2023-05-26",
+      "quote_or_number": "the lack of clarity in the billing procedures contributed to this misunderstanding. A clearer policy would significantly improve the experience.",
+      "persona_match": "y",
+      "theme": "billing confusion",
+      "note": "Chase Fraley (US), 2-star review"
+    },
+    {
+      "type": "pain",
+      "source": "Trustpilot Ghost",
+      "url": "https://www.trustpilot.com/review/ghost.org",
+      "date": "2022-07-29",
+      "quote_or_number": "when you import posts you can only edit them in HTML which is the opposite of Ghosts mission of being an easy blogging platform.",
+      "persona_match": "y",
+      "theme": "import limitations",
+      "note": "Scott (US), 1-star review"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{"round":2,"phase":"interim","terms":[
+{"term":"docs-as-code","score":8,"freq":2,"centrality":3,"novelty":3,"status":"kept","sources":["r2q01-03","r2q05-06"]},
+{"term":"reader corrections","score":8,"freq":1,"centrality":3,"novelty":3,"status":"queued","sources":["r2q04-01"]},
+{"term":"outdated content notification","score":8,"freq":1,"centrality":3,"novelty":3,"status":"queued","sources":["r2q03-03"]},
+{"term":"last modified date","score":7,"freq":1,"centrality":3,"novelty":3,"status":"kept","sources":["r2q03-03"]},
+{"term":"API drift","score":7,"freq":1,"centrality":3,"novelty":3,"status":"kept","sources":["r2q01-03"]},
+{"term":"Continuous Documentation Workflows","score":7,"freq":1,"centrality":3,"novelty":3,"status":"queued","sources":["r2q01-02"]},
+{"term":"Swimm","score":7,"freq":1,"centrality":3,"novelty":3,"status":"kept","sources":["r2q05-06"]},
+{"term":"Mintlify","score":6,"freq":1,"centrality":2,"novelty":3,"status":"kept","sources":["r2q05-06"]},
+{"term":"Blog Auditor","score":6,"freq":1,"centrality":2,"novelty":3,"status":"kept","sources":["r2q01-02"]},
+{"term":"DX Out of Date","score":6,"freq":1,"centrality":2,"novelty":3,"status":"kept","sources":["r2q03-03"]},
+{"term":"Fern","score":5,"freq":1,"centrality":1,"novelty":3,"status":"kept","sources":["r2q01-03"]},
+{"term":"Hashnode API","score":5,"freq":1,"centrality":1,"novelty":3,"status":"kept","sources":["r2q02-04"]},
+{"term":"MDX","score":5,"freq":2,"centrality":1,"novelty":2,"status":"kept","sources":["r2q01-03","r2q02-04"]},
+{"term":"WordPress","score":5,"freq":1,"centrality":2,"novelty":0,"status":"kept","sources":["r2q03-03"]},
+{"term":"Hashnode / Dev.to","score":6,"freq":1,"centrality":3,"novelty":0,"status":"expanded","sources":["r2q02-04"]},
+{"term":"JSDoc","score":3,"freq":1,"centrality":0,"novelty":2,"status":"dropped","sources":["r2q05-06"]},
+{"term":"React","score":2,"freq":1,"centrality":0,"novelty":1,"status":"dropped","sources":["r2q02-04"]}
+],
+"new_terms":15,"new_facts":10,"contradictions":[],
+"next_queue":[
+{"query":"reader corrections suggest-a-fix workflow for blog articles stale proposal review","origin":"term"},
+{"query":"outdated content notification plugin old blog posts static site Hugo Astro","origin":"term"},
+{"query":"continuous documentation AI agent keeps blog posts and tutorials up to date","origin":"term"},
+{"query":"Swimm Mintlify limitations criticism docs auto-sync","origin":"expand"}
+],
+"stop":{"stop":false,"reason":"interim pass"}}

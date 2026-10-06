@@ -1,0 +1,281 @@
+{
+ "query_url": "https://hn.algolia.com/api/v1/search?query=blog+post+outdated&tags=story&hitsPerPage=40",
+ "args": [
+  "blog post outdated",
+  "story"
+ ],
+ "items": [
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=4080228",
+   "date": "2012-06-07",
+   "title": "Blogs are from the past, welcome feathers: blogless writing and sharing",
+   "text": "In our team, we all like to write. We want to share our thoughts and opinions. But blogging has it's own set of limitations and expectations that don't always fit with how we write. You need to manage a platform (either hosted or as a service) with everything that comes with it - setting up a theme, defining tags, categories and so on. You need to constantly write otherwise a new visitor may think your 2 months old blog post outdated and that you've moved on. Visitors also expect consistency of topic, while we may want to write a variety of posts about different aspects of our life and being. A flame post about the actress we hate, or a personal post about how life is going in general. What's more, the internet as we know it never forgets, while our opinions change. The word \"Blog\" comes from the combinations of the words \"web\" + \"log\", meaning that all blogs result in a list of all articles. We want to focus on each article and we want to give that article only to our readers. There are enough networks and services that allow you to share what you write with interested people, why do we need them to register and follow your blog as well? Rather than taking up your time to create an intricate blog, why not just offer a direct link to the article and save your readers time too? When that article is no longer relevant, and is not shared or read anymore, we believe it should slowly and automatically disappear. We believe writing is an important part for everybody's personal growth, but a blog with all it's limitations and expectations can be daunting to the casual writer. If you are curious and believe in our manifesto check out http://feathe.rs and sign up. We will open it up for everyone soon.",
+   "points": 12
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=46875998",
+   "date": "2026-02-03",
+   "title": "Show HN: Askfeather.ai \u2013 Professional Class AI Tax Assistant",
+   "text": "Hi HN, We\u2019re the team at Feather Labs, and we built Feather ( https://askfeather.ai ), an AI tax assistant designed to assist how professionals handle modern Tax research. General LLMs are a liability for tax work because they lack a hierarchical understanding of the law. They often conflate IRC Title 26 with non-authoritative blog posts or outdated Treasury Regulations. We built Feather to move past \"plausible\" prose toward audit-defensible reasoning. The Technical Challenge: Standard RAG often chokes on the tax code for a few specific reasons: 1. Hierarchical Fragmentation: Simple character-count chunking breaks the logical nesting of tax law; we implemented a strategy to preserve the relationship between code sections, sub-clauses, and court cases. 2. Temporal Decay: A vector search might pull a 2021 Revenue Ruling that was superseded in 2024; our indexing prioritizes versioning and the latest IRS guidance. 3. Contextual Overlap: The tax code is highly repetitive. We use multi-jurisdictional analysis to distinguish between federal and state-level nuances that appear semantically similar but are legally distinct. The Build: 1. Audit-Ready Citations: Every answer is grounded in primary sources\u2014IRC Title 26, Treasury Regs, and IRS guidance, providing verified references you can actually defend. 2. Context-Aware Intelligence: Beyond answering queries, the system flags related risks, exceptions, and filing deadlines that practitioners might overlook. 3. Compliance: We are SOC 2 compliant with a strict zero-training policy on sensitive client data. We\u2019re curious to hear from anyone else building RAG for \"dense\" domains where \"close enough\" results are not enough. We'll be in the comments to talk about our indexing strategy and how we handle complex document extraction. Sokratis",
+   "points": 7
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=44178780",
+   "date": "2025-06-04",
+   "title": "Show HN: I built an OSINT tools directory",
+   "text": "I work on R00M 101, a Reddit-based OSINT profiler. While building it, I realized most open-source intelligence (OSINT) tools are scattered across GitHub, outdated blog posts, or random Discords. So I put together a public-facing directory of 100+ OSINT tools used by analysts, journalists, and security folks, free, filterable, and categorized by risk, platform, and use case. The idea was to make something useful and no-friction. Built with static HTML + SQL backend + a lot of caffeine. Would love feedback on how to improve the UX or tool curation. If anyone wants to contribute tools or help moderate, that\u2019s also welcome. Thanks!",
+   "points": 53
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=45452358",
+   "date": "2025-10-02",
+   "title": "Show HN: Developer Portfolio Inspiration",
+   "text": "For the last year I have been curating a website for developers across all fields (frontend, backend...) to browse portfolios for inspiration. Common search queries often lead to outdated blog posts that only show the same few designs making finding inspiration for a portfolio annoying. It's a pretty well argued topic whether a portfolio matters enough to bother creating one, but a common ground for the issue is that it shouldn't be a task that you spend any meaningful amount of time on if you're not taking the freelancing route. Feel free to share your portfolio on the site to get some exposure!",
+   "points": 2
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=46935930",
+   "date": "2026-02-08",
+   "title": "Show HN: Computerscienceresources.com \u2013 A Crowdsourced Learning Platform",
+   "text": "The best CS resources shouldn't be hidden in newsletters, GitHub repos, and outdated blog posts. ComputerScienceResources.com brings them together in one organized, community-driven hub. Explore curated learning materials for data science, algorithms, databases, infrastructure, and every corner of computer science. Join learners at every level who are discovering, sharing, and growing together.",
+   "points": 1
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=46667945",
+   "date": "2026-01-18",
+   "title": "Show HN: 21st.fund, an AI tool to discover grants and non-dilutive funding",
+   "text": "I built this after struggling to find relevant grants and fellowships myself. The project started at the EF Hackathon as a credit underwriting and matching agent for founders. After speaking with founders and students, it became clear that discovery itself was the bigger problem. Most people do not know what grants or non-dilutive options exist for them. So I iterated and built 21st.fund. You describe who you are and what you are building, and the tool surfaces relevant grants, fellowships, and programs. The goal is to reduce time spent digging through scattered government sites, PDFs, and outdated blog posts. The site is live at [ https://21st.fund ]( https://21st.fund ) It is early and incomplete, but already usable. I am especially interested in feedback on: * Result quality and relevance * Missing grant sources or geographies * Whether this is useful before paying consultants or advisors Happy to answer technical or product questions in the comments.",
+   "points": 1
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=2256150",
+   "date": "2011-02-23",
+   "title": "Warn HN: How to accidentally, irreversibly nuke your Facebook account",
+   "text": "I had decided to set up a test account for an app I'm developing, so I googled \"Facebook test account\" and found this blog entry at position #1: http://developers.facebook.com/blog/post/35/ I skimmed it for a link and clicked. The page loaded, I clicked the big button in the middle that said something like \"Make [Your Name] a Test Account\"... ...and my Facebook account was made unable to interact with friends and apps. My real Facebook account. The one I use (well, formerly used) to admin multiple apps. The one I formerly used to keep in touch with hundreds of friends. Instead of making a test account for me, it had made a test account out of me. I contacted Facebook support, but other developers on the forum have done so with no luck. This is sickening. Who in their right mind creates a button labeled \"create test account\" that irreversibly destroys the account of the person using the system? And who, having committed such an atrocity of design, doesn't even help the people who accidentally click it? It is incomprehensible. [Edit: It gets WORSE, if that is possible. The method that blog post talks about is outdated. It shouldn't be used any more. There is a much cleaner way to manage test users through official apis. They could at least edit that post to point to the up-to-date information. ]",
+   "points": 159
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=38659582",
+   "date": "2023-12-15",
+   "title": "Ask HN: How do you keep your documentation, how-to, examples and blogs updated?",
+   "text": "Blog posts, how-to guides, etc get outdated very quickly specially when you are doing multiple product launches. How do you keep them updated? Also, as a user i face issue of outdated documentations, guides as well as copilot give outdated responses.",
+   "points": 1
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=43932280",
+   "date": "2025-05-08",
+   "title": "Show HN: Built a site for tech comparisons backed by battle scars, not AI",
+   "text": "I was constantly frustrated by the lack of reliable, experience-based tech comparisons. You know the drill \u2014 you search gRPC vs REST or CloudFront vs CloudFlare, and end up sifting through outdated blogs, generic Medium posts, or worse: AI-generated filler with no substance. So I built https://convinceme.tech . Only approved submissions authored by legit users will be posted. There\u2019s no AI-written content, just actual engineers sharing stories, tradeoffs, and hard-won insights. Each submission is upvoted by readers based on how helpful it is \u2014 and anyone can contribute by submitting their take for review. It\u2019s still early and very much in motion. Feedback, thoughts, and criticisms all welcome. Happy to answer questions!",
+   "points": 1
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=43914823",
+   "date": "2025-05-07",
+   "title": "Show HN: Built a site for tech comparisons backed by battle scars, not AI",
+   "text": "I was constantly frustrated by the lack of reliable, experience-based tech comparisons. You know the drill \u2014 you search gRPC vs REST or CloudFront vs CloudFlare, and end up sifting through outdated blogs, generic Medium posts, or worse: AI-generated filler with no substance. So I built https://convinceme.tech . Only approved submissions authored by legit users will be posted. There\u2019s no AI-written content, just actual engineers sharing stories, tradeoffs, and hard-won insights. Each submission is upvoted by readers based on how helpful it is \u2014 and anyone can contribute by submitting their take for review. It\u2019s still early and very much in motion. Feedback, thoughts, and criticisms all welcome. Happy to answer questions!",
+   "points": 1
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=38532914",
+   "date": "2023-12-05",
+   "title": "Show HN: Desert Atlas, a self-hosted OpenStreetMap app for Sandstorm",
+   "text": "Hi all, This project release is a long time coming. It was a big uphill battle, and by far my largest endeavor so far. I built it for Sandstorm because I believe in Sandstorm's model, and I wanted to show that there's still life and potential in it. If you're inspired, joining our OpenCollective would be really helpful: https://opencollective.com/sandstormcommunity (keeping in mind that Sandstorm has now moved from its original leadership to a community project https://sandstorm.org/news/2023-11-03-from-io-to-org ). You can also join our mailing list or connect on the fediverse: https://sandstorm.org/community (The IRC link is outdated, we've effectively moved to Matrix for now due to the libera.chat split: https://matrix.to/#/#sandstorm:libera.chat ) Also: I'm open for hire! You can see some of my skills in putting things together in this blog post. I'd love to work in something FOSS or OSM related, but not a requirement. I mostly do Python and Golang, with a bit of Haskell under my belt. Other projects and resume here: https://github.com/orblivion/me",
+   "points": 101
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=36197880",
+   "date": "2023-06-05",
+   "title": "Launch HN: Nucleus (YC S22) \u2013 Kubernetes platform for both devs and ops",
+   "text": "Hi HN! We\u2019re Evis and Nick and we\u2019re the founders of Nucleus ( https://nucleuscloud.com ), a Kubernetes developer platform. We automate infrastructure, security, integrations, and more, helping developers ship faster while also automating a lot of repetitive tasks for devops and platform teams. Here\u2019s a demo: https://www.loom.com/share/95265177704346c7b379e981978cd8c5 . It's expensive, time-consuming, and technically difficult to build a secure, scalable Kubernetes platform. Yet many companies that do this spend 6+ months building it themselves and then hire an expensive platform team to manage it. We've talked to customers who have spent $1.5M to build something that isn't their core product. On the technology side, you have to solve for authentication, authorization, service registry and discovery, scalability, observability, infrastructure and more. Most teams end up stitching together a bunch of OS tools and cloud primitives just to end up with a fragile system that\u2019s difficult to maintain as it grows. On the people side, it\u2019s difficult and expensive to find developers and devops engineers who deeply understand Kubernetes and distributed systems. When they leave, tech and process documentation is incomplete, hard to find and often outdated. Nick and I have been building infrastructure platforms for the past 7 years at companies like NewFront, Skyflow, IBM and Garmin. Companies like ours were spending a lot of time and energy in building internal developer platforms from scratch and then hiring expensive teams to maintain them. These were important platforms but never the companies\u2019 core product. It seemed crazy to us that a series A company would have 2-3 developers spend 6+ months building something that wasn't their core product. We felt like there had to be a better way. We\u2019re building a platform that accomplishes 4 things: (1) Reduce the time it takes to spin up Kubernetes environments and services; (2) Provide an intuitive developer experience that simplifi",
+   "points": 77
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=44812367",
+   "date": "2025-08-06",
+   "title": "Show HN: Principles of Building AI Agents book [pdf]",
+   "text": "Hi, I\u2019m Sam, the cofounder/CEO of Mastra, the Typescript agent framework. I wrote a book on building agents and wanted to share it with HN. The book is called Principles of Building AI Agents. Right now it has 34 chapters and 148 pages covering LLMs, prompting, agents, workflows, RAG, evals, multi-agent, tracing, deployment, MCP, tool use, and a few other topics. The backstory here is that last October when we started working on Mastra we knew very little about AI engineering, and had to learn as we were building. In January, we started going to local AI meetups. We met a lot of people who were where we\u2019d been. Somehow, we turned from students to teachers. Whenever an explanation seemed to stick we\u2019d go home and put it in our docs or blog. One day my cofounder Shane turned to me and was like, what if you wrote a book on this stuff? I was initially skeptical, but I tried writing an outline and it was pretty natural. So I spent the next couple weekends trying to hammer our posts into book form, and fill in the gaps. Surprisingly it worked. The initial version was 92 pages, in 27 very short chapters. We were going to call it Principles of AI Engineering but a founder author friend convinced me to use the word Agents instead, so Principles of Building AI Agents it was. The first reaction we got was surprise. We handed it out at the same meetups we\u2019d gone to earlier. We started seeing people post book reviews on social media. A couple founder friends told us the book changed their agent architecture or their interface design. An engineer turned videographer came to our office and shot a mini-documentary. People asked us a lot how we\u2019d keep the book up to date. We didn\u2019t really know. Then MCP and Studio Ghibli happened, and we knew we needed to update it. I sat down in May to write for another weekend. I ended up with another 50 pages. In addition to MCP and image gen, there was a lot of stuff to write about web browsing, workflow streaming, code gen, agentic RAG. We repu",
+   "points": 5
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=3910820",
+   "date": "2012-04-30",
+   "title": "My ideas.txt",
+   "text": "I've been sitting on these for a while and I doubt I'll be working on them anytime soon so I thought I'd share: 1) SMS ordering system for local cafes and restaurants. Give businesses the means to publish a simple menu and let registered customers order by SMS. Delivery and payment details are held on file so only the menu items need to be sent by SMS. Perfect for ordering lunch at work. 2) Live-sourcing. Connect via VoIP (twillio?) to experts who work under your instruction using google docs (or any app if using screen sharing). This is for people who know what they want but not how to create it e.g. business people who need PPT presentations. Could also work for lazy people - dictate that blog post or essay and watch the words appear on screen with near 100% accuracy. More expensive than outsourcing but with virtually none of the problems you'd get on odesk, elance et al 3) group complaints/protests - like kickstarter for complaints. People can create complaints stating: a) what the problem is b) what they want done to fix it c) the consequences if they don't. e.g. a boycott, twitter/phone/letter campaign, protest outside their HQ etc Other consumers pledge their support and if the company fails to act, people take action together. Revenue comes from a small membership fee like meetup ($1 per protester ..?) or by allowing competitors of the target company to advertise on the protest page. 4) Volunteer dating - allow charities to host and publicize events where volunteers can help out one evening/afternoon. Singles in the area can register their interest and then go along to meet other singles at the event. No pressure, casual environment and a great way to meet new people. 5) Guess Who on facebook ... this has probably been done ... ? 6) Offline ad-network : match up people with interesting locations to display ads in the physical world with companies looking for unique advertising. You would only accept listings that have something unique/newsworthy about them. A",
+   "points": 5
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=46229488",
+   "date": "2025-12-11",
+   "title": "Show HN: I built an AI travel planner after wasting 6 hours on Reddit",
+   "text": "I'm a dev who got tired of wasting entire evenings planning trips. After the 10th time finding myself with 50 tabs open at 2 AM reading contradictory blog posts, I built Voyaige. What it does: Enter a city + your travel style (budget backpacker, luxury, foodie, etc.) \u2192 get a personalized PDF guide in ~15 minutes. Not generic \"Top 10\" lists\u2014actual itineraries with opening hours, transport tips, and recommendations that match YOUR preferences. Why Perplexity over GPT/Claude: Perplexity's Deep Research API was the game-changer. It actually cites real sources and pulls fresh data. GPT-4 kept giving me outdated restaurant recommendations from 2021. Perplexity searches, synthesizes, and cites\u2014perfect for travel where accuracy matters. Tech stack: - Laravel backend with queue workers for long-running generation - Perplexity Deep Research API for research + synthesis - Custom PDF generation (tried DOMPDF, settled on Browsershot + headless Chrome) - Polar for payments (Stripe rejected me 3 times as \"travel content\") Hardest technical challenges: 1. API response quality: Prompt engineering to get consistent structure across different cities/personas 2. PDF layout: Making 25-page guides that actually look good and are readable on mobile 3. Queue management: Handling generation failures gracefully + retry logic 4. Payment processors: Finding one that accepts \"AI-generated content\" businesses Questions for HN: 1. Would you pay $13 to skip 3-5 hours of research? 2. What would justify higher pricing? 3. How do you feel about AI-generated travel advice vs. human travel bloggers? Link: https://voyaige.io Happy to discuss or answer any questions!",
+   "points": 4
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=48600381",
+   "date": "2026-06-19",
+   "title": "Show HN: Intelligrade \u2013 EU Based Digital Exams",
+   "text": "Hey HN! I am Kevin and together with my co-founder Steven I have built Intelligrade over the last 2 years. Steven is a teacher and he got sick of having to deal with outdated, overly expensive and inadequate tooling to create, conduct and grade exams. Most of them don't respect privacy either or are US based which generally disqualifies them from usage in many parts of the EU. So we set out with a mission: Create a tool for teachers and schools that covers exams E2E. The reality is that teachers usually care about some things that we simply could not find combined in a product: They want flexible ways to create exams with different task types, they want auto-grading where possible, they want to collect parent signatures, they want to be privacy conscious and they care that their students don't cheat. We got to work and this is our result. We tried to address all of these points and more and after two years of development and a multi month beta in stealth mode with a bunch of teachers from Stevens school we are confident enough to officially launch. For those who are more interested in the technical aspects I thought I would share some of them: We use Nextjs as our meta framework, Sqlite for data persistence, Drizzle as our ORM and Litestream for backups. On the frontend we make extensive use of the different Tanstack libraries, Tiptap for various rich text modules and a heavily modded shadcn component library for large parts of the UI. I will mention that the Spanish translations we use are AI generated and we are fleshing it out more as we get feedback from some of our testers. So are the cover images for our blog posts. We hope to replace them once we have some more time to flesh out our CI. We are a small start up: Just 2 people and fully self-funded. This is a passion project of ours which we hope will help teachers in their workflows and we hope to turn this into our full time jobs if we can make this thing grow. We are super happy to hear your feedback! Feel f",
+   "points": 3
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=8428683",
+   "date": "2014-10-08",
+   "title": "Ask HN: Help me get rid of a dilemma I've never had[The Apple dilemma]",
+   "text": "Hey folks, [A little backstory: I'm 14 yrs old and have been coding since an year or so. I started learning Obj-C around the beginning of May for creating iOS apps through the book \"Programming in Obj. C by Stephen Kochan(great book by the way) but never made it to real app making, and was able to learn only till about the cmd-line Obj. C apps] Whoo, so here I am, I know how to code Obj. C cmd-line apps but anything more than that, just forget it. Then, in June, came WWDC, with its Swift, iOS 8, and Yosemite blow(if I may call it that). So, now, I'm totally confused what to do... On one side, there's the option of using the Apple developer Library to learn[http://developer.apple.com/library/](But, it's getting started guide is really outdated and kinda, confusing and useless), then, there's the option of using the Swift iBooks(But I'm not sure if I should learn Swift, a language thats not open source and I don't think has a future after reading a number of blog posts against it) or there's also the option to continue learning Obj. C(I'm not sure why I should not learn Swift but learn Obj. C[P.S. I know C inside out]). There really aren't any other books that I think are cool for ios8 + Yosemite development learning, but a considerable option is http://designcode.io but again, that has a problem. I barely have any idea about ios design and stuff, and the book aims to serve Designers(acc. my understanding). So, substantially, for the last couple of months, I haven't learn't anything because I've been totally, and when I say totally I mean totally confused. Hence I'm stuck doing nothing, which is not something I want. I've gon back to coding HackerRank problem solutions in C, which is something which I'm fed up of now... Help me, ppl. I'm looking forward to it.",
+   "points": 2
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=46989765",
+   "date": "2026-02-12",
+   "title": "Show HN: The GPG Guide \u2013 Practical OpenPGP for 2026",
+   "text": "Most GPG documentation I could find was outdated -- O'Reilly 1995, No Starch 2006, countless websites from the mid 00s -- or scattered across dozens of blog posts that each covered one piece. I wanted a single reference that covered the full workflow with current tools and practices, so I had been keeping a bunch of text files in my homedir for a while. Recently I realized it was getting close to 60k words and I decided I should share it. The guide covers GnuPG 2.5.x and Sequoia sq, defaults to Ed25519, and has three reader tracks: a minimal Git + SSH setup, a full YubiKey identity, and a high-assurance path for FOSS package maintainers and the like. 377 pages across 16 parts, with platform-specific instructions for Linux, macOS, and WSL. Parts I\u2013III are available as a sample download. I'd be really grateful for any feedback, as I have never written a book before and, frankly, have no business doing it.",
+   "points": 2
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=42237805",
+   "date": "2024-11-25",
+   "title": "What to think of the Paperclip Maximizer thought experiment 21 years later?",
+   "text": "I often stumble across YouTube videos or blog posts that talks about the \"paperclip-maximizer\" thought experiment by Nick Bostrom [1, 2]. Basically, it\u2019s the idea of a superintelligent AI tasked with creating paperclips, which ends up turning the entire universe into paperclips and wiping out humanity in the process. It\u2019s often used to explain how AI could be a threat to humanity, based on the idea that \u201cAIs are goal maximizers\u201d and that hardcoding human values into an AI is really difficult. The concern is that the AI might optimize its goal in a way that\u2019s dangerous for humans in ways we didn\u2019t foresee. This thought experiment felt relevant back when Reinforcement Learning (RL) was seen as the most promising path toward building more powerful AIs. In that paradigm, we could often see RL agents hack their reward functions. For example, if you told an agent to \"maximize velocity,\" it might find some unintended and weird way to do it that we didn\u2019t predict. [3] But now, with LLMs, I feel like the situation has changed. We\u2019re not training AI to achieve specific goals directly anymore. Instead, we train them on subgoals. First, something like \u201cpredict the next token,\u201d which just happens to be a really effective way for them to understand language. Then, we refine them further with more specific subgoals like \u201cgenerate tokens that best answer this instruction,\u201d often using RL. At that stage, we try to teach them what not to say and align them with human values. That part is still really hard and can fail spectacularly, but that\u2019s basically it. We don\u2019t hardwire absolute goals; we train them on subgoals and then use prompting to get them to do all sorts of tasks. I\u2019m not saying LLMs or future more advanced AIs are already safe at all. They\u2019re definitely not. But I do think the paperclip-maximizer feels outdated as a thought experiment. It imagines AI as having a single, direct, absolute goal, which made sense in the RL paradigm but doesn\u2019t match how we\u2019re building AI sys",
+   "points": 2
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=34305134",
+   "date": "2023-01-09",
+   "title": "Ask HN: Why there are new and better AI models on a daily basis?",
+   "text": "Be it on HN, linkedin, random blog posts, I see that new models are appearing daily that make the previous model \"outdated\". Is it pure coincidence or what is happening for these things to be happening in parallel? I find all this so incredible, it seems that we are living a revolution of our times but the general public has no idea of these events.",
+   "points": 1
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=2474739",
+   "date": "2011-04-22",
+   "title": "Ask HN: Review my startup, Xuland.com",
+   "text": "Good morning HN, I presented my site, Xuland a while back on HN but being a newbie the link/submission was closed for comments soon after. I've made considerable changes since then and even started working on a mobile app - or at least a mobile \"web\" app that should suffice until the native Android/iOS versions are complete. I started working on Xuland back in Oct, 2009 as a hobby/side-project. At first, I was looking to create an alternative to Craigslist - a site with a commenting engine similar to Facebook/etc but with a map and geolocation features. Since then I've migrated away from that idea. I don't think the world needs another social networking site necessarily but Xuland does offer some location-based features which I think folks could really come to find useful. Under the deals tab for instance, the Restaurant.com search is better than their own website. I also added an affiliate ID to the deal URL's so there's a potential for monetization there. I've gotten around 8,000 unique visitors worldwide since I went public, but going public involved nothing more than a blog post and a mention on some small sites like KillerStartups. My blog post has risen to become the 4th most popular blog post on Adobe Feeds in the past year (http://feeds.adobe.com/index.cfm?query=byMostPopularYear) even though I'd say its contents are now probably outdated. One point to mention: the site is built using Flex/Flash so I apologize to iPad users in advance. I am working on the app versions. I'm interested in what the HN community thinks of the idea and its implementation. Any advice or criticism? I plan on moving forward with releasing it to the public more and more to drum up traffic if possible, stress-test and pinpoint areas for change. I appreciate all your feedback! ;) Sincerely, Erich http://www.xuland.com",
+   "points": 1
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=47331491",
+   "date": "2026-03-11",
+   "title": "Show HN: AngelBacked \u2013 a searchable database ofangels and VCs",
+   "text": "Hi HN, Over the years I kept running into the same problem founders talk about constantly: finding the right investors is surprisingly difficult. Most tools are either extremely expensive (think $5k\u2013$10k+/yr), focused on later-stage VCs, or filled with outdated contact info. Meanwhile early-stage founders still spend weeks digging through Twitter, LinkedIn, Crunchbase, spreadsheets, and random blog posts just trying to build a seed list. So I built AngelBacked. AngelBacked is a searchable database of 90,000+ angels and venture capital investors designed to make early-stage fundraising research much easier.",
+   "points": 1
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=46376790",
+   "date": "2025-12-24",
+   "title": "Ask HN: Coding agents struggle to get the current OpenAI API Spec?",
+   "text": "The OpenAI API spec is perhaps the most basic, central and widely used thing in building AI applications. It is thus so surprising and tell that it is so hard for a coding agent to get the actual API spec. I asked Claude Code to validate my LLM call script against the official API spec. First, it used the Ref MCP which I had enabled which gathered over a dozen docs most of which were not from OpenAI and much of it was useless, outdated etc. I then disabled the MCP to see if basic web search would do better. It failed to do a direct fetch openAI's official doc page and then started googling - it asked to read 2 blog posts from Datacamp and medium. This is a basic task that should not be this broken. I think there is clear need and opportunity for better tooling here or is it a skill issue?",
+   "points": 1
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=46207478",
+   "date": "2025-12-09",
+   "title": "Show HN: I built an AI tool that tracks competitor changes in real time",
+   "text": "Hi HN, I'm the solo founder of Signal Labs. I built a tool called CIx because in my previous roles, competitive intelligence and battelcards became outdated in days. Updating them manually was painful, slow, and constantly behind competitors. The problem we\u2019re trying to solve: - Competitors launch features daily/weekly but teams only notice months later - Sales needs fresh intel for calls, not stale quarterly slides - PMs want to know what competitors are shipping so they can make informed roadmaps decisions - CI/PMM teams spend hours gathering intel that becomes outdated before anyone uses it What CIx does: - Monitors competitor websites, releases, and changes in real-time - Generates and updates battlecards automatically using CI best-practices. - Helps PMs, Sales, Marketing and Leadership teams stay aligned Here\u2019s a 60-second demo: https://www.loom.com/share/cee4b34448684a54b44c9d3ad4619b54 Here\u2019s the deeper blog post on why we built it: https://usesignallabs.com/the-ci-treadmill-is-broken-why-bat... You can try CIx here (free): https://usesignallabs.com I'd love feedback, criticism, or ideas, especially from anyone who has dealt with fast-moving competitors or has built similar automation tools. Happy to answer any questions.",
+   "points": 1
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=2487132",
+   "date": "2011-04-26",
+   "title": "Ask HN: Review my startup, http://www.xuland.com",
+   "text": "Good afternoon HN, I started working on Xuland well over a year ago as a hobby. At first, I was looking to create an alternative to Craigslist - a site with a commenting engine similar to Facebook/etc but with a map and geolocation features. Since then I've migrated away from that idea. Xuland offers some location-based features which I think folks could really come to find useful. The deals tab, for instance, aggregates deals from Groupon, LivingSocial and Restaurant.com in an easy-to-use interface. Other API's like Yelp and Eventful are included as well. Visitors can register directly with Xuland or login directly using up to six different external accounts (Facebook, etc). The site also allows for image upload and even simple editing, like red-eye removal. I've gotten around 8,000 unique visitors worldwide since I deployed the site initially, but going public involved nothing more than a blog post and a mention on some small sites like KillerStartups. My first blog post has risen to become the 4th most popular blog post on Adobe Feeds in the past year (http://feeds.adobe.com/index.cfm?query=byMostPopularYear) even though I'd say its contents are now probably outdated. One point to mention: the site is built using Flex/Flash so I apologize to iPad users in advance. I am working on the Android/iOS app versions as well as a mobile web-app that can be used within mobile browsers. I'm interested in what the HN community thinks of the idea in general and its implementation - site design, etc. I appreciate all your feedback! ;) Sincerely, Erich Cervantez http://www.xuland.com",
+   "points": 1
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=1430190",
+   "date": "2010-06-14",
+   "title": "Ask HN: Good Android Development Blogs?",
+   "text": "In February I switched from working on my company's iPhone app to our Android app. While I was working on the iPhone app I often found new ideas, inspiration, and fascinating explanations at excellent blogs such as http://www.cimgf.com/ http://cocoawithlove.com/ and http://www.mikeash.com/pyblog/. Since switching to Android, I've found only one blog I consider of equal usefulness as the last three, and it's only a few weeks old: http://mindtherobot.com/blog/ There are a number of other blogs floating around, notably the official Android Dev blog which has only recently started making meaty posts, and Romain Guy's blog, which unfortunately is largely outdated. Where do you go for new techniques and perspectives on Android development?",
+   "points": 9
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=37421544",
+   "date": "2023-09-07",
+   "title": "Show HN: USearch Images demo in 200 lines of Python",
+   "text": "Hey everyone! I am excited to share updates on four of my & my teams' open-source projects that take large-scale search systems to the next level: USearch, UForm, UCall, and StringZilla. These projects are designed to work seamlessly together, end-to-end\u2014covering everything from indexing and AI to storage and networking. And yeah, they're optimized for x86 AVX2/512 and Arm NEON/SVE hardware. USearch [1]: Think of it as Meta FAISS on steroids. It's now quicker, supports clustering of any granularity, and offers multi-index lookups. Plus, it's got more native bindings than probably all other vector search engines combined: C++, C, Python, Java, JavaScript, Rust, Obj-C, Swift, C#, GoLang, and even slightly outdated bindings for Wolfram. Need to refresh that last one! UForm v2 [2]: Imagine a much smaller OpenAI CLIP but more efficient and trained on balanced multilingual datasets, with equal exposure to languages from English, Chinese, and Hindi to Arabic, Hebrew, and Armenian. UForm now supports 21 languages, is so tiny that you can run it in the browser, and outputs small 256-dimensional embeddings. Perfect for rapid image and video searches. It's already available on Hugging-Face as \"unum-cloud/uform-vl-multilingual-v2\". UCall [3]: It started as a FastAPI alternative focusing on JSON-RPC (instead of REST protocols), offering 70x the bandwidth and 1/50th the latency. It was good but not enough, so we've added REST and TLS support, broadening its appeal. I've merged that code, and it is yet to be tested. Early benchmarks suggest that we still hit the same 150'000-250'000 requests/s on a single CPU core in Python by reusing HTTPS connections. StringZilla [4]: This project lets you sift through multi-gigabyte or terabyte strings with minimal use of RAM and maximal use of SIMD and SWAR techniques. All these projects are engineered for scalability and efficiency, even on tight budgets. Our demo, for instance, works on hundreds of gigabytes of images using just a few gigaby",
+   "points": 9
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=2558824",
+   "date": "2011-05-18",
+   "title": "Ask HN: Daily updated learning portal - would this work?",
+   "text": "Rails was my first programming endeavor. With a non-cs background, learning it was an impossibly difficult task. Every resource I found either assumed the reader had some prior programming knowledge, was incomplete, or was outdated, which led to frustration. I tried to struggle through countless tutorials, videos and ebooks, but nothing made sense and I always gave up. Railscasts were helpful for specific concepts, but not so much for general ideas and clueless newbies. After months of spinning wheels, I found a decent ebook and I realized that programming was not all that difficult as long as it was properly explained and dissected. Since then, I've thrown around the idea of starting dedicated a blog to teaching Ruby on Rails to non-programmers. I know for a fact that there are people out there that would find this valuable - constant email inquiries enforce this. The only problem is I'm terrible at blogging since there is nobody to hold me accountable if I slack off (it happens). Lightbulb - if I launch a platform with strong intentions to update every single day (think Woot.com for learning), I may be inclined to do just that. This would solve a number of issues: - first post would assume absolutely no previous programming experience - each new post would build on the last (building increasingly complex sample applications, etc) - with daily updates, content would never become stale or dated - would not require a huge commitment (maybe an hour a day) - at the end of every month, the previous 30 posts could be packaged into an ebook But why stop with Rails? The same platform could host a number of programming languages, community driven or maintained by a number of select contributers. It could be like Wikipedia + Woot + Railscasts. And it doesn't just have to be for beginner programmers. Eventually it could turn into a daily dose of programming tidbits - little tips and tricks that even experienced programmers could find useful. So who wants to collaborate?",
+   "points": 4
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=34061818",
+   "date": "2022-12-20",
+   "title": "Ask HN: Sveltekit newbies, what\u2019s your experience so far?",
+   "text": "I ask because I got curious about sveltekit when the 1.0 release happened and am now trying to build a little app with it. My experience has been extremely frustrating. It feels like a lot of the tutorials and code examples I can find (or those provided by copilot) are outdated and not working (like try finding how to create a post route). And then simple things (connecting to mongo for example) also become extremely convoluted or flat out stop working (I have an example where one bit of code works perfectly fine in express, but then doesn\u2019t find anything in svelte). The thing that sold me on svelte were all the experiences shared by many in YouTube videos and blogs about how logical and straightforward svelte is, yet I seem to find nothing but frustration. Am I alone in this?",
+   "points": 2
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=39632491",
+   "date": "2024-03-07",
+   "title": "From Zero to $200 in 2 weeks: My Micro SaaS Pre-sale Secret",
+   "text": "Hey HN, The Idea Stage: When I was building my first product, I didn't have much marketing knowledge. I focused primarily on development, which led to zero traffic on my site. I soon realized I needed to market effectively to generate leads and sales. So, I hired an SEO/SMO analyst to promote my product on social media and search engines. However, the analyst didn't have extensive knowledge about my SaaS product or the niche. With limited followers on Twitter and LinkedIn, I realized promoting my product solely on social media wouldn't drive significant traffic. Since I lacked SEO knowledge, I thought writing blogs and sharing links across social channels would bring massive traffic. I created high-quality blogs and shared them, but only saw 1-10 visitors. This led me to share the core points in the form of infographics. Here's where things changed: my existing followers paid attention, liked the posts, and I gained new followers while engaging with the existing ones. This experience sparked an idea, and I discovered that this might be a new marketing strategy many businesses could benefit from. How I Validated My Idea? To validate my idea, I used both free and paid tools (which I'll detail in a future article). Building a landing page felt outdated; a waitlist page could be more effective for capturing leads. I created my waitlist page using a no-code tool called momentum.page. The landing page had a catchy tagline in the hero section, an option to join the waitlist, and clear use cases. I then shared the landing page on subreddits, requesting feedback on the idea. This generated significant traffic \u2013 around 1.4k page views within 24 hours \u2013 and over 150 users joined the waitlist, a first for me. Most of them provided valuable feedback, helping me understand what features to prioritize in development. How I Started Generating Revenue? Before building, I wanted to ensure user willingness to pay. During interactions on the subreddits, I directly asked if they'd pay f",
+   "points": 1
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=1716463",
+   "date": "2010-09-22",
+   "title": "What do you want to know about accessibility and web apps?",
+   "text": "I've been doing web development for 15 years, and I have done so while having a vision disability. In the course of my week, I'll use magnification tools, screen readers, and other techniques to get my job done. Because of this background, I'm very conscious of the problems that people with disabilities face when working on the web. I've also noticed that a lot of developers are unaware of the issues or have outdate or incorrect information or beliefs about accessibility. I'd love to change that. I'm planning to write a series of blog posts on accessibility issues that developers should know about. I'll cover disabilities for sure, but I'll also be talking about accessibility in terms of connection speed, mobile devices, and other topics. I'm interested to know what kinds of things you'd like to see more about. I'll do my best to provide helpful solutions and advice, and avoid the snarky \"yer doin it wrong\" stuff. I have a daughter with the same vision problems I have, and I want to make the web a better place for her. While I'm at it, I'd like to do that for everyone. I believe that web apps planned with accessibility in mind benefit all users, not just the disabled.",
+   "points": 32
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=3375096",
+   "date": "2011-12-20",
+   "title": "Smartphone Shipments Beat PCs in ALL of 2011",
+   "text": "",
+   "points": 2
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=2664611",
+   "date": "2011-06-17",
+   "title": "Open letter to FB from protest leaders in macedonia.",
+   "text": "Open Letter to Facebook Re: Protests against Policy Brutality in Macedonia (June 2011) Dear Facebook, We are writing to express our concern over the swift deletion policy that has been imposed on the facebook pages and events that we as participants in a protest against policy brutality in Macedonia are currently dealing with. We have been made aware by the press secretary for the Ministry of Interior that their administrators are responsible for reporting the groups for calls for violence and hate speech, but considering that we know the content of those pages and deny the allegations made by press secretary Kotevski, we wonder how your administrators confirm those allegations before you delete the pages. Do you confirm them at all? The systematic deletion especially of events that bring people together in peaceful protests adds significantly to the climate of fear created by those we are protesting against, so we felt compelled to explain a few things which we hope you will take into consideration next time you receive a request from the Macedonian Ministry of Interior to kill one of our events or pages. We will try to explain in brief the background of the protests, as well as the nature of the protests with the hope that someone out there will realize how detrimental your policies are for our peaceful, non-violent cause. Background: In the early hours of June 6th, shortly after midnight, a 22-year-old boy was beaten to death on the main square in Skopje in front of hundreds of bystanders. Witnesses who were there believed that the perpetrator was a member of the special police forces, but found no evidence of it in the media the next morning. In fact, the only story that was published the next day by a Macedonian news agency merely reinstated what the Ministry of Interior had published in their morning brief: that a young man started feeling sick on the main square the night before and passed away shortly after. The outraged witnesses and their friends called fo",
+   "points": 84
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=15749079",
+   "date": "2017-11-21",
+   "title": "Dear Sam: we need you to lead the fight for net neutrality",
+   "text": "Dear Sam, Eight months ago you wrote a blog post titled, \"Keep the Internet Open\" (http://blog.samaltman.com/keep-the-internet-open) where you wrote: \"We need to make our voices heard. We won this fight once before, and we can win it again. I really hope an activist or tech leader will step up and organize this fight (and I'm happy to help!). It's important for our future.\" Well, the fight is here, and I don't see tech leaders stepping up in the same way they did when we won this fight before. What's going on? We need you, Sam. We need more than just your help. We need your leadership. We need you to show us with your actions how outraged and panicked we should be. We need you to put on hold whatever it is that you're doing and make this issue your primary focus. We need you to recruit every tech leader in your contact list to do the same. Please, Sam. We really need you.",
+   "points": 3
+  }
+ ]
+}

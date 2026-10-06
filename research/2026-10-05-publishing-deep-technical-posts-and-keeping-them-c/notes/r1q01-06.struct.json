@@ -1,0 +1,205 @@
+{
+ "sid": "r1q01-06",
+ "terms": [
+  {
+   "term": "MIT",
+   "count": 3,
+   "kind": "acronym"
+  },
+  {
+   "term": "Ghost Foundation",
+   "count": 5,
+   "kind": "ngram"
+  },
+  {
+   "term": "CMS",
+   "count": 2,
+   "kind": "acronym"
+  },
+  {
+   "term": "Business model",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "External links",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Foundation",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Ghost",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "Ghost (blogging platform",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Ghost (blogging platform) - Wikipedia",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "History",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Platform",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "References",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Security",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "See also",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "books",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "newspapers",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "relies excessively on references to primary sources",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "scholar",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "About Ghost",
+   "count": 2,
+   "kind": "ngram"
+  },
+  {
+   "term": "Hacker News",
+   "count": 2,
+   "kind": "ngram"
+  },
+  {
+   "term": "IBM",
+   "count": 1,
+   "kind": "acronym"
+  },
+  {
+   "term": "JSTOR",
+   "count": 1,
+   "kind": "acronym"
+  },
+  {
+   "term": "UI",
+   "count": 1,
+   "kind": "acronym"
+  },
+  {
+   "term": "VEVO",
+   "count": 1,
+   "kind": "acronym"
+  },
+  {
+   "term": "WYSIWYG",
+   "count": 1,
+   "kind": "acronym"
+  },
+  {
+   "term": "Admin Control Panel",
+   "count": 1,
+   "kind": "ngram"
+  },
+  {
+   "term": "As of October",
+   "count": 1,
+   "kind": "ngram"
+  },
+  {
+   "term": "Blogging Platform",
+   "count": 1,
+   "kind": "ngram"
+  },
+  {
+   "term": "Boring Blog To The",
+   "count": 1,
+   "kind": "ngram"
+  },
+  {
+   "term": "Darren Rowse",
+   "count": 1,
+   "kind": "ngram"
+  },
+  {
+   "term": "From Wikipedia",
+   "count": 1,
+   "kind": "ngram"
+  },
+  {
+   "term": "Future of Blogging",
+   "count": 1,
+   "kind": "ngram"
+  },
+  {
+   "term": "Ghost Confirms Hack Attack",
+   "count": 1,
+   "kind": "ngram"
+  },
+  {
+   "term": "Ghost Idea",
+   "count": 1,
+   "kind": "ngram"
+  },
+  {
+   "term": "Ghost Launch Party",
+   "count": 1,
+   "kind": "ngram"
+  },
+  {
+   "term": "Ghost Launches to The",
+   "count": 1,
+   "kind": "ngram"
+  },
+  {
+   "term": "Ghost Repository",
+   "count": 1,
+   "kind": "ngram"
+  },
+  {
+   "term": "Ghost Will Take Your",
+   "count": 1,
+   "kind": "ngram"
+  },
+  {
+   "term": "Hannah Wolfe",
+   "count": 1,
+   "kind": "ngram"
+  },
+  {
+   "term": "Is This Kickstarter Project",
+   "count": 1,
+   "kind": "ngram"
+  }
+ ]
+}

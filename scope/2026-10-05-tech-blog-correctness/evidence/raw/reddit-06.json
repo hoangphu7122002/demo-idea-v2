@@ -1,0 +1,142 @@
+{
+ "query_url": "https://www.reddit.com/r/technicalwriting/search.rss?q=blog+post+outdated&sort=top&t=year&restrict_sr=1",
+ "args": [
+  "technicalwriting",
+  "blog post outdated"
+ ],
+ "items": [
+  {
+   "source": "reddit r/technicalwriting",
+   "url": "https://www.reddit.com/r/technicalwriting/comments/1p0a1h8/testing_documentation_with_ai/",
+   "date": "2025-11-18",
+   "title": "Testing documentation with AI",
+   "text": "Casey (CT) Smith, Lead Technical Writer at Payabli, has developed an AI-powered documentation testing tool called reader-simulator . This tool simulates different user personas navigating through documents to identify navigation issues and measure success rates. Built using Playwright (an end-to-end testing framework for web apps) and the Claude API, the tool is available as open-source code on GitHub. reader-simulator recognizes that different users don't just prefer different content: they consume it in fundamentally different ways. The tool simulates four distinct personas: Confused beginner Rapidly cycles through documents, trying to find their bearings and understand basic concepts. Efficient developer Jumps directly to API references and uses Ctrl+F to find specific information quickly. Methodical learner Reads documentation from start to finish, building understanding sequentially. Desperate debugger Searches frantically for error messages and immediate solutions to blocking problems. To explore whether this approach could be replicated on other AI platforms, we conducted experiments with different tools. We first tested whether ChatGPT's Agent Mode could produce similar results. The experiment succeeded. We also investigated whether a reader simulator could be built using no-code app platforms. After several iterations, we successfully replicated the functionality of both the original Claude version and our ChatGPT Agent implementation. The no-code version provides a more visually appealing user experience while maintaining the core testing capabilities. The approach also offers some extensibility - incorporating a back-end database for storing historical results and different personas. CT has written a blog post about her experiment. We've written a blog post with screenshots about our two experiments. Ellis Pratt Cherryleaf submitted by /u/tw15tw15 [link] [comments]"
+  },
+  {
+   "source": "reddit r/technicalwriting",
+   "url": "https://www.reddit.com/r/technicalwriting/comments/1w6q37y/the_good_docs_project_is_hosting_a_blogathon_a/",
+   "date": "2026-09-04",
+   "title": "The Good Docs Project is hosting a blogathon \u2014 a free online writing event",
+   "text": "Hi everyone! On October 10\u201311 , The Good Docs Project is hosting our first-ever Blogathon 2026 , and we\u2019d love for you to join us. The blogathon is a free, roughly three-hour online writing event where people from around the world can come together to write blog posts for The Good Docs Project\u2019s blog, exchange ideas, and explore the past, present, and future of documentation. Think of it as part hackathon, part unconference, and part writing jam except instead of building code, we\u2019re building ideas. You\u2019ll choose a documentation-related question or topic you care about, spend time writing alongside other participants, get feedback on your draft, and meet others interested in documentation. After the event, we\u2019ll edit and publish participant posts on The Good Docs Project website. Applications close September 23, and space is limited. \u2728 Come write with us! Learn more about Blogathon 2026 Apply to attend submitted by /u/techwritercarrie [link] [comments]"
+  },
+  {
+   "source": "reddit r/technicalwriting",
+   "url": "https://www.reddit.com/r/technicalwriting/comments/1r00f40/techcomms_future_might_be_brighter_than_we_think/",
+   "date": "2026-02-09",
+   "title": "Techcomm's future might be brighter than we think",
+   "text": "https://preview.redd.it/gpsjyfpm0gig1.jpg?width=936&format=pjpg&auto=webp&s=1a3de7fd55fbbce5927708eab24c4843fa21360f I was doing some research (i.e. asking a chatbot) into what are the big developments and trends in software development and where technical writing might be of interest to those teams and organisations. And what surprised me was you can make a case for the future of software development being less coding, and instead....more documentation. We came up with five reasons: The need for AI governance. Generative AI tools enable non-developers to build applications. HR can knock up their own apps. So can Marketing. So can Sales. This means there will risky \u201cshadow\u201d apps unknown to the IT department unless they are properly documented and audited. The EU Cyber Resilience Act requires documentation of control frameworks. From 11 December 2027, companies must document ICT risk management and incident reporting. A need for \u201cground truth\u201d knowledge bases that AI systems can use. The move towards platform engineering. This treats internal platforms as products. This requires documentation with the same rigour as external product documentation. More complex multi-step API workflows will only succeed if developers know how to use them. Someone will need to write this documentation. Someone with technical writing skills. Some might be done by AI, some might be done by developers, and some might be done by Technical Writers. -- We wrote this up more fully as a blog post: 5 reasons why the future of software development is less coding, more documentation Ellis Pratt Cherryleaf Technical Authors submitted by /u/tw15tw15 [link] [comments]"
+  },
+  {
+   "source": "reddit r/technicalwriting",
+   "url": "https://www.reddit.com/r/technicalwriting/comments/1u4okif/looking_for_examples_of_wellstructured/",
+   "date": "2026-06-13",
+   "title": "Looking for examples of well-structured documentation repositories",
+   "text": "Hi everyone, I'm looking for examples of repositories that do documentation exceptionally well. Specifically, I'm interested in repositories that contain: Well-organized Markdown documentation, Coding standards and conventions, Diagrams, etc. I'm mainly interested in the structure, not the technology stack. What are the best-documented open-source repositories you've seen? How do you structure your documentation? Any recommended templates, standards, or frameworks? Links to GitHub repositories, blog posts, or public documentation examples would be greatly appreciated. Thank you very much :) submitted by /u/ConsiderationEast862 [link] [comments]"
+  },
+  {
+   "source": "reddit r/technicalwriting",
+   "url": "https://www.reddit.com/r/technicalwriting/comments/1p9n3rh/i_used_to_blog_about_howto_guides_can_this_be_a/",
+   "date": "2025-11-29",
+   "title": "I used to blog about how-to guides. Can this be a stepping stone to technical writing?",
+   "text": "I used to blog frequently, and as I reorganize my old blog entries, I realize I have instructional posts, also known as how-to guides (it's informal and personal in tone, because I inject some personal anecdotes in every step of the how-to). I repurposed some to pure how-to guides and republished them in a new blog . Now, I am honestly not a great writer or communicator. I did not have professional training. I write too simply and too direct (and my English level is just B2, non-US). But in my previous blog, I noticed that my how-to posts used to gain much traffic among my other posts, so I thought I must have been doing something right if some people read what I write \ud83d\ude05. I am wondering if I can make something out of this skill as a side hustle or career transition (I used to be a transcriber, but AI kind of demolished opportunities and income for me). submitted by /u/Mercurial_Lynx [link] [comments]"
+  },
+  {
+   "source": "reddit r/technicalwriting",
+   "url": "https://www.reddit.com/r/technicalwriting/comments/1sxabx7/student_need_advice_on_how_or_even_if_i_can/",
+   "date": "2026-04-27",
+   "title": "[Student] Need advice on how or even if I can salvage and show off technical writing from a now \"poisoned\" source",
+   "text": "Hello all, this is going to be a bit of a weird one because it's highly specific to me and I genuinely need advice on if this is something I can salvage or not for use on a resume and if so how. I'm an \"old\" student...26, due to having needed to stop school a few years back in my late teens. I'm just about to finish my education (dual parallel masters in robotics and mechanical engineering). I'm a few months away from graduation, and I'm starting to look at setting up my CV proper again and finding a job, because my current internship is not looking like something I'll want to pursue anyway post-graduation. Back during my late teens (think 16-20 years old ish, so 2016-2020), I became somewhat obsessed over computer architecture in particular...read litterature, industry reports, self studied online material on the topic, tried to build my own hardware....I was out of school at the time due to health reasons and I guess I wanted something to dedicate every waking second of my time to. And I started writing about it online. At first basically just because I wanted to and had found a small technically-minded community of people whom I could learn from, but it did eventually foster an ability to write what I'd consider even now to be pretty good science communication stuff. A lot of it doesn't hold up anymore or is visibly low effort for the amount of attention it got...but there's genuinely content I wrote years ago that I still find faultless, a whole university education or so later. And I did actually become relatively popular in that space, garnering attention from industry professionals (even got a call or two at some point), with the current tally stating a lifetime view count of 17.9m views. And yeah, on the face of it that's nearly 18 million pairs of eyeballs that read stuff I wrote...and I can't help but feel that's probably worth showing off to some extent to recruiters or potential PHD supervisors, as a way to showcase communication and technical writing sk"
+  },
+  {
+   "source": "reddit r/technicalwriting",
+   "url": "https://www.reddit.com/r/technicalwriting/comments/1pes84a/how_do_you_decide_your_hourly_rate_as_a_freelance/",
+   "date": "2025-12-05",
+   "title": "How do you decide your hourly rate as a freelance technical writer?",
+   "text": "Hi everyone, I\u2019m new at freelancing, and I\u2019d really appreciate a reality check from others in the field. A client asked for my rate and, before knowing the full scope, I gave them a range of \u20ac40\u2013\u20ac55 per hour. Now that I\u2019ve seen what they actually want, I\u2019m leaning toward \u20ac50 per hour, but I keep second-guessing myself and don\u2019t want to overshoot. The responsibilities would be: - fully owning the documentation - maintaining it long-term - shaping the structure - improving the docs over time - occasionally writing blog posts For those of you with similar setups: - How do you decide where to land within your rate range? - Does \u20ac50 per hour feel like a reasonable number for this kind of commitment (EU based)? - Does it make sense to propose something like: \u20ac50/hr for up to 20 hours a week, and \u20ac45/hr for any hours beyond that? Is that a normal or acceptable structure? Thanks! submitted by /u/inestoupeira [link] [comments]"
+  },
+  {
+   "source": "reddit r/technicalwriting",
+   "url": "https://www.reddit.com/r/technicalwriting/comments/1r86223/bls_projects_just_1_growth_what_the_ai_impact_on/",
+   "date": "2026-02-18",
+   "title": "BLS Projects Just 1% Growth: What the AI Impact on Technical Writing Really Looks Like",
+   "text": "All, This is my recent blog post. I thought it might be of interest here: \"The Bureau of Labor Statistics projects just 1 percent growth in technical writing jobs from 2024 to 2034. That translates into a net gain of about 500 jobs over an entire decade, moving from roughly 56,400 positions to 56,900 nationwide, according to the Occupational Outlook Handbook.\" https://www.guiseppegetto.com/2026/02/18/bls-projects-just-1-growth-what-the-ai-impact-on-technical-writing-really-looks-like/ I welcome your thoughts! Also, you can follow my blog here: https://www.guiseppegetto.com/blog/ submitted by /u/Guiseppe_Getto [link] [comments]"
+  },
+  {
+   "source": "reddit r/technicalwriting",
+   "url": "https://www.reddit.com/r/technicalwriting/comments/1oi4zw8/useful_resources_on_model_context_protocol_and/",
+   "date": "2025-10-28",
+   "title": "Useful resources on Model Context Protocol and its use in technical documentation",
+   "text": "I hope it is OK to post links to articles. Model Context Protocol is a new standard for AI that can be used to enable AI systems to access the latest documentation in a knowledge base. Here are some links to articles that explain how it can be used by technical writers: https://idratherbewriting.com/blog/mcp-tools-language-tech-writing https://document360.com/blog/model-context-protocol-for-technical-writers https://www.cherryleaf.com/2025/10/the-model-context-protocol-mcp-and-its-impact-on-technical-documentation/ https://apithedocs.org/podcast/beyond-access-control-model-context-protocol-paradigm submitted by /u/tw15tw15 [link] [comments]"
+  },
+  {
+   "source": "reddit r/technicalwriting",
+   "url": "https://www.reddit.com/r/technicalwriting/comments/1waf8tu/hiring_content_writer_intern_2base_technologies/",
+   "date": "2026-09-08",
+   "title": "[HIRING] Content Writer- Intern | 2Base Technologies, Infopark Cochin",
+   "text": "Job Description We are a technology services company with over 16 years of delivery experience, working with mid-market and enterprise clients across the United States and the United Kingdom. Our work spans custom software development, AI implementation, legacy system modernisation, and operational transformation. This is an entry-level writing role with a specific, practical purpose. It is not a social media role, and it is not a generalist marketing role. If that distinction is unclear from the outset, this is probably not the right fit. To apply: send your CV and one writing sample. A blog post, a college article, a LinkedIn post, or anything else you have written that shows us how you think. If you do not have a writing sample, write 200 words on any technology topic that interests you and send it with your application. Send to: [ talents@2basetechnologies.com ](mailto: talents@2basetechnologies.com ) Experience Fresh graduates or candidates with up to 2 years of experience. Internship experience in content writing, copywriting, journalism, or technical writing counts. Has written something that demonstrates the ability to put ideas into clear, readable sentences. College submissions, personal blogs, LinkedIn posts, college magazine articles, or internship work all qualify. Has used AI writing tools and understands both their value and their limits. AI is a tool in this role, not the writer. Background in engineering, computer science, or information technology is preferred. Graduates from other streams with demonstrated interest in technology topics are also considered. Writing Ability Writes clearly in English. Not without errors that improve with practice, but with a clear structure and a readable point. Can read a brief and produce something that addresses it, rather than writing whatever comes to mind Accepts feedback and revises drafts without treating the edit as personal criticism Does not pad. Does not repeat the same point in different words to fill le"
+  },
+  {
+   "source": "reddit r/technicalwriting",
+   "url": "https://www.reddit.com/r/technicalwriting/comments/1wevc0k/the_editorial_mindset_troy_howard/",
+   "date": "2026-09-13",
+   "title": "The Editorial Mindset - Troy Howard",
+   "text": "Many of us are finding ourselves abruptly shifting seats, moving from the writers room to the editor's desk. Developing an \"editorial mindset\" is a vital skill for navigating a world of generated code and content. Here are some of my thoughts as a long-time editor, on what that means and how to approach that work. Read the full blog post: https://blog.thoward37.me/articles/the-editorial-mindset/ submitted by /u/thoward37 [link] [comments]"
+  },
+  {
+   "source": "reddit r/technicalwriting",
+   "url": "https://www.reddit.com/r/technicalwriting/comments/1uram6q/user_guidance_content_management/",
+   "date": "2026-07-09",
+   "title": "user guidance content management",
+   "text": "we are trying to move our user guidance from confluence to another platform. right now, it's just links that open the pdfs or ppts uploaded on to the site. i would prefer if we had something where the guidance was no longer in files, but actually on a website (kind of like a blog post). we considered stack overflow and now we are considering sharepoint online but sharepoint would 100% be the same situation with files to my knowledge. i suppose i'm looking for ideas, suggestions and examples of what's out there. (we are moving from confluence because it's being retired) there's probably 25 or so documents & then 20 or so video links on the confluence page currently. ideally whatever we use would have an elastic search option and allow for people to find what they're looking for quickly/easily... thanks in advance! submitted by /u/No_Bumblebee9897 [link] [comments]"
+  },
+  {
+   "source": "reddit r/technicalwriting",
+   "url": "https://www.reddit.com/r/technicalwriting/comments/1qkxv87/tech_writing_blog_post/",
+   "date": "2026-01-23",
+   "title": "Tech Writing Blog Post",
+   "text": "There\u2019s an interesting \u201cday in the life\u201d blog post by a tech writer in r/RedditEng . I\u2019m curious how it compares to other writers\u2019 work experiences. submitted by /u/butterscotch-magic [link] [comments]"
+  },
+  {
+   "source": "reddit r/technicalwriting",
+   "url": "https://www.reddit.com/r/technicalwriting/comments/1rx3ck7/looking_for_technical_writer/",
+   "date": "2026-03-18",
+   "title": "Looking for Technical writer",
+   "text": "basically the subject, someone who can write content for linkedin/newsletter/blog post with diagrams are needed.. payment can be discussed based on skills & experience. Niche devops, sre, platform engineering and agentic AI. submitted by /u/Zero-DowntimeX [link] [comments]"
+  },
+  {
+   "source": "reddit r/technicalwriting",
+   "url": "https://www.reddit.com/r/technicalwriting/comments/1rtdo01/would_something_like_this_actually_be_useful_for/",
+   "date": "2026-03-14",
+   "title": "Would something like this actually be useful for technical writers?",
+   "text": "Been working on a small tool called Sigilla because I kept ending up with the same mess over and over. I would save docs, articles, random blog posts, background stuff I thought might be useful later and then when I actually needed something again, I could never find the part that mattered So I started building something around that, basically saving, reading, highlighting, and making it easier to come back to useful bits later. Not really posting this as some polished promo thing. More just genuinely curious if this sounds like a real problem for people here too or if I am off submitted by /u/Eastern-Height2451 [link] [comments]"
+  },
+  {
+   "source": "reddit r/technicalwriting",
+   "url": "https://www.reddit.com/r/technicalwriting/comments/1w57v0e/i_built_carve_a_modern_fullfeatured_markup/",
+   "date": "2026-09-02",
+   "title": "I built Carve, a modern full-featured markup language",
+   "text": "A new markup languages now exists for technical writers or bloggers like me. Over the last 6+ months I developed Carve. With PHP, JS and Rust as main languages for now. Python, Go, Ruby work mainly through Rust and WASM so far. I have been inspired by Djot and modern concepts of markup languages. With some deep dive into that markup syntax, building my own Djot PHP prototype, I started to then work on a MIT-licensed Markdown-ish specs with the ultimate pandoc support, and across all main languages then. The problem(s) Have you ever tried to import and export markdown across systems? Also into online/web places and display? Randomly having being over- or under-escaped, creating all kind of broken text/display. Mixing HTML directly into the markup is not a good concept IMO. Smaller things maybe: Tables hit a wall immediately. No rowspan/colspan/multiline. Different flavors, from Github to local. No clear rules/specs, or outdated ones. On top of that: I don't think the world is ready for Djot (interrupt behavior) yet. While really clean in the rules, it goes against the muscle memory of what we have been doing for decades so far. At least that was also mainly the feedback I saw so far. My solution A more spec-first kind of syntax, that is intuitive and feature-rich, but also extendable. I wanted something close to markdown familiarity: online first, everything nowadays is pretty much on the web, or at least will eventually be copied somewhere. secure by design, without HTML and XSS etc in between the textual markup. supporting all important elements, including proper tables and elements like that technical (coding) bloggers like me need sometimes. The strongest differentiators Target-aware rendering: the same AST can produce HTML, ANSI, Markdown, or plain text. Mermaid, Graphs and even (File)trees can be natively expressed, and easily copy-paste shared as a single document. Machine understandable and readable through the clear specs and formal grammar (ENBF), as we all"
+  },
+  {
+   "source": "reddit r/technicalwriting",
+   "url": "https://www.reddit.com/r/technicalwriting/comments/1v4rcvz/content_writerresearcher_who_provides_100_human/",
+   "date": "2026-07-23",
+   "title": "Content Writer/Researcher who provides 100% human written content",
+   "text": "Hi everyone! I'm a student with a strong background in research, analytical writing, and storytelling. I'm currently looking to work with clients who value well-researched, engaging, and genuinely human-written content. I don't rely on generic AI outputs or surface-level research. Every piece I write starts with understanding the topic, audience, and purpose, then building content that's informative, compelling, and easy to read. Whether it's a blog post, long-form article, reels script, copywriting, or SEO content, I focus on delivering writing that keeps readers engaged from start to finish. I'm comfortable diving into unfamiliar industries and enjoy the research process, so I'm not limited to a single niche. If your project requires learning something new, I'm happy to do the work needed to write about it accurately and effectively. If you're looking for a writer who communicates well, meets deadlines, accepts feedback, and genuinely cares about producing quality work, I'd love to collaborate. Feel free to send me a DM. I'm looking forward to short-term as well as long-term projects. Thanks! submitted by /u/Nastenka_whitenights [link] [comments]"
+  },
+  {
+   "source": "reddit r/technicalwriting",
+   "url": "https://www.reddit.com/r/technicalwriting/comments/1vef4ie/content_writerresearcher_who_provides_100_human/",
+   "date": "2026-08-03",
+   "title": "Content Writer/Researcher who provides 100% human written content",
+   "text": "Hi everyone! I'm a student with a strong background in research, analytical writing, and storytelling. I'm currently looking to work with clients who value well-researched, engaging, and genuinely human-written content. I don't rely on generic AI outputs or surface-level research. Every piece I write starts with understanding the topic, audience, and purpose, then building content that's informative, compelling, and easy to read. Whether it's a blog post, long-form article, reels script, copywriting, or SEO content, I focus on delivering writing that keeps readers engaged from start to finish. I'm comfortable diving into unfamiliar industries and enjoy the research process, so I'm not limited to a single niche. If your project requires learning something new, I'm happy to do the work needed to write about it accurately and effectively. If you're looking for a writer who communicates well, meets deadlines, accepts feedback, and genuinely cares about producing quality work, I'd love to collaborate. Feel free to send me a DM. I'm looking forward to short-term as well as long-term projects. Thanks! submitted by /u/Nastenka_whitenights [link] [comments]"
+  },
+  {
+   "source": "reddit r/technicalwriting",
+   "url": "https://www.reddit.com/r/technicalwriting/comments/1rsowbu/hiring_technical_content_writers/",
+   "date": "2026-03-13",
+   "title": "[Hiring] technical content writers",
+   "text": "Hey folks - we are hiring at Yardstick! We\u2019re looking to connect with Technical Content Writers who are excited about AI, technology, and storytelling. What you will be working on: Researching cutting-edge AI and tech topics to create accurate, relevant, and engaging content Writing and editing blogs, LinkedIn posts, newsletters, and video scripts with strong attention to detail Adapting content across platforms to suit different AI-focused audiences Implementing SEO best practices to improve content visibility and reach Collaborating with marketing, design, and sales teams on AI campaigns What we\u2019re building: Production-ready web platforms AI-powered product experiences Scalable backend systems and APIs Location: Remote / Bengaluru. Looking for: Strong hands-on experience in blogging, creative writing, digital marketing, and SEO, with excellent proficiency in written and spoken English, and the ability to create high-quality, engaging content across platforms. If this sounds interesting or if you know someone who\u2019d fit, feel free to DM me or apply here: https://forms.gle/9kz78CWjaDzRou2BA submitted by /u/Gy-190408 [link] [comments]"
+  }
+ ]
+}

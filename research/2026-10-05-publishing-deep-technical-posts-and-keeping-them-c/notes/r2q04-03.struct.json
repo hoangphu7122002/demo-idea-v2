@@ -1,0 +1,205 @@
+{
+ "sid": "r2q04-03",
+ "terms": [
+  {
+   "term": "Uh oh!",
+   "count": 7,
+   "kind": "heading"
+  },
+  {
+   "term": "QR",
+   "count": 4,
+   "kind": "acronym"
+  },
+  {
+   "term": "netlify Bot",
+   "count": 2,
+   "kind": "bold"
+  },
+  {
+   "term": "netlify Bot ** commented Sep 20, 2026 •",
+   "count": 2,
+   "kind": "heading"
+  },
+  {
+   "term": "1 participant",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Assignees",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Conversation",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Copy Markdown",
+   "count": 3,
+   "kind": "ngram"
+  },
+  {
+   "term": "Development",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Labels",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Milestone",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Projects",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Reviewers",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "blog improvements - #2",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "blog improvements#2",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "dhrubo55",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "dhrubo55 ** commented Sep 20, 2026",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "personal-blog",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "to join this conversation on GitHub",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "✅ Deploy Preview for dreamy-montalcini-31be6a ready!",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "✅ Deploy Preview for mohibulsblog ready!",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "1ab13c2",
+   "count": 1,
+   "kind": "code"
+  },
+  {
+   "term": "351cbc1",
+   "count": 1,
+   "kind": "code"
+  },
+  {
+   "term": "441be28",
+   "count": 1,
+   "kind": "code"
+  },
+  {
+   "term": "52ec646",
+   "count": 1,
+   "kind": "code"
+  },
+  {
+   "term": "7afdb64",
+   "count": 1,
+   "kind": "code"
+  },
+  {
+   "term": "88b6fec",
+   "count": 1,
+   "kind": "code"
+  },
+  {
+   "term": "9aaa702",
+   "count": 1,
+   "kind": "code"
+  },
+  {
+   "term": "Deploy Preview",
+   "count": 2,
+   "kind": "ngram"
+  },
+  {
+   "term": "Pull Request",
+   "count": 2,
+   "kind": "ngram"
+  },
+  {
+   "term": "docs: plan the blog improvement release",
+   "count": 1,
+   "kind": "code"
+  },
+  {
+   "term": "docs: refresh the featured technical investigations",
+   "count": 1,
+   "kind": "code"
+  },
+  {
+   "term": "feat: align the public resume with current experience",
+   "count": 1,
+   "kind": "code"
+  },
+  {
+   "term": "feat: connect the portfolio to the newsletter",
+   "count": 1,
+   "kind": "code"
+  },
+  {
+   "term": "feat: focus the homepage on selected engineering work",
+   "count": 1,
+   "kind": "code"
+  },
+  {
+   "term": "feat: publish selected work and resume routes",
+   "count": 1,
+   "kind": "code"
+  },
+  {
+   "term": "fix: add a working default social card",
+   "count": 1,
+   "kind": "code"
+  },
+  {
+   "term": "fix: keep page heading hierarchy singular",
+   "count": 1,
+   "kind": "code"
+  },
+  {
+   "term": "fix: qualify featured article claims",
+   "count": 1,
+   "kind": "code"
+  },
+  {
+   "term": "fix: resolve final portfolio verification issues",
+   "count": 1,
+   "kind": "code"
+  }
+ ]
+}

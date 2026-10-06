@@ -1,0 +1,12 @@
+{
+ "sid": "r2q03-02",
+ "url": "https://github.com/Monsoft-Solutions/alluring-website-v1/issues/226",
+ "method": "curl",
+ "status": "ok",
+ "reason": "",
+ "bytes": 264981,
+ "chars": 4349,
+ "title": "Blog lastmod and dateModified are driven by the view counter, not by content changes · Issue #226 · Monsoft-Solutions/alluring-website-v1 · GitHub",
+ "mode": "stripped",
+ "truncated": false
+}

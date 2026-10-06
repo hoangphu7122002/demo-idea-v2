@@ -1,0 +1,27 @@
+{"round":1,"phase":"interim","terms":[
+{"term":"Giscus","score":8,"freq":1,"centrality":3,"novelty":3,"status":"queued","sources":["r1q02-03"]},
+{"term":"social annotation","score":8,"freq":1,"centrality":3,"novelty":3,"status":"queued","sources":["r1q02-06"]},
+{"term":"Utterances","score":7,"freq":1,"centrality":3,"novelty":3,"status":"kept","sources":["r1q02-03"]},
+{"term":"Disqus","score":7,"freq":1,"centrality":3,"novelty":3,"status":"queued","sources":["r1q02-03"]},
+{"term":"Hypothesis","score":7,"freq":1,"centrality":3,"novelty":3,"status":"kept","sources":["r1q02-06"]},
+{"term":"GitHub Discussions","score":7,"freq":1,"centrality":3,"novelty":3,"status":"kept","sources":["r1q02-03"]},
+{"term":"Ghost","score":7,"freq":2,"centrality":2,"novelty":3,"status":"kept","sources":["r1q01-04","r1q01-06"]},
+{"term":"Markdown","score":7,"freq":2,"centrality":2,"novelty":3,"status":"kept","sources":["r1q02-03","r1q01-06"]},
+{"term":"WordPress","score":7,"freq":2,"centrality":2,"novelty":3,"status":"kept","sources":["r1q01-04","r1q01-06"]},
+{"term":"Substack","score":6,"freq":2,"centrality":1,"novelty":3,"status":"kept","sources":["r1q01-04","r1q01-06"]},
+{"term":"headless CMS","score":5,"freq":1,"centrality":1,"novelty":3,"status":"kept","sources":["r1q01-06"]},
+{"term":"Medium","score":5,"freq":1,"centrality":1,"novelty":3,"status":"kept","sources":["r1q01-04"]},
+{"term":"ActivityPub","score":5,"freq":1,"centrality":1,"novelty":3,"status":"kept","sources":["r1q01-06"]},
+{"term":"SEO","score":4,"freq":1,"centrality":0,"novelty":3,"status":"dropped","sources":["r1q01-04"]},
+{"term":"Dometrain Pro","score":3,"freq":1,"centrality":0,"novelty":2,"status":"dropped","sources":["r1q02-03"]},
+{"term":"LMS","score":4,"freq":1,"centrality":0,"novelty":3,"status":"dropped","sources":["r1q02-06"]}
+],
+"new_terms":13,"new_facts":30,"contradictions":[{"topic":"WordPress web share","sides":["r1q01-04: over 40% of websites","r1q01-04: over 43% of websites"]}],
+"next_queue":[
+{"query":"Giscus GitHub Discussions blog comments limitations technical blog","origin":"term"},
+{"query":"social annotation on technical blog posts reader corrections inline","origin":"term"},
+{"query":"Disqus alternatives for developer blogs 2026 markdown code comments","origin":"term"},
+{"query":"blog post outdated content warning last verified date staleness indicator","origin":"expand"},
+{"query":"suggest an edit link GitHub pull request blog post typo corrections","origin":"expand"}
+],
+"stop":{"stop":false,"reason":"interim; staleness/correction workflow under-covered, sources mostly comments/platform generic"}}

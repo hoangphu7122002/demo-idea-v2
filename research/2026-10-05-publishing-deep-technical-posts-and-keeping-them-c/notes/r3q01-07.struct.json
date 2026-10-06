@@ -1,0 +1,205 @@
+{
+ "sid": "r3q01-07",
+ "terms": [
+  {
+   "term": "CI",
+   "count": 5,
+   "kind": "acronym"
+  },
+  {
+   "term": "STALE",
+   "count": 3,
+   "kind": "bold"
+  },
+  {
+   "term": "AST",
+   "count": 3,
+   "kind": "acronym"
+  },
+  {
+   "term": "Auth Architecture",
+   "count": 2,
+   "kind": "heading"
+  },
+  {
+   "term": "TLDR",
+   "count": 2,
+   "kind": "bold"
+  },
+  {
+   "term": "drift check",
+   "count": 3,
+   "kind": "code"
+  },
+  {
+   "term": "drift link",
+   "count": 3,
+   "kind": "code"
+  },
+  {
+   "term": "AuthConfig",
+   "count": 2,
+   "kind": "code"
+  },
+  {
+   "term": "Anchor anatomy",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Bind it to code",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "CI catches it",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "Code evolves",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "How `drift` works",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "How staleness detection works",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "More from the lab",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Path",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "Provenance",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "Symbol",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "Typical workflow",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Update the spec",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "We built a linter for documentation rot",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "What a stale report looks like",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "What eleven serializers told us about merge conflicts",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Write a spec",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "ok",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "path",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "provenance",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "symbol",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "@<git-sha>",
+   "count": 1,
+   "kind": "code"
+  },
+  {
+   "term": "AI",
+   "count": 1,
+   "kind": "acronym"
+  },
+  {
+   "term": "Fiberplane Blog",
+   "count": 2,
+   "kind": "ngram"
+  },
+  {
+   "term": "Fiberplane Team",
+   "count": 2,
+   "kind": "ngram"
+  },
+  {
+   "term": "II",
+   "count": 1,
+   "kind": "acronym"
+  },
+  {
+   "term": "LLM",
+   "count": 1,
+   "kind": "acronym"
+  },
+  {
+   "term": "Laurynas Keturakis",
+   "count": 2,
+   "kind": "ngram"
+  },
+  {
+   "term": "Name",
+   "count": 1,
+   "kind": "code"
+  },
+  {
+   "term": "PR",
+   "count": 1,
+   "kind": "acronym"
+  },
+  {
+   "term": "TOML",
+   "count": 1,
+   "kind": "acronym"
+  },
+  {
+   "term": "ast-grep",
+   "count": 1,
+   "kind": "code"
+  },
+  {
+   "term": "drift",
+   "count": 1,
+   "kind": "code"
+  }
+ ]
+}

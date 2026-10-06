@@ -1,0 +1,15 @@
+{"round":3,"phase":"final","terms":[
+{"term":"documentation drift","score":8,"freq":2,"centrality":3,"novelty":0,"status":"expanded","sources":["r3q01-04","r3q01-07"]},
+{"term":"Fiberplane Drift (doc-to-code anchoring linter)","score":8,"freq":1,"centrality":3,"novelty":3,"status":"queued","sources":["r3q01-07"]},
+{"term":"AST fingerprinting","score":6,"freq":1,"centrality":2,"novelty":3,"status":"kept","sources":["r3q01-07"]},
+{"term":"Suggest Changes Action","score":7,"freq":1,"centrality":3,"novelty":3,"status":"queued","sources":["r3q03-06"]},
+{"term":"community correction workflow via pull requests","score":7,"freq":1,"centrality":3,"novelty":3,"status":"queued","sources":["r3q03-04"]},
+{"term":"drift score","score":6,"freq":1,"centrality":2,"novelty":3,"status":"kept","sources":["r3q01-04"]},
+{"term":"textlint","score":5,"freq":1,"centrality":2,"novelty":2,"status":"kept","sources":["r3q04-03"]},
+{"term":"Astro content collection","score":6,"freq":2,"centrality":2,"novelty":2,"status":"kept","sources":["r3q04-03","r3q04-01"]},
+{"term":"ArchUnit","score":3,"freq":1,"centrality":0,"novelty":2,"status":"dropped","sources":["r3q01-04"]},
+{"term":"Shiki","score":3,"freq":1,"centrality":0,"novelty":2,"status":"dropped","sources":["r3q04-03"]},
+{"term":"Hugo","score":4,"freq":2,"centrality":1,"novelty":1,"status":"dropped","sources":["r3q04-03","r3q04-01"]}],
+"new_terms":6,"new_facts":6,"contradictions":[],
+"next_queue":[],
+"stop":{"stop":true,"reason":"saturation: most round-3 terms off-topic/adjacent (migration, academic metadata); key questions covered by >=2 sources across rounds"}}

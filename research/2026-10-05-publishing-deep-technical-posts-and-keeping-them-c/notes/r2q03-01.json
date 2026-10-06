@@ -1,0 +1,404 @@
+{
+ "sid": "r2q03-01",
+ "url": "https://github.com/CloudSecurityOfficeHours/csoh.org/issues/1802",
+ "title": "Reading list: monthly staleness report · Issue #1802 · CloudSecurityOfficeHours/csoh.org",
+ "published": "2026-10-01",
+ "source_type": "primary",
+ "quality_flags": [
+  "thin"
+ ],
+ "terms": [
+  {
+   "term": "Reading list: monthly staleness report #1802",
+   "context": "# Reading list: monthly staleness report #1802"
+  },
+  {
+   "term": "CloudSecurityOfficeHours",
+   "context": "CloudSecurityOfficeHours / csoh.org Public"
+  },
+  {
+   "term": "csoh.org",
+   "context": "CloudSecurityOfficeHours / ** csoh.org ** Public"
+  },
+  {
+   "term": "Description",
+   "context": "## Description github-actions bot opened on Oct 1, 2026"
+  },
+  {
+   "term": "github-actions",
+   "context": "github-actions bot opened on Oct 1, 2026"
+  },
+  {
+   "term": "bot",
+   "context": "github-actions bot opened on Oct 1, 2026"
+  },
+  {
+   "term": "Check Reading List Staleness",
+   "context": "Auto-updated by Check Reading List Staleness."
+  },
+  {
+   "term": "check-reading-list-staleness.yml",
+   "context": "Auto-generated reports from check-reading-list-staleness.yml"
+  },
+  {
+   "term": "reading-list-staleness",
+   "context": "Labels reading-list-staleness Auto-generated reports"
+  },
+  {
+   "term": "Reading list staleness check",
+   "context": "Reading list staleness check - generated 2026-10-01 UTC"
+  },
+  {
+   "term": "UTC",
+   "context": "generated 2026-10-01 UTC"
+  },
+  {
+   "term": "Threshold",
+   "context": "Threshold: any feed whose newest entry is older than 180 days is flagged"
+  },
+  {
+   "term": "180 days",
+   "context": "newest entry is older than **180 days** is flagged"
+  },
+  {
+   "term": "hand-curated",
+   "context": "This page is hand-curated, so nothing is auto-edited"
+  },
+  {
+   "term": "Summary",
+   "context": "## Summary | Status | Count"
+  },
+  {
+   "term": "Stale (>180d)",
+   "context": "Stale (>180d) | 0"
+  },
+  {
+   "term": "No feed discovered",
+   "context": "No feed discovered | 0"
+  },
+  {
+   "term": "Unreachable / unparseable",
+   "context": "Unreachable / unparseable | 0"
+  },
+  {
+   "term": "Healthy",
+   "context": "Healthy | 29"
+  },
+  {
+   "term": "Healthy (for completeness",
+   "context": "## Healthy (for completeness)"
+  },
+  {
+   "term": "blogs",
+   "context": "**blogs** · https://aws.amazon.com/blogs/security/ - last post 2026-09-28"
+  },
+  {
+   "term": "newsletters",
+   "context": "**newsletters** · https://cloudseclist.com/ - last post 2026-09-26"
+  },
+  {
+   "term": "podcasts",
+   "context": "**podcasts** · https://cisoseries.com/ - last post 2026-09-29"
+  },
+  {
+   "term": "youtube",
+   "context": "**youtube** · https://www.youtube.com/@AWSEventsChannel"
+  },
+  {
+   "term": "feed",
+   "context": "last post 2026-09-28 (2d ago) · feed"
+  },
+  {
+   "term": "last post",
+   "context": "last post 2026-07-17 (75d ago)"
+  },
+  {
+   "term": "aws.amazon.com/blogs/security",
+   "context": "blogs · https://aws.amazon.com/blogs/security/"
+  },
+  {
+   "term": "awsteele.com",
+   "context": "blogs · https://awsteele.com/ - last post 2026-07-17"
+  },
+  {
+   "term": "cloud.google.com/blog/topics/threat-intelligence",
+   "context": "blogs · cloud.google.com/blog/topics/threat-intelligence"
+  },
+  {
+   "term": "orca.security/resources/blog",
+   "context": "blogs · https://orca.security/resources/blog/"
+  },
+  {
+   "term": "securitylabs.datadoghq.com",
+   "context": "blogs · https://securitylabs.datadoghq.com/"
+  },
+  {
+   "term": "securosis.com",
+   "context": "blogs · https://securosis.com/ - last post 2026-07-30"
+  },
+  {
+   "term": "unit42.paloaltonetworks.com",
+   "context": "blogs · https://unit42.paloaltonetworks.com/"
+  },
+  {
+   "term": "microsoft.com/en-us/security/blog",
+   "context": "blogs · https://www.microsoft.com/en-us/security/blog/"
+  },
+  {
+   "term": "philvenables.com",
+   "context": "blogs · https://www.philvenables.com/"
+  },
+  {
+   "term": "sentinelone.com/labs",
+   "context": "blogs · https://www.sentinelone.com/labs/"
+  },
+  {
+   "term": "wiz.io/blog",
+   "context": "blogs · https://www.wiz.io/blog"
+  },
+  {
+   "term": "cloudseclist.com",
+   "context": "newsletters · https://cloudseclist.com/"
+  },
+  {
+   "term": "news.risky.biz",
+   "context": "newsletters · https://news.risky.biz/"
+  },
+  {
+   "term": "tldrsec.com",
+   "context": "newsletters · https://tldrsec.com/"
+  },
+  {
+   "term": "detectionengineering.net",
+   "context": "newsletters · https://www.detectionengineering.net/"
+  },
+  {
+   "term": "lastweekinaws.com/newsletter",
+   "context": "newsletters · https://www.lastweekinaws.com/newsletter/"
+  },
+  {
+   "term": "resilientcyber.io",
+   "context": "newsletters · https://www.resilientcyber.io/"
+  },
+  {
+   "term": "cisoseries.com",
+   "context": "podcasts · https://cisoseries.com/"
+  },
+  {
+   "term": "darknetdiaries.com",
+   "context": "podcasts · https://darknetdiaries.com/"
+  },
+  {
+   "term": "isc.sans.edu/index_cached.html",
+   "context": "podcasts · https://isc.sans.edu/index_cached.html"
+  },
+  {
+   "term": "risky.biz",
+   "context": "podcasts · https://risky.biz/"
+  },
+  {
+   "term": "therecord.media/podcast",
+   "context": "podcasts · https://therecord.media/podcast"
+  },
+  {
+   "term": "cloudsecuritypodcast.tv",
+   "context": "podcasts · https://www.cloudsecuritypodcast.tv/"
+  },
+  {
+   "term": "@AWSEventsChannel",
+   "context": "youtube · https://www.youtube.com/@AWSEventsChannel"
+  },
+  {
+   "term": "@BlackHatOfficialYT",
+   "context": "youtube · https://www.youtube.com/@BlackHatOfficialYT"
+  },
+  {
+   "term": "@DEFCONConference",
+   "context": "youtube · https://www.youtube.com/@DEFCONConference"
+  },
+  {
+   "term": "@SANSCloudSecurity",
+   "context": "youtube · https://www.youtube.com/@SANSCloudSecurity"
+  },
+  {
+   "term": "@cncf",
+   "context": "youtube · https://www.youtube.com/@cncf"
+  },
+  {
+   "term": "@fwdcloudsec",
+   "context": "youtube · https://www.youtube.com/@fwdcloudsec"
+  },
+  {
+   "term": "checklist, not a queue",
+   "context": "This issue is a checklist, not a queue"
+  },
+  {
+   "term": "monthly run",
+   "context": "the next monthly run will reopen / refresh it as needed"
+  },
+  {
+   "term": "Activity",
+   "context": "## Activity Sign up for free to join this conversation"
+  },
+  {
+   "term": "to join this conversation on GitHub",
+   "context": "Sign up for free to join this conversation on GitHub"
+  },
+  {
+   "term": "Metadata",
+   "context": "## Metadata ### Assignees"
+  },
+  {
+   "term": "Assignees",
+   "context": "### Assignees No one assigned"
+  },
+  {
+   "term": "Labels",
+   "context": "### Labels reading-list-staleness"
+  },
+  {
+   "term": "Type",
+   "context": "### Type No type"
+  },
+  {
+   "term": "Projects",
+   "context": "### Projects No projects"
+  },
+  {
+   "term": "Milestone",
+   "context": "### Milestone No milestone"
+  },
+  {
+   "term": "Relationships",
+   "context": "### Relationships None yet"
+  },
+  {
+   "term": "Development",
+   "context": "### Development No branches or pull requests"
+  },
+  {
+   "term": "Issue actions",
+   "context": "## Issue actions"
+  },
+  {
+   "term": "Issue body actions",
+   "context": "opened on Oct 1, 2026 Issue body actions"
+  },
+  {
+   "term": "Closed",
+   "context": "Copy link Closed"
+  }
+ ],
+ "claims": [
+  {
+   "claim": "Report auto-generated by GitHub Actions bot via Check Reading List Staleness workflow",
+   "quote": "Auto-updated by Check Reading List Staleness.",
+   "numbers": []
+  },
+  {
+   "claim": "Issue opened Oct 1, 2026; report generated 2026-10-01 UTC; issue is Closed",
+   "quote": "generated 2026-10-01 UTC",
+   "numbers": [
+    "2026-10-01"
+   ]
+  },
+  {
+   "claim": "Feeds flagged stale when newest entry older than 180 days",
+   "quote": "any feed whose newest entry is older than **180 days** is flagged",
+   "numbers": [
+    "180 days"
+   ]
+  },
+  {
+   "claim": "Reading list is hand-curated; nothing auto-edited; report used to decide refresh, replace or drop",
+   "quote": "nothing is auto-edited - use this report to decide what to refresh, replace, or drop",
+   "numbers": []
+  },
+  {
+   "claim": "Summary: 0 stale, 0 no feed discovered, 0 unreachable, 29 healthy",
+   "quote": "",
+   "numbers": [
+    "0 stale",
+    "0 no feed discovered",
+    "0 unreachable/unparseable",
+    "29 healthy"
+   ]
+  },
+  {
+   "claim": "Healthy list: 11 blogs, 6 newsletters, 6 podcasts, 6 youtube feeds",
+   "quote": "",
+   "numbers": [
+    "11 blogs",
+    "6 newsletters",
+    "6 podcasts",
+    "6 youtube"
+   ]
+  },
+  {
+   "claim": "Oldest healthy feed: awsteele.com last post 2026-07-17, 75d ago",
+   "quote": "last post 2026-07-17 (75d ago)",
+   "numbers": [
+    "75d"
+   ]
+  },
+  {
+   "claim": "securosis.com last post 2026-07-30, 63d ago",
+   "quote": "last post 2026-07-30 (63d ago)",
+   "numbers": [
+    "63d"
+   ]
+  },
+  {
+   "claim": "detectionengineering.net last post 2026-09-10, 20d ago",
+   "quote": "last post 2026-09-10 (20d ago)",
+   "numbers": [
+    "20d"
+   ]
+  },
+  {
+   "claim": "cloudsecuritypodcast.tv last post 2026-09-11, 19d ago",
+   "quote": "last post 2026-09-11 (19d ago)",
+   "numbers": [
+    "19d"
+   ]
+  },
+  {
+   "claim": "Issue is a checklist not a queue; close when decided; next monthly run reopens/refreshes as needed",
+   "quote": "This issue is a checklist, not a queue",
+   "numbers": []
+  },
+  {
+   "claim": "Issue has no assignees, type, projects, milestone, relationships, branches or PRs; 0 reactions available",
+   "quote": "",
+   "numbers": []
+  },
+  {
+   "claim": "Repo has 7 forks and 18 stars",
+   "quote": "Fork 7",
+   "numbers": [
+    "7 forks",
+    "18 stars"
+   ]
+  }
+ ],
+ "analysis_rows": [
+  {
+   "type": "landscape",
+   "entity": "Check Reading List Staleness (check-reading-list-staleness.yml)",
+   "category": "GitHub Actions workflow",
+   "segment": "maintainers of hand-curated reading lists (csoh.org)",
+   "positioning": "monthly auto-generated issue flagging feeds with newest entry >180 days; does not auto-edit",
+   "key_facts": "threshold 180 days; 29 healthy, 0 stale on 2026-10-01"
+  },
+  {
+   "type": "landscape",
+   "entity": "csoh.org (CloudSecurityOfficeHours)",
+   "category": "community website / GitHub repo",
+   "segment": "cloud security community",
+   "positioning": "hand-curated reading list of blogs, newsletters, podcasts, youtube",
+   "key_facts": "7 forks, 18 stars"
+  }
+ ],
+ "model": "sonnet",
+ "_recall": 1.0
+}

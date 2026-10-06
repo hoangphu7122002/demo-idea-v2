@@ -1,0 +1,782 @@
+{
+ "sid": "r3q03-05",
+ "url": "https://chbrown13.github.io/papers/suggestions.pdf",
+ "title": "Understanding the Impact of GitHub Suggested Changes on Recommendations between Developers",
+ "published": "2020",
+ "source_type": "academic",
+ "quality_flags": [
+  "outdated",
+  "off-topic-adjacent"
+ ],
+ "terms": [
+  {
+   "term": "USA",
+   "context": "Raleigh, North Carolina, USA; ESEC/FSE '20 Virtual Event, USA"
+  },
+  {
+   "term": "ACM",
+   "context": "ACM Reference Format; ACM, New York, NY, USA, 12 pages"
+  },
+  {
+   "term": "IEEE",
+   "context": "IEEE Transactions on Software Engineering; IEEE/ACM International Conference on Software Engineering"
+  },
+  {
+   "term": "NY",
+   "context": "ACM, New York, NY, USA, 12 pages"
+  },
+  {
+   "term": "ICSE",
+   "context": "International Conference on Software Engineering (ICSE 2014)"
+  },
+  {
+   "term": "ESEC",
+   "context": "28th ACM Joint European Software Engineering Conference (ESEC/FSE '20)"
+  },
+  {
+   "term": "FSE",
+   "context": "Symposium on the Foundations of Software Engineering (ESEC/FSE '20)"
+  },
+  {
+   "term": "Software Engineering",
+   "context": "Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering"
+  },
+  {
+   "term": "New York",
+   "context": "ACM, New York, NY, USA, 12 pages"
+  },
+  {
+   "term": "API",
+   "context": "PyGithub provides an API to retrieve pull request review comments"
+  },
+  {
+   "term": "International Conference",
+   "context": "36th International Conference on Software Engineering (ICSE 2014)"
+  },
+  {
+   "term": "MSR",
+   "context": "11th Working Conference on Mining Software Repositories (MSR 2014)"
+  },
+  {
+   "term": "PRs",
+   "context": "Pull requests (PRs) are the primary method for developers to contribute"
+  },
+  {
+   "term": "Virtual Event",
+   "context": "November 8-13, 2020, Virtual Event, USA"
+  },
+  {
+   "term": "Association for Computing Machinery",
+   "context": "© 2020 Association for Computing Machinery. ACM ISBN 978-1-4503-7043-1/20/11"
+  },
+  {
+   "term": "Computing Machinery",
+   "context": "Association for Computing Machinery, New York, NY, USA"
+  },
+  {
+   "term": "Suggested Changes",
+   "context": "GitHub Suggested Changes example; Suggested Change Categories"
+  },
+  {
+   "term": "suggested changes",
+   "context": "feature allows users to recommend improvements for pull requests"
+  },
+  {
+   "term": "Chris Brown",
+   "context": "Chris Brown and Chris Parnin, North Carolina State University"
+  },
+  {
+   "term": "Chris Parnin",
+   "context": "Chris Brown and Chris Parnin, cjparnin@ncsu.edu"
+  },
+  {
+   "term": "Emerson Murphy-Hill",
+   "context": "Murphy-Hill explored seven methods software engineers discover new development tools"
+  },
+  {
+   "term": "North Carolina State University",
+   "context": "Raleigh, North Carolina, USA"
+  },
+  {
+   "term": "CSCW",
+   "context": "Computer Supported Cooperative Work (CSCW) 24, 5 (2015)"
+  },
+  {
+   "term": "PR",
+   "context": "pull request (PR) reviewer clicks plus sign on the line of code"
+  },
+  {
+   "term": "RQ1",
+   "context": "What types of recommendations do developers make with suggested changes?"
+  },
+  {
+   "term": "RQ2",
+   "context": "How effective are recommendation systems on pull requests?"
+  },
+  {
+   "term": "RQ3",
+   "context": "What impact do suggested changes have on pull requests?"
+  },
+  {
+   "term": "RQ4",
+   "context": "How useful are suggested changes for recommendations between developers?"
+  },
+  {
+   "term": "HCC",
+   "context": "Visual Languages and Human-Centric Computing (VL/HCC'06)"
+  },
+  {
+   "term": "IDE",
+   "context": "placing recommendations within IDEs can minimize visual momentum"
+  },
+  {
+   "term": "SANER",
+   "context": "Software Analysis, Evolution, and Reengineering (SANER)"
+  },
+  {
+   "term": "VL",
+   "context": "VL/HCC Visual Languages and Human-Centric Computing"
+  },
+  {
+   "term": "VLHCC",
+   "context": "2017 IEEE Symposium on Visual Languages and Human-Centric Computing"
+  },
+  {
+   "term": "Mining Software Repositories",
+   "context": "11th Working Conference on Mining Software Repositories (MSR 2014)"
+  },
+  {
+   "term": "Working Conference",
+   "context": "11th Working Conference on Mining Software Repositories"
+  },
+  {
+   "term": "APSEC",
+   "context": "Asia-Pacific Software Engineering Conference (APSEC)"
+  },
+  {
+   "term": "ASE",
+   "context": "IEEE/ACM International Conference on Automated Software Engineering (ASE)"
+  },
+  {
+   "term": "CHI",
+   "context": "CHI '13 Extended Abstracts on Human Factors in Computing Systems"
+  },
+  {
+   "term": "ESEM",
+   "context": "First International Symposium on Empirical Software Engineering and Measurement (ESEM 2007)"
+  },
+  {
+   "term": "ISSRE",
+   "context": "IEEE 24th International Symposium on Software Reliability Engineering (ISSRE)"
+  },
+  {
+   "term": "PEP",
+   "context": "Python Enhancement Proposal (PEP 8) coding style guide"
+  },
+  {
+   "term": "README",
+   "context": "README files [46]; Categorizing the content of GitHub README files"
+  },
+  {
+   "term": "WORK",
+   "context": "Working Conference / WORK as in Workshop references"
+  },
+  {
+   "term": "GitHub",
+   "context": "popular code hosting platform, recently introduced the suggested changes feature"
+  },
+  {
+   "term": "pull requests",
+   "context": "allow users to propose code changes and provide feedback on contributions"
+  },
+  {
+   "term": "review comments",
+   "context": "allow developers to provide feedback on PRs submitted by contributors"
+  },
+  {
+   "term": "Start a review",
+   "context": "clicking on the Start a review button submits the suggested change"
+  },
+  {
+   "term": "PyGithub",
+   "context": "We used the PyGithub API to sort projects by most recently updated pull requests"
+  },
+  {
+   "term": "pullReqs dataset",
+   "context": "metrics introduced by Gousios and colleagues for the pullReqs dataset"
+  },
+  {
+   "term": "Recommender Systems for Software Engineering (RSSEs)",
+   "context": "Robillard and colleagues discuss RSSEs for supporting developers"
+  },
+  {
+   "term": "passive help systems",
+   "context": "require users to explicitly seek help, less useful than active help systems"
+  },
+  {
+   "term": "active help systems",
+   "context": "automatically make recommendations to users completing tasks"
+  },
+  {
+   "term": "ToolBox",
+   "context": "automated systems designed to help programmers discover Unix commands"
+  },
+  {
+   "term": "C-3PR",
+   "context": "automated system designed to fix static analysis bugs"
+  },
+  {
+   "term": "Spyglass",
+   "context": "automated system to search code more efficiently"
+  },
+  {
+   "term": "Review Bot",
+   "context": "automates static analysis and reviewer recommendations, improved code quality at VMWare"
+  },
+  {
+   "term": "diff time",
+   "context": "running development tools on code submitted to be reviewed before merging"
+  },
+  {
+   "term": "code fences",
+   "context": "reviewers suggest code changes using code fences to start and end the block"
+  },
+  {
+   "term": "Likert scale",
+   "context": "asked users how useful they found this feature using a 5-point Likert scale"
+  },
+  {
+   "term": "open coding",
+   "context": "Two researchers performed an open coding analyzing review comments"
+  },
+  {
+   "term": "Cohen's kappa",
+   "context": "inter-rater agreement = 71%, Cohen's κ = 0.5942"
+  },
+  {
+   "term": "chi-squared test",
+   "context": "using a chi-squared test we found no significant difference"
+  },
+  {
+   "term": "Mann-Whitney-Wilcoxon test",
+   "context": "pull requests with code suggestions take significantly longer to be accepted"
+  },
+  {
+   "term": "suggestee",
+   "context": "C- prefix: contributor who received a suggested change on their pull request"
+  },
+  {
+   "term": "suggester",
+   "context": "R- prefix: reviewer who made a suggested change"
+  },
+  {
+   "term": "lifetime_minutes",
+   "context": "Number of minutes between pull request opening and closing"
+  },
+  {
+   "term": "mergetime_minutes",
+   "context": "Number of minutes between pull request opening and merging"
+  },
+  {
+   "term": "num_commits",
+   "context": "Total number of commits for a pull request"
+  },
+  {
+   "term": "src_churn",
+   "context": "Total number of lines changed"
+  },
+  {
+   "term": "files_changed",
+   "context": "Total number of files touched by pull request"
+  },
+  {
+   "term": "num_commit_comments",
+   "context": "Number of review comments"
+  },
+  {
+   "term": "num_issue_comments",
+   "context": "Number of discussion comments"
+  },
+  {
+   "term": "num_participants",
+   "context": "Number of discussion participants"
+  },
+  {
+   "term": "contribution acceptance",
+   "context": "how frequently contributions from developers are merged into projects"
+  },
+  {
+   "term": "recommendation acceptance",
+   "context": "how often the recommendations are approved by developers"
+  },
+  {
+   "term": "contribution time",
+   "context": "amount of time to accept contributions from developers"
+  },
+  {
+   "term": "recommendation time",
+   "context": "time it takes developers to make recommendations with a given system"
+  },
+  {
+   "term": "recommendation acceptance time",
+   "context": "time developers take to decide on recommendations on pull requests"
+  },
+  {
+   "term": "Corrective",
+   "context": "using suggested changes to fix issues found in code"
+  },
+  {
+   "term": "Formatting",
+   "context": "code changes that solely impact presentation without changing functionality"
+  },
+  {
+   "term": "Improvement",
+   "context": "recommend a code change to refactor or optimize a user's code"
+  },
+  {
+   "term": "Non-Functional",
+   "context": "reword and fix spelling and grammar in documentation and code comments"
+  },
+  {
+   "term": "evolvability defects",
+   "context": "Mäntylä: problems with understandability and maintenance of software"
+  },
+  {
+   "term": "actionability",
+   "context": "ease with which users can act on recommendations"
+  },
+  {
+   "term": "User-Driven Communication",
+   "context": "how information is conveyed to users: communication and conciseness"
+  },
+  {
+   "term": "Workflow Integration",
+   "context": "integrating recommendations effectively into developer workflows"
+  },
+  {
+   "term": "visual momentum",
+   "context": "placing recommendations within IDEs can minimize visual momentum"
+  },
+  {
+   "term": "AAITs",
+   "context": "actionable alert identification techniques in static analysis tools"
+  },
+  {
+   "term": "GitHub Actions",
+   "context": "novel systems to evaluate impact on developer recommendations"
+  },
+  {
+   "term": "GitLab AutoDevOps",
+   "context": "novel systems to evaluate impact on developer recommendations"
+  },
+  {
+   "term": "Stack Overflow",
+   "context": "platforms where developers learn and share knowledge"
+  },
+  {
+   "term": "Twitter",
+   "context": "platforms where developers learn and share knowledge"
+  },
+  {
+   "term": "Hacker News",
+   "context": "platforms where developers learn and share knowledge"
+  },
+  {
+   "term": "Wikipedia",
+   "context": "platforms where developers learn and share knowledge"
+  },
+  {
+   "term": "force push",
+   "context": "suggester desired option to squash the commits"
+  },
+  {
+   "term": "State of the Octoverse",
+   "context": "GitHub. 2019. The State of the Octoverse"
+  },
+  {
+   "term": "Dependabot-style automated pull requests",
+   "context": "Mirhosseini et al. used automated pull requests to upgrade out-of-date dependencies"
+  },
+  {
+   "term": "NSF Grant #1714538",
+   "context": "This work was funded by NSF Grant #1714538"
+  },
+  {
+   "term": "Facebook",
+   "context": "researchers at Facebook found diff-time tools raised fix rate approximately 70%"
+  },
+  {
+   "term": "VMWare",
+   "context": "Review Bot improved code quality and reduced reviewer effort at VMWare"
+  },
+  {
+   "term": "Microsoft",
+   "context": "Bacchelli: fixing defects primary motivation for code reviews at Microsoft"
+  },
+  {
+   "term": "qmk/qmk_firmware",
+   "context": "Table 1 project with 8525 suggested changes"
+  },
+  {
+   "term": "nodejs/node",
+   "context": "Table 1 project with 2252 suggested changes"
+  },
+  {
+   "term": "rust-lang/rust",
+   "context": "Table 1 project with 2615 suggested changes"
+  },
+  {
+   "term": "kubernetes/kuberbetes",
+   "context": "Table 1 project with 556 suggested changes, 52297 comments"
+  }
+ ],
+ "claims": [
+  {
+   "claim": "GitHub suggested changes let reviewers propose line-level code edits in PRs that authors apply as a commit",
+   "quote": "developers can easily apply, reject, or edit changes suggested by peers",
+   "numbers": []
+  },
+  {
+   "claim": "GitHub blog reported >100,000 suggested changes within weeks of public beta",
+   "quote": "over 100,000 suggested changes were made within a few weeks",
+   "numbers": [
+    "100,000",
+    "4% of PR review comments",
+    "10% of code reviewers"
+   ]
+  },
+  {
+   "claim": "Study analyzed 152,030 PR review comments, 17,712 suggested changes, 51,250 PRs",
+   "quote": "",
+   "numbers": [
+    "152,030",
+    "17,712",
+    "51,250"
+   ]
+  },
+  {
+   "claim": "Feature introduced as public beta October 2018",
+   "quote": "after October 2018, which is when the suggested changes feature was introduced",
+   "numbers": [
+    "October 2018"
+   ]
+  },
+  {
+   "claim": "GitHub API did not support suggested changes, so authors detected them by suggestion code-fence tag and later commits",
+   "quote": "this feature is currently not supported by the GitHub API",
+   "numbers": []
+  },
+  {
+   "claim": "Category sample: 100 PRs; non-functional 36%, improvement 34%, corrective 16%, formatting 14%",
+   "quote": "",
+   "numbers": [
+    "100",
+    "36%",
+    "34%",
+    "16%",
+    "14%"
+   ]
+  },
+  {
+   "claim": "Inter-rater agreement for categories 71%, kappa 0.5942",
+   "quote": "",
+   "numbers": [
+    "71%",
+    "0.5942"
+   ]
+  },
+  {
+   "claim": "69% of PRs merged; no significant difference in merge rate with vs without suggestions",
+   "quote": "no significant difference in the existence of code suggestions",
+   "numbers": [
+    "69%",
+    "n=35,521",
+    "69.4%",
+    "69.3%",
+    "chi2=0.0182",
+    "p=0.8928",
+    "6982",
+    "44268"
+   ]
+  },
+  {
+   "claim": "Suggested changes accepted 60% vs 1% for review comments with code",
+   "quote": "",
+   "numbers": [
+    "10,556 of 17,712 (60%)",
+    "65 of 6,937 (1%)",
+    "59.6%",
+    "0.9%",
+    "chi2=6961.3765",
+    "p<0.00001"
+   ]
+  },
+  {
+   "claim": "PRs with suggestions take over twice as long to merge",
+   "quote": "pull requests with suggestions take over twice as long to merge",
+   "numbers": [
+    "16.4 days avg vs 6.4",
+    "median 5.0 vs 1.1 days",
+    "W=87857043"
+   ]
+  },
+  {
+   "claim": "Reviewers make recommendations faster with suggested changes",
+   "quote": "",
+   "numbers": [
+    "10.5 days avg vs 14.6",
+    "median 0.7 vs 1.9 days",
+    "W=49186174"
+   ]
+  },
+  {
+   "claim": "Recommendations accepted faster with suggested changes",
+   "quote": "",
+   "numbers": [
+    "5.4 days avg vs 8.0",
+    "median 0.3 vs 0.7 days",
+    "W=256013",
+    "p=0.0001"
+   ]
+  },
+  {
+   "claim": "PRs with suggested changes: 4,319 vs 46,931 without",
+   "quote": "",
+   "numbers": [
+    "4,319",
+    "46,931"
+   ]
+  },
+  {
+   "claim": "PRs with suggestions have more commits, comments, participants, longer lifetime; files_changed not significant",
+   "quote": "",
+   "numbers": [
+    "lifetime mean 34799.26 vs 18993.48 min",
+    "mergetime 23645.15 vs 10378.82 min",
+    "commits 8.62 vs 6.72",
+    "commit comments 13.56 vs 2.00",
+    "issue comments 8.63 vs 5.03",
+    "participants 3.18 vs 2.30",
+    "files_changed p=0.5051"
+   ]
+  },
+  {
+   "claim": "Survey: 580 emailed, 43 responses (7.4%)",
+   "quote": "",
+   "numbers": [
+    "580",
+    "43",
+    "7.4%",
+    "24 suggestees",
+    "19 suggesters"
+   ]
+  },
+  {
+   "claim": "92% of suggestees and 79% of suggesters rated feature Useful or Very Useful; none Not at All Useful",
+   "quote": "",
+   "numbers": [
+    "92% (n=22)",
+    "79% (n=15)"
+   ]
+  },
+  {
+   "claim": "One suggester complained suggestions land as separate commits and wanted a force-push/squash option",
+   "quote": "desired a force push option to squash the commits",
+   "numbers": []
+  },
+  {
+   "claim": "Developers valued suggested changes for communication, conciseness, actionability, location, timing, ease of use, scalability",
+   "quote": "removes all ambiguity about what I'm asking for if I can just directly put the code there",
+   "numbers": []
+  },
+  {
+   "claim": "Describing change in prose is annoying; code suggestion shows exactly what is expected",
+   "quote": "Describing the change with words is pretty annoying",
+   "numbers": []
+  },
+  {
+   "claim": "Suggestions applied in place avoid copy-paste and leaving the PR page",
+   "quote": "No need to leave the pull request page to make a suggested change",
+   "numbers": []
+  },
+  {
+   "claim": "Facebook: diff-time static analysis ~70% fix rate vs nearly 0% in overnight builds",
+   "quote": "",
+   "numbers": [
+    "70%",
+    "0%"
+   ]
+  },
+  {
+   "claim": "87 million PRs merged to GitHub in 2019; over 20 million issues closed last year",
+   "quote": "",
+   "numbers": [
+    "87 million",
+    "20 million"
+   ]
+  },
+  {
+   "claim": "Limitations: only public OSS GitHub repos; merge status may undercount; survey response 7.4%",
+   "quote": "",
+   "numbers": [
+    "7.4%"
+   ]
+  },
+  {
+   "claim": "Study is 2020, GitHub feature only; not about blog posts or staleness",
+   "quote": "",
+   "numbers": [
+    "2020"
+   ]
+  }
+ ],
+ "analysis_rows": [
+  {
+   "type": "landscape",
+   "entity": "GitHub suggested changes",
+   "category": "PR review feature",
+   "segment": "developers on pull requests",
+   "positioning": "line-level code suggestions applied as commit with one click",
+   "key_facts": "public beta Oct 2018; >100,000 in few weeks; ~4% of PR review comments"
+  },
+  {
+   "type": "landscape",
+   "entity": "PR review comments with fenced code",
+   "category": "manual alternative",
+   "segment": "GitHub developers",
+   "positioning": "markdown code fences in comments, no auto-apply",
+   "key_facts": "6,937 comments with code; 0.9% accepted"
+  },
+  {
+   "type": "landscape",
+   "entity": "Review Bot",
+   "category": "research tool",
+   "segment": "code reviewers at VMWare",
+   "positioning": "automates static analysis and reviewer recommendation",
+   "key_facts": "improved code quality, reduced reviewer effort"
+  },
+  {
+   "type": "landscape",
+   "entity": "C-3PR",
+   "category": "bot",
+   "segment": "developers",
+   "positioning": "fixes static analysis violations via pull requests",
+   "key_facts": "SANER 2020"
+  },
+  {
+   "type": "landscape",
+   "entity": "Spyglass",
+   "category": "IDE tool",
+   "segment": "programmers",
+   "positioning": "active help for code search/navigation",
+   "key_facts": "timeliness issues discouraged adoption"
+  },
+  {
+   "type": "landscape",
+   "entity": "ToolBox",
+   "category": "system",
+   "segment": "Unix users",
+   "positioning": "living directory for Unix tools",
+   "key_facts": "1994"
+  },
+  {
+   "type": "landscape",
+   "entity": "GitHub Actions",
+   "category": "CI/automation",
+   "segment": "GitHub users",
+   "positioning": "proposed future study target",
+   "key_facts": "mentioned only"
+  },
+  {
+   "type": "landscape",
+   "entity": "GitLab AutoDevOps",
+   "category": "CI/automation",
+   "segment": "GitLab users",
+   "positioning": "proposed future study target",
+   "key_facts": "mentioned only"
+  },
+  {
+   "type": "comparison",
+   "option": "suggested changes",
+   "criterion": "recommendation acceptance rate",
+   "value": "59.6%"
+  },
+  {
+   "type": "comparison",
+   "option": "review comments with code",
+   "criterion": "recommendation acceptance rate",
+   "value": "0.9%"
+  },
+  {
+   "type": "comparison",
+   "option": "suggested changes",
+   "criterion": "recommendation time avg (days)",
+   "value": "10.5 (median 0.7)"
+  },
+  {
+   "type": "comparison",
+   "option": "review comments with code",
+   "criterion": "recommendation time avg (days)",
+   "value": "14.6 (median 1.9)"
+  },
+  {
+   "type": "comparison",
+   "option": "suggested changes",
+   "criterion": "acceptance time avg (days)",
+   "value": "5.4 (median 0.3)"
+  },
+  {
+   "type": "comparison",
+   "option": "review comments with code",
+   "criterion": "acceptance time avg (days)",
+   "value": "8.0 (median 0.7)"
+  },
+  {
+   "type": "comparison",
+   "option": "PRs with suggestions",
+   "criterion": "contribution time avg (days)",
+   "value": "16.4 (median 5.0)"
+  },
+  {
+   "type": "comparison",
+   "option": "PRs without suggestions",
+   "criterion": "contribution time avg (days)",
+   "value": "6.4 (median 1.1)"
+  },
+  {
+   "type": "comparison",
+   "option": "PRs with suggestions",
+   "criterion": "merge rate",
+   "value": "69.4%"
+  },
+  {
+   "type": "comparison",
+   "option": "PRs without suggestions",
+   "criterion": "merge rate",
+   "value": "69.3%"
+  },
+  {
+   "type": "root_cause",
+   "symptom": "PRs with suggestions take over twice as long to merge",
+   "cause": "more discussion and comments; accepted suggestions add commits",
+   "evidence": "Mann-Whitney-Wilcoxon W=87857043, p<0.00001; Table 8 num_commits 8.62 vs 6.72",
+   "fix": ""
+  },
+  {
+   "type": "root_cause",
+   "symptom": "suggester dislikes separate commits per accepted suggestion",
+   "cause": "feature incorporates suggestions as separate PR commits",
+   "evidence": "one survey respondent",
+   "fix": "desired force push option to squash commits"
+  },
+  {
+   "type": "root_cause",
+   "symptom": "developers do not adopt automated recommendations",
+   "cause": "poor communication, bad timing, location outside workflow",
+   "evidence": "cited prior work; Facebook diff-time ~70% fix rate vs ~0% overnight",
+   "fix": "concise, timely, in-workflow, actionable recommendations"
+  }
+ ],
+ "model": "sonnet",
+ "_recall": 1.0
+}

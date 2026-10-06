@@ -1,0 +1,205 @@
+{
+ "sid": "r3q04-01",
+ "terms": [
+  {
+   "term": "Elio Struyf",
+   "count": 4,
+   "kind": "heading"
+  },
+  {
+   "term": "JSON",
+   "count": 5,
+   "kind": "acronym"
+  },
+  {
+   "term": "Before and After",
+   "count": 2,
+   "kind": "heading"
+  },
+  {
+   "term": "Code Highlighting",
+   "count": 2,
+   "kind": "heading"
+  },
+  {
+   "term": "Content Conversion",
+   "count": 2,
+   "kind": "heading"
+  },
+  {
+   "term": "Final Thoughts",
+   "count": 2,
+   "kind": "heading"
+  },
+  {
+   "term": "Gist Partials",
+   "count": 2,
+   "kind": "bold"
+  },
+  {
+   "term": "Image Captions",
+   "count": 2,
+   "kind": "bold"
+  },
+  {
+   "term": "Use Data Files",
+   "count": 2,
+   "kind": "heading"
+  },
+  {
+   "term": "Video Partials",
+   "count": 2,
+   "kind": "bold"
+  },
+  {
+   "term": "Watch for Breaking Changes",
+   "count": 2,
+   "kind": "heading"
+  },
+  {
+   "term": "CMS",
+   "count": 2,
+   "kind": "acronym"
+  },
+  {
+   "term": "VS",
+   "count": 2,
+   "kind": "acronym"
+  },
+  {
+   "term": "{{< highlight >}}",
+   "count": 2,
+   "kind": "code"
+  },
+  {
+   "term": "Background",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Best Practices from the migration",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Callouts / Blockquotes",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "Clone the repository",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Comments",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Create symbolic links to the content",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Create symbolic links to the speaking data file(s",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Hugo to Astro",
+   "count": 3,
+   "kind": "ngram"
+  },
+  {
+   "term": "My migration story from Hugo to Astro",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Related articles",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Remove existing content directories",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Report issues or make changes on GitHub",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Setup",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Static Web Apps",
+   "count": 3,
+   "kind": "ngram"
+  },
+  {
+   "term": "Symlink your content in Astro for better portability",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Update the submodule",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "easy it is to get started",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "familiar syntax and programming language (JavaScript/TypeScript",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "flexibility",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "utility-first",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "CSS",
+   "count": 1,
+   "kind": "acronym"
+  },
+  {
+   "term": "Demo Time",
+   "count": 2,
+   "kind": "ngram"
+  },
+  {
+   "term": "Front Matter",
+   "count": 2,
+   "kind": "ngram"
+  },
+  {
+   "term": "MDX",
+   "count": 1,
+   "kind": "acronym"
+  },
+  {
+   "term": "MVP",
+   "count": 1,
+   "kind": "acronym"
+  },
+  {
+   "term": "astro",
+   "count": 1,
+   "kind": "code"
+  }
+ ]
+}

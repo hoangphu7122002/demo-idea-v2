@@ -1,0 +1,134 @@
+{
+  "rows": [
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=4080228",
+      "date": "2012-06-07",
+      "quote_or_number": "You need to constantly write otherwise a new visitor may think your 2 months old blog post outdated",
+      "persona_match": "n",
+      "theme": "blog staleness perception",
+      "note": "Platform creator identifying core blog maintenance challenge"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=45452358",
+      "date": "2025-10-02",
+      "quote_or_number": "Common search queries often lead to outdated blog posts that only show the same few designs",
+      "persona_match": "n",
+      "theme": "search results stale",
+      "note": "Reader discovering outdated posts surface prominently in searches"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=46935930",
+      "date": "2026-02-08",
+      "quote_or_number": "The best CS resources shouldn't be hidden in newsletters, GitHub repos, and outdated blog posts",
+      "persona_match": "n",
+      "theme": "scattered outdated content",
+      "note": "Problem of finding current technical resources among stale posts"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=2256150",
+      "date": "2011-02-23",
+      "quote_or_number": "The method that blog post talks about is outdated. It shouldn't be used any more. They could at least edit that post to point to the up-to-date information",
+      "persona_match": "n",
+      "theme": "outdated tutorial harm",
+      "note": "Developer frustrated by outdated post causing real damage to account"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=38659582",
+      "date": "2023-12-15",
+      "quote_or_number": "Blog posts, how-to guides, etc get outdated very quickly specially when you are doing multiple product launches. How do you keep them updated?",
+      "persona_match": "y",
+      "theme": "keep content current",
+      "note": "Technical author/product manager directly asking about maintaining post accuracy"
+    },
+    {
+      "type": "competitor",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=43932280",
+      "date": "2025-05-08",
+      "quote_or_number": "you search gRPC vs REST or CloudFront vs CloudFlare, and end up sifting through outdated blogs, generic Medium posts, or worse: AI-generated filler",
+      "persona_match": "n",
+      "theme": "replace outdated blogs",
+      "note": "Competitor tool (convinceme.tech) solving the outdated technical blog problem"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=44812367",
+      "date": "2025-08-06",
+      "quote_or_number": "People asked us a lot how we'd keep the book up to date. We didn't really know.",
+      "persona_match": "y",
+      "theme": "book staleness challenge",
+      "note": "Solo founder/author struggling with how to maintain technical book as field evolves"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=46989765",
+      "date": "2026-02-12",
+      "quote_or_number": "Most GPG documentation I could find was outdated -- O'Reilly 1995, No Starch 2006, countless websites from the mid 00s",
+      "persona_match": "y",
+      "theme": "outdated documentation gap",
+      "note": "Solo author created comprehensive guide because existing docs were outdated/scattered"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=46207478",
+      "date": "2025-12-09",
+      "quote_or_number": "battlecards became outdated in days. Updating them manually was painful, slow, and constantly behind competitors",
+      "persona_match": "n",
+      "theme": "manual updates stale",
+      "note": "Related problem: manual content updates cannot keep pace with rapid change"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=1430190",
+      "date": "2010-06-14",
+      "quote_or_number": "Romain Guy's blog, which unfortunately is largely outdated",
+      "persona_match": "n",
+      "theme": "developer blog stale",
+      "note": "Reader frustrated finding developer blogs that stop being maintained"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=2558824",
+      "date": "2011-05-18",
+      "quote_or_number": "Every resource I found either assumed the reader had some prior programming knowledge, was incomplete, or was outdated. With daily updates, content would never become stale or dated",
+      "persona_match": "y",
+      "theme": "daily updates prevent staleness",
+      "note": "Solo author/educator recognizing daily updates as solution to content decay"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=34061818",
+      "date": "2022-12-20",
+      "quote_or_number": "tutorials and code examples I can find (or those provided by copilot) are outdated and not working",
+      "persona_match": "n",
+      "theme": "outdated tutorial code",
+      "note": "Learner frustrated that tutorial code examples are broken/outdated"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=1716463",
+      "date": "2010-09-22",
+      "quote_or_number": "developers are unaware of the issues or have outdate or incorrect information or beliefs about accessibility",
+      "persona_match": "y",
+      "theme": "correct outdated beliefs",
+      "note": "Developer/author planning blog series to correct outdated developer misinformation"
+    }
+  ]
+}

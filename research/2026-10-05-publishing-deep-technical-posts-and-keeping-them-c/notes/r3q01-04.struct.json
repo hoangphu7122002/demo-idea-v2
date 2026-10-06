@@ -1,0 +1,205 @@
+{
+ "sid": "r3q01-04",
+ "terms": [
+  {
+   "term": "AI",
+   "count": 10,
+   "kind": "acronym"
+  },
+  {
+   "term": "API",
+   "count": 6,
+   "kind": "acronym"
+  },
+  {
+   "term": "CI",
+   "count": 6,
+   "kind": "acronym"
+  },
+  {
+   "term": "Adopt Conformance Rules",
+   "count": 2,
+   "kind": "heading"
+  },
+  {
+   "term": "Architecture Fitness Functions",
+   "count": 2,
+   "kind": "heading"
+  },
+  {
+   "term": "Automated Drift Scoring",
+   "count": 2,
+   "kind": "heading"
+  },
+  {
+   "term": "Bad Decisions",
+   "count": 2,
+   "kind": "heading"
+  },
+  {
+   "term": "Behavioral Drift",
+   "count": 2,
+   "kind": "heading"
+  },
+  {
+   "term": "Celebrate Improvements",
+   "count": 2,
+   "kind": "heading"
+  },
+  {
+   "term": "Compliance and Audit Failures",
+   "count": 2,
+   "kind": "heading"
+  },
+  {
+   "term": "Decision Drift",
+   "count": 2,
+   "kind": "heading"
+  },
+  {
+   "term": "Dependency Drift",
+   "count": 2,
+   "kind": "heading"
+  },
+  {
+   "term": "Emergency Changes",
+   "count": 2,
+   "kind": "heading"
+  },
+  {
+   "term": "Incident Response",
+   "count": 2,
+   "kind": "heading"
+  },
+  {
+   "term": "Lack of Feedback Loops",
+   "count": 2,
+   "kind": "heading"
+  },
+  {
+   "term": "MCP",
+   "count": 3,
+   "kind": "acronym"
+  },
+  {
+   "term": "Many Small Changes",
+   "count": 2,
+   "kind": "heading"
+  },
+  {
+   "term": "Run Architecture Reviews",
+   "count": 2,
+   "kind": "heading"
+  },
+  {
+   "term": "Set Targets",
+   "count": 2,
+   "kind": "heading"
+  },
+  {
+   "term": "Set Up Drift Alerts",
+   "count": 2,
+   "kind": "heading"
+  },
+  {
+   "term": "Slow Onboarding",
+   "count": 2,
+   "kind": "heading"
+  },
+  {
+   "term": "Speed Over Documentation",
+   "count": 2,
+   "kind": "heading"
+  },
+  {
+   "term": "Static Analysis Tools",
+   "count": 2,
+   "kind": "heading"
+  },
+  {
+   "term": "Structural Drift",
+   "count": 2,
+   "kind": "heading"
+  },
+  {
+   "term": "Team Turnover",
+   "count": 2,
+   "kind": "heading"
+  },
+  {
+   "term": "drift.score_computed",
+   "count": 2,
+   "kind": "bold"
+  },
+  {
+   "term": "drift.score_degraded",
+   "count": 2,
+   "kind": "bold"
+  },
+  {
+   "term": "ADRs",
+   "count": 2,
+   "kind": "acronym"
+  },
+  {
+   "term": "DEV",
+   "count": 2,
+   "kind": "acronym"
+  },
+  {
+   "term": "PR",
+   "count": 2,
+   "kind": "acronym"
+  },
+  {
+   "term": "AI Agent Confusion",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Actionable",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "Agent generates code",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "Agent reads architecture",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "Agent reads updated architecture",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "Architecture Drift Detection",
+   "count": 3,
+   "kind": "ngram"
+  },
+  {
+   "term": "Architecture Drift vs. Architecture Erosion",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Architecture drift",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "Architecture erosion",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "Automate Drift Detection in CI",
+   "count": 1,
+   "kind": "heading"
+  }
+ ]
+}

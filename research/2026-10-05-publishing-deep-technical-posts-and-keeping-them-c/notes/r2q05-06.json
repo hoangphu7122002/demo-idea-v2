@@ -1,0 +1,437 @@
+{
+ "sid": "r2q05-06",
+ "url": "https://dualite.dev/blogs/code-documentation-best-practices",
+ "title": "Code Documentation Best Practices in 2026: AI Tools, JSDoc, and Auto-Generated Docs",
+ "published": "2026-06-14",
+ "source_type": "blog",
+ "quality_flags": [],
+ "terms": [
+  {
+   "term": "JSDoc",
+   "context": "function-level standard format for JavaScript documentation"
+  },
+  {
+   "term": "TSDoc",
+   "context": "function-level standard format for TypeScript documentation"
+  },
+  {
+   "term": "Mintlify",
+   "context": "generates documentation websites from codebase and keeps in sync with code changes"
+  },
+  {
+   "term": "Swimm",
+   "context": "code-synced internal documentation tool that links directly to specific files and lines"
+  },
+  {
+   "term": "Architecture Decision Records",
+   "context": "ADRs, short documents capturing significant architectural decisions"
+  },
+  {
+   "term": "ADR",
+   "context": "Architecture Decision Record format for capturing decisions"
+  },
+  {
+   "term": "README.md",
+   "context": "entry point documentation file for projects"
+  },
+  {
+   "term": "Copilot",
+   "context": "AI tool that generates JSDoc comments"
+  },
+  {
+   "term": "Cursor",
+   "context": "AI editor that generates documentation"
+  },
+  {
+   "term": "Claude Code",
+   "context": "AI tool that writes JSDoc comments for functions"
+  },
+  {
+   "term": "JetBrains Developer Ecosystem Survey 2025",
+   "context": "survey data on AI usage in documentation"
+  },
+  {
+   "term": "AI-generated code documentation",
+   "context": "documentation created by AI systems"
+  },
+  {
+   "term": "discount stacking",
+   "context": "business rule preventing multiple discounts from combining"
+  },
+  {
+   "term": "discount arbitrage",
+   "context": "preventing users from exploiting discount combinations"
+  },
+  {
+   "term": "PR",
+   "context": "pull request reference, used in code documentation"
+  },
+  {
+   "term": "TypeDoc",
+   "context": "tool that generates API documentation from JSDoc"
+  },
+  {
+   "term": "Redis",
+   "context": "in-memory session storage database"
+  },
+  {
+   "term": "PostgreSQL",
+   "context": "relational database"
+  },
+  {
+   "term": "MongoDB",
+   "context": "NoSQL database option"
+  },
+  {
+   "term": "OpenAPI specs",
+   "context": "API specification format"
+  },
+  {
+   "term": "Gitbook",
+   "context": "documentation platform"
+  },
+  {
+   "term": "Readme.io",
+   "context": "documentation platform"
+  },
+  {
+   "term": "ESLint",
+   "context": "JavaScript linter"
+  },
+  {
+   "term": "eslint-plugin-jsdoc",
+   "context": "ESLint plugin enforcing JSDoc format"
+  },
+  {
+   "term": "Confluence",
+   "context": "wiki documentation tool"
+  },
+  {
+   "term": "Notion",
+   "context": "wiki documentation tool"
+  },
+  {
+   "term": "API consumers",
+   "context": "users of API documentation"
+  },
+  {
+   "term": "IDE tooltips",
+   "context": "inline documentation display in code editors"
+  },
+  {
+   "term": "SDK",
+   "context": "Software Development Kit"
+  },
+  {
+   "term": "developer portals",
+   "context": "public-facing documentation sites"
+  },
+  {
+   "term": "onboarding",
+   "context": "process of bringing new developers into a project"
+  },
+  {
+   "term": "system explanations",
+   "context": "documentation of how system components work"
+  },
+  {
+   "term": "stale documentation",
+   "context": "outdated documentation no longer matching code"
+  },
+  {
+   "term": "business rule explanation",
+   "context": "documentation of why specific business decisions were made"
+  },
+  {
+   "term": "non-obvious behavior",
+   "context": "code behavior that is not apparent from reading code alone"
+  },
+  {
+   "term": "edge cases",
+   "context": "unusual input conditions"
+  },
+  {
+   "term": "invariants",
+   "context": "conditions that must remain true"
+  },
+  {
+   "term": "AI-generated noise comments",
+   "context": "unnecessary comments restating obvious code"
+  },
+  {
+   "term": "over-documentation of the obvious",
+   "context": "documenting every getter and setter"
+  },
+  {
+   "term": "high-level architecture",
+   "context": "how major system components fit together"
+  },
+  {
+   "term": "data flow",
+   "context": "how data moves through the system"
+  },
+  {
+   "term": "system boundaries",
+   "context": "where the system begins and ends"
+  },
+  {
+   "term": "function signature",
+   "context": "parameter names, types, and return values"
+  }
+ ],
+ "claims": [
+  {
+   "claim": "68% of developers now use AI tools to help write documentation, up from 11% in 2023",
+   "quote": "68% of developers now use AI tools to help write documentation, up from 11% in 2023",
+   "numbers": [
+    "68%",
+    "11%",
+    "2023"
+   ]
+  },
+  {
+   "claim": "AI-generated documentation is often plausible-sounding but technically incorrect, particularly for complex logic",
+   "quote": "AI-generated documentation is often plausible-sounding but technically incorrect",
+   "numbers": []
+  },
+  {
+   "claim": "AI tools can generate JSDoc comments for an entire codebase in minutes",
+   "quote": "AI tools can now generate JSDoc comments for an entire codebase in minutes",
+   "numbers": []
+  },
+  {
+   "claim": "Mintlify and Swimm auto-generate and maintain documentation that syncs with code changes",
+   "quote": "Mintlify and Swimm auto-generate and maintain documentation that syncs with code changes",
+   "numbers": []
+  },
+  {
+   "claim": "AI-generated documentation describes what code appears to do, not necessarily what developer intended",
+   "quote": "AI-generated documentation of complex functions describes what the code appears to do, not necessarily what the developer intended",
+   "numbers": []
+  },
+  {
+   "claim": "Good documentation in 2026 is human-judgment documentation that AI helps write",
+   "quote": "Good documentation in 2026 is not AI-generated documentation. It is human-judgment documentation that AI helps write.",
+   "numbers": []
+  },
+  {
+   "claim": "Documentation should explain why, not what, as code itself explains what it does",
+   "quote": "The code itself explains what it does. Documentation should explain why it does it that way.",
+   "numbers": []
+  },
+  {
+   "claim": "Function caching results for 5 minutes is non-obvious behavior worth documenting",
+   "quote": "the fact that this function caches results for 5 minutes",
+   "numbers": [
+    "5"
+   ]
+  },
+  {
+   "claim": "Swimm detects when documented code changes and prompts for update",
+   "quote": "When the referenced code changes, Swimm detects the documentation is stale and prompts for an update",
+   "numbers": []
+  },
+  {
+   "claim": "Session queries in the example case accounted for 23% of database load at 50,000 daily active users",
+   "quote": "At 50,000 daily active users, session queries were accounting for 23% of database load",
+   "numbers": [
+    "50,000",
+    "23%"
+   ]
+  },
+  {
+   "claim": "Redis session storage reduces PostgreSQL query load by approximately 23%",
+   "quote": "Reduces PostgreSQL query load by approximately 23",
+   "numbers": [
+    "23%"
+   ]
+  },
+  {
+   "claim": "Session data is ephemeral in Redis: Redis failure clears all active sessions",
+   "quote": "Session data is now ephemeral: Redis failure clears all active sessions",
+   "numbers": []
+  },
+  {
+   "claim": "README is the most-read piece of documentation in entire project",
+   "quote": "the README is the most-read piece of documentation in the entire project",
+   "numbers": []
+  },
+  {
+   "claim": "In 2026, with AI tools making it easy to generate README content, the quality bar for README files has increased",
+   "quote": "the quality bar for README files has increased because bad README content is no longer excusable",
+   "numbers": []
+  },
+  {
+   "claim": "AI tools cannot capture why design was chosen, what edge cases were deliberate, what constraints calling code must respect",
+   "quote": "AI tools generate documentation quickly but cannot capture the non-obvious: why this design was chosen, what edge cases were deliberate, what constraints the calling code must respect",
+   "numbers": []
+  },
+  {
+   "claim": "AI tools cannot know developer intent, constraints deliberately maintained, design decisions made",
+   "quote": "AI cannot know the developer's intent, the constraints that were deliberately maintained, or the design decisions that were made",
+   "numbers": []
+  }
+ ],
+ "analysis_rows": [
+  {
+   "type": "landscape",
+   "entity": "JSDoc/TSDoc",
+   "category": "Documentation Format Standard",
+   "segment": "Function-level documentation for JavaScript and TypeScript",
+   "positioning": "The standard format displayed in IDE hover tooltips; tools like TypeDoc generate API documentation from JSDoc",
+   "key_facts": "Used by most IDEs; integration with TypeDoc for API generation; AI tools including Copilot and Cursor can generate from function signatures"
+  },
+  {
+   "type": "landscape",
+   "entity": "Mintlify",
+   "category": "Documentation Platform",
+   "segment": "Public-facing developer documentation and API references",
+   "positioning": "Generates documentation websites from codebase; Git integration detects when documented code changes and flags documentation for review",
+   "key_facts": "Strong for API documentation from OpenAPI specs and getting-started guides; replaces Gitbook and Readme.io as default tool for developer-facing documentation"
+  },
+  {
+   "type": "landscape",
+   "entity": "Swimm",
+   "category": "Documentation Tool",
+   "segment": "Internal knowledge documentation linked to specific code",
+   "positioning": "Documentation lives alongside code and links directly to specific files, functions, and lines; detects stale documentation and prompts for updates",
+   "key_facts": "Maintains link between code and documentation; AI generates draft documentation from code that humans review and edit; has GitHub integration to flag stale documentation"
+  },
+  {
+   "type": "landscape",
+   "entity": "README.md",
+   "category": "Project Documentation",
+   "segment": "Entry point documentation for open-source and internal repositories",
+   "positioning": "Most-read piece of documentation in entire project; quality bar increased with AI-assisted generation",
+   "key_facts": "Should answer: what does project do, why use over alternatives, how to get running locally, how to contribute, where is full documentation"
+  },
+  {
+   "type": "landscape",
+   "entity": "Architecture Decision Records (ADRs)",
+   "category": "Documentation Format",
+   "segment": "Large teams and long-lived codebases",
+   "positioning": "Captures significant architectural decisions with context, decision, and consequences; stored in repository alongside code",
+   "key_facts": "Human writes (AI cannot know the why); becomes more important with AI agents making code changes; prevents teams from re-litigating same choices"
+  },
+  {
+   "type": "comparison",
+   "option": "JSDoc/TSDoc",
+   "criterion": "Purpose",
+   "value": "Function-level inline docs"
+  },
+  {
+   "type": "comparison",
+   "option": "JSDoc/TSDoc",
+   "criterion": "Best For",
+   "value": "API consumers, IDE tooltips"
+  },
+  {
+   "type": "comparison",
+   "option": "JSDoc/TSDoc",
+   "criterion": "AI Role",
+   "value": "AI drafts, human adds context"
+  },
+  {
+   "type": "comparison",
+   "option": "Mintlify",
+   "criterion": "Purpose",
+   "value": "Documentation websites"
+  },
+  {
+   "type": "comparison",
+   "option": "Mintlify",
+   "criterion": "Best For",
+   "value": "Public APIs, SDKs, developer portals"
+  },
+  {
+   "type": "comparison",
+   "option": "Mintlify",
+   "criterion": "AI Role",
+   "value": "AI generates structure, human reviews"
+  },
+  {
+   "type": "comparison",
+   "option": "Swimm",
+   "criterion": "Purpose",
+   "value": "Code-synced internal docs"
+  },
+  {
+   "type": "comparison",
+   "option": "Swimm",
+   "criterion": "Best For",
+   "value": "Onboarding, system explanations"
+  },
+  {
+   "type": "comparison",
+   "option": "Swimm",
+   "criterion": "AI Role",
+   "value": "AI drafts, human edits, alerts on stale"
+  },
+  {
+   "type": "comparison",
+   "option": "ADRs",
+   "criterion": "Purpose",
+   "value": "Architectural decisions"
+  },
+  {
+   "type": "comparison",
+   "option": "ADRs",
+   "criterion": "Best For",
+   "value": "Large teams, long-lived codebases"
+  },
+  {
+   "type": "comparison",
+   "option": "ADRs",
+   "criterion": "AI Role",
+   "value": "Human writes (AI cannot know the why)"
+  },
+  {
+   "type": "comparison",
+   "option": "README.md",
+   "criterion": "Purpose",
+   "value": "Project entry point"
+  },
+  {
+   "type": "comparison",
+   "option": "README.md",
+   "criterion": "Best For",
+   "value": "Open source, internal repos"
+  },
+  {
+   "type": "comparison",
+   "option": "README.md",
+   "criterion": "AI Role",
+   "value": "AI drafts, human verifies accuracy"
+  },
+  {
+   "type": "root_cause",
+   "symptom": "Developers historically did not write enough documentation",
+   "cause": "Code existed but documentation did not; reverse-engineering intent from implementation was required",
+   "evidence": "Historical documentation problem mentioned in the Short Answer section",
+   "fix": "AI tools can now generate documentation enthusiastically; focus shifted to accuracy and intent"
+  },
+  {
+   "type": "root_cause",
+   "symptom": "AI-generated documentation is technically incorrect despite being grammatically correct",
+   "cause": "AI describes what code appears to do, not what developer intended; misses non-obvious logic and design decisions",
+   "evidence": "AI describes what code appears to do vs what was intended; misses edge cases, design decisions, invariants",
+   "fix": "Use AI for structural aspects (parameters, return values, examples); invest human judgment in non-obvious behavior and why decisions were made"
+  },
+  {
+   "type": "root_cause",
+   "symptom": "Stale documentation that contradicts code is worse than no documentation",
+   "cause": "Documentation was accurate 6 months ago but code changes without documentation update",
+   "evidence": "Documentation that was accurate 6 months ago but is now wrong due to code changes actively misleads",
+   "fix": "Use tools like Swimm that detect stale documentation or establish convention that documentation must update in same PR as code"
+  },
+  {
+   "type": "root_cause",
+   "symptom": "AI refactoring agents violate architectural intent",
+   "cause": "AI does not know why particular architecture was chosen",
+   "evidence": "AI agents making sweeping code changes without understanding reasoning behind architectural choices",
+   "fix": "ADRs become more important to document reasoning behind choices that AI should respect"
+  }
+ ],
+ "model": "haiku",
+ "_recall": 0.5
+}

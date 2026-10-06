@@ -1,0 +1,205 @@
+{
+ "sid": "r3q03-05",
+ "terms": [
+  {
+   "term": "USA",
+   "count": 36,
+   "kind": "acronym"
+  },
+  {
+   "term": "ACM",
+   "count": 22,
+   "kind": "acronym"
+  },
+  {
+   "term": "IEEE",
+   "count": 21,
+   "kind": "acronym"
+  },
+  {
+   "term": "NY",
+   "count": 19,
+   "kind": "acronym"
+  },
+  {
+   "term": "ICSE",
+   "count": 16,
+   "kind": "acronym"
+  },
+  {
+   "term": "ESEC",
+   "count": 14,
+   "kind": "acronym"
+  },
+  {
+   "term": "FSE",
+   "count": 14,
+   "kind": "acronym"
+  },
+  {
+   "term": "Software Engineering",
+   "count": 18,
+   "kind": "ngram"
+  },
+  {
+   "term": "New York",
+   "count": 17,
+   "kind": "ngram"
+  },
+  {
+   "term": "API",
+   "count": 7,
+   "kind": "acronym"
+  },
+  {
+   "term": "International Conference",
+   "count": 14,
+   "kind": "ngram"
+  },
+  {
+   "term": "MSR",
+   "count": 7,
+   "kind": "acronym"
+  },
+  {
+   "term": "PRs",
+   "count": 7,
+   "kind": "acronym"
+  },
+  {
+   "term": "Virtual Event",
+   "count": 13,
+   "kind": "ngram"
+  },
+  {
+   "term": "Association for Computing Machinery",
+   "count": 12,
+   "kind": "ngram"
+  },
+  {
+   "term": "Suggested Changes",
+   "count": 11,
+   "kind": "ngram"
+  },
+  {
+   "term": "Chris Brown and Chris",
+   "count": 9,
+   "kind": "ngram"
+  },
+  {
+   "term": "CSCW",
+   "count": 4,
+   "kind": "acronym"
+  },
+  {
+   "term": "Emerson Murphy-Hill",
+   "count": 8,
+   "kind": "ngram"
+  },
+  {
+   "term": "PR",
+   "count": 4,
+   "kind": "acronym"
+  },
+  {
+   "term": "RQ1",
+   "count": 4,
+   "kind": "acronym"
+  },
+  {
+   "term": "RQ2",
+   "count": 4,
+   "kind": "acronym"
+  },
+  {
+   "term": "RQ3",
+   "count": 4,
+   "kind": "acronym"
+  },
+  {
+   "term": "HCC",
+   "count": 3,
+   "kind": "acronym"
+  },
+  {
+   "term": "IDE",
+   "count": 3,
+   "kind": "acronym"
+  },
+  {
+   "term": "RQ4",
+   "count": 3,
+   "kind": "acronym"
+  },
+  {
+   "term": "SANER",
+   "count": 3,
+   "kind": "acronym"
+  },
+  {
+   "term": "VL",
+   "count": 3,
+   "kind": "acronym"
+  },
+  {
+   "term": "VLHCC",
+   "count": 3,
+   "kind": "acronym"
+  },
+  {
+   "term": "Mining Software Repositories",
+   "count": 5,
+   "kind": "ngram"
+  },
+  {
+   "term": "Working Conference",
+   "count": 5,
+   "kind": "ngram"
+  },
+  {
+   "term": "APSEC",
+   "count": 2,
+   "kind": "acronym"
+  },
+  {
+   "term": "ASE",
+   "count": 2,
+   "kind": "acronym"
+  },
+  {
+   "term": "CHI",
+   "count": 2,
+   "kind": "acronym"
+  },
+  {
+   "term": "Computing Machinery",
+   "count": 4,
+   "kind": "ngram"
+  },
+  {
+   "term": "ESEM",
+   "count": 2,
+   "kind": "acronym"
+  },
+  {
+   "term": "ISSRE",
+   "count": 2,
+   "kind": "acronym"
+  },
+  {
+   "term": "PEP",
+   "count": 2,
+   "kind": "acronym"
+  },
+  {
+   "term": "README",
+   "count": 2,
+   "kind": "acronym"
+  },
+  {
+   "term": "WORK",
+   "count": 2,
+   "kind": "acronym"
+  }
+ ]
+}

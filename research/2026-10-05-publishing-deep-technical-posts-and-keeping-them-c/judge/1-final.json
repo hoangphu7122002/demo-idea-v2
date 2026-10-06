@@ -1,0 +1,31 @@
+{"round":1,"phase":"final","terms":[
+{"term":"Giscus","score":8,"freq":2,"centrality":3,"novelty":3,"status":"kept","sources":["r1q02-03","r1q02-08"]},
+{"term":"Disqus","score":8,"freq":2,"centrality":3,"novelty":3,"status":"kept","sources":["r1q02-03","r1q02-08"]},
+{"term":"social annotation","score":8,"freq":1,"centrality":3,"novelty":3,"status":"kept","sources":["r1q02-06"]},
+{"term":"outdated tutorial content update","score":8,"freq":2,"centrality":3,"novelty":3,"status":"queued","sources":["r1q03-01","r1q03-04"]},
+{"term":"Utterances","score":8,"freq":2,"centrality":3,"novelty":3,"status":"kept","sources":["r1q02-03","r1q02-08"]},
+{"term":"GitHub Discussions","score":8,"freq":2,"centrality":3,"novelty":3,"status":"kept","sources":["r1q02-03","r1q02-08"]},
+{"term":"Hypothesis","score":7,"freq":1,"centrality":3,"novelty":3,"status":"kept","sources":["r1q02-06"]},
+{"term":"Hashnode / Dev.to","score":7,"freq":1,"centrality":3,"novelty":3,"status":"queued","sources":["r1q01-03"]},
+{"term":"PublishPress Revisions","score":6,"freq":1,"centrality":2,"novelty":3,"status":"queued","sources":["r1q03-04"]},
+{"term":"Gitalk","score":6,"freq":1,"centrality":2,"novelty":3,"status":"kept","sources":["r1q02-08"]},
+{"term":"Ghost","score":8,"freq":3,"centrality":2,"novelty":3,"status":"kept","sources":["r1q01-04","r1q01-06","r1q01-03"]},
+{"term":"WordPress","score":8,"freq":4,"centrality":2,"novelty":3,"status":"kept","sources":["r1q01-04","r1q01-06","r1q01-03","r1q03-04"]},
+{"term":"Markdown","score":7,"freq":2,"centrality":2,"novelty":3,"status":"kept","sources":["r1q02-03","r1q01-06"]},
+{"term":"Substack","score":7,"freq":3,"centrality":1,"novelty":3,"status":"kept","sources":["r1q01-04","r1q01-06","r1q01-03"]},
+{"term":"Medium","score":6,"freq":2,"centrality":1,"novelty":3,"status":"kept","sources":["r1q01-04","r1q01-03"]},
+{"term":"headless CMS","score":5,"freq":1,"centrality":1,"novelty":3,"status":"kept","sources":["r1q01-06"]},
+{"term":"ActivityPub","score":5,"freq":1,"centrality":1,"novelty":3,"status":"kept","sources":["r1q01-06"]},
+{"term":"SEO","score":5,"freq":3,"centrality":0,"novelty":2,"status":"dropped","sources":["r1q01-04","r1q03-01","r1q03-04"]},
+{"term":"LMS","score":4,"freq":1,"centrality":0,"novelty":3,"status":"dropped","sources":["r1q02-06"]},
+{"term":"Dometrain Pro","score":3,"freq":1,"centrality":0,"novelty":2,"status":"dropped","sources":["r1q02-03"]}
+],
+"new_terms":17,"new_facts":60,"contradictions":[{"topic":"WordPress web share","sides":["r1q01-04: over 40% of websites","r1q01-04: over 43% of websites"]}],
+"next_queue":[
+{"query":"keeping outdated technical tutorials accurate: version drift and update workflow for developer blogs","origin":"term"},
+{"query":"Hashnode Dev.to editing old posts reader feedback corrections limitations","origin":"term"},
+{"query":"blog post 'last verified' date staleness indicator outdated content warning","origin":"expand"},
+{"query":"'suggest an edit' GitHub pull request link on personal blog posts reader corrections","origin":"expand"},
+{"query":"docs-as-code link rot and stale code sample detection for blogs 2026","origin":"expand"}
+],
+"stop":{"stop":false,"reason":"comments/platforms covered; staleness signals and reader-suggestion workflows still single/vendor-sourced"}}

@@ -1,0 +1,359 @@
+{
+ "sid": "r2q04-03",
+ "url": "https://github.com/dhrubo55/personal-blog/pull/2",
+ "title": "blog improvements by dhrubo55 · Pull Request #2 · dhrubo55/personal-blog · GitHub",
+ "published": "2026-09-20",
+ "source_type": "primary",
+ "quality_flags": [
+  "thin"
+ ],
+ "terms": [
+  {
+   "term": "Uh oh!",
+   "context": "Uh oh! There was an error while loading. Please reload this page."
+  },
+  {
+   "term": "QR",
+   "context": "Use your smartphone camera to open QR code link."
+  },
+  {
+   "term": "netlify Bot",
+   "context": "netlify Bot commented Sep 20, 2026 • edited"
+  },
+  {
+   "term": "netlify Bot ** commented Sep 20, 2026 •",
+   "context": "** netlify Bot ** commented Sep 20, 2026 • edited"
+  },
+  {
+   "term": "1 participant",
+   "context": "1 participant"
+  },
+  {
+   "term": "Assignees",
+   "context": "Assignees: dhrubo55"
+  },
+  {
+   "term": "Conversation",
+   "context": "## Conversation"
+  },
+  {
+   "term": "Copy Markdown",
+   "context": "Copy link / Copy Markdown / Owner"
+  },
+  {
+   "term": "Development",
+   "context": "Successfully merging this pull request may close these issues."
+  },
+  {
+   "term": "Labels",
+   "context": "Labels: None yet"
+  },
+  {
+   "term": "Milestone",
+   "context": "Milestone: No milestone"
+  },
+  {
+   "term": "Projects",
+   "context": "Projects: None yet"
+  },
+  {
+   "term": "Reviewers",
+   "context": "Reviewers: No reviews"
+  },
+  {
+   "term": "blog improvements - #2",
+   "context": "# blog improvements - #2"
+  },
+  {
+   "term": "blog improvements#2",
+   "context": "## blog improvements#2"
+  },
+  {
+   "term": "dhrubo55",
+   "context": "dhrubo55 / personal-blog Public"
+  },
+  {
+   "term": "dhrubo55 ** commented Sep 20, 2026",
+   "context": "** dhrubo55 ** commented Sep 20, 2026 Owner"
+  },
+  {
+   "term": "personal-blog",
+   "context": "dhrubo55 / personal-blog Public"
+  },
+  {
+   "term": "to join this conversation on GitHub",
+   "context": "Sign up for free to join this conversation on GitHub."
+  },
+  {
+   "term": "✅ Deploy Preview for dreamy-montalcini-31be6a ready!",
+   "context": "Netlify bot comment heading, latest commit 7afdb64"
+  },
+  {
+   "term": "✅ Deploy Preview for mohibulsblog ready!",
+   "context": "Netlify bot comment heading, latest commit 7afdb64"
+  },
+  {
+   "term": "1ab13c2",
+   "context": "feat: connect the portfolio to the newsletter 1ab13c2"
+  },
+  {
+   "term": "351cbc1",
+   "context": "feat: focus the homepage on selected engineering work 351cbc1"
+  },
+  {
+   "term": "441be28",
+   "context": "Merge remote-tracking branch 'origin/master' into codex/blog-improvem… 441be28"
+  },
+  {
+   "term": "52ec646",
+   "context": "test: add repeatable Hugo build checks 52ec646"
+  },
+  {
+   "term": "7afdb64",
+   "context": "fix: keep page heading hierarchy singular 7afdb64"
+  },
+  {
+   "term": "88b6fec",
+   "context": "fix: retire draft pages and repair internal routes 88b6fec"
+  },
+  {
+   "term": "9aaa702",
+   "context": "feat: publish selected work and resume routes 9aaa702"
+  },
+  {
+   "term": "Deploy Preview",
+   "context": "Deploy Preview https://deploy-preview-2--mohibulsblog.netlify.app"
+  },
+  {
+   "term": "Pull Request",
+   "context": "blog improvements by dhrubo55 · Pull Request #2"
+  },
+  {
+   "term": "docs: plan the blog improvement release",
+   "context": "first commit of 14"
+  },
+  {
+   "term": "docs: refresh the featured technical investigations",
+   "context": "commit 2a7a2b4"
+  },
+  {
+   "term": "feat: align the public resume with current experience",
+   "context": "commit 2117087"
+  },
+  {
+   "term": "feat: connect the portfolio to the newsletter",
+   "context": "commit 1ab13c2"
+  },
+  {
+   "term": "feat: focus the homepage on selected engineering work",
+   "context": "commit 351cbc1"
+  },
+  {
+   "term": "feat: publish selected work and resume routes",
+   "context": "commit 9aaa702"
+  },
+  {
+   "term": "fix: add a working default social card",
+   "context": "commit 89d04b4"
+  },
+  {
+   "term": "fix: keep page heading hierarchy singular",
+   "context": "commit 7afdb64"
+  },
+  {
+   "term": "fix: qualify featured article claims",
+   "context": "commit f71d93f"
+  },
+  {
+   "term": "fix: resolve final portfolio verification issues",
+   "context": "commit 90784c8"
+  },
+  {
+   "term": "fix: retire draft pages and repair internal routes",
+   "context": "commit 88b6fec"
+  },
+  {
+   "term": "feat: add reader paths to the Java Learning Atlas",
+   "context": "commit 059342e"
+  },
+  {
+   "term": "Java Learning Atlas",
+   "context": "feat: add reader paths to the Java Learning Atlas"
+  },
+  {
+   "term": "Hugo",
+   "context": "test: add repeatable Hugo build checks"
+  },
+  {
+   "term": "Netlify",
+   "context": "To edit notification comments on pull requests, go to your Netlify project configuration."
+  },
+  {
+   "term": "Latest commit",
+   "context": "Latest commit 7afdb64"
+  },
+  {
+   "term": "Latest deploy log",
+   "context": "https://app.netlify.com/projects/mohibulsblog/deploys/6aafb81e15c6550008773303"
+  },
+  {
+   "term": "Preview on mobile",
+   "context": "Preview on mobile Toggle QR Code..."
+  },
+  {
+   "term": "codex/blog-improvements",
+   "context": "dhrubo55/personal-blog:codex/blog-improvements head branch"
+  },
+  {
+   "term": "master",
+   "context": "dhrubo55 merged 14 commits into master"
+  },
+  {
+   "term": "e8a73f8",
+   "context": "dhrubo55 merged commit e8a73f8 into master"
+  },
+  {
+   "term": "Merged",
+   "context": "Merged"
+  },
+  {
+   "term": "8 of 9 checks passed",
+   "context": "8 of 9 checks passed"
+  },
+  {
+   "term": "self-assigned",
+   "context": "dhrubo55 self-assigned this Sep 20, 2026"
+  },
+  {
+   "term": "social card",
+   "context": "fix: add a working default social card"
+  },
+  {
+   "term": "heading hierarchy",
+   "context": "fix: keep page heading hierarchy singular"
+  },
+  {
+   "term": "newsletter",
+   "context": "feat: connect the portfolio to the newsletter"
+  },
+  {
+   "term": "featured article claims",
+   "context": "fix: qualify featured article claims"
+  },
+  {
+   "term": "draft pages",
+   "context": "fix: retire draft pages and repair internal routes"
+  },
+  {
+   "term": "internal routes",
+   "context": "fix: retire draft pages and repair internal routes"
+  },
+  {
+   "term": "Suggestions cannot be applied while the pull request is closed.",
+   "context": "GitHub suggestion batch UI text"
+  }
+ ],
+ "claims": [
+  {
+   "claim": "PR #2 'blog improvements' in dhrubo55/personal-blog was merged 2026-09-20 with 14 commits from codex/blog-improvements into master",
+   "quote": "dhrubo55 merged 14 commits into",
+   "numbers": [
+    "14 commits",
+    "Sep 20, 2026",
+    "PR #2"
+   ]
+  },
+  {
+   "claim": "PR has no description",
+   "quote": "No description provided.",
+   "numbers": []
+  },
+  {
+   "claim": "Commits include a fix to qualify featured article claims, i.e. correcting accuracy of published claims",
+   "quote": "fix: qualify featured article claims",
+   "numbers": []
+  },
+  {
+   "claim": "Commit refreshes featured technical investigations",
+   "quote": "docs: refresh the featured technical investigations",
+   "numbers": []
+  },
+  {
+   "claim": "Commit retires draft pages and repairs internal routes",
+   "quote": "fix: retire draft pages and repair internal routes",
+   "numbers": []
+  },
+  {
+   "claim": "Commit adds repeatable Hugo build checks",
+   "quote": "test: add repeatable Hugo build checks",
+   "numbers": []
+  },
+  {
+   "claim": "Commit adds reader paths to the Java Learning Atlas",
+   "quote": "feat: add reader paths to the Java Learning Atlas",
+   "numbers": []
+  },
+  {
+   "claim": "Netlify bot posted two deploy previews (dreamy-montalcini-31be6a, mohibulsblog), both ready at latest commit 7afdb64",
+   "quote": "Deploy Preview for mohibulsblog ready!",
+   "numbers": [
+    "2 deploy previews",
+    "7afdb64"
+   ]
+  },
+  {
+   "claim": "8 of 9 checks passed at merge",
+   "quote": "8 of 9 checks passed",
+   "numbers": [
+    "8 of 9"
+   ]
+  },
+  {
+   "claim": "No reviewers, no labels, no milestone, no projects; 1 participant; owner self-assigned",
+   "quote": "1 participant",
+   "numbers": [
+    "1 participant"
+   ]
+  },
+  {
+   "claim": "Repo has 0 forks and 0 stars",
+   "quote": "Fork 0",
+   "numbers": [
+    "0 forks",
+    "0 stars"
+   ]
+  },
+  {
+   "claim": "Commit fix to add a working default social card",
+   "quote": "fix: add a working default social card",
+   "numbers": []
+  },
+  {
+   "claim": "Page shows repeated GitHub load errors",
+   "quote": "There was an error while loading. Please reload this page.",
+   "numbers": [
+    "7 occurrences"
+   ]
+  }
+ ],
+ "analysis_rows": [
+  {
+   "type": "landscape",
+   "entity": "Netlify (deploy previews)",
+   "category": "hosting/CI preview tool",
+   "segment": "solo blog owner",
+   "positioning": "bot comments deploy preview link, QR for mobile on each PR",
+   "key_facts": "two previews ready for commit 7afdb64"
+  },
+  {
+   "type": "landscape",
+   "entity": "Hugo",
+   "category": "static site generator",
+   "segment": "personal blog",
+   "positioning": "repeatable build checks added as tests",
+   "key_facts": "commit 52ec646"
+  }
+ ],
+ "model": "sonnet",
+ "_recall": 1.0
+}

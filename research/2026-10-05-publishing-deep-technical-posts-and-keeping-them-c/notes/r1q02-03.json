@@ -1,0 +1,284 @@
+{
+ "sid": "r1q02-03",
+ "url": "https://andrewlock.net/considering-replacing-disqus-with-giscus/",
+ "title": "Considering replacing Disqus with Giscus",
+ "published": "2022-07-26",
+ "source_type": "blog",
+ "quality_flags": [
+  "outdated",
+  "thin"
+ ],
+ "terms": [
+  {
+   "term": "Commenting on blog posts",
+   "context": "## Commenting on blog posts"
+  },
+  {
+   "term": "Considering replacing Disqus with Giscus",
+   "context": "Considering replacing Disqus with Giscus"
+  },
+  {
+   "term": "Considering replacing Disqus with GiscusSearchCloseFacebook",
+   "context": "# Considering replacing Disqus with GiscusSearchCloseFacebook"
+  },
+  {
+   "term": "Sign up for the pro version of Disqus",
+   "context": "## Sign up for the pro version of Disqus"
+  },
+  {
+   "term": "Sponsored byDometrain Courses",
+   "context": "**Sponsored byDometrain Courses**—Get 30% off Dometrain Pro"
+  },
+  {
+   "term": "Tags",
+   "context": "## Tags Andrew Lock | .Net Escapades"
+  },
+  {
+   "term": "Use a GitHub-based comment system",
+   "context": "## Use a GitHub-based comment system"
+  },
+  {
+   "term": "What's the verdict?",
+   "context": "## What's the verdict?"
+  },
+  {
+   "term": "ANDREW30",
+   "context": "Get 30% off Dometrain Pro with code ANDREW30"
+  },
+  {
+   "term": "Dometrain Pro",
+   "context": "Get 30% off Dometrain Pro with code ANDREW30"
+  },
+  {
+   "term": "Dometrain Courses",
+   "context": "Sponsored by Dometrain Courses"
+  },
+  {
+   "term": ".NET",
+   "context": "best courses for .NET Developers"
+  },
+  {
+   "term": "ASP.NET Core in Action, Third Edition",
+   "context": "My new book ASP.NET Core in Action, Third Edition is available now"
+  },
+  {
+   "term": "Allow Ads",
+   "context": "Allow Ads into the Disqus comment section."
+  },
+  {
+   "term": "Andrew Lock",
+   "context": "Tags: Andrew Lock | .Net Escapades"
+  },
+  {
+   "term": ".Net Escapades",
+   "context": "Andrew Lock | .Net Escapades"
+  },
+  {
+   "term": "Table of Contents",
+   "context": "Table of Contents"
+  },
+  {
+   "term": "Third Edition",
+   "context": "ASP.NET Core in Action, Third Edition"
+  },
+  {
+   "term": "Utterances and Giscus",
+   "context": "main arguments for both Utterances and Giscus is that they're open source"
+  },
+  {
+   "term": "Disqus",
+   "context": "I use Disqus to allow people to comment on my blog posts"
+  },
+  {
+   "term": "Giscus",
+   "context": "Giscus is lightweight widget, based on utterances, that uses GitHub Discussions"
+  },
+  {
+   "term": "Utterances",
+   "context": "Utterances is a lightweight widget that uses GitHub issues for commenting."
+  },
+  {
+   "term": "GitHub issues",
+   "context": "uses GitHub issues for commenting"
+  },
+  {
+   "term": "GitHub Discussions",
+   "context": "uses GitHub Discussions for commenting"
+  },
+  {
+   "term": "Pro plan",
+   "context": "Pay to sign up for the Pro plan with Disqus $11USD a month"
+  },
+  {
+   "term": "Jürgen Gutsch",
+   "context": "based on this blog post by Jürgen Gutsch"
+  },
+  {
+   "term": "markdown",
+   "context": "it doesn't support markdown, and often butchers code in comments"
+  },
+  {
+   "term": "open source",
+   "context": "they're open source, rely on GitHub for \"hosting\""
+  },
+  {
+   "term": "import the comments",
+   "context": "I can relatively easily \"import\" the comments into Giscus"
+  },
+  {
+   "term": "GitHub username",
+   "context": "leave a comment with your GitHub username"
+  },
+  {
+   "term": "commenting widget",
+   "context": "Disqus was the main stand-alone commenting widget around"
+  }
+ ],
+ "claims": [
+  {
+   "claim": "Author uses Disqus for blog comments; was among most popular commenting systems when blog started.",
+   "quote": "Disqus was one of the most popular commenting systems",
+   "numbers": []
+  },
+  {
+   "claim": "Disqus places extra ads unless explicitly disabled; author had disabled them.",
+   "quote": "extra ads Disqus places on your blog if you don't explicitly disable them",
+   "numbers": []
+  },
+  {
+   "claim": "Disqus Pro plan costs $11 USD per month at time of writing.",
+   "quote": "Pay to sign up for the Pro plan with Disqus $11USD a month, currently",
+   "numbers": [
+    "$11 USD per month"
+   ]
+  },
+  {
+   "claim": "Disqus does not support markdown and often butchers code in comments.",
+   "quote": "it doesn't support markdown, and often butchers code in comments",
+   "numbers": []
+  },
+  {
+   "claim": "Utterances uses GitHub issues; Giscus is based on utterances and uses GitHub Discussions.",
+   "quote": "Giscus is lightweight widget, based on utterances, that uses GitHub Discussions",
+   "numbers": []
+  },
+  {
+   "claim": "Pro Disqus keeps existing comments and users unchanged.",
+   "quote": "the ads immediately go away, and nothing changes",
+   "numbers": []
+  },
+  {
+   "claim": "Switching would disconnect existing comments from authors' Disqus accounts.",
+   "quote": "those comments will no longer be directly connected to the person who originally wrote them",
+   "numbers": []
+  },
+  {
+   "claim": "Existing comments can be imported into Giscus via approach described by Jürgen Gutsch.",
+   "quote": "I can relatively easily \"import\" the comments into Giscus",
+   "numbers": []
+  },
+  {
+   "claim": "Author believes more people have GitHub accounts than Disqus now; switching may add barrier though.",
+   "quote": "I feel like more people will have GitHub accounts these days",
+   "numbers": []
+  },
+  {
+   "claim": "Utterances/Giscus rely on GitHub hosting and are unlikely to require ad monetisation.",
+   "quote": "they don't (and are unlikely to) require monetising visitors with obnoxious ads",
+   "numbers": []
+  },
+  {
+   "claim": "Author leans toward Giscus and solicits reader opinions; expects pro-Disqus bias in comments.",
+   "quote": "I'm leaning towards switching to Giscus",
+   "numbers": []
+  },
+  {
+   "claim": "Post published July 26, 2022, ~3 min read.",
+   "quote": "July 26, 2022 ~3 min read",
+   "numbers": [
+    "July 26, 2022",
+    "3 min"
+   ]
+  },
+  {
+   "claim": "Sponsor promo: 30% off Dometrain Pro with code ANDREW30.",
+   "quote": "Get 30% off Dometrain Pro with code ANDREW30",
+   "numbers": [
+    "30%"
+   ]
+  },
+  {
+   "claim": "Book ASP.NET Core in Action, Third Edition supports .NET 7.0.",
+   "quote": "It supports .NET 7.0",
+   "numbers": [
+    ".NET 7.0"
+   ]
+  }
+ ],
+ "analysis_rows": [
+  {
+   "type": "landscape",
+   "entity": "Disqus",
+   "category": "hosted commenting system",
+   "segment": "blog authors",
+   "positioning": "popular independent commenting system; ads unless disabled; paid Pro removes ads",
+   "key_facts": "Pro $11 USD/month; no markdown; butchers code"
+  },
+  {
+   "type": "landscape",
+   "entity": "Utterances",
+   "category": "open-source comment widget",
+   "segment": "blog authors",
+   "positioning": "lightweight widget using GitHub issues",
+   "key_facts": "open source; relies on GitHub"
+  },
+  {
+   "type": "landscape",
+   "entity": "Giscus",
+   "category": "open-source comment widget",
+   "segment": "blog authors",
+   "positioning": "lightweight, based on utterances, uses GitHub Discussions",
+   "key_facts": "open source; relies on GitHub"
+  },
+  {
+   "type": "comparison",
+   "option": "Disqus Pro",
+   "criterion": "cost",
+   "value": "$11 USD a month"
+  },
+  {
+   "type": "comparison",
+   "option": "Disqus",
+   "criterion": "markdown/code support",
+   "value": "no markdown, often butchers code"
+  },
+  {
+   "type": "comparison",
+   "option": "Giscus/Utterances",
+   "criterion": "monetisation",
+   "value": "unlikely to require ads"
+  },
+  {
+   "type": "comparison",
+   "option": "Giscus/Utterances",
+   "criterion": "existing comments",
+   "value": "lose association with Disqus accounts"
+  },
+  {
+   "type": "root_cause",
+   "symptom": "Disqus ads in comment section",
+   "cause": "Disqus free plan places ads unless on Pro",
+   "evidence": "author received message from Disqus",
+   "fix": "pay Pro or switch to Giscus"
+  },
+  {
+   "type": "root_cause",
+   "symptom": "Comments lose author link after migration",
+   "cause": "cannot map Disqus usernames to GitHub usernames",
+   "evidence": "author statement",
+   "fix": "ask commenters to leave GitHub username"
+  }
+ ],
+ "model": "sonnet",
+ "_recall": 1.0
+}

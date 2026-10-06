@@ -1,0 +1,52 @@
+{
+  "phase": "done",
+  "run_dir": "scope/2026-10-05-tech-blog-correctness",
+  "wr_run_dir": "research/2026-10-05-publishing-deep-technical-posts-and-keeping-them-c",
+  "workflow_runs": {
+    "research": "wf_d1b8deaa-cec",
+    "decide": "wf_d988b4ce-a5b",
+    "drafts": "wf_add95ebe-bc8",
+    "cut": "wf_9614e79a-049",
+    "spec": "wf_30fd27aa-62a",
+    "plan": "wf_16bb4584-a22"
+  },
+  "decision": {
+    "value": "GO",
+    "rule": "KILL",
+    "override": true,
+    "code_freeze": "Day 2 16:00",
+    "stack": "lean-web-stack"
+  },
+  "started": "2026-10-05T16:19:25Z",
+  "updated": "2026-10-05T16:58:32.223445+00:00",
+  "workflows_dir": "scope/2026-10-05-tech-blog-correctness/.workflows",
+  "research_result": {
+    "feed_rows": 93,
+    "review_rows": 19,
+    "ph_rows": 7,
+    "wr_fetched": 30
+  },
+  "demo": "pain-first",
+  "roadmap_requirement": "FULL feature map from hackathon-brief.md as F<n> w/ deps+waves; demo = M1 only; Later items kept. plan.js patched; pass brief arg.",
+  "cut": {
+    "build_hours": 12,
+    "accepted_moves": [
+      5
+    ]
+  },
+  "scope_locked": true,
+  "roadmap": {
+    "features": 79,
+    "m1": [
+      "F1",
+      "F74",
+      "F72",
+      "F11",
+      "F61",
+      "F20",
+      "F34",
+      "F35",
+      "F21"
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "qid": "r1q03",
+  "round": 1,
+  "query": "why technical bloggers struggle to keep posts up to date and accurate",
+  "origin": "paraphrase",
+  "results": [
+    {
+      "rank": 1,
+      "url": "https://draft.dev/learn/refreshing-blog-posts",
+      "title": "Refresh Blog Posts The Right Way",
+      "snippet": "",
+      "include": true,
+      "reason": "relevant | primary vendor content"
+    },
+    {
+      "rank": 2,
+      "url": "https://susannagebauer.com/blog/blog-post-needs-publication-date/",
+      "title": "Why Every Blog Post Needs a Publication Date",
+      "snippet": "",
+      "include": false,
+      "reason": "thin personal blog"
+    },
+    {
+      "rank": 3,
+      "url": "https://blog.hubspot.com/marketing/why-blogs-fail",
+      "title": "Why Blogs Fail — And How to Make Sure Yours Doesn't",
+      "snippet": "",
+      "include": false,
+      "reason": "seo listicle format"
+    },
+    {
+      "rank": 4,
+      "url": "https://writersanctuary.com/updating-old-tech-articles/",
+      "title": "Updating Old Tech Articles: Why It's Vital to Success",
+      "snippet": "",
+      "include": true,
+      "reason": "relevant | tech article updates"
+    },
+    {
+      "rank": 5,
+      "url": "https://actionblogger.com/blogging/how-to-write-a-technical-blog-post-people-actually-want-to-read/",
+      "title": "How to Write a Technical Blog Post People Actually Want to Read",
+      "snippet": "",
+      "include": false,
+      "reason": "off-topic | writing not maintenance"
+    },
+    {
+      "rank": 6,
+      "url": "https://ericmelillo.com/why-blogs-fail/",
+      "title": "Why Blogs Fail: 12 Eye-Opening Reasons (Beat the Odds) - EricMelillo.com",
+      "snippet": "",
+      "include": false,
+      "reason": "seo listicle format"
+    },
+    {
+      "rank": 7,
+      "url": "https://dev.to/blackgirlbytes/the-ultimate-guide-to-writing-technical-blog-posts-5464",
+      "title": "The Ultimate Guide to Writing Technical Blog Posts - DEV Community",
+      "snippet": "",
+      "include": false,
+      "reason": "off-topic | writing not maintenance"
+    },
+    {
+      "rank": 8,
+      "url": "https://medium.com/writers-blokke/common-technical-blog-writing-mistakes-to-avoid-21dfa75c01ee",
+      "title": "7 Common Tech Blogging Mistakes to Avoid",
+      "snippet": "",
+      "include": false,
+      "reason": "seo listicle format"
+    }
+  ]
+}

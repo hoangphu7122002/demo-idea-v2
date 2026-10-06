@@ -1,0 +1,74 @@
+- Markdown/MDX post rendering with code highlighting — basic / Hashnode, Hugo, Shiki
+- Post page with table of contents and anchored headings — basic
+- Select text to leave inline comment on paragraph/sentence — E025, E026, E130, E132, Hypothesis, Brevy
+- Margin/sidebar view of inline comments — E026, Medium
+- Comment anchors that survive post edits (re-anchor on moved/changed text) — E035, Drift (AST anchoring)
+- Orphaned-anchor detection when anchored text is deleted — E035
+- Reader "Suggest edit" on highlighted text (replacement text proposal) — E041, E044, E045, GitHub Suggested Changes, haacked.com
+- Inline diff preview of proposed edit vs original — GitHub Suggested Changes, GitBook diff view
+- Author accept / decline / withdraw proposal with one click — poketto CommunityCorrections, GitHub Suggested Changes
+- Accepted suggestion applies directly to post body — poketto, E014
+- Auto-appended public changelog entry per accepted correction — E122, E124, E014
+- Reader credit / co-author attribution on accepted correction — poketto, GitHub Suggested Changes
+- Notify proposer when accepted/declined — poketto
+- Proposal status visible to reader (pending/accepted/declined) — poketto correction-proposal.tsx
+- "Report error" flag on post or paragraph — E045, haacked.com
+- Correction types: typo, factual error, outdated, missing context — E050, E101
+- Version history of post with restore — GitBook, Git Sync
+- Diff view between post versions — GitBook change requests
+- "Last reviewed" / "last updated" date visible on post — WP LastModifiedInfo, Fern
+- Staleness banner "this post may be outdated" after N days — DX Out of Date, E001, E014
+- Configurable stale threshold per post — DX Out of Date, csoh 180-day workflow
+- Per-post staleness score combining age, reader flags, linked-source changes — Archyl drift score, E003
+- Staleness dashboard for author ranking posts by risk — Content Gaps, CAT, Ahrefs, E122
+- Reader "this is outdated" one-click vote — E003, E008
+- Reader-visible freshness badge (fresh / aging / stale) — E049, E003
+- Outbound link checker for broken/404 links — GitBook Broken Links, Blog Auditor, Fern
+- Detect outdated code snippets / versions referenced in post — Blog Auditor, Drift, E022
+- Claim-level staleness: extract time-sensitive claims (versions, prices, model names) per post — E006, E015, Drift
+- LLM-assisted flag of likely incorrect/outdated statements for author review — E050, GitBook Agent, Blog Auditor
+- AI-drafted correction proposals for author approval, never auto-publish — GitBook Agent, Fern Writer
+- Author review queue combining reader suggestions, flags and AI findings — GitBook change requests, E048
+- Severity ranking of queued issues — GitBook Content Gaps
+- Mark section as "superseded" with link to newer post — E014, E001
+- Inline paragraph-level "updated" markers with date — E122, E005
+- Public discussion thread attached to each paragraph — E126, E025
+- Reader reactions/upvote on suggestions and comments — Giscus, E126
+- Spam protection / rate limiting on comments and proposals — E125, E127, E134, poketto rate limits
+- Author moderation tools (hide, delete, block) — E133, E134
+- Reader identity via GitHub login or anonymous with name — Giscus, Utterances, E044
+- Anonymous suggestions without registering — E044
+- Email/webhook notification to author on new suggestion — Brevy Slack/Jira, basic
+- Notification digest of new feedback — basic
+- Export accepted corrections to Git commit / PR on source repo — poketto RepositoryReviewedBodyEdits, E047, fact-checked-politics
+- Import posts from Markdown files or repo — Flowershow, Hugo, E110
+- Embeddable widget for existing static blog (Hugo/Jekyll/Next) — Giscus, Utterances, persona workaround
+- Markdown editor for author with live preview — MDXEditor, HackMD, OpenMarkdown
+- Draft review mode with inline comments for pre-publish feedback — E025, E130, E131
+- RSS feed / "what changed" feed for updated posts — E049, basic
+- Subscribe to a post for correction notices — E049, E124
+- Search across posts — basic
+- Dark mode / responsive reading layout — basic
+- Citation / share link to specific paragraph — Lil'Log citation section, basic
+- Analytics on which paragraphs get most comments/flags — Google Analytics, E040
+- Per-post open/resolved feedback counts — basic
+- Seeded sample AI + system-design post for demo — basic
+- Prose/terminology linting of post — Vale, Glossary Maintainer, textlint
+- Open data export of posts and feedback (JSON/MD) — Flowershow, E073 no lock-in
+
+## Added from the brief's full feature map (operator; roadmap must list ALL of these)
+- Roles: guest, member, author/admin (sign-in + permissions)
+- Bilingual EN + VI: UI and posts (one post, two language versions)
+- Deploy (after local one-command start)
+- Series and categories for posts
+- Illustrations in posts (images/diagrams) alongside code + KaTeX
+- Create content by voice (voice → draft)
+- Comfortable reading on mobile; follow new content (RSS/subscribe)
+- Reputation and credit for contributors (contributor profile, badge)
+- New-finding service: scheduled ingest from followed sources (Lil'Log, Knowbie, tech blogs, newsletters, release notes, papers, YouTube) + links saved by hand
+- New-finding service: filter/rank (relevance, novelty vs what the author knows/wrote, source quality, dedupe, no hype)
+- New-finding service: daily digest of 2–3 items in EN + VI (what's new, why it matters, summary, link)
+- New-finding service: author feedback (useful / already known / skip) tunes ranking
+- New-finding service: one click turns an item into a draft post or TIL
+- Turn a post into a short motion video for sharing
+- Seed data: a few real posts + several fake users across roles

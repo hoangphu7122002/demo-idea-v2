@@ -1,0 +1,72 @@
+{
+  "qid": "r3q05",
+  "round": 3,
+  "query": "Swimm Mintlify GitBook auto-sync docs limitations criticism",
+  "origin": "expand",
+  "results": [
+    {
+      "rank": 1,
+      "url": "https://ferndesk.com/blog/gitbook-vs-mintlify",
+      "title": "GitBook vs Mintlify: The Definitive 2025 Comparison - Ferndesk",
+      "snippet": "",
+      "include": false,
+      "reason": "seo listicle marketing pattern"
+    },
+    {
+      "rank": 2,
+      "url": "https://www.gitbook.com/blog/best-mintlify-alternatives",
+      "title": "7 best Mintlify alternatives for developer documentation in 2026",
+      "snippet": "",
+      "include": true,
+      "reason": "primary vendor blog substantive"
+    },
+    {
+      "rank": 3,
+      "url": "https://www.mintlify.com/library/best-code-documentation-tools",
+      "title": "Best Code Documentation Tools 2026",
+      "snippet": "",
+      "include": true,
+      "reason": "primary vendor resource analysis"
+    },
+    {
+      "rank": 4,
+      "url": "https://www.mintlify.com/library/mintlify-alternatives-what-to-consider-and-why-theres-no-true-substitute",
+      "title": "Mintlify Alternatives: What to Consider (and Why There's No True Substitute)",
+      "snippet": "",
+      "include": true,
+      "reason": "primary vendor limitations discussion"
+    },
+    {
+      "rank": 5,
+      "url": "https://bunnydesk.ai/blog/github-native-documentation-tools/",
+      "title": "6 Best GitHub-Native Documentation Tools in 2026 (Ranked & Reviewed)",
+      "snippet": "",
+      "include": false,
+      "reason": "aggregator listicle pattern site"
+    },
+    {
+      "rank": 6,
+      "url": "https://docsio.co/blog/gitbook-vs-mintlify",
+      "title": "GitBook vs Mintlify: Which Docs Platform (2026)",
+      "snippet": "",
+      "include": false,
+      "reason": "aggregator comparison thin depth"
+    },
+    {
+      "rank": 7,
+      "url": "https://techiehub.blog/12-best-ai-code-documentation-tools-2026/",
+      "title": "12 Best AI Code Documentation Tools 2026 [Complete Guide]",
+      "snippet": "",
+      "include": false,
+      "reason": "seo numbered listicle pattern"
+    },
+    {
+      "rank": 8,
+      "url": "https://documentation.ai/blog/mintlify-vs-gitbook",
+      "title": "Mintlify vs GitBook: Detailed Comparison (2026)",
+      "snippet": "",
+      "include": false,
+      "reason": "aggregator comparison generic"
+    }
+  ]
+}

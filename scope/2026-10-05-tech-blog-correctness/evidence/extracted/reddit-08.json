@@ -1,0 +1,62 @@
+{"rows": [
+  {
+    "type": "competitor",
+    "source": "reddit r/MachineLearning",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1u1wq0a/introducing_papers_without_code_p/",
+    "date": "2026-06-10",
+    "quote_or_number": "I've recently relaunched paperswithcode.co as a source for finding the state of the art (SOTA) across various AI domains. This is done by automatically parsing research papers published on arXiv/Hugging Face, enabling leaderboards to be created.",
+    "persona_match": "y",
+    "theme": "research sharing platform",
+    "note": "Platform for technical authors to share papers and blog posts with leaderboards and evals"
+  },
+  {
+    "type": "competitor",
+    "source": "reddit r/MachineLearning",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1tmawv5/paperswithcode_new_features_week_1_p/",
+    "date": "2026-05-24",
+    "quote_or_number": "We do support submitting papers beyond Arxiv, such as a Github repo, a blog post, BiorXiv, and more. You can submit a paper at paperswithcode.co/submit.",
+    "persona_match": "y",
+    "theme": "research discovery platform",
+    "note": "Allows technical authors to submit blog posts and code alongside papers"
+  },
+  {
+    "type": "competitor",
+    "source": "reddit r/MachineLearning",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1ucm508/some_new_updates_to_papers_with_code_p/",
+    "date": "2026-06-22",
+    "quote_or_number": "I continue working on a revival of paperswithcode.co as we're back to the age of research per Ilya Sutskever! Hence, it's important to discover each other's research and build on each other's work, so we can collectively build the next Transformer.",
+    "persona_match": "y",
+    "theme": "collaborative research sharing",
+    "note": "Platform enabling authors to discover, discuss and build on each other's research work"
+  },
+  {
+    "type": "pain",
+    "source": "reddit r/MachineLearning",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1nyunr7/d_blog_post_6_things_i_hate_about_shap_as_a/",
+    "date": "2025-10-05",
+    "quote_or_number": "I wrote this blog post to share all the things that can be improved about SHAP, to help potential newcomers see areas of improvements. Very happy to talk about this here.",
+    "persona_match": "y",
+    "theme": "seeking community feedback",
+    "note": "Technical maintainer writing blog post to solicit community feedback and improvements"
+  },
+  {
+    "type": "pain",
+    "source": "reddit r/MachineLearning",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1s6wswn/d_why_does_it_seem_like_open_source_materials_on/",
+    "date": "2026-03-29",
+    "quote_or_number": "Many times when I try to deeply understand a topic in machine learning I find that the available open source materials are clearly insufficient. Often I notice: Repositories lack complete code needed to reproduce the results. Missing critical training details (datasets, hyperparameters, preprocessing steps, random seeds, etc.) Documentation is superficial or outdated.",
+    "persona_match": "y",
+    "theme": "documentation incompleteness",
+    "note": "Pain point: technical materials (blog posts, code, docs) lack critical details needed for understanding and reproduction. Authors want complete reasoning and edge cases documented."
+  },
+  {
+    "type": "pain",
+    "source": "reddit r/MachineLearning",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1s6wswn/d_why_does_it_seem_like_open_source_materials_on/",
+    "date": "2026-03-29",
+    "quote_or_number": "Blog posts and tutorials only show the happy path, while real edge cases, bugs, and production nuances are completely ignored. I want to understand the logic and reasoning behind the decisions: why certain choices were made, what trade-offs were considered, what failed attempts happened along the way.",
+    "persona_match": "y",
+    "theme": "missing context and reasoning",
+    "note": "Reader complaints that technical blog posts hide failed attempts, trade-offs, and decision reasoning that would help others learn"
+  }
+]}

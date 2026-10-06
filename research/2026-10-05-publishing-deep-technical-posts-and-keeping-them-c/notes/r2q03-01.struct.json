@@ -1,0 +1,120 @@
+{
+ "sid": "r2q03-01",
+ "terms": [
+  {
+   "term": "blogs",
+   "count": 11,
+   "kind": "bold"
+  },
+  {
+   "term": "newsletters",
+   "count": 6,
+   "kind": "bold"
+  },
+  {
+   "term": "podcasts",
+   "count": 6,
+   "kind": "bold"
+  },
+  {
+   "term": "youtube",
+   "count": 6,
+   "kind": "bold"
+  },
+  {
+   "term": "Metadata",
+   "count": 2,
+   "kind": "heading"
+  },
+  {
+   "term": "180 days",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "Activity",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Assignees",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Description",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Development",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Healthy (for completeness",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Issue actions",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Labels",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Milestone",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Projects",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Reading list: monthly staleness report #1802",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Relationships",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Summary",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Type",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "csoh.org",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "to join this conversation on GitHub",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "UTC",
+   "count": 1,
+   "kind": "acronym"
+  },
+  {
+   "term": "Check Reading List Staleness",
+   "count": 1,
+   "kind": "ngram"
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+{"rows": [
+  {
+    "type": "competitor",
+    "source": "reddit",
+    "url": "https://www.reddit.com/r/linux/comments/1rshc1f/i_traced_2_billion_in_nonprofit_grants_and_45/",
+    "date": "2026-03-13",
+    "quote_or_number": "EDIT/UPDATE: New post and research at https://www.reddit.com/r/linux/comments/1rtd51g/update_i_pulled_irs_filings_for_the_org_that/",
+    "persona_match": "y",
+    "theme": "technical research updates",
+    "note": "Solo author publishing deep technical investigation with follow-up updates; demonstrates maintaining and expanding research-backed content"
+  },
+  {
+    "type": "pain",
+    "source": "reddit",
+    "url": "https://www.reddit.com/r/books/comments/1vfggic/george_rr_martin_reflects_on_sadness_and/",
+    "date": "2026-08-04",
+    "quote_or_number": "Remember me? It's been a while, I know. My last blog post went up here on February 19. The posts that came after were made by my mighty minions.",
+    "persona_match": "y",
+    "theme": "blog maintenance burden",
+    "note": "Published author acknowledges falling behind on personal blog; delegation indicates staleness challenge even with staff"
+  }
+]}

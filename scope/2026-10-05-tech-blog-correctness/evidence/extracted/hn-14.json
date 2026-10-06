@@ -1,0 +1,62 @@
+{"rows": [
+  {
+    "type": "pain",
+    "source": "hackernews",
+    "url": "https://news.ycombinator.com/item?id=7584422",
+    "date": "2014-04-14",
+    "quote_or_number": "It doesn't provide the \"Suggest Edits\" feature for blog posts, only answers to questions. Until I discovered Quora, I was working on http://wikiblog.jugglethis.net/ which was my solution to this problem.",
+    "persona_match": "n",
+    "theme": "suggest edits blog",
+    "note": "Writer wanted suggest-edits feature for blog posts; built alternative solution (wikiblog)"
+  },
+  {
+    "type": "review",
+    "source": "hackernews",
+    "url": "https://news.ycombinator.com/item?id=46628115",
+    "date": "2026-01-15",
+    "quote_or_number": "I've never seen Stack Exchange used as a blogpost medium and I like it! It's still formatted as Q&A so people with the same question can find it, and what's more, suggest edits or write alternative solutions on equal footing themselves.",
+    "persona_match": "y",
+    "theme": "collaborative blog editing",
+    "note": "Praising Stack Exchange for enabling collaborative editing/solutions on equal footing as medium for technical posts"
+  },
+  {
+    "type": "pain",
+    "source": "hackernews",
+    "url": "https://news.ycombinator.com/item?id=45724290",
+    "date": "2025-10-27",
+    "quote_or_number": "I write pretty long blog posts that some enjoy and dump them into various llms for review. I am pretty opinionated on taste so I usually only update grammar but it can be dangerous for some.",
+    "persona_match": "y",
+    "theme": "long posts editing suggestions",
+    "note": "Solo author writing long blog posts, using LLMs for review/suggestions but selective about accepting changes"
+  },
+  {
+    "type": "competitor",
+    "source": "hackernews",
+    "url": "https://news.ycombinator.com/item?id=2923127",
+    "date": "2011-08-24",
+    "quote_or_number": "Anybody can suggest edits without even registering.",
+    "persona_match": "n",
+    "theme": "suggested edits platform",
+    "note": "Stack Overflow feature allowing community suggested edits to posts"
+  },
+  {
+    "type": "pain",
+    "source": "hackernews",
+    "url": "https://news.ycombinator.com/item?id=26728583",
+    "date": "2021-04-07",
+    "quote_or_number": "If this was a wiki or something I could try to fix those issues, but as it currently is I don't see any way to even flag it.",
+    "persona_match": "n",
+    "theme": "no correction mechanism",
+    "note": "Reader cannot suggest corrections or flag errors in recipe content; desires wiki-style editing"
+  },
+  {
+    "type": "pain",
+    "source": "hackernews",
+    "url": "https://news.ycombinator.com/item?id=5153246",
+    "date": "2013-02-01",
+    "quote_or_number": "if English is not your primary language, it shouldn't be difficult to get someone you know to help you proofread and edit your work.",
+    "persona_match": "n",
+    "theme": "blog post editing",
+    "note": "Commenter suggesting blog authors need help with proofreading/editing to improve quality and readership"
+  }
+]}

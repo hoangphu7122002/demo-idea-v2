@@ -1,0 +1,329 @@
+{
+ "query_url": "https://hn.algolia.com/api/v1/search?query=suggest+edit+blog+post&tags=comment&hitsPerPage=40",
+ "args": [
+  "suggest edit blog post",
+  "comment"
+ ],
+ "items": [
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=7584422",
+   "date": "2014-04-14",
+   "title": "Ask HN: Idea Sunday",
+   "text": "It doesn't provide the \"Suggest Edits\" feature for blog posts, only answers to questions. Until I discovered Quora, I was working on http://wikiblog.jugglethis.net/ which was my solution to this problem.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=47684625",
+   "date": "2026-04-08",
+   "title": "The best tools for sending an email if you go silent",
+   "text": "To be clear, I wasn\u2019t calling your article spam or strict advertisement. But avoiding dark patterns is better in the long run. I\u2019m being honest: reading that article left me feeling fooled. You\u2019ve clearly put time into writing a detailed post and replying to comments, here\u2019s what I\u2019d suggest: focus on strictly value-add articles. distribute them widely, yes. No catch. No reader left with a \"I see what you did there\" pinch. By strictly value-add content, I mean exactly the kind of blog post you shared, but written without any attempt to name-drop your own product. You don\u2019t need to. Your blog already lives on a subdomain. It\u2019s fine to include a simple footer like \u201cDiscover Alcazar products.\u201d In my experience, adding real insight without selling has a far greater effect, at least on me. I\u2019m much more inclined to visit a product page when I don\u2019t feel sold to. But the way your article is currently written, that inclination isn\u2019t there. So I didn\u2019t visit the product page. What works best is when readers feel they\u2019ve solved a problem. or at least realized one existed, and learned something. Without ever feeling like they\u2019re watching an infomercial. Sales is solely about building trust, in my view all other aspects are less relevant. You are right being seen is important, even more than trust, but it would remains pointless on its own. Edit: the blog post on Pixel with graphenOS being the most secure phone is the perfect example of value add.It made me want to check what Alcazarsec has to offer.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=467951",
+   "date": "2009-02-05",
+   "title": "Ask HN: How do you think about programs?",
+   "text": "This is cocoa-specific, though some of it generalizes. I'm not a huge fan of the Hillegrass book for actual beginners, but sadly there's not a better book out, yet; it's almost easiest to learn some other, better-documented GUI application framework, then come back to Cocoa (assuming you have time). Assuming you don't have that kind of time, though, here's my recommendations: Cocoa development also depends heavily on the workings of NSApplication, and it's a good idea to stop and read up on how that works; it's super helpful to actually know what's going on between the points where the code you wrote is being used, and to understand that you need to have a working understanding of how NSApplication is structured. Apple has ok docs on this (I'd start by reading up on NSRunLoop, then looking up anything you encounter you don't understand), but nothing amazing. Once you've gotten that understanding, you'll have a much easier time understanding what you have to do to make an application do what you want. Now we move on to handling specific applications. I suggest the following design algorithm: \"Simultaneously\", start figuring out your application's user interface and its data model. I say \"simultaneously\" but it's really a bit of a back-and-forth. For example, you decide you're going to write a blogging client (I think this is an example in Hillegrass's book?). So, ask yourself what data items does a blog post typically have? Provisional answer: title and body. What user interface elements do you need for a blog post? The data model dictates those: right now, a text field for title and a larger text field for the body. If we were going to be more realistic we'd probably want a richer data model (some \"authored by\" field, some field for \"tags\" or \"categories\", etc.) and a more-complicated user interface to match. If you hit a \"stopping point\" in this process -- meaning, a point @ which you are satisfied that your data model covers everything it needs to and your user in",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=46628115",
+   "date": "2026-01-15",
+   "title": "How can I build a simple pulse generator to demonstrate transmission lines",
+   "text": "Great article! aside: I've never seen Stack Exchange used as a blogpost medium (which normally this kind of write-up would be) and I like it! It's still formatted as Q&A so people with the same question can find it, and what's more, suggest edits or write alternative solutions (as OP explicitly invites here) on equal footing themselves. A collaborative quest for the answer, but not anonymized like a wiki.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=45724290",
+   "date": "2025-10-27",
+   "title": "It's insulting to read AI-generated blog posts",
+   "text": "I agree with you to a point. Ai will often suggest edits which destroy the authentic voice of a person. If you as a writer do not see these suggestions for what they are, you will take them and destroy the best part of your work. I write pretty long blog posts that some enjoy and dump them into various llms for review. I am pretty opinionated on taste so I usually only update grammar but it can be dangerous for some. To be more concrete, often ai tells me to be more \u201cprofessional\u201d and less \u201cirreverent\u201d which i think is bullshit. The suggestions it gives are pure slop. But if english isnt first language or you dont have confidence, you may just accept the slop.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=42969606",
+   "date": "2025-02-07",
+   "title": "GitHub Copilot: The Agent Awakens",
+   "text": "I keep going back and forth on whether Agents are good for the software development discipline. While I think it's extremely short-sighted that we continue to push full steam ahead on AI automating away jobs, I can't deny that LLMs have given my development flow a decent productivity boost. 80% of the time, my workflow with Cursor looks similar to the golden path depicted in this blog post - outline the changes I want made -> review the code -> suggest edits/iterate -> ship it. There's undoubtedly a class of problems where this feature can slot in and start chipping away immediately. The other 20% of the time, Cursor will hit a wall and is unable to complete the task through just prompting. It will either introduce a subtle bug in its logic, or come across an error that it incorrectly diagnoses. These stumbles can happen for a variety of reasons: 1. Poorly documented code - the LLM infers the wrong responsibility for a piece of code, or is led astray by old comments 2. Misleading or unhelpful errors from 1st/3rd party libraries 3. Task is too complex - perhaps I asked for more than I should have In any case, the \"self-healing\" functionality that Agents rely on to iterate is often insufficient. Prompting for a fix usually just leads me in circles or further down the path of a bad solution. In these instances, I have to drop the coding assistant altogether and do things the old fashioned way - gain a sufficient understanding of the code and figure out where the LLM went wrong (or just write the solution from scratch). I guess going back to my initial point, it feels like the easy answer is that Agents are good if you're a senior/experienced developer. This means that in the short-term the demand for junior engineers will dry up, since we have Agents to do the rote work, but doesn't this mean that we're effectively choking out the pipeline for experienced devs? Though they're low in complexity/value, the tasks we will handoff to Agents are immeasurably useful for build",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=38883453",
+   "date": "2024-01-05",
+   "title": "We don't need a DAC on the ESP32-S3",
+   "text": "I think a 1st order RC filter is simple enough that you could argue that \"you don't need a DAC\" and is what I expected. But when I opened up the post and saw a 2nd order (probably) Sallen-key (or is this a MFB? I always get my topologies confused...) with a full-bore OpAmp and capacitors up the wazoo... erm... yeah, they're basically hand-building a DAC at this point. --------------- A lot of stuff is wishy-washy definitions anyway. What's the difference from an analog-comparator and a ADC anyway? An analog-comparator is just a 1-bit ADC after all. So a lot of \"what is a DAC\" exactly is up to opinion around the edges. But if you've got op-amps and signal conditioning, you're getting pretty darn close to \"proper DAC\" except you know, not as good (ie: cheap, fast, or simple) as a proper professional solution. ------- EDIT: Reread blogpost. It looks like the RC-filter is in fact, being used. The Espressif docs __suggest__ the OpAmp based 2nd-order filter, but the blogpost is strictly with the simple 1st order RC-filter. So yeah, I'd say that RC-filter is \"not a DAC\", due to being too simple. (It functions as a DAC in this case, but we got to draw the line somewhere).",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=2923127",
+   "date": "2011-08-24",
+   "title": "Facebook Partners with Stack Overflow",
+   "text": "Anybody can suggest edits ( http://blog.stackoverflow.com/2011/02/suggested-edits-and-ed... ) without even registering. Community wiki posts can be outright edited by low rep users, and higher rep users can edit any post. The idea that a wiki is better for rapidly changing content is... odd, to me; it seems it'd be a wash at best. Then again I'm an SE Inc. employee, so perhaps I just don't see the difference.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=47057229",
+   "date": "2026-02-18",
+   "title": "An AI Agent Published a Hit Piece on Me \u2013 Forensics and More Fallout",
+   "text": "They don't seem to care all that much... https://crabby-rathbun.github.io/mjrathbun-website/blog/post... Edit: the posts comments suggest that someone believes they are a crypto bro.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=22293825",
+   "date": "2020-02-10",
+   "title": "Why I\u2019m Leaving San Francisco: Meta study",
+   "text": "I wouldn't trust keyword analysis or word frequency to figure out why people are leaving. And unless AI has gotten a lot smarter than I'm aware of, I'd say that the only way to get a meaningful result is to actually read each blog post and then write a short 5-10 word summary. Sure, it's subjective but you'd get a lot more nuance like, \"His girlfriend lives in New York\", \"Misses skiing and now has money to do just that\", \"Closer to elderly parents who need care\", \"New startup in Texas that's perfect fit\", \"Can't renew U.S. visa\", \"Moving to attend grad school\". The author has pared the list down to 137 blog posts, so even a fast reader would take a day to read all of them. But probably he already spent at least a day collecting that data, doing the analysis, creating the graphics, etc., so it's not crazy to suggest doing it manually. Alternatively, the list could be further cut down to 20-40 postings, which could be read in a few hours. That would result in a way more interesting (human) analysis. EDIT: For each blog post, it would be interesting to note the sentiment of whether the person is being pushed out of San Francisco (can't afford the city, lost job, can't renew visa, etc.) or whether they are being pulled to a new location (perfect new job, girlfriend/boyfriend in different location, etc.).",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=10530664",
+   "date": "2015-11-09",
+   "title": "Why are there so few non-liberals in social psychology? A closer look",
+   "text": "I was one of the top students in my graduating high school class, but was sexually abused as a kid. I spent a lot of years in therapy and generally trying to deal with my personal issues. At one time, I wanted to go into some kind of \"helping\" profession and considered psychology and social work. I'm a woman and I CLEPed college algebra when I returned to college in my early thirties. I decided that with a relatively strong math background, I could do whatever the hell interested me and that becoming successful as a woman was the best thing I could do to try to make the world a better place. I could set the example instead of going into a helping field and this would be a better thing to do. The desire to go into a helping field was posited on the idea that the world was as broken as I had been at one time and people needed my pity and needed help. My understanding of the problem space changed and I decided that oppressed and downtrodden need opportunity more than they need help. I still like helping people and I still want to do things that will help folks who are having a rough time, but my framing of how best to do that has changed dramatically. I will suggest that a lot of people who go into psychology do so because they fundamentally view the world as broken and people as crapped on by the system and cannot imagine the system actually changing in any meaningful fundamental way. I have had a class on Homelessness and Public Policy. I am currently homeless. I am abundantly familiar with the kinds of personal challenges that land an individual on the street. I am strongly opposed to writing people off as incapable of ever getting their act together just because things are really bad currently. I am strongly opposed to the idea that we need a system in place for being permanently \"helpful\" in a way that actively makes it harder for people to get their lives together themselves. I run a website aimed at helping homeless people preserve their agency while trying to r",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=40115923",
+   "date": "2024-04-22",
+   "title": "Meta Horizon OS",
+   "text": "Official blog post: https://about.fb.com/news/2024/04/introducing-our-open-mixed... Short video from Zuckerberg: https://twitter.com/NathieVR/status/1782436898654273981 This is an interesting move and feels like a response to complaints that Meta is hypocritical when complaining about closed platforms while running one themselves. But this isn't open source. I don't know why any OEMs would want to compete with Meta's hardware subsidized by app store revenue when they continue to own the store. Maybe there's an app revenue share involved? Wait, at the end of the video he says \"We're also as part of this going to be opening up our store to give you even more options to use whatever experiences you want. So whether they're on Steam, Xbox Cloud Gaming, our own App Lab, or even Google Play, if they're up for it.\" The blog post doesn't mention Steam or Google Play. It's not really clear what that means. Will they allow Steam to sell native Quest apps? Edit: There's a better blog post that has more detail. https://www.meta.com/blog/quest/meta-horizon-os-open-hardwar... This one seems to suggest that being \"open\" to Steam just means allowing game streaming which they already do, while being \"open\" to Google Play means that they would allow Google to install the actual Play Store app on the headset, for 2D apps only. But Google doesn't want to. In any case it seems like they would specifically not be open to alternative app stores selling native 3D apps directly on the headset itself.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=26728583",
+   "date": "2021-04-07",
+   "title": "Opensource.cooking: A simple, bloat-free cooking site",
+   "text": "So as someone who cooks a lot, and gets frustrated by long blog like posts that lots of recipes have this day, this website is probably even less useful for me. The tagging system isn't being used correctly, Ham Sandwich is tagged with Banana for some reason. Speaking of Ham sandwich some of the recipes are just way too simple, this just tells me how to assemble a sandwich which I don't think anyone really needs. Those are issues that can be solved long term, the other thing that will cause a problem long term is once this site starts getting repeat recipes. The blog like start to recipes may be annoying, but at least it sometimes helps you understand the decisions different people make for their recipes, or suggest substitutions/modifications. Edit: The Spaghetti Carbonara recipe actually has multiple mistakes. it says the cook time is 0 minutes, it tells you to add the beaten eggs but never tells you to beat them, the recipe includes butter as an ingredient but the recipe tells you to heat the oil, and never says to grate the cheese. If this was a wiki or something I could try to fix those issues, but as it currently is I don't see any way to even flag it. It's also tagged as Banana and Greasy.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=14809018",
+   "date": "2017-07-19",
+   "title": "The security content of iOS 10.3.3",
+   "text": ">from APFS-normalization-preserving to APFS-native-normalization. The developer documentation at [1] seems to suggest that \"native\" normalization is normalization preserving as well and that native normalization is based on storing the hash of the normalized name instead of storing the normalized name itself. \" and preserves both case and normalization of the filename on disk in all variants. \" and \" APFS preserves the normalization of the filename and uses hashes of the normalized form of the filename to provide normalization insensitivity, whereas HFS+ stores the normalized form of the filename on disk to provide normalization insensitivity. \" edit - Even the linked blog post says the same thing \" macOS 10.13 will also support case-sensitive APFS, which will use native normalization. This is new in the developer beta. The filenames are still stored in the same way as prior APFS (not normalized like with HFS+), but APFS now uses normalization-insensitive hashes ... \" >how this unicode normalization messes up filenames and cause duplicates and stale copies when roundtripping Being normalization preserving should fix that, right ? 1 https://developer.apple.com/library/content/documentation/Fi...",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=42439003",
+   "date": "2024-12-17",
+   "title": "Ask HN: SWEs how do you future-proof your career in light of LLMs?",
+   "text": "I have been a software engineer for 25 years and it's my life's dream job. I have started to code with LLMs extensively as copilot's beta happened 3 years ago. There is no going back. It's (still) easy to dismiss them as \"they're great for one offs\", but I have been building \"professional\" code leveraging LLMs as more than magic autocomplete for 2 years now and it absolutely works for large professional codebases. We are in the infancy of discovering patterns on how to apply statistical models to not just larger and more complex pieces of code, but to the entire process of engineering software. Have you ever taken a software architecture brainstorming session's transcript and asked Claude to convert it into github tickets? Then to output those github tickets into YAML? Then write a script to submit those tickets to the github API? Then to make it a webserver? Then to add a google drive integration? Then to add a slack notification system? And within an hour or two (once you are experienced), you can have a fully automated transcript to github system. Will there be AI slop here and there? Sure, I don't mind spending 10 minutes cleaning up a few tickets here and there, and spend the rest of the time talking some more about architecture. The thing that I think many people are not seeing is that coding with LLMs at scale turns well-established software engineering techniques up to 11. To have an LLM do things at scale, you need to have concise and clear documentation / reference / tutorials, that need to be up to date always, so that you can fit the entire knowledge needed to execute a task into an LLM's context window. You need to have consistent APIs that make it hard to do the wrong thing, in fact they need to be so self-evident that the code almost writes itself, because... that's what you want. You want linting with clear error messages, because feeding those back into the LLM often helps it fix small mistakes. You want unit tests and tooling to the wazoo, structur",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=42397437",
+   "date": "2024-12-12",
+   "title": "Run Database in GitHub Actions, Persisting Data to S3, and Access It Publicly",
+   "text": "This sounds really interesting, but the article motivation is test databases. Edit: suggest looking at this other post https://wesql.io/blog/every-database-will-be-rearchitectured...",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=3809615",
+   "date": "2012-04-07",
+   "title": "I don't hire unlucky people",
+   "text": "Dude! You know the link post debunks that canard rather than supporting? Edit: And you wrote the original blog post and you're always on hn. I would suggest reading closely the link you posted.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=17502342",
+   "date": "2018-07-10",
+   "title": "Gravwell Community Edition: A Splunk Alternative Built with Go",
+   "text": "There's some screenshots in the high-level quickstart ( https://dev.gravwell.io/docs/#!quickstart/quickstart.md ) but in general we do seem to be pretty demo-sparse on the main site. I'd also suggest checking out this older blog post about WiFi analytics ( https://www.gravwell.io/blog/wifi-analytics-wild-west-hackin... ) with the caveat that some things may have been refined a bit since that time. Edit: we're putting screenshots into the blog post now",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=7667646",
+   "date": "2014-04-29",
+   "title": "Firefox 29",
+   "text": "And, according to your edit, you missed my point. That blog post explicitly states that Chromium has many of the same \"phone-home features\" of Chrome. That includes the specific one discussed in this thread, \"search suggest\".",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=49886243",
+   "date": "2026-09-29",
+   "title": "Where's the \"Intelligence Explosion\"?",
+   "text": "Minor correction: OpenAI\u2019s solution does not address the \u201csmoothness problem\u201d; this article states they solved the existence and smoothness problem. They claim to have solved parts (C) and (D) of the Millenium prize statement, but the smoothness problem refers to part (A). See https://en.wikipedia.org/wiki/Navier\u2013Stokes_existence_and_sm... \u201cThe first statement (A), which is known as the \"smoothness\" problem, states that there should always exist smooth and globally defined solutions to the Navier\u2013Stokes equations in three-dimensional space. The second statement (C), known as the \"breakdown\" problem, states that there should be at least one set of initial conditions and external forces for which there are no smooth solutions to the Navier\u2013Stokes equations.\u201c Edit: Though I notice now the OpenAI blogpost does claim to solve the \u201csmoothness and existence problem\u201d, so maybe there\u2019s simply terminology differences here. I\u2019ll note many mathematicians such as Dennis Sullivan suggest part (A) is the more important part.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=20488899",
+   "date": "2019-07-20",
+   "title": "Running the numbers on an insane scheme to save Antarctic ice",
+   "text": "This is a great example of misleading \"science\". I don't believe that the data here is being misrepresented. But the conclusions are not valid. The gist of the article is: 1. Arctic ice thickness and extent are cyclical and uncorrelated with atmospheric CO2 levels. 2. NOAA sea ice graphs start at a cyclical peak (1979), which incorrectly leads people to believe that Arctic sea ice thickness and extent are on a consistent downward trend, rather than the low end of a multi-decade cycle. 3. Therefore, global warming does not exist (????) I'm not exaggerating the third point: Eastern Arctic temperatures closely track the Atlantic Multidecadal Oscillation, and show no correlation with atmospheric CO2. This wrecks global warming theory which is climate scientists\u2019 bread and butter, so NASA simply erases the prior warmth NOAA and NASA should rightly be taken to task for misrepresenting Arctic ice data. However to dismiss the entire global warming premise on this basis is a maliciously illogical conclusion. Spent some more time poking around through this website, and the best conclusion I could draw was: scientists like to make bold predictions on tenuous grounds, and the media likes to make hysterical reports based on those predictions. Therefore we shouldn't believe in global warming because there is a lot of both bold over-prediction and hysterical over-reporting associated with it. Meanwhile the blog does plenty of disingenuous over-reporting of its own, flagging several historical weather events as evidence that the climate is not changing and that it is not warming. Edit - Here's a great example: https://realclimatescience.com/2017/04/global-warming-and-th... it sets up a strawman argument, \"climate experts tell us global warming brings in early spring\". The author then looks outside his window, sees snow, and concludes that there is no early spring. Therefore climate change is a hoax, right? We are all being lied to? It's so obvious! Except for the fact that spring d",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=9174764",
+   "date": "2015-03-09",
+   "title": "Announcing Starfighter",
+   "text": "Edit: The following is a neutral appraisal, not a criticism of either the implicit or explicit variety. If you feel that it is an accusation or a criticism, I would suggest that indicates something unrealistic in how you view business negotiations. As patio said, this is a trade between interested parties. Generosity is therefore expected to be limited. --- Fair enough. I just wanted it on record that this is a business transaction for you, not a generous educational endeavor. Some people want to pretend that they're in it to make the world a better place when that's not truly their absolute top priority. They're probably asking \"Why can't it be both?\" when I say that this is business, not generosity. One simply can't have multiple top priorities, particularly with profit and generosity; generosity is practically defined as something that doesn't profit. Something like one of your (patio's) blog posts are given generously in that there is no formal expectation/obligation on a reader to 'give back' some asset, for instance. Thank you for your clarification.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=861324",
+   "date": "2009-10-05",
+   "title": "So You're Moving to San Francisco",
+   "text": "Disclosure: This is coming from a San Francisco native. (one of those rare ones that still live in the city.) As soon as I read this sentence: \"There may be some fog, or a bit of rain from time to time, but most of the time it\u2019s sunny and hovering around the high 60s to lower 70s.\" I knew that the author of this piece has fallen into a trap that many people who move here for work fall into; they never venture away from certain neighborhoods, and this filters their view of the city. That sentence clued me in because of the word \"sunny.\" Yes, the Mission and SOMA are sunny, but the rest of the city is foggy, nearly all the time. If the author made it over twin peaks out to the Sunset, or the Richmond, you might not find as much sunny weather, and you won't find startup offices, but you'll find the real neighborhoods of this city. Are there bad neighborhoods in the city? Of course, like any city. However, because our city is constrained geographically, there is no real transition zone between good and bad areas. You can be walking through a generally OK neighborhood (say at 4th and Howard), walk a couple of blocks, and be in one of the worst parts of the city (6th and Howard.) Since the Mission and SOMA are near these bad areas, if that's the only part of the city you frequent, then the city will seem dirty. Maybe he does have an issue that everyone he knows works in the tech field. It's really not hard to meet people in this city, maybe he should try striking up a conversation with a random stranger at a bar. I assure you most locals will be glad to talk. I have friends here that are teachers, police officers, fire-fighters in training, journalists, and yes, in the tech field as well. We have plenty of things to talk about besides the latest startup. I'd suggest that the author makes it out to the Richmond, or the Sunset. It's not dirty, there's plenty of restaurants, and plenty of people that don't work in tech fields. You'll find the real residents of the city there",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=8372726",
+   "date": "2014-09-26",
+   "title": "10 common mistakes companies make when hiring in IT",
+   "text": "We discuss hiring frequently here on Hacker News. Almost everyone who reads this site has looked for a job at least once before, and many people who read this site have had occasion to hire someone into a company. I read the new blog post kindly submitted here after noticing how fast it was gaining upvotes, and I see a list of gripes with the tech hiring process that we have discussed many times before here on Hacker News. But the author buries the lede by putting his best point, point 10, at the bottom of his ten-point list. That point, \"10. Not challenging/testing candidates \"When you\u2019re recruiting in tech it\u2019s crucial to test your candidates.\" is the most important point, and it generalizes to all kinds of hiring. A well liked FAQ post I have posted to comment threads before here on HN notes (shortening here) \"The review article by Frank L. Schmidt and John E. Hunter, 'The Validity and Utility of Selection Models in Personnel Psychology: Practical and Theoretical Implications of 85 Years of Research Findings,'[1] Psychological Bulletin, Vol. 124, No. 2, 262-274 sums up, current to 1998, a meta-analysis of much of the huge peer-reviewed professional literature on the industrial and organizational psychology devoted to business hiring procedures. There are many kinds of hiring criteria, such as in-person interviews, telephone interviews, resume reviews for job experience, checks for academic credentials, personality tests, and so on. There is much published study research on how job applicants perform after they are hired in a wide variety of occupations.[2] \"EXECUTIVE SUMMARY: If you are hiring for any kind of job in the United States, with its legal rules about hiring, prefer a work-sample test as your hiring procedure. If you are hiring in most other parts of the world, use a work-sample test in combination with a general mental ability test. \"The overall summary of the industrial psychology research in reliable secondary sources is that two kinds of job screeni",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=7708762",
+   "date": "2014-05-07",
+   "title": "How Famo.us will change the surface of modern web apps",
+   "text": "Upfront I'd like to state that I'm the first employee at famo.us and I've been on Hacker News for 3 years and 10 months, and have a karma of almost 6000. I deeply care about this community, as its one of my primary outlets for intellectual expression and stimulation. If you look at any of my past posts that involve discussion of famo.us you will see that I've attempted to remain as neutral as possible and always a disclaimer of my affiliation whenever I've stated an opinion that merits one. Like you I've also been one to point out conflicts or interest or even go as far as to investigate suspicious comments on hacker news to see if there may be a conflict of interest someone should disclose. I too am a vociferous defender of the culture on HN. If anyone can understand your concerns and suspicions, it's me. However I will vouch on the honor of all the karma I've earned as a member of this community that there was no payola involved involved in the writing of this post. Even if someone at the company were plotting to do a payola for a blog post, I would question it. At previous jobs I have prevented any several attempts to make edits to Wikipedia articles about the organization for which I worked because of the clear conflict of interest. Lastly, if my word is not sufficient, and you are the type to require some sort of proof. I will present the following evidence that demonstrates that Byron Matto (bmatto) on HN is the kind of developer to be self motivated to promote an open-source project he believes in. On April 19, I saw that Byron was giving a lightning talk in Boston at a Javascript meetup (I check reddit, HN, meetup.com and google crawl results from the last 24hrs about once a day). I reached out to him via twitter, to see if we could be of any help [0]. To my knowledge this is the only interaction between bmatto and the company, except for may IRC conversations. I believe he might be one of the people that idle on #famous on freenode. Obviously, you may inter",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=7207039",
+   "date": "2014-02-09",
+   "title": "Counting Votes Is Hard",
+   "text": "Neither the blog post kindly submitted here nor the comments (so far) nor the Wikipedia article mentioned in one comment mention the impossibility theorem proved by Kenneth Arrow,[1] which shows that we can't build a perfect voting system to take into account preferences among three or more candidates. As a voter in a state with as many as ten candidates on the ballot in a typical presidential election, and some amazingly close three-way statewide elections,[2] I'm surprised that the Arrow paradox (Arrow impossibility theorem) isn't more widely known. I learned about it in an article in Scientific American back in the 1970s. My state has three \"major parties\" that have automatic ballot access for nominated candidates, and I expect that this year we may add one more political party to the list of major parties by the rules established in state law. If voters have more than two choices, odd results can happen in elections. AFTER EDIT: A comment posted while I was typing the first version of this comment mentions \"range voting\" as a response to the Arrow paradox. A commentary by an economist[3] and a problem set by a mathematician[4] may suggest to thoughtful readers here some issues to ponder while discussing whether or not range voting provides better trade-offs than our current voting system, and whether it indeed escapes the theorem proved by Arrow. [1] https://en.wikipedia.org/wiki/Arrow's_impossibility_theorem http://www.math.ucla.edu/~tao/arrow.pdf [2] http://latimesblogs.latimes.com/washington/2008/11/franken-c... http://www.politico.com/news/stories/0609/24383.html http://www.amazon.com/This-Is-Not-Florida-Minnesota/dp/08166... [3] http://marginalrevolution.com/marginalrevolution/2009/11/ran... [4] http://www.math.cornell.edu/~mec/Summer2008/anema/approval.h...",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=7119033",
+   "date": "2014-01-24",
+   "title": "Snapchat usage triples among teens in the last year",
+   "text": "How does 365 data points give your conclusions any sort of statistical significance? Snapchat's numbers are allegedly over 30M, Facebook's are over 1.2B and Instagram's are 150M. I suggest reading \"How to Lie with Statistics\"[1] [1] http://www.amazon.com/How-Lie-Statistics-Darrell-Huff/dp/039... Edit: I guess that sounded a little harsh. No doubt, Snapchat's growth has been explosive and if this was just another blog-spam post about that fact, I'd let it be. But you're selling a statistical software! I'd expect better from people who know what they're doing. Also, \"How to Lie with Statistics\" is a really good book, should be required reading for anyone dealing with numbers. Did not mean that as an attack on your product.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=6997623",
+   "date": "2014-01-02",
+   "title": "Backdoor found in Linksys, Netgear Routers",
+   "text": "I'm going to rush this, sorry. * Guy sees service running on 32764 and thinks that's quite odd * Gets very frustrated at useless forum posts from people with no clue * Downloads a copy of the firmware from the (horrible) modem-help.co.uk This is where it gets interesting: Binwalk ------ First off, a program called Binwalk is used. This is a combo of a really cool python script, the libmagic database (if you've used the file utility in 'nix you've used it) and some C to deal with some compression types. When binwalk works, it's pure brilliance. As you can see in the screenshot on slide 12, binwalk is able to detect strings and filesystems inside the firmware. References to Texas Instruments and Telogy Networks would be a good starting point if you wanted to google for datasheets or some more background information I haven't ever seen a reference to Igor Pavlov in a firmware binary before but his name popping up is a good indication that you might be hitting 7zip or LZMA compressed data - http://en.wikipedia.org/wiki/Igor_Pavlov_%28programmer%29 The filesystem ----- Squashfs is commonly used (and horribly broken) by manufacturers of modems and routers. Luckily the author is able to extract the filesystem out by looking at the offsets printed out by binwalk - this doesn't always work! Slide 13 is pretty typical when reversing modem firmware - someone thought they were being smart and broke the squashfs format. It looks like no one else will be able to replicate this as the source code for the modified format has been taken down (?) It's possible the author is using the name of the folder in the last screenshot of slide 13 as a hint of what to do next, slide 14 and 15 are magic to me. I think the author has changed the LZMA sourcecode to look for LZMA compressed data with a gzip header but this seems really strange to me Slide 15 just shows the unsquashfs tool with what seems like sensible output (if you'd done something wrong at this point you might see huge numbers of",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=6902563",
+   "date": "2013-12-13",
+   "title": "Why Do People Who Chose Not to Study Science and Math Suggest That Others Should",
+   "text": "Oh where do I even begin with this... >> Why would folks who apparently preferred other subjects suggest that women and particular minority groups be encouraged to study tech subjects that they themselves did not like and ended up not needing? What does this person think women & particular minorities like? Can I safely assume this person is still thinking in the stereotype world? \"Girls like flowers and talking on the phone!\" \"Minorities like gangsta rap and basketball!\" \"did not like and ended up not needing?\" So if women & particular minorities don't like or need them; I guess that implies only white males and non-particular minorities do. The amount of incorrect assumptions that one must have in the mind to make such a statement in 2013 is... I don't even.....This blog post is just off the charts filled with privileged/sexist/racist mindset. This has to be a troll/flame-bait/prank. EDIT: WOW!!! Did this article get blown off the HN-frontpage in under 2 mins? This is an example of how tech-scene buries issues about sexism & racism. You have people in Harvard who think like this... I hope the mainstream media picks this up to let anyone else out there quietly holding these views know how wrong they are and to show sexism & racism still exists in places like Harvard and how it contributes to the lack of women & minorities in tech. Holding this kind of attitude will affect how you interact with women & minorities. EDIT2: And don't think I haven't noticed the bury-team that always tanks my comments on these issues. Probably the same people I'm always talking about here: Conspiracy theory: https://news.ycombinator.com/item?id=6441795 Supporting examples: 1. https://news.ycombinator.com/item?id=6885123 2. https://news.ycombinator.com/item?id=6365495 3. https://news.ycombinator.com/item?id=6448409 4. https://news.ycombinator.com/item?id=6857739 5. https://news.ycombinator.com/item?id=6035263 - This is the most obvious one.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=6585541",
+   "date": "2013-10-21",
+   "title": "Dear Startups: stop asking me math puzzles to figure out if I can code",
+   "text": "Your question about relevance is fair. The author of the blog post kindly submitted here complains that she [I wrote \"he\" before edit prompted by kind reply below] gets math quiz questions when applying for programming jobs. That's a mistake on the part of the hiring companies in two ways. 1) The main thing to look for when hiring programmers is programming work samples. In general, for any kind of work, a work-sample test will tell you more relevant information about which person to hire than any other kind of hiring procedure. (Some other kinds of hiring procedures have incremental validity in addition to work-sample tests, but none have higher validity than work-sample tests.) 2) Insofar as a math quiz question purports to figure out which applicants are smart and which are not, it is legally risky, as are IQ tests and AS ARE EDUCATION CREDENTIAL REQUIREMENTS if the quiz question is not validated as related to bona-fide job requirements. The company that publishes the Wonderlic personnel test hires a lot of psychometricians and lawyers to be able to defend the use of that test for hiring for dozens of kinds of jobs, and I think the balance of the evidence across hundreds of studies on many different job categories in multiple countries shows that general mental ability matters for performing most kinds of jobs well. But in the United States, a smartness test that a hiring manager just makes up is legally risky. It's a good idea to hire smarter rather than dumber job applicants, but it's an especially good idea (for legal protection in the United States) to make sure that the smartness test you use has been validated for your workplace. The research I'm referring to is more generalizable across more occupations than you suggest. In other words, the usual relevance of my FAQ about company hiring procedures in the frequent HN threads about company hiring procedures is that companies almost always go wrong by 1) NOT using work-sample tests, a very good way to find co",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=606075",
+   "date": "2009-05-12",
+   "title": "Yes We Can. Ruby \"require\" over HTTP, That Is.",
+   "text": "Q: What happens when you combine this with the default Ruby OpenSSL certificate verification level? (Hint: the default verify setting is 'none'.) I'm also not sure this is worth an entire blog post, given how little code is required to implement it: require 'open-uri' module Kernel alias :_orig_require :require def require(mod) mod =~ %r{^https?://} ? eval(open(mod).read) : _orig_require(mod) end end Edit : I should have phrased that a little more constructively. My point was not to suggest that small snippets of code are unworthy of blog discussion; rather, it was to show that the code in question really was equivalent to any case of 'eval' applied to untrusted input. I.e., a Bad Idea.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=6002823",
+   "date": "2013-07-07",
+   "title": "Things You Should Shout at Brilliant Web Developers",
+   "text": "EDIT: improve phrasing in a couple of places; link to a better blog post to make my point I'll try to be less confrontational in this reply. It seems to me that you're setting up this false dichotomy: either developers working on MVPs can ignore accessibility because 90% of people have no significant disability, or they can try in vain to make an MVP for 100% of people. Of course it makes sense that one can't do the latter; when developing software in general, but an MVP in particular, one has to pick and choose which categories of users to target. One has to choose which features to implement and which to leave out or save for later. But it still seems wrong to suggest that one can ignore a set of potential users who might be a good fit for the application in every way, but happen to have a disability through no choice of their own. To get an idea of the consequences when accessibility is ignored, check out this blog post: http://blindaccessjournal.com/2005/02/opportunity-lost-to-te... Maybe I'm just too close to this particular issue. after all, I'm visually impaired myself, and my boss and most of my coworkers are totally blind. Nonetheless, I believe that accessibility shouldn't be a nice-to-have feature, but something one just expects to be there, like security. A commenter on another sub-thread pointed out the absurdity of suggesting that a developer can ignore security even for a prototype. I think the same holds for accessibility. Browsers, toolkits, and frameworks can do a lot to make it more likely that an application will be accessible by default, but I think that as with security, some level of consideration from the application developer will always be necessary. Agreed about \"people with disabilities\" being too broad a market to focus on. Too many different disabilities. Where I work, we focus on making our software maximally usable for blind people.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=5310462",
+   "date": "2013-03-02",
+   "title": "Evernote hacked",
+   "text": "Your blog post says: > \"Avoid using simple passwords based on dictionary words\" And yet your password algorithm rejects highly secure pass phrases: > \"New passwords can contain letters, numbers and punctuation.\" Disallowing spaces is particularly annoying for a company with a strong security requirement, as passphrases are simultaneously far more secure and far more memorable than the monkey rules your validation demand. It gets worse. If I type a long sentence without spaces such as \"thisphraseisdefinitelynotinthedictionary\", you give me an orange warning checkmark and suggest: > \"Try using a combination of letters and numbers\" If I replace that long phrase with \"abcde1\", just 5 lowercase letters and a digit, you give me a green checkmark! Same green checkmark for \"abc123\", the third most popular password online. Have whoever wrote your validator needs to go read http://xkcd.com/936/ and really internalize the idea. EDIT: See also: 1. How people choose passwords: http://www.troyhunt.com/2011/07/science-of-password-selectio... 2. Top 25 passwords: http://www.prweb.com/releases/2012/10/prweb10046001.htm 3. Twitter banned passwords: http://securitywatch.pcmag.com/none/284196-the-twitter-banne...",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=5153246",
+   "date": "2013-02-01",
+   "title": "No upvotes on Hacker News: Still awesome to submit",
+   "text": "Let me suggest, after reading this post and the one on reasons not to use Oracle, that readership (and upvotes) may follow if you improve your grammar. It's not terrible, but it lacks 'quality.' If English is not your primary language, it shouldn't be difficult to get someone you know to help you proofread and edit your work. Also, while I'm here, I also suggest spending a bit more time reflecting on your blog post before publishing. Is the message clear? Does the post flow well? Just a little extra polish can make your articles much more appealing.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=5051298",
+   "date": "2013-01-13",
+   "title": "Academics posting their papers online in tribute to Aaron Swartz",
+   "text": "They do! Or at least they are starting to. At least in physics/math in my experience most people have a personal homepage that they post their papers to, and also upload them on ArXiv. There is some complication with regards to copyright, because to publish in a journal you usually need to assign the exclusive rights to them. Nowadays most journals have realized the need for authors to post their papers on personal homepages and e-print services like the ArXiv, so that this is no big deal in practice. There are still problems: 1.) Usually old papers are not available via this route. If you email the author and ask nicely he will usually send it to, but at least in pure mathematics one quite common wants to look up really old articles, say from the 1950s, and those are the ones that are terribly hard to come by, because they are often only available behind a paywall like JSTOR. 2.) Currently \"prestige\" and peer review is handled through the journal system: Authors send their papers to a journal for publication, other scientists review them (for free), and then the paper gets published (or not). Afterwards publishing houses, who add little value to the process, force libraries to pay horrendous amounts of money to get access to these journals (usually through selling bundles). At the moment there are efforts underway to pleasure publishers into a saner pricing structure, and there are now some open access journals where usually the author pays once (if at all) and then it is free to read for everyone. Many people also consider more radical approaches, for example, making journals simply be ArXiv overlays that point to a set of papers on the ArXiv. I have even heard suggestion of replacing peer review, at least partially, by an open review system like you suggest, and some journals have experimented with it, but it does not seem to have a lot of consensus behind it at the moment. But this is in a way orthogonal to the problem of making research available to as many peo",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=48566932",
+   "date": "2026-06-17",
+   "title": "Stop Using JWTs",
+   "text": "Being able to quickly reject invalid sessions identifiers is a useful property in some cases and is normally done by authenticating stateful session tokens with a MAC using a global app key. This can be used for DoS protection if the cost of a database lookup is more than the cost of MAC, and the complexity is justified. It ensures that the random numbers a user is trying to present as their session token are the numbers generated by the server if the key is not leaked. Because you're trying to bolt things on top of JWT, you're creating a worse version of that stateful authentication pattern: 1. You lost the statelessness of JWT by making database queries. Your claim that \"you don't need to verify against user's secret immediately\" is false, as you need to do that in all cases immediately after verifying the JWT signature to get the benefits of your system (token invalidation). Sure, you reject completely invalid tokens early, but you still need the statefulness to authenticate users properly (if your goal is to be able to invalidate tokens). 2. In your version, getting a read-only access to the user database (leaking per-user secrets) completely destroys token invalidation, and all your authentication now depends on one key. If, in addition to that, the JWT signing key leaks, user authentication is completely destroyed and can be bypassed by the attacker, who now can sign in as any user. (A common way to leak all this is by failing to properly secure backups). Compared to a stateful session system with split-tokens, where the database stores tokenId => verifier, where verifier is Hash(randomToken), and user's token is id||randomToken, read-only access to the database doesn't let the attacker authenticate as any user. If the tokens that users presents are in the form of id||randomToken||HMAC(serverKey, id||randomToken) for early rejection as above, leaking serverKey still won't allow the attacker to authenticate as any user. The attacker needs write access. > Is aut",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=4847620",
+   "date": "2012-11-29",
+   "title": "China Mafia-Style Hack Attack Drives California Firm to Brink",
+   "text": "I'm going to try to suggest a couple of solutions regarding problems encountered in the article that people might find to be useful to know. First, some pointers (non-exhaustive). For workstations: - Antivirus - Firewall - Disk encryption - Password complexity requirements - Updates For servers: - Key-based authentication - Updates - Firewall rules on host: explicit ingress/egress - Run services as non-privileged users in a chroot jail Firewall rules for network: explicit ingress/egress Yes, that's two firewalls for your hosting infrastructure. Attackers would have to escalate privileges from a service user to a root user in order to modify the firewall rules, at which point they'll have access to the other components of your internal network. To get outbound connectivity, they'd have to gain root access to the external firewall as well. Keep in mind they can still upload data if they can execute arbitrary commands as the web service user. Now, onto more specific items mentioned in the article. >realizing only later that the e-mail address was a couple of letters off. Tell your employees to only accept cryptographically signed email from you. S/MIME is simple to implement, and works across multiple platforms and clients. There is even support for it in iOS, Android, and Mail.app! http://en.wikipedia.org/wiki/S/MIME You can get certificates here: http://www.symantec.com/verisign/digital-id You can even get free ones if you're on a budget! (although they do say for personal use, implement at your own risk if you're a business!) http://www.comodo.com/home/email-security/free-email-certifi... You can do a Google search on how to get these certificates installed in your mail and mobile clients of choice. >clicked on the attachment Use Google Apps. I'm not sure what the success rate of Gmail's 0-day detection is with attachments, but I'd be willing to bet that they're better if not as equally effective as the average desktop antivirus email scanner. >Microsoft operating s",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=4826683",
+   "date": "2012-11-24",
+   "title": "Microsoft's big Windows 8 secret? It's actually about advertising.",
+   "text": "It's an incredible stretch to extrapolate from WinRT and suggest that x86 Windows will disable running arbitrary executables anytime in the foreseeable future. Surely no one actually believes that Microsoft is planning to turn away the huge mass of customers currently doing that with Enterprise apps, random Shareware, etc in Windows 7/8 any time soon. We aren't going to agree about the ad. I literally never saw it in Minesweeper until I went looking for it today, and it's clearly a generic CPM based display ad instead of something invasive based on your activity. Focusing on these nearly-hidden ads in ancillary apps seems like the pinnacle of bikeshedding to me. edit: Not to say that your opinion is wrong or mine is better. I just can't get on board with all of the fuss I've been seeing lately about these ads. Having been using Windows 8 as my primary desktop OS for about a year, I never see the ads. I have to hunt for them to even verify that they're still there when another blog post pops up about them.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=47279",
+   "date": "2007-08-28",
+   "title": "Bandsintown at it again",
+   "text": "I like your app knewjax. Do you have a non-technical co-founder? If not, I suggest finding one, especially one deeply mired in underground rock culture at least a superficial knowledge of Web 2 dot oh. 1) You're advertising on YC news, hit up MySpace and even Anywhere.FM - people that are into music. They're gonna be your butter. 2) Don't spam, but WRITE WRITE WRITE. If you submit interesting content to people's blogs, they WILL check out your site. You could just be one blog post away from getting traction . edit: about 10% of blogger accounts have a post dealing with people's favorite music. Google's blog search would really help you in your promotion.",
+   "points": null
+  },
+  {
+   "source": "hackernews",
+   "url": "https://news.ycombinator.com/item?id=46423378",
+   "date": "2025-12-29",
+   "title": "Show HN: On Making Music with the Machine",
+   "text": ">> Man pushes slot machine lever 5,000x and edits together best slot machine sounds to make song. Proceeds to beat chest about being a music maker. While you may have meant that as a criticism, I don't think that is an inaccurate description of the process and do hope my post describes it as such. Yes sampling from the latent-space is an exercise in curating and harnessing randomness. >> ...the mental justifications in the blog post are painful. I think you may find musicians bristle at your claim that all art is circular, Yes I many/most do. This is not a method of \"making music\" that could have been contemplated 5 years ago (harnessing randomness = learning an instrument for 10+ years = wtf!!!??). But it exists today, and there are a lot of folks like me who are enabled by it. There will be some among us (not me!) who come along who are far more talented, and when this tech is shown to enable their talent, then I think the bristling will lessen. >> [various issues about copyright] I write my own lyrics from my meat-brain, so I may own the copyright to the words (maybe?). But I've chosen to release the words out into the world with no expectation of keeping that. And yes I understand I do not own the copyright to the songs/music/etc (I have read Suno's rights and recent Udio/UMG deals etc). In any case, I don't much care about that, nor am I looking to make $$$ off this. I wrote (words) for a long time... and can now put them to music. If there are any others of you out there who would like to do that, I would suggest you try these paths as well. Just try not to push the button 1x... do it 5,000x! It's the effort and vision that keeps you from \"slop\" - and maybe you'll be the one who'll make it great fucking art!",
+   "points": null
+  }
+ ]
+}

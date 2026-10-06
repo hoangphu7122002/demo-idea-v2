@@ -1,0 +1,485 @@
+{
+ "sid": "r2q03-02",
+ "url": "https://github.com/Monsoft-Solutions/alluring-website-v1/issues/226",
+ "title": "Blog lastmod and dateModified are driven by the view counter, not by content changes · Issue #226 · Monsoft-Solutions/alluring-website-v1",
+ "published": "2026-09-11",
+ "source_type": "primary",
+ "quality_flags": [
+  "thin"
+ ],
+ "terms": [
+  {
+   "term": "Monsoft-Solutions",
+   "context": "Monsoft-Solutions / alluring-website-v1 Public"
+  },
+  {
+   "term": "alluring-website-v1",
+   "context": "Monsoft-Solutions / alluring-website-v1 Public"
+  },
+  {
+   "term": "Notifications",
+   "context": "Notifications You must be signed in to change notification settings"
+  },
+  {
+   "term": "Fork",
+   "context": "Fork 0"
+  },
+  {
+   "term": "Star",
+   "context": "Star 0"
+  },
+  {
+   "term": "Assignees",
+   "context": "Assignees: flechilla"
+  },
+  {
+   "term": "Labels",
+   "context": "Labels bug Something isn't working database seo"
+  },
+  {
+   "term": "bug",
+   "context": "bug Something isn't working"
+  },
+  {
+   "term": "database",
+   "context": "label: database"
+  },
+  {
+   "term": "seo",
+   "context": "label: seo"
+  },
+  {
+   "term": "Description",
+   "context": "## Description flechilla opened on Sep 11, 2026"
+  },
+  {
+   "term": "Issue body actions",
+   "context": "Issue body actions"
+  },
+  {
+   "term": "What is wrong",
+   "context": "## What is wrong"
+  },
+  {
+   "term": "blog_post.updated_at",
+   "context": "`blog_post.updated_at` is bumped on every row update"
+  },
+  {
+   "term": "updated_at",
+   "context": "every page view rewrites `updated_at`"
+  },
+  {
+   "term": "$onUpdate",
+   "context": "bumped on every row update (`$onUpdate` in blog-post.table.ts)"
+  },
+  {
+   "term": "views",
+   "context": "increments `views` on that same row"
+  },
+  {
+   "term": "<lastmod>",
+   "context": "`<lastmod>` in apps/web/app/sitemap/blog.xml/route.ts"
+  },
+  {
+   "term": "sitemap",
+   "context": "Search Console shows the sitemap re-downloaded daily"
+  },
+  {
+   "term": "dateModified",
+   "context": "`dateModified` in the article JSON-LD"
+  },
+  {
+   "term": "JSON-LD",
+   "context": "`dateModified` in the article JSON-LD"
+  },
+  {
+   "term": "article:modified_time",
+   "context": "`article:modified_time` in Open Graph"
+  },
+  {
+   "term": "Open Graph",
+   "context": "`article:modified_time` in Open Graph"
+  },
+  {
+   "term": "Updated on",
+   "context": "the \"Updated on\" line shown to readers"
+  },
+  {
+   "term": "getMeaningfulUpdateDate",
+   "context": "the \"Updated on\" line shown to readers (`getMeaningfulUpdateDate`)"
+  },
+  {
+   "term": "staleness.lastUpdatedAt",
+   "context": "`staleness.lastUpdatedAt` / `ageMonths` in the refresh brief"
+  },
+  {
+   "term": "ageMonths",
+   "context": "`staleness.lastUpdatedAt` / `ageMonths` in the refresh brief"
+  },
+  {
+   "term": "refresh brief",
+   "context": "in the refresh brief and decay detection"
+  },
+  {
+   "term": "decay detection",
+   "context": "in the refresh brief and decay detection"
+  },
+  {
+   "term": "refresh-brief.service.ts",
+   "context": "apps/admin/lib/services/refresh-brief.service.ts"
+  },
+  {
+   "term": "decay-detection.service.ts",
+   "context": "apps/admin/lib/services/decay-detection.service.ts"
+  },
+  {
+   "term": "blog_post_revision",
+   "context": "`blog_post_revision` has zero rows in that period"
+  },
+  {
+   "term": "Search Console",
+   "context": "Search Console shows the sitemap re-downloaded daily"
+  },
+  {
+   "term": "recrawl signal",
+   "context": "a real refresh loses its recrawl signal"
+  },
+  {
+   "term": "structured data",
+   "context": "structured data claims daily updates that did not happen"
+  },
+  {
+   "term": "refresh loop",
+   "context": "the refresh loop believes the most valuable posts were just touched"
+  },
+  {
+   "term": "Design",
+   "context": "## Design"
+  },
+  {
+   "term": "content_updated_at",
+   "context": "New column `blog_post.content_updated_at timestamp` (nullable)"
+  },
+  {
+   "term": "trigger",
+   "context": "A `BEFORE INSERT OR UPDATE` trigger sets it to `now()`"
+  },
+  {
+   "term": "BEFORE INSERT OR UPDATE",
+   "context": "A `BEFORE INSERT OR UPDATE` trigger sets it to `now()`"
+  },
+  {
+   "term": "now()",
+   "context": "sets it to `now()` only when a reader-visible column actually changes"
+  },
+  {
+   "term": "reader-visible column",
+   "context": "only when a reader-visible column actually changes"
+  },
+  {
+   "term": "meta_title",
+   "context": "title, content, meta_title, meta_description, excerpt"
+  },
+  {
+   "term": "meta_description",
+   "context": "title, content, meta_title, meta_description, excerpt"
+  },
+  {
+   "term": "excerpt",
+   "context": "meta_description, excerpt, quick_answer, faqs"
+  },
+  {
+   "term": "quick_answer",
+   "context": "excerpt, quick_answer, faqs, featured_image_id, slug"
+  },
+  {
+   "term": "faqs",
+   "context": "quick_answer, faqs, featured_image_id, slug"
+  },
+  {
+   "term": "featured_image_id",
+   "context": "faqs, featured_image_id, slug"
+  },
+  {
+   "term": "Bookkeeping columns",
+   "context": "Bookkeeping columns (views, likes, shares, pipeline/processing state)"
+  },
+  {
+   "term": "likes",
+   "context": "views, likes, shares"
+  },
+  {
+   "term": "shares",
+   "context": "views, likes, shares"
+  },
+  {
+   "term": "planning_data",
+   "context": "planning_data, pipeline_state, idea_approval, priority"
+  },
+  {
+   "term": "pipeline_state",
+   "context": "planning_data, pipeline_state, idea_approval, priority"
+  },
+  {
+   "term": "idea_approval",
+   "context": "pipeline_state, idea_approval, priority"
+  },
+  {
+   "term": "priority",
+   "context": "idea_approval, priority never touch it"
+  },
+  {
+   "term": "Backfill",
+   "context": "Backfill: COALESCE(max(blog_post_revision.created_at), published_at, created_at)"
+  },
+  {
+   "term": "COALESCE",
+   "context": "COALESCE(max(blog_post_revision.created_at), published_at, created_at)"
+  },
+  {
+   "term": "published_at",
+   "context": "GREATEST(published_at, content_updated_at)"
+  },
+  {
+   "term": "GREATEST",
+   "context": "Readers switch to GREATEST(published_at, content_updated_at)"
+  },
+  {
+   "term": "ALTER TABLE",
+   "context": "hand-written SQL after the generated ALTER TABLE"
+  },
+  {
+   "term": "drizzle-kit generate",
+   "context": "`drizzle-kit generate` does not manage it"
+  },
+  {
+   "term": "packages/db/README.md",
+   "context": "documented in the table file and packages/db/README.md"
+  },
+  {
+   "term": "migration",
+   "context": "the migration carries it as hand-written SQL"
+  },
+  {
+   "term": "Out of scope",
+   "context": "## Out of scope"
+  },
+  {
+   "term": "Activity",
+   "context": "## Activity"
+  },
+  {
+   "term": "Sign up for free",
+   "context": "Sign up for free to join this conversation on GitHub."
+  },
+  {
+   "term": "to join this conversation on GitHub",
+   "context": "Sign up for free to join this conversation on GitHub. Already have an account?"
+  },
+  {
+   "term": "Metadata",
+   "context": "## Metadata"
+  },
+  {
+   "term": "Type",
+   "context": "### Type: No type"
+  },
+  {
+   "term": "Projects",
+   "context": "### Projects: No projects"
+  },
+  {
+   "term": "Milestone",
+   "context": "### Milestone: No milestone"
+  },
+  {
+   "term": "Relationships",
+   "context": "### Relationships: None yet"
+  },
+  {
+   "term": "Development",
+   "context": "### Development: No branches or pull requests"
+  },
+  {
+   "term": "Issue actions",
+   "context": "## Issue actions"
+  },
+  {
+   "term": "flechilla",
+   "context": "author, opened on Sep 11, 2026; assignee"
+  }
+ ],
+ "claims": [
+  {
+   "claim": "blog_post.updated_at is bumped on every row update via $onUpdate",
+   "quote": "`blog_post.updated_at` is bumped on every row update",
+   "numbers": []
+  },
+  {
+   "claim": "Public views endpoint increments views on same row so every page view rewrites updated_at",
+   "quote": "every page view rewrites `updated_at`",
+   "numbers": []
+  },
+  {
+   "claim": "updated_at is used for sitemap lastmod",
+   "quote": "`<lastmod>` in `apps/web/app/sitemap/blog.xml/route.ts`",
+   "numbers": []
+  },
+  {
+   "claim": "updated_at is used for dateModified JSON-LD and article:modified_time Open Graph",
+   "quote": "",
+   "numbers": []
+  },
+  {
+   "claim": "updated_at drives the 'Updated on' line shown to readers",
+   "quote": "the \"Updated on\" line shown to readers",
+   "numbers": []
+  },
+  {
+   "claim": "updated_at feeds staleness.lastUpdatedAt/ageMonths in refresh brief and decay detection",
+   "quote": "",
+   "numbers": []
+  },
+  {
+   "claim": "Production evidence 2026-09-11: 25 published posts report modification in last 7 days, 115 in second half of August, zero revisions",
+   "quote": "blog_post_revision has zero rows in that period",
+   "numbers": [
+    "25 posts",
+    "7 days",
+    "115 posts",
+    "0 revision rows",
+    "2026-09-11"
+   ]
+  },
+  {
+   "claim": "Most recently modified posts are the most-read ones",
+   "quote": "The posts \"modified\" most recently are exactly the most-read ones.",
+   "numbers": []
+  },
+  {
+   "claim": "Search Console shows sitemap re-downloaded daily",
+   "quote": "Search Console shows the sitemap re-downloaded daily",
+   "numbers": [
+    "daily"
+   ]
+  },
+  {
+   "claim": "Google learns lastmod is noise and ignores it, so real refresh loses recrawl signal",
+   "quote": "Google learns the sitemap's lastmod is noise and ignores it",
+   "numbers": []
+  },
+  {
+   "claim": "Structured data claims daily updates that did not happen",
+   "quote": "structured data claims daily updates that did not happen",
+   "numbers": []
+  },
+  {
+   "claim": "Refresh loop under-prioritises most valuable posts, believing they were just touched",
+   "quote": "the refresh loop believes the most valuable posts were just touched",
+   "numbers": []
+  },
+  {
+   "claim": "Proposed fix: dedicated nullable content_updated_at column maintained by the database",
+   "quote": "Add a dedicated content timestamp and let the database maintain it",
+   "numbers": [
+    "~35 code paths"
+   ]
+  },
+  {
+   "claim": "BEFORE INSERT OR UPDATE trigger sets it to now() only when reader-visible columns change (title, content, meta_title, meta_description, excerpt, quick_answer, faqs, featured_image_id, slug)",
+   "quote": "",
+   "numbers": [
+    "9 columns"
+   ]
+  },
+  {
+   "claim": "Bookkeeping columns never touch content_updated_at",
+   "quote": "never touch it",
+   "numbers": []
+  },
+  {
+   "claim": "Backfill uses COALESCE(max(blog_post_revision.created_at), published_at, created_at)",
+   "quote": "",
+   "numbers": []
+  },
+  {
+   "claim": "Readers switch to GREATEST(published_at, content_updated_at)",
+   "quote": "Readers switch to `GREATEST(published_at, content_updated_at)`",
+   "numbers": []
+  },
+  {
+   "claim": "Views endpoint will preserve updated_at explicitly",
+   "quote": "The views endpoint preserves `updated_at` explicitly",
+   "numbers": []
+  },
+  {
+   "claim": "First trigger in the schema; drizzle-kit generate does not manage it, so migration is hand-written SQL",
+   "quote": "This is the first trigger in the schema.",
+   "numbers": [
+    "1 trigger"
+   ]
+  },
+  {
+   "claim": "Out of scope: moving views/likes/shares to own table",
+   "quote": "Moving `views/likes/shares` to their own table",
+   "numbers": []
+  },
+  {
+   "claim": "Found during Search Console audit of 2026-09-11; issue opened Sep 11, 2026 by flechilla; state Closed; repo 0 forks 0 stars",
+   "quote": "Found during the Search Console audit of 2026-09-11.",
+   "numbers": [
+    "0 forks",
+    "0 stars"
+   ]
+  }
+ ],
+ "analysis_rows": [
+  {
+   "type": "landscape",
+   "entity": "Google Search Console",
+   "category": "search tool",
+   "segment": "site owners/SEO",
+   "positioning": "used to audit sitemap behaviour",
+   "key_facts": "shows sitemap re-downloaded daily"
+  },
+  {
+   "type": "landscape",
+   "entity": "drizzle-kit",
+   "category": "DB migration tool",
+   "segment": "developers",
+   "positioning": "drizzle-kit generate does not manage triggers",
+   "key_facts": "migration needs hand-written SQL after generated ALTER TABLE"
+  },
+  {
+   "type": "landscape",
+   "entity": "alluring-website-v1 (Monsoft-Solutions)",
+   "category": "GitHub repo / blog CMS with admin refresh brief and decay detection",
+   "segment": "own site",
+   "positioning": "in-house blog with staleness/refresh loop",
+   "key_facts": "0 forks, 0 stars; issue #226 opened Sep 11, 2026"
+  },
+  {
+   "type": "root_cause",
+   "symptom": "Sitemap lastmod, dateModified, 'Updated on' and staleness show daily modifications with no content changes",
+   "cause": "updated_at bumped by $onUpdate on every row update, and views endpoint increments views on same row",
+   "evidence": "25 posts modified in last 7 days, 115 in second half of August, zero blog_post_revision rows; Search Console shows sitemap re-downloaded daily",
+   "fix": "Add content_updated_at maintained by BEFORE INSERT OR UPDATE trigger; readers use GREATEST(published_at, content_updated_at); views endpoint preserves updated_at"
+  },
+  {
+   "type": "root_cause",
+   "symptom": "Google ignores sitemap lastmod, real refresh loses recrawl signal",
+   "cause": "lastmod is noise because it changes on page views",
+   "evidence": "sitemap re-downloaded daily per Search Console",
+   "fix": "lastmod reads dedicated content timestamp"
+  },
+  {
+   "type": "root_cause",
+   "symptom": "Refresh loop under-prioritises most valuable posts",
+   "cause": "Most-read posts get views increments so appear just touched in staleness/decay detection",
+   "evidence": "most recently modified posts are exactly the most-read ones",
+   "fix": "Refresh brief staleness and decay detection read GREATEST(published_at, content_updated_at)"
+  }
+ ],
+ "model": "sonnet",
+ "_recall": 1.0
+}

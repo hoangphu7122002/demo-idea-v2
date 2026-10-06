@@ -1,0 +1,12 @@
+{
+ "sid": "r3q01-07",
+ "url": "https://fiberplane.com/blog/drift-documentation-linter/",
+ "method": "curl",
+ "status": "ok",
+ "reason": "",
+ "bytes": 49539,
+ "chars": 7270,
+ "title": "We built a linter for documentation rot | Fiberplane Blog",
+ "mode": "stripped",
+ "truncated": false
+}

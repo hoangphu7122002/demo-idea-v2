@@ -1,0 +1,205 @@
+{
+ "sid": "r2q03-02",
+ "terms": [
+  {
+   "term": "Metadata",
+   "count": 2,
+   "kind": "heading"
+  },
+  {
+   "term": "updated_at",
+   "count": 3,
+   "kind": "code"
+  },
+  {
+   "term": "Monsoft-Solutions",
+   "count": 4,
+   "kind": "ngram"
+  },
+  {
+   "term": "article:modified_time",
+   "count": 2,
+   "kind": "code"
+  },
+  {
+   "term": "dateModified",
+   "count": 2,
+   "kind": "code"
+  },
+  {
+   "term": "Activity",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Assignees",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Description",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Design",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Development",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Issue actions",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Labels",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Milestone",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Out of scope",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Projects",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Relationships",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Type",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "What is wrong",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "alluring-website-v1",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "to join this conversation on GitHub",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "$onUpdate",
+   "count": 1,
+   "kind": "code"
+  },
+  {
+   "term": "<lastmod>",
+   "count": 1,
+   "kind": "code"
+  },
+  {
+   "term": "ALTER",
+   "count": 1,
+   "kind": "acronym"
+  },
+  {
+   "term": "ALTER TABLE",
+   "count": 1,
+   "kind": "code"
+  },
+  {
+   "term": "BEFORE",
+   "count": 1,
+   "kind": "acronym"
+  },
+  {
+   "term": "BEFORE INSERT OR UPDATE",
+   "count": 1,
+   "kind": "code"
+  },
+  {
+   "term": "Bookkeeping columns",
+   "count": 1,
+   "kind": "code"
+  },
+  {
+   "term": "COALESCE",
+   "count": 1,
+   "kind": "acronym"
+  },
+  {
+   "term": "GREATEST",
+   "count": 1,
+   "kind": "acronym"
+  },
+  {
+   "term": "GREATEST(published_at, content_updated_at",
+   "count": 1,
+   "kind": "code"
+  },
+  {
+   "term": "INSERT",
+   "count": 1,
+   "kind": "acronym"
+  },
+  {
+   "term": "JSON",
+   "count": 1,
+   "kind": "acronym"
+  },
+  {
+   "term": "LD",
+   "count": 1,
+   "kind": "acronym"
+  },
+  {
+   "term": "OR",
+   "count": 1,
+   "kind": "acronym"
+  },
+  {
+   "term": "README",
+   "count": 1,
+   "kind": "acronym"
+  },
+  {
+   "term": "SQL",
+   "count": 1,
+   "kind": "acronym"
+  },
+  {
+   "term": "Search Console",
+   "count": 2,
+   "kind": "ngram"
+  },
+  {
+   "term": "TABLE",
+   "count": 1,
+   "kind": "acronym"
+  },
+  {
+   "term": "UPDATE",
+   "count": 1,
+   "kind": "acronym"
+  },
+  {
+   "term": "ageMonths",
+   "count": 1,
+   "kind": "code"
+  }
+ ]
+}

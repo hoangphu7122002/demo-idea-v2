@@ -1,0 +1,104 @@
+{
+  "rows": [
+    {
+      "type": "review",
+      "source": "Trustpilot GitBook",
+      "url": "https://www.trustpilot.com/review/gitbook.com",
+      "date": "2026-04-07",
+      "quote_or_number": "platform feels increasingly obsolete, and almost every basic feature is now locked behind an aggressive paywall",
+      "persona_match": "y",
+      "theme": "paywall paywalling",
+      "note": "GDPR non-compliance, SSL/DNS issues after account closure. Content access blocked by pricing tiers."
+    },
+    {
+      "type": "review",
+      "source": "Trustpilot GitBook",
+      "url": "https://www.trustpilot.com/review/gitbook.com",
+      "date": "2025-06-05",
+      "quote_or_number": "users that migrate without reworking layout will easily need to pay something around 5x the old plan",
+      "persona_match": "y",
+      "theme": "migration pricing",
+      "note": "Platform overhaul forced costly plan upgrades for existing users"
+    },
+    {
+      "type": "review",
+      "source": "Trustpilot GitBook",
+      "url": "https://www.trustpilot.com/review/gitbook.com",
+      "date": "2025-05-20",
+      "quote_or_number": "Stuck in a constant loop of trying to login",
+      "persona_match": "y",
+      "theme": "login dysfunction",
+      "note": "Authentication problems prevent access to published content and updates"
+    },
+    {
+      "type": "review",
+      "source": "Trustpilot GitBook",
+      "url": "https://www.trustpilot.com/review/gitbook.com",
+      "date": "2025-05-18",
+      "quote_or_number": "Gitbook has removed free features to make them paid features",
+      "persona_match": "y",
+      "theme": "free feature removal",
+      "note": "Core features converted to paid tiers on existing plans"
+    },
+    {
+      "type": "review",
+      "source": "Trustpilot GitBook",
+      "url": "https://www.trustpilot.com/review/gitbook.com",
+      "date": "2025-05-08",
+      "quote_or_number": "denies you access to updates to your site, unless you upgrade to a paid plan that costs over $70/month",
+      "persona_match": "y",
+      "theme": "update access paywall",
+      "note": "Publishing/updating content locked behind expensive premium tier"
+    },
+    {
+      "type": "review",
+      "source": "Trustpilot GitBook",
+      "url": "https://www.trustpilot.com/review/gitbook.com",
+      "date": "2024-09-17",
+      "quote_or_number": "experienced frequent collaboration sync issues and saving problems",
+      "persona_match": "y",
+      "theme": "sync reliability",
+      "note": "Real-time collaboration features unreliable; affects reader discussion/feedback capture"
+    },
+    {
+      "type": "review",
+      "source": "Trustpilot GitBook",
+      "url": "https://www.trustpilot.com/review/gitbook.com",
+      "date": "2024-07-17",
+      "quote_or_number": "all the content gets lost! this is one of the worst editors I have ever used",
+      "persona_match": "y",
+      "theme": "content loss editor",
+      "note": "Critical issue: data loss during editing; poor user experience for content creation"
+    },
+    {
+      "type": "review",
+      "source": "Trustpilot GitBook",
+      "url": "https://www.trustpilot.com/review/gitbook.com",
+      "date": "2024-06-10",
+      "quote_or_number": "It hides the GitHub implementation, so it is difficult to integrate",
+      "persona_match": "y",
+      "theme": "poor integration",
+      "note": "Limited GitHub/open-source integration; locks technical authors into proprietary workflow"
+    },
+    {
+      "type": "review",
+      "source": "Trustpilot GitBook",
+      "url": "https://www.trustpilot.com/review/gitbook.com",
+      "date": "2026-04-22",
+      "quote_or_number": "Support takes weeks to reply, and it's always along the lines of: not possible",
+      "persona_match": "y",
+      "theme": "slow support",
+      "note": "Unresponsive support; limited feature flexibility for user needs"
+    },
+    {
+      "type": "review",
+      "source": "Trustpilot GitBook",
+      "url": "https://www.trustpilot.com/review/gitbook.com",
+      "date": "2024-10-22",
+      "quote_or_number": "backend architecture is slow and buggy. The app goes down often",
+      "persona_match": "y",
+      "theme": "performance reliability",
+      "note": "Stability issues affect reader access to published content; sync delays on updates"
+    }
+  ]
+}

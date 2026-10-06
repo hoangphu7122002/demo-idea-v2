@@ -1,0 +1,104 @@
+{
+  "rows": [
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=5232221",
+      "date": "2013-02-16",
+      "quote_or_number": "I think what we really need is a tool to go around and mark outdated blog posts as outdated.",
+      "persona_match": "n",
+      "theme": "signal outdated posts",
+      "note": "Direct need for staleness marking on blogs; core problem statement"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=4080248",
+      "date": "2012-06-07",
+      "quote_or_number": "You need to constantly write otherwise a new visitor may think your 2 month old blog post outdated and that you've moved on.",
+      "persona_match": "n",
+      "theme": "perceived staleness",
+      "note": "Pressure on authors to appear active; readers assume inactive blogs are unreliable"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=18894451",
+      "date": "2019-01-13",
+      "quote_or_number": "there are many blog posts with outdated suggestions referring to the items you've referenced. Knowing which of those posts to skip over now that the proper solution has been named is what's really challenging",
+      "persona_match": "n",
+      "theme": "reader confusion outdated posts",
+      "note": "Readers struggle to identify which blog posts are still valid; lack of explicit obsolescence markers"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=27464118",
+      "date": "2021-06-10",
+      "quote_or_number": "nothing about the blog post has become outdated AFAIK, which makes my points a bit stronger if anything... I don't put anything on my blog unless I think it has a pretty long contextual lifetime.",
+      "persona_match": "y",
+      "theme": "author staleness concern",
+      "note": "Technical author aware of staleness risk; defensive about post relevance; filters own content to avoid obsolescence"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=8255171",
+      "date": "2014-09-02",
+      "quote_or_number": "my naive and outdated blog post from college",
+      "persona_match": "y",
+      "theme": "author post decay",
+      "note": "Technical author recognizing their own blog post became outdated; no way to update reader perception or curate content"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=44774384",
+      "date": "2025-08-03",
+      "quote_or_number": "things are moving so fast that most blog posts will be outdated quickly. However posts like this is valuable for new people",
+      "persona_match": "n",
+      "theme": "fast tech decay",
+      "note": "Recognizes tension: fast-moving tech domain makes posts stale quickly, yet good posts remain valuable if kept current"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=12635876",
+      "date": "2016-10-04",
+      "quote_or_number": "Articles and blog posts get outdated fast.",
+      "persona_match": "n",
+      "theme": "rapid obsolescence",
+      "note": "General pain point about blog post lifespan in tech; readers need current guidance"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=46344432",
+      "date": "2025-12-21",
+      "quote_or_number": "I've done the whole wading through outdated blog posts and trying to read documentation on other projects",
+      "persona_match": "n",
+      "theme": "reader search cost",
+      "note": "Reader burden of finding current information; time spent filtering through stale posts"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=34651459",
+      "date": "2023-02-04",
+      "quote_or_number": "how well does this address the issue of outdated blog posts and ancient reddit/forum posts?",
+      "persona_match": "n",
+      "theme": "obsolete content problem",
+      "note": "Asking if AI can help with stale blog post problem; indicates recognized pain when seeking answers"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=26079512",
+      "date": "2021-02-09",
+      "quote_or_number": "most of what I saw were either in depth books about the language itself, outdated blog posts, or non-relevant books",
+      "persona_match": "n",
+      "theme": "search friction outdated",
+      "note": "Reader can't quickly identify which blog posts are current; outdated posts clutter search results"
+    }
+  ]
+}

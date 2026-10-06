@@ -1,0 +1,164 @@
+{
+  "rows": [
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=31896001",
+      "date": "2022-06-27",
+      "quote_or_number": "Keep the documentation up to date. Allow and encourage your readers to give you feedback about what's unclear. Then make revisions based on this.",
+      "persona_match": "y",
+      "theme": "reader feedback loops",
+      "note": "Author advocating for keeping docs current via reader feedback"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=43648812",
+      "date": "2025-04-10",
+      "quote_or_number": "you keep the content online, up to date by making sure readers are informed of new developments that might make advice irrelevant",
+      "persona_match": "y",
+      "theme": "staleness detection",
+      "note": "Praising author for maintaining online content freshness over time"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49758415",
+      "date": "2026-09-18",
+      "quote_or_number": "I want it to tell me that the point I'm making is technically wrong because an expert would recognize subtle misuse of terminology",
+      "persona_match": "y",
+      "theme": "technical correctness",
+      "note": "Writer seeking external feedback on technical accuracy of own writing"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=17015278",
+      "date": "2018-05-07",
+      "quote_or_number": "I found reader feedback to be eye-opening. Because I was getting it as I went along, I was able to adapt and change",
+      "persona_match": "y",
+      "theme": "reader feedback value",
+      "note": "Technical author praising value of continuous reader input during writing"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=27130844",
+      "date": "2021-05-12",
+      "quote_or_number": "You'll learn the mechanics... the discipline to finish, and you'll get feedback from readers about what works and what doesn't.",
+      "persona_match": "y",
+      "theme": "audience validation",
+      "note": "Technical author recommending blogging as way to get reader feedback"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=25763864",
+      "date": "2021-01-13",
+      "quote_or_number": "When I talk to other bloggers, they're often discouraged that HN ignores everything they submit... they're expressing an interesting idea, but they don't know how to articulate it",
+      "persona_match": "y",
+      "theme": "feedback scarcity",
+      "note": "Blogger noticing peers struggle to get audience feedback on posts"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49550047",
+      "date": "2026-09-03",
+      "quote_or_number": "A technical blog is a teaching tool, and nobody is willing to pay the teachers enough in money, or attention, to make it worth it.",
+      "persona_match": "y",
+      "theme": "blog sustainability",
+      "note": "Author discussing lack of incentives for maintaining technical blogs"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=34251100",
+      "date": "2023-01-04",
+      "quote_or_number": "Good feedback tells you whether the reader learned what you meant to teach. It tells you how hard it was for the reader to learn it",
+      "persona_match": "n",
+      "theme": "feedback importance",
+      "note": "Experienced tech writer on necessity of reader feedback for quality"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47579381",
+      "date": "2026-03-30",
+      "quote_or_number": "Do I communicate my ideas clearly and concisely, or are they too confuse and meandering? I typically get useful feedback.",
+      "persona_match": "y",
+      "theme": "clarity validation",
+      "note": "Writer actively seeking feedback on writing clarity"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=25131532",
+      "date": "2020-11-18",
+      "quote_or_number": "In the old days, we wrote blogs, and got replies days, weeks, months, even years later.",
+      "persona_match": "n",
+      "theme": "slow feedback cycle",
+      "note": "Discussing traditional blogging's delayed feedback loop"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=38268811",
+      "date": "2023-11-14",
+      "quote_or_number": "it's hard for me to immediately tell whether or not the advice is credible... the inclusion of your full name... would elevate the blog",
+      "persona_match": "n",
+      "theme": "credibility signals",
+      "note": "Reader feedback on establishing trust via authorship clarity"
+    },
+    {
+      "type": "pain",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=24275070",
+      "date": "2020-08-25",
+      "quote_or_number": "good writing requires... they have access to competent feedback on their own writing.",
+      "persona_match": "n",
+      "theme": "feedback requirement",
+      "note": "Professional writer noting feedback is essential to good writing"
+    },
+    {
+      "type": "competitor",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=23041624",
+      "date": "2020-05-01",
+      "quote_or_number": "I can solve the \"readers don't want to pay for content any more but content is expensive to produce\" problem by getting companies to pay for it",
+      "persona_match": "n",
+      "theme": "technical blog services",
+      "note": "Ritza: service providing technical articles for companies seeking quality content"
+    },
+    {
+      "type": "competitor",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=4230081",
+      "date": "2012-07-11",
+      "quote_or_number": "Once someone buys your book on Leanpub, they get updates to the book for free... you can keep your book up to date when technology changes.",
+      "persona_match": "n",
+      "theme": "updatable content platform",
+      "note": "LeanPub: platform solving versioning/updates for technical content"
+    },
+    {
+      "type": "competitor",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=3429810",
+      "date": "2012-01-05",
+      "quote_or_number": "Lean Publishing is the act of self-publishing a book while you are writing it, evolving the book with feedback from your readers",
+      "persona_match": "n",
+      "theme": "reader-driven evolution",
+      "note": "LeanPub defining lean publishing model with live reader input"
+    },
+    {
+      "type": "competitor",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47429434",
+      "date": "2026-03-18",
+      "quote_or_number": "published a book to help developers write more compelling blog posts... strategies for optimizing all phases of the technical blogging process",
+      "persona_match": "n",
+      "theme": "blog guide/training",
+      "note": "Writing for Developers book: teaching technical blogging best practices"
+    }
+  ]
+}

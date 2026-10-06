@@ -1,0 +1,205 @@
+{
+ "sid": "r2q04-01",
+ "terms": [
+  {
+   "term": "Uh oh!",
+   "count": 9,
+   "kind": "heading"
+  },
+  {
+   "term": "ACCEPTING",
+   "count": 12,
+   "kind": "code"
+  },
+  {
+   "term": "github-actions Bot",
+   "count": 8,
+   "kind": "bold"
+  },
+  {
+   "term": "OPEN",
+   "count": 10,
+   "kind": "acronym"
+  },
+  {
+   "term": "Poketto-Suggested-By",
+   "count": 7,
+   "kind": "code"
+  },
+  {
+   "term": "Choose a reason for hiding this comment",
+   "count": 4,
+   "kind": "heading"
+  },
+  {
+   "term": "github-actions Bot ** left a comment",
+   "count": 4,
+   "kind": "heading"
+  },
+  {
+   "term": "PUBLISH",
+   "count": 5,
+   "kind": "code"
+  },
+  {
+   "term": "PublicArticle.body",
+   "count": 5,
+   "kind": "code"
+  },
+  {
+   "term": "core607",
+   "count": 3,
+   "kind": "bold"
+  },
+  {
+   "term": "core607 ** commented Sep 24, 2026",
+   "count": 3,
+   "kind": "heading"
+  },
+  {
+   "term": "Co-Authored-By",
+   "count": 8,
+   "kind": "ngram"
+  },
+  {
+   "term": "CommunityCorrections.java",
+   "count": 4,
+   "kind": "code"
+  },
+  {
+   "term": "mine",
+   "count": 4,
+   "kind": "code"
+  },
+  {
+   "term": "Copy Markdown",
+   "count": 7,
+   "kind": "ngram"
+  },
+  {
+   "term": "CommunityCorrections.credits",
+   "count": 3,
+   "kind": "code"
+  },
+  {
+   "term": "Reviewers",
+   "count": 2,
+   "kind": "heading"
+  },
+  {
+   "term": "api",
+   "count": 3,
+   "kind": "code"
+  },
+  {
+   "term": "body",
+   "count": 3,
+   "kind": "code"
+  },
+  {
+   "term": "frontend/components/correction-proposal.tsx",
+   "count": 3,
+   "kind": "code"
+  },
+  {
+   "term": "resolve",
+   "count": 3,
+   "kind": "code"
+  },
+  {
+   "term": "ACCEPTED",
+   "count": 2,
+   "kind": "acronym"
+  },
+  {
+   "term": "AVAILABLE",
+   "count": 2,
+   "kind": "code"
+  },
+  {
+   "term": "CRLF",
+   "count": 2,
+   "kind": "acronym"
+  },
+  {
+   "term": "JGitRepositoryPatchService",
+   "count": 2,
+   "kind": "code"
+  },
+  {
+   "term": "Optional.empty",
+   "count": 2,
+   "kind": "code"
+  },
+  {
+   "term": "RepositoryReviewedBodyEdits.replaceBody",
+   "count": 2,
+   "kind": "code"
+  },
+  {
+   "term": "STALE",
+   "count": 2,
+   "kind": "acronym"
+  },
+  {
+   "term": "accept",
+   "count": 2,
+   "kind": "code"
+  },
+  {
+   "term": "catch(() => undefined",
+   "count": 2,
+   "kind": "code"
+  },
+  {
+   "term": "claim",
+   "count": 2,
+   "kind": "code"
+  },
+  {
+   "term": "credited",
+   "count": 2,
+   "kind": "code"
+  },
+  {
+   "term": "resolved_at",
+   "count": 2,
+   "kind": "code"
+  },
+  {
+   "term": "status='OPEN",
+   "count": 2,
+   "kind": "code"
+  },
+  {
+   "term": "suggestedBy",
+   "count": 2,
+   "kind": "code"
+  },
+  {
+   "term": "writes.write",
+   "count": 2,
+   "kind": "code"
+  },
+  {
+   "term": "1 participant",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Assignees",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Conflicts",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Conversation",
+   "count": 1,
+   "kind": "heading"
+  }
+ ]
+}

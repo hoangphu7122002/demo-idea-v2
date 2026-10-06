@@ -1,0 +1,62 @@
+{"rows":[
+  {
+    "type": "pain",
+    "source": "hackernews",
+    "url": "https://news.ycombinator.com/item?id=6284610",
+    "date": "2013-08-27",
+    "quote_or_number": "I want the comments to 'stick' to the item (paragraph, sentence, image): if I move it to another place in the document, if I make text amends - even if I merge two paragraphs, the comment should remain visible",
+    "persona_match": "y",
+    "theme": "persistent inline comments",
+    "note": "Blog author seeking solution for comments that maintain position after content edits"
+  },
+  {
+    "type": "pain",
+    "source": "hackernews",
+    "url": "https://news.ycombinator.com/item?id=9216151",
+    "date": "2015-03-17",
+    "quote_or_number": "Is user comments and feedback valuable, or a nice to have?",
+    "persona_match": "y",
+    "theme": "blog platform evaluation",
+    "note": "Technical author questioning importance of reader comments when choosing blogging platform"
+  },
+  {
+    "type": "pain",
+    "source": "hackernews",
+    "url": "https://news.ycombinator.com/item?id=30045034",
+    "date": "2022-01-23",
+    "quote_or_number": "the online editor is a HUGE pain. Probably the biggest reason preventing me from posting more...Are comments overrated?",
+    "persona_match": "y",
+    "theme": "blog editing friction, comment utility",
+    "note": "Solo technical blog author frustrated with WordPress editor, questioning comment value"
+  },
+  {
+    "type": "competitor",
+    "source": "hackernews",
+    "url": "https://news.ycombinator.com/item?id=43099509",
+    "date": "2025-02-19",
+    "quote_or_number": "Integrated comments like it works in Word or Google Docs",
+    "persona_match": "n",
+    "theme": "markdown tool inline comments",
+    "note": "Markdown editor tool builder identifies integrated comments as planned feature (future capability)"
+  },
+  {
+    "type": "competitor",
+    "source": "hackernews",
+    "url": "https://news.ycombinator.com/item?id=37250976",
+    "date": "2023-08-24",
+    "quote_or_number": "Leave a comment and rating for a page, share and discuss with friends and family, and collectively filter or label the quality of a page or site",
+    "persona_match": "n",
+    "theme": "collaborative page feedback system",
+    "note": "AI search engine planning comment/rating feature for community validation of pages"
+  },
+  {
+    "type": "pain",
+    "source": "hackernews",
+    "url": "https://news.ycombinator.com/item?id=42127680",
+    "date": "2024-11-13",
+    "quote_or_number": "I've been an indie tech blogger for several years, and the gradually declining page views and organic traffic point toward only one thing",
+    "persona_match": "y",
+    "theme": "technical blog relevance decline",
+    "note": "Independent technical blogger facing declining traffic, implying need for alternative engagement mechanisms"
+  }
+]}

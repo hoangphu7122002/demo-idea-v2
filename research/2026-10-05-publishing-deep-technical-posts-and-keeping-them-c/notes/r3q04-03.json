@@ -1,0 +1,374 @@
+{
+ "sid": "r3q04-03",
+ "url": "https://github.com/nownabe/blog.nownabe.com/pull/107",
+ "title": "Migrate from Hugo to Astro",
+ "published": "2026-09-19",
+ "source_type": "primary",
+ "quality_flags": [],
+ "terms": [
+  {
+   "term": "Hugo",
+   "context": "Migrates the site from Hugo to Astro 7"
+  },
+  {
+   "term": "Astro 7",
+   "context": "Migrates the site from Hugo to Astro 7 while keeping"
+  },
+  {
+   "term": "Sätteri pipeline",
+   "context": "uses Astro 7's Sätteri pipeline with two small mdast"
+  },
+  {
+   "term": "mdast plugins",
+   "context": "two small mdast plugins: emoji shortcodes"
+  },
+  {
+   "term": "emoji shortcodes",
+   "context": "mdast plugins: emoji shortcodes (Hugo's enableEmoji)"
+  },
+  {
+   "term": "Shiki",
+   "context": "Shiki dual themes give code blocks a proper dark-mode"
+  },
+  {
+   "term": "content collection",
+   "context": "content/ is loaded as an Astro content collection"
+  },
+  {
+   "term": "bun",
+   "context": "bun for packages (bun.lock), mise pins node and bun"
+  },
+  {
+   "term": "mise",
+   "context": "mise pins node and bun, mise run tasks map to bun run"
+  },
+  {
+   "term": "sitemap",
+   "context": "/feed.xml with all 214 posts, sitemap, a real 404 page"
+  },
+  {
+   "term": "textlint policy",
+   "context": "textlint policy and hosting decision (GitHub Pages vs"
+  },
+  {
+   "term": "Cloudflare",
+   "context": "textlint policy and hosting decision (GitHub Pages vs Cloudflare)"
+  },
+  {
+   "term": "GitHub Pages",
+   "context": "textlint policy and hosting decision (GitHub Pages vs Cloudflare)"
+  },
+  {
+   "term": "X share button",
+   "context": "X and Hatena share buttons stay"
+  },
+  {
+   "term": "Hatena",
+   "context": "X and Hatena share buttons stay"
+  },
+  {
+   "term": "Facebook Like",
+   "context": "Facebook Like (SDK from 2016)"
+  },
+  {
+   "term": "Pocket",
+   "context": "Pocket (service shut down in 2025)"
+  },
+  {
+   "term": "table of contents",
+   "context": "article pages with TOC and related posts"
+  },
+  {
+   "term": "KaTeX",
+   "context": "math blocks are still plain code; KaTeX rendering can come later"
+  },
+  {
+   "term": "MathJax",
+   "context": "KaTeX rendering can come later (MathJaxを導入する #23)"
+  },
+  {
+   "term": "zero-base redesign",
+   "context": "Zero-base redesign is coming, so the theme templates"
+  },
+  {
+   "term": "URL parity",
+   "context": "URL and content parity can be verified before any design"
+  },
+  {
+   "term": "content collection glob",
+   "context": "Content stays in content/ untouched (loaded with a glob collection"
+  },
+  {
+   "term": "astro check",
+   "context": "astro check: 0 errors. Browser check of top page"
+  },
+  {
+   "term": "front matter",
+   "context": "created_at/updated_at/category/number front matter"
+  },
+  {
+   "term": "/YYYY/MM/DD/slug.html/ URLs",
+   "context": "legacy /YYYY/MM/DD/slug.html/ URLs keep working"
+  },
+  {
+   "term": "/feed.xml",
+   "context": "feed.xml with all 214 posts, sitemap, a real 404 page"
+  },
+  {
+   "term": "/page/N/ pagination",
+   "context": "top page + /page/N/ pagination (with /page/1/ redirecting"
+  },
+  {
+   "term": "/page/1/ redirect",
+   "context": "pagination (with /page/1/ redirecting to / like Hugo's"
+  },
+  {
+   "term": "/tags/<tag>/",
+   "context": "/tags/ and /tags/<tag>/ (Hugo rendered these blank)"
+  },
+  {
+   "term": "year archives",
+   "context": "/2016/…/2023/ year archives (Hugo had them in the sitemap)"
+  },
+  {
+   "term": "og:image URLs",
+   "context": "two og:image URLs where Hugo emitted //images"
+  },
+  {
+   "term": "chroma.css",
+   "context": "Dropped: Facebook Like (SDK from 2016), Pocket, chroma.css"
+  },
+  {
+   "term": "enableEmoji",
+   "context": "emoji shortcodes (Hugo's enableEmoji) and esa-style"
+  },
+  {
+   "term": "esa-style code fences",
+   "context": "esa-style ```lang:filename fences, which now get a"
+  },
+  {
+   "term": "code block highlighting",
+   "context": "get a filename label and real highlighting instead of"
+  },
+  {
+   "term": "dark-mode background",
+   "context": "Shiki dual themes finally give code blocks a dark-mode"
+  },
+  {
+   "term": "deploy builds",
+   "context": "deploy builds with bun run build and publishes dist/"
+  },
+  {
+   "term": "mise run new",
+   "context": "mise run new <slug> is a small bun script replacing"
+  },
+  {
+   "term": "Hugo archetype",
+   "context": "mise run new is a small bun script replacing the Hugo archetype"
+  }
+ ],
+ "claims": [
+  {
+   "claim": "The site was migrated from Hugo to Astro 7",
+   "quote": "Migrates the site from Hugo to Astro 7",
+   "numbers": [
+    "7"
+   ]
+  },
+  {
+   "claim": "The migration maintained 172 legacy URLs from the original Hugo setup",
+   "quote": "172 legacy /YYYY/MM/DD/slug.html/ URLs keep working",
+   "numbers": [
+    "172"
+   ]
+  },
+  {
+   "claim": "The site contains 214 posts total",
+   "quote": "all 214 article bodies match as text",
+   "numbers": [
+    "214"
+   ]
+  },
+  {
+   "claim": "Content is loaded as an Astro content collection with no changes",
+   "quote": "Content is untouched",
+   "numbers": []
+  },
+  {
+   "claim": "5 articles have smart quotes differences between Hugo and Astro rendering",
+   "quote": "smart quotes adjacent to Japanese characters (5 articles",
+   "numbers": [
+    "5"
+   ]
+  },
+  {
+   "claim": "2 articles have footnote back-reference mismatches",
+   "quote": "numbered footnote back-references (2)",
+   "numbers": [
+    "2"
+   ]
+  },
+  {
+   "claim": "Facebook Like SDK dates from 2016",
+   "quote": "Facebook Like (SDK from 2016)",
+   "numbers": [
+    "2016"
+   ]
+  },
+  {
+   "claim": "Pocket service was shut down in 2025",
+   "quote": "Pocket (service shut down in 2025)",
+   "numbers": [
+    "2025"
+   ]
+  },
+  {
+   "claim": "Astro check produced 0 errors",
+   "quote": "astro check: 0 errors",
+   "numbers": [
+    "0"
+   ]
+  },
+  {
+   "claim": "The Markdown rendering uses Astro 7's Sätteri pipeline",
+   "quote": "Markdown rendering uses Astro 7's Sätteri pipeline",
+   "numbers": [
+    "7"
+   ]
+  },
+  {
+   "claim": "Shiki dual themes provide proper dark-mode support for code blocks",
+   "quote": "Shiki dual themes give code blocks a proper dark-mode background",
+   "numbers": []
+  },
+  {
+   "claim": "There are 173 articles with legacy front matter fields",
+   "quote": "Remove leftover created_at/updated_at/category/number front matter in 173 articles",
+   "numbers": [
+    "173"
+   ]
+  },
+  {
+   "claim": "The migration depends on PR #106 for deploy trigger",
+   "quote": "Depends on #106 for the deploy trigger",
+   "numbers": [
+    "106"
+   ]
+  },
+  {
+   "claim": "The site was merged on September 19, 2026",
+   "quote": "nownabe merged commit 2efd688 into main Sep 19, 2026",
+   "numbers": []
+  }
+ ],
+ "analysis_rows": [
+  {
+   "type": "landscape",
+   "entity": "Hugo",
+   "category": "static site generator",
+   "segment": "technical blogs, documentation sites",
+   "positioning": "previous platform - being migrated away from",
+   "key_facts": "used for 172 legacy URLs, content in content/ directory, includes Facebook Like SDK from 2016"
+  },
+  {
+   "type": "landscape",
+   "entity": "Astro 7",
+   "category": "static site generator",
+   "segment": "modern static sites, content-heavy sites",
+   "positioning": "new platform - migration target, supports content collections and Sätteri pipeline",
+   "key_facts": "supports Sätteri pipeline, mdast plugins, Shiki dual themes, bun as build tool"
+  },
+  {
+   "type": "landscape",
+   "entity": "bun",
+   "category": "package manager and build tool",
+   "segment": "JavaScript/TypeScript projects",
+   "positioning": "replaces npm for dependency management and build scripts",
+   "key_facts": "used with bun.lock, bun run build for deployment, mise pins the version"
+  },
+  {
+   "type": "landscape",
+   "entity": "mise",
+   "category": "environment and task manager",
+   "segment": "polyglot development, version pinning",
+   "positioning": "pins node and bun versions, maps mise run tasks to bun run scripts",
+   "key_facts": "mise run new <slug> replaces Hugo archetype for creating posts"
+  },
+  {
+   "type": "landscape",
+   "entity": "Shiki",
+   "category": "syntax highlighter",
+   "segment": "code highlighting in static sites",
+   "positioning": "provides dual themes with proper dark-mode support",
+   "key_facts": "replaces chroma.css, integrated with Astro's Sätteri pipeline"
+  },
+  {
+   "type": "landscape",
+   "entity": "textlint",
+   "category": "text linting tool",
+   "segment": "Japanese technical writing",
+   "positioning": "pending deployment policy decision",
+   "key_facts": "referenced as future work, policy and hosting decision still pending"
+  },
+  {
+   "type": "landscape",
+   "entity": "GitHub Pages vs Cloudflare",
+   "category": "hosting platforms",
+   "segment": "static site hosting",
+   "positioning": "two deployment options under consideration",
+   "key_facts": "decision on hosting provider is a follow-up item post-migration"
+  },
+  {
+   "type": "root_cause",
+   "symptom": "Theme templates need complete redesign",
+   "cause": "Zero-base redesign is planned as the next major milestone",
+   "evidence": "PR description states: 'Zero-base redesign is coming, so the theme templates had no future'",
+   "fix": "Migrate to Astro first while maintaining parity, then implement redesign on top - referenced in PR #108 'Redesign: text-first, year-sectioned layout'"
+  },
+  {
+   "type": "root_cause",
+   "symptom": "Legacy URLs from Hugo need to remain functional",
+   "cause": "172 legacy /YYYY/MM/DD/slug.html/ URLs from Hugo setup must continue working",
+   "evidence": "Content loaded as Astro content collection with id as file path preserves URLs",
+   "fix": "Use content collection glob pattern where collection id doubles as URL path"
+  },
+  {
+   "type": "comparison",
+   "option": "Hugo vs Astro",
+   "criterion": "URL handling for legacy content",
+   "value": "Both support 172 legacy /YYYY/MM/DD/slug.html/ URLs with identical rendering"
+  },
+  {
+   "type": "comparison",
+   "option": "Hugo vs Astro",
+   "criterion": "Code block rendering",
+   "value": "Astro with Shiki provides dark-mode background; Hugo had TODO comment for this feature"
+  },
+  {
+   "type": "comparison",
+   "option": "Hugo vs Astro",
+   "criterion": "Tag pages",
+   "value": "Astro now lists posts per tag; Hugo rendered tag pages blank"
+  },
+  {
+   "type": "comparison",
+   "option": "Hugo vs Astro",
+   "criterion": "Year archive pages",
+   "value": "Astro creates /2016/…/2023/ year archives; Hugo had them in sitemap but as blank pages"
+  },
+  {
+   "type": "comparison",
+   "option": "Hugo vs Astro",
+   "criterion": "Emoji rendering",
+   "value": "Both support emoji shortcodes via plugins; Astro uses mdast plugin, Hugo has enableEmoji"
+  },
+  {
+   "type": "comparison",
+   "option": "Hugo vs Astro",
+   "criterion": "Related posts",
+   "value": "Astro shows related posts on article pages by shared tags; no mention in Hugo setup"
+  }
+ ],
+ "model": "haiku",
+ "_recall": 0.65
+}

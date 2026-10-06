@@ -1,0 +1,312 @@
+{
+ "sid": "r2q02-04",
+ "url": "https://hashnode.com/blog/publishing-a-blog-post-to-hashnode-using-a-custom-editing-interface",
+ "title": "Publishing a blog post to Hashnode using a custom editing interface",
+ "published": "2024-04-30",
+ "source_type": "blog",
+ "quality_flags": [
+  "outdated"
+ ],
+ "terms": [
+  {
+   "term": "Hashnode API",
+   "context": "learn how to publish blog posts using our custom editing interface. We will use Hashnode API"
+  },
+  {
+   "term": "MDXEditor",
+   "context": "custom editing interface. We will use Hashnode API and MDXEditor for demo purposes."
+  },
+  {
+   "term": "React",
+   "context": "create vite@latest my-editor -- --template react-ts. With node.js, npm installed"
+  },
+  {
+   "term": "Vite",
+   "context": "boilerplate using Vite. npm create vite@latest my-editor -- --template react-ts"
+  },
+  {
+   "term": "node.js",
+   "context": "With node.js, npm installed, please run the following command to install the React"
+  },
+  {
+   "term": "npm",
+   "context": "With node.js, npm installed, please run the following command to install the React"
+  },
+  {
+   "term": "Tailwind",
+   "context": "We're going to add Tailwind in the next steps and use this file."
+  },
+  {
+   "term": "@tailwindcss/typography",
+   "context": "Install Tailwind and @tailwindcss/typograph package, using npm and npx"
+  },
+  {
+   "term": "publishPost mutation",
+   "context": "API request we're going to send to Hashnode GraphQL API. We'll use the publishPost mutation"
+  },
+  {
+   "term": "GraphQL API",
+   "context": "GraphQL API. We'll use the publishPost mutation but if you don't want to publish"
+  },
+  {
+   "term": "Personal Access Token (PAT)",
+   "context": "mutations need an authentication header. We're going to use publishPost mutation, therefore, we need to authenticate. It's really easy, include our Personal Access Token (PAT)"
+  },
+  {
+   "term": "Authorization header",
+   "context": "authenticate our user. It's really easy to do, we just need to include our Personal Access Token (PAT) in the Authorization header."
+  },
+  {
+   "term": "publication ID",
+   "context": "We can easily copy the publication ID from our blog's dashboard URL."
+  },
+  {
+   "term": "gql.hashnode.com",
+   "context": "can send a publish post request. Let's go back to creating the publishPost function endpoint: https://gql.hashnode.com"
+  },
+  {
+   "term": "contentMarkdown",
+   "context": "publicationId: 65d99cd9447d15d98a2fc264, title: title, contentMarkdown: editorRef.current?.getMarkdown()"
+  },
+  {
+   "term": "createDraft mutation",
+   "context": "We'll use the publishPost mutation but if you don't want to publish your posts immediately, you can also use the createDraft mutation."
+  },
+  {
+   "term": "Hot Reloading",
+   "context": "Hot Reloading is enabled by default. Any changes will have an immediate effect on the browser window."
+  },
+  {
+   "term": "BlockTypeSelect",
+   "context": "toolbarContents: () => ( <UndoRedo/> <BlockTypeSelect/> <BoldItalicUnderlineToggles/>"
+  },
+  {
+   "term": "UndoRedo",
+   "context": "toolbarContents: () => ( <UndoRedo/> <BlockTypeSelect/> <BoldItalicUnderlineToggles/>"
+  },
+  {
+   "term": "BoldItalicUnderlineToggles",
+   "context": "toolbarContents: () => ( <UndoRedo/> <BlockTypeSelect/> <BoldItalicUnderlineToggles/>"
+  },
+  {
+   "term": "headingsPlugin",
+   "context": "plugins={[ headingsPlugin(), linkPlugin(), markdownShortcutPlugin(), toolbarPlugin"
+  },
+  {
+   "term": "linkPlugin",
+   "context": "plugins={[ headingsPlugin(), linkPlugin(), markdownShortcutPlugin(), toolbarPlugin"
+  },
+  {
+   "term": "markdownShortcutPlugin",
+   "context": "plugins={[ headingsPlugin(), linkPlugin(), markdownShortcutPlugin(), toolbarPlugin"
+  },
+  {
+   "term": "toolbarPlugin",
+   "context": "plugins={[ headingsPlugin(), linkPlugin(), markdownShortcutPlugin(), toolbarPlugin"
+  },
+  {
+   "term": "editorRef",
+   "context": "const editorRef = React.useRef<MDXEditorMethods>(null); ref={editorRef}"
+  },
+  {
+   "term": "MDXEditorMethods",
+   "context": "const editorRef = React.useRef<MDXEditorMethods>(null); ref={editorRef}"
+  },
+  {
+   "term": "useState",
+   "context": "const [title, setTitle] = useState<string>(''); const [previewLink, setPreviewLink]"
+  },
+  {
+   "term": "fetch API",
+   "context": "can send a publish post request. Let's go back to creating publishPost const response = await fetch"
+  },
+  {
+   "term": "Content-Type application/json",
+   "context": "headers: { Content-Type: application/json, Accept: application/json, Authorization"
+  },
+  {
+   "term": "http://localhost:5173/",
+   "context": "ready in 80 ms ➜ Local: http://localhost:5173/ ➜ Network: use --host to expose"
+  },
+  {
+   "term": "VITE v5.1.3",
+   "context": "VITE v5.1.3 ready in 80 ms ➜ Local: http://localhost:5173/"
+  },
+  {
+   "term": "TypeScript",
+   "context": "npm create vite@latest my-editor -- --template react-ts. Type-safe definition"
+  },
+  {
+   "term": "MDX",
+   "context": "custom editing interface with MDXEditor for authoring MDX-formatted blog content"
+  },
+  {
+   "term": "JSON response",
+   "context": "const result = await response.json() as ApiResponse; setPreviewLink"
+  },
+  {
+   "term": "prose max-w-none",
+   "context": "className=\"prose max-w-none\"> <MDXEditor ref={editorRef} className=\"my-5\""
+  },
+  {
+   "term": "tailwind.config.js",
+   "context": "need to set up the Tailwind config file, tailwind.config.js"
+  },
+  {
+   "term": "postcss",
+   "context": "npm install -D tailwindcss postcss autoprefixer @tailwindcss/typography"
+  },
+  {
+   "term": "autoprefixer",
+   "context": "npm install -D tailwindcss postcss autoprefixer @tailwindcss/typography"
+  },
+  {
+   "term": "inline code formatting",
+   "context": "basic setup, and this setup doesn't allow advanced text editing. It only supports bold, italic, underline, and inline code."
+  },
+  {
+   "term": "Developer Settings",
+   "context": "need to authenticate our user. Please go ahead and grab your token from the Hashnode Developer Settings page."
+  },
+  {
+   "term": "flexbox ml-auto",
+   "context": "will also leverage flexbox and ml-auto Tailwind class"
+  },
+  {
+   "term": "My Blog Editor",
+   "context": "h1 className=\"text-5xl\">My Blog Editor</h1> as the title placeholder"
+  },
+  {
+   "term": "XXXX",
+   "context": "const PERSONAL_ACCESS_TOKEN = 'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX';"
+  },
+  {
+   "term": "MCP",
+   "context": "Hashnode MCP server: manage your blog from Claude, ChatGPT, and Cursor"
+  },
+  {
+   "term": "npm run dev",
+   "context": "We're ready to serve our project using the CLI command npm run dev"
+  },
+  {
+   "term": "src/App.tsx",
+   "context": "Clean up the src/App.tsx The App component should look like this after the cleanup"
+  },
+  {
+   "term": "src/index.css",
+   "context": "Clean up everything in src/index.css, so the file should be completely empty"
+  },
+  {
+   "term": "Conclusion",
+   "context": "learned how to use Hashnode GraphQL API to create a custom React text editor"
+  },
+  {
+   "term": "Introduction",
+   "context": "Today, we're going to learn how to publish blog posts using our custom editing interface"
+  }
+ ],
+ "claims": [
+  {
+   "claim": "MDXEditor is highly customizable with available plugins and customizable toolbar",
+   "quote": "MDXEditor is highly customizable, you can head to the MDXEditor docs",
+   "numbers": []
+  },
+  {
+   "claim": "Hashnode GraphQL queries can be accessed without authentication but mutations require authentication",
+   "quote": "Almost all Hashnode GraphQL queries can be accessed without any authentication mechanism. But, all mutations need",
+   "numbers": []
+  },
+  {
+   "claim": "Published blog posts are accessed via a preview URL returned from the API response",
+   "quote": "click on the preview URL and see our new shiny blog post",
+   "numbers": []
+  },
+  {
+   "claim": "MDXEditor supports basic formatting: bold, italic, underline, and inline code in basic setup",
+   "quote": "this setup doesn't allow advanced text editing. It only supports bold, italic, underline, and inline code",
+   "numbers": []
+  },
+  {
+   "claim": "Hot reloading is enabled by default in Vite development server",
+   "quote": "Hot Reloading is enabled by default. Any changes will have an immediate effect on the browser",
+   "numbers": []
+  },
+  {
+   "claim": "Hashnode development server runs on localhost:5173 by default",
+   "quote": "Local: http://localhost:5173/",
+   "numbers": []
+  },
+  {
+   "claim": "Publication ID can be found in the Hashnode blog dashboard URL",
+   "quote": "We can easily copy the publication ID from our blog's dashboard URL",
+   "numbers": []
+  },
+  {
+   "claim": "Personal Access Tokens must be included in Authorization header for Hashnode GraphQL mutations",
+   "quote": "include our Personal Access Token (PAT) in the Authorization header",
+   "numbers": []
+  },
+  {
+   "claim": "MDXEditor offers toolbar plugin for customizing editor interface buttons and controls",
+   "quote": "toolbarPlugin({ toolbarContents: () => ( <UndoRedo/> <BlockTypeSelect/>",
+   "numbers": []
+  },
+  {
+   "claim": "Content is submitted to Hashnode as markdown format via contentMarkdown parameter",
+   "quote": "contentMarkdown: editorRef.current?.getMarkdown()",
+   "numbers": []
+  }
+ ],
+ "analysis_rows": [
+  {
+   "type": "landscape",
+   "entity": "Hashnode",
+   "category": "blogging platform",
+   "segment": "technical writers, developers",
+   "positioning": "GraphQL API for custom publishing interfaces",
+   "key_facts": "Provides GraphQL API for publishing, draft creation, Personal Access Tokens for auth, publication-based organization"
+  },
+  {
+   "type": "landscape",
+   "entity": "MDXEditor",
+   "category": "editor library",
+   "segment": "React-based blog editors",
+   "positioning": "Customizable MDX editor with plugin system, toolbar controls",
+   "key_facts": "Supports bold, italic, underline, inline code, headings, links, markdown shortcuts, configurable via plugins"
+  },
+  {
+   "type": "landscape",
+   "entity": "Vite",
+   "category": "build tool",
+   "segment": "React development",
+   "positioning": "Fast development server with hot reloading",
+   "key_facts": "v5.1.3 mentioned, development server runs on localhost:5173, enables fast iteration"
+  },
+  {
+   "type": "landscape",
+   "entity": "React",
+   "category": "JavaScript framework",
+   "segment": "frontend development",
+   "positioning": "Component-based UI framework for blog editor",
+   "key_facts": "Used with TypeScript, Vite template available, useRef and useState hooks for state management"
+  },
+  {
+   "type": "landscape",
+   "entity": "Tailwind CSS",
+   "category": "CSS framework",
+   "segment": "utility-first styling",
+   "positioning": "Styling for custom blog editor interface",
+   "key_facts": "@tailwindcss/typography plugin included, supports responsive and interactive styling"
+  },
+  {
+   "type": "landscape",
+   "entity": "Hashnode GraphQL API",
+   "category": "API service",
+   "segment": "blog automation",
+   "positioning": "Endpoint at gql.hashnode.com for publishing operations",
+   "key_facts": "Supports publishPost and createDraft mutations, requires PAT authentication for mutations, returns preview URL"
+  }
+ ],
+ "model": "haiku",
+ "_recall": 1.0
+}

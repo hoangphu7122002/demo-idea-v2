@@ -1,0 +1,74 @@
+{
+  "rows": [
+    {
+      "type": "competitor",
+      "source": "Product Hunt",
+      "url": "https://www.producthunt.com/products/brevy-beta",
+      "date": "2021-03-09",
+      "quote_or_number": "Give feedback, Google-doc style, directly on your website",
+      "persona_match": "y",
+      "theme": "inline-feedback",
+      "note": "Allows teams to leave comments directly on web pages, similar to Google Docs comments; integrates with Slack/Jira for workflow automation"
+    },
+    {
+      "type": "competitor",
+      "source": "Product Hunt",
+      "url": "https://www.producthunt.com/products/collabwriting",
+      "date": "2026-08-19",
+      "quote_or_number": "Where agents and humans learn, build, and ship",
+      "persona_match": "y",
+      "theme": "collaborative-knowledge",
+      "note": "Second-brain aggregating saved content, highlights, and learning materials with AI agents to transform knowledge into actionable work"
+    },
+    {
+      "type": "competitor",
+      "source": "Product Hunt",
+      "url": "https://www.producthunt.com/products/flask-6",
+      "date": "2025-10-01",
+      "quote_or_number": "Give complex creative feedback, without typing comments",
+      "persona_match": "n",
+      "theme": "feedback-tool",
+      "note": "Video collaboration platform with screen recording, annotation, visual references; positioned for creative/motion design work, not technical writing"
+    },
+    {
+      "type": "competitor",
+      "source": "Product Hunt",
+      "url": "https://www.producthunt.com/products/project-feed",
+      "date": "2026-09-16",
+      "quote_or_number": "Project management with built-in file review",
+      "persona_match": "n",
+      "theme": "project-management",
+      "note": "Collaborative workspace with feed-style updates, visual markup, and task organization; designed for game developers and design agencies"
+    },
+    {
+      "type": "competitor",
+      "source": "Product Hunt",
+      "url": "https://www.producthunt.com/products/flowershow",
+      "date": "2026-04-05",
+      "quote_or_number": "Publish your markdown as a beautiful website – in seconds",
+      "persona_match": "y",
+      "theme": "markdown-publishing",
+      "note": "Hosted markdown publishing with Git integration via GitHub/Obsidian/CLI; supports blogs, docs, wikis, and knowledge bases without vendor lock-in"
+    },
+    {
+      "type": "competitor",
+      "source": "Product Hunt",
+      "url": "https://www.producthunt.com/products/hackmd",
+      "date": "2024-08-29",
+      "quote_or_number": "Get everyone on the same page with Markdown",
+      "persona_match": "y",
+      "theme": "collaborative-markdown",
+      "note": "Real-time collaborative markdown workspace for developers with integrations for GitHub, Obsidian, Neovim, VSCode"
+    },
+    {
+      "type": "competitor",
+      "source": "Product Hunt",
+      "url": "https://www.producthunt.com/products/openmarkdown",
+      "date": "2026-07-18",
+      "quote_or_number": "A markdown editor you and your agent co-edit",
+      "persona_match": "y",
+      "theme": "ai-markdown-editing",
+      "note": "Lightweight markdown editor with simultaneous AI agent co-editing via CLI, plugins, and MCP; local-first with no account requirements"
+    }
+  ]
+}

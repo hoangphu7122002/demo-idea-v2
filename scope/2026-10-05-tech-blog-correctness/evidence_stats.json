@@ -1,0 +1,458 @@
+{
+ "rows": 143,
+ "by": {
+  "agent": 120,
+  "human": 23
+ },
+ "by_type": {
+  "competitor": 32,
+  "pain": 86,
+  "review": 21,
+  "spend": 4
+ },
+ "pain_quotes": 56,
+ "pain_places": 10,
+ "themes": [
+  {
+   "theme": "inline comments wanted",
+   "quotes": 2,
+   "places": 1,
+   "ids": [
+    "E130",
+    "E131"
+   ]
+  },
+  {
+   "theme": "author staleness concern",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E004"
+   ]
+  },
+  {
+   "theme": "author post decay",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E005"
+   ]
+  },
+  {
+   "theme": "keep content current",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E015"
+   ]
+  },
+  {
+   "theme": "book staleness challenge",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E017"
+   ]
+  },
+  {
+   "theme": "outdated documentation gap",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E018"
+   ]
+  },
+  {
+   "theme": "daily updates prevent staleness",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E021"
+   ]
+  },
+  {
+   "theme": "correct outdated beliefs",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E023"
+   ]
+  },
+  {
+   "theme": "docs staleness burden",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E024"
+   ]
+  },
+  {
+   "theme": "inline feedback for blogs",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E025"
+   ]
+  },
+  {
+   "theme": "writing valued in tech",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E028"
+   ]
+  },
+  {
+   "theme": "blog impact career",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E029"
+   ]
+  },
+  {
+   "theme": "online comments attract opportunities",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E030"
+   ]
+  },
+  {
+   "theme": "blog quality problems",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E031"
+   ]
+  },
+  {
+   "theme": "blog comment systems",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E032"
+   ]
+  },
+  {
+   "theme": "blog comments drive connections",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E033"
+   ]
+  },
+  {
+   "theme": "benefits of technical blogging",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E034"
+   ]
+  },
+  {
+   "theme": "persistent inline comments",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E035"
+   ]
+  },
+  {
+   "theme": "blog platform evaluation",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E036"
+   ]
+  },
+  {
+   "theme": "blog editing friction, comment utility",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E037"
+   ]
+  },
+  {
+   "theme": "technical blog relevance decline",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E040"
+   ]
+  },
+  {
+   "theme": "long posts editing suggestions",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E043"
+   ]
+  },
+  {
+   "theme": "reader feedback loops",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E048"
+   ]
+  },
+  {
+   "theme": "staleness detection",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E049"
+   ]
+  },
+  {
+   "theme": "technical correctness",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E050"
+   ]
+  },
+  {
+   "theme": "reader feedback value",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E051"
+   ]
+  },
+  {
+   "theme": "audience validation",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E052"
+   ]
+  },
+  {
+   "theme": "feedback scarcity",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E053"
+   ]
+  },
+  {
+   "theme": "blog sustainability",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E054"
+   ]
+  },
+  {
+   "theme": "clarity validation",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E056"
+   ]
+  },
+  {
+   "theme": "blog maintenance burden",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E077"
+   ]
+  },
+  {
+   "theme": "blog post decay",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E086"
+   ]
+  },
+  {
+   "theme": "blogging relevance doubt",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E092"
+   ]
+  },
+  {
+   "theme": "content staleness",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E094"
+   ]
+  },
+  {
+   "theme": "seeking community feedback",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E099"
+   ]
+  },
+  {
+   "theme": "documentation incompleteness",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E100"
+   ]
+  },
+  {
+   "theme": "missing context and reasoning",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E101"
+   ]
+  },
+  {
+   "theme": "customer service",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E102"
+   ]
+  },
+  {
+   "theme": "disrespectful support",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E103"
+   ]
+  },
+  {
+   "theme": "unhelpful support",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E104"
+   ]
+  },
+  {
+   "theme": "refund issues",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E105"
+   ]
+  },
+  {
+   "theme": "display bugs",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E106"
+   ]
+  },
+  {
+   "theme": "poor ux",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E107"
+   ]
+  },
+  {
+   "theme": "misleading free trial",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E108"
+   ]
+  },
+  {
+   "theme": "billing confusion",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E109"
+   ]
+  },
+  {
+   "theme": "import limitations",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E110"
+   ]
+  },
+  {
+   "theme": "stale posts, comments",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E121"
+   ]
+  },
+  {
+   "theme": "stale posts, no tooling",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E122"
+   ]
+  },
+  {
+   "theme": "errors unreported",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E123"
+   ]
+  },
+  {
+   "theme": "corrections in comments",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E124"
+   ]
+  },
+  {
+   "theme": "comment spam",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E125"
+   ]
+  },
+  {
+   "theme": "wants public feedback",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E126"
+   ]
+  },
+  {
+   "theme": "comment spam, gave up comments",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E127"
+   ]
+  },
+  {
+   "theme": "comments not worth effort",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E128"
+   ]
+  },
+  {
+   "theme": "diy comments, scattered",
+   "quotes": 1,
+   "places": 1,
+   "ids": [
+    "E129"
+   ]
+  }
+ ]
+}

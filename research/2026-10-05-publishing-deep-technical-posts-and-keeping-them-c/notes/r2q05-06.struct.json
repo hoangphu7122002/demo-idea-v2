@@ -1,0 +1,205 @@
+{
+ "sid": "r2q05-06",
+ "terms": [
+  {
+   "term": "AI",
+   "count": 363,
+   "kind": "acronym"
+  },
+  {
+   "term": "IPL",
+   "count": 46,
+   "kind": "acronym"
+  },
+  {
+   "term": "PKL",
+   "count": 40,
+   "kind": "acronym"
+  },
+  {
+   "term": "ISL",
+   "count": 36,
+   "kind": "acronym"
+  },
+  {
+   "term": "Frequently Asked Questions",
+   "count": 16,
+   "kind": "heading"
+  },
+  {
+   "term": "ROI",
+   "count": 21,
+   "kind": "acronym"
+  },
+  {
+   "term": "API",
+   "count": 19,
+   "kind": "acronym"
+  },
+  {
+   "term": "README",
+   "count": 14,
+   "kind": "acronym"
+  },
+  {
+   "term": "Layer Rule",
+   "count": 26,
+   "kind": "ngram"
+  },
+  {
+   "term": "Conclusion",
+   "count": 8,
+   "kind": "heading"
+  },
+  {
+   "term": "The Short Answer",
+   "count": 8,
+   "kind": "heading"
+  },
+  {
+   "term": "ADR",
+   "count": 7,
+   "kind": "acronym"
+  },
+  {
+   "term": "ADRs",
+   "count": 7,
+   "kind": "acronym"
+  },
+  {
+   "term": "Automated Fan Segmentation",
+   "count": 4,
+   "kind": "heading"
+  },
+  {
+   "term": "BCCI",
+   "count": 6,
+   "kind": "acronym"
+  },
+  {
+   "term": "Churn Prediction",
+   "count": 4,
+   "kind": "heading"
+  },
+  {
+   "term": "Fan Analytics Maturity Model",
+   "count": 4,
+   "kind": "heading"
+  },
+  {
+   "term": "ID",
+   "count": 5,
+   "kind": "acronym"
+  },
+  {
+   "term": "PR",
+   "count": 5,
+   "kind": "acronym"
+  },
+  {
+   "term": "ADR-003: Use Redis for Session Storage",
+   "count": 3,
+   "kind": "heading"
+  },
+  {
+   "term": "Consequences",
+   "count": 3,
+   "kind": "heading"
+  },
+  {
+   "term": "Context",
+   "count": 3,
+   "kind": "heading"
+  },
+  {
+   "term": "Decision",
+   "count": 3,
+   "kind": "heading"
+  },
+  {
+   "term": "Status: Accepted",
+   "count": 3,
+   "kind": "heading"
+  },
+  {
+   "term": "BI",
+   "count": 4,
+   "kind": "acronym"
+  },
+  {
+   "term": "OTT",
+   "count": 4,
+   "kind": "acronym"
+  },
+  {
+   "term": "PBL",
+   "count": 4,
+   "kind": "acronym"
+  },
+  {
+   "term": "RPA",
+   "count": 4,
+   "kind": "acronym"
+  },
+  {
+   "term": "TV",
+   "count": 4,
+   "kind": "acronym"
+  },
+  {
+   "term": "Raj Gupta",
+   "count": 7,
+   "kind": "ngram"
+  },
+  {
+   "term": "4. What data does AI fan analytics require?",
+   "count": 2,
+   "kind": "heading"
+  },
+  {
+   "term": "6. How does the 3-Layer Rule handle exceptions?",
+   "count": 2,
+   "kind": "heading"
+  },
+  {
+   "term": "AI Use Cases by Indian Sports League Type",
+   "count": 2,
+   "kind": "heading"
+  },
+  {
+   "term": "Accountability must be assignable to a human",
+   "count": 2,
+   "kind": "bold"
+  },
+  {
+   "term": "Asset Delivery Verification",
+   "count": 2,
+   "kind": "heading"
+  },
+  {
+   "term": "Authentication",
+   "count": 2,
+   "kind": "bold"
+  },
+  {
+   "term": "Automated Sponsor Reporting",
+   "count": 2,
+   "kind": "heading"
+  },
+  {
+   "term": "Calculation",
+   "count": 2,
+   "kind": "bold"
+  },
+  {
+   "term": "Code Documentation Comparison",
+   "count": 2,
+   "kind": "heading"
+  },
+  {
+   "term": "Cost-efficient operations",
+   "count": 2,
+   "kind": "bold"
+  }
+ ]
+}

@@ -1,0 +1,423 @@
+{
+ "sid": "r3q01-07",
+ "url": "https://fiberplane.com/blog/drift-documentation-linter/",
+ "title": "We built a linter for documentation rot",
+ "published": "2026-03-25",
+ "source_type": "vendor",
+ "quality_flags": [],
+ "terms": [
+  {
+   "term": "Drift",
+   "context": "a linter tool that anchors markdown docs to code"
+  },
+  {
+   "term": "tree-sitter",
+   "context": "parsing technology used to parse code AST"
+  },
+  {
+   "term": "git",
+   "context": "version control system used for tracking code changes"
+  },
+  {
+   "term": "AST fingerprinting",
+   "context": "syntax-aware comparison method for detecting code changes"
+  },
+  {
+   "term": "CI",
+   "context": "continuous integration pipeline where drift check runs"
+  },
+  {
+   "term": "spec-driven development",
+   "context": "development methodology where specs guide code"
+  },
+  {
+   "term": "Effect",
+   "context": "tool used by Fiberplane for code explicitness"
+  },
+  {
+   "term": "ast-grep",
+   "context": "structural linting tool for enforcing code rules"
+  },
+  {
+   "term": "OAuth2",
+   "context": "authentication protocol referenced in example docs"
+  },
+  {
+   "term": "TypeScript",
+   "context": "programming language with syntax-aware comparison support"
+  },
+  {
+   "term": "Python",
+   "context": "programming language with syntax-aware comparison support"
+  },
+  {
+   "term": "Rust",
+   "context": "programming language with doc tests approach"
+  },
+  {
+   "term": "Go",
+   "context": "programming language with syntax-aware comparison support"
+  },
+  {
+   "term": "Zig",
+   "context": "programming language with syntax-aware comparison support"
+  },
+  {
+   "term": "Java",
+   "context": "programming language with syntax-aware comparison support"
+  },
+  {
+   "term": "Fiberplane",
+   "context": "organization that built drift and fp.dev"
+  },
+  {
+   "term": "fp.dev",
+   "context": "product built by Fiberplane with agent-optimized codebase"
+  },
+  {
+   "term": "Claude Code",
+   "context": "coding agent tool that can use drift skill"
+  },
+  {
+   "term": "Codex",
+   "context": "coding agent tool that can use drift skill"
+  },
+  {
+   "term": "Cursor",
+   "context": "coding IDE tool that can use drift skill"
+  },
+  {
+   "term": "anchor",
+   "context": "markdown frontmatter binding spec files to code"
+  },
+  {
+   "term": "provenance",
+   "context": "git-sha suffix recording last review commit"
+  },
+  {
+   "term": "symbol",
+   "context": "optional anchor part narrowing to specific declaration"
+  },
+  {
+   "term": "path",
+   "context": "required anchor part specifying file relative to repo root"
+  },
+  {
+   "term": "markdown frontmatter",
+   "context": "metadata format used to define drift anchors"
+  },
+  {
+   "term": "git show",
+   "context": "git command used to fetch file content at baseline"
+  },
+  {
+   "term": "staleness detection",
+   "context": "core mechanism comparing code at baseline vs current"
+  },
+  {
+   "term": "git-sha",
+   "context": "commit hash used as provenance marker"
+  },
+  {
+   "term": "Laurynas Keturakis",
+   "context": "author of the blog post"
+  },
+  {
+   "term": "Fiberplane Team",
+   "context": "team publishing follow-up articles on agent patterns"
+  },
+  {
+   "term": "LLM",
+   "context": "language model approach considered expensive for every commit"
+  },
+  {
+   "term": "PR",
+   "context": "pull request referenced in example of agent code changes"
+  },
+  {
+   "term": "TOML",
+   "context": "lockfile format that reduced merge conflicts from 44% to 25%"
+  },
+  {
+   "term": "doc tests",
+   "context": "existing approach for keeping code examples in sync"
+  },
+  {
+   "term": "snippet embedding tools",
+   "context": "existing tools for keeping code examples in sync"
+  },
+  {
+   "term": "agent-optimized codebase",
+   "context": "codebase designed to work well with AI agents"
+  },
+  {
+   "term": "Otter",
+   "context": "agent tool for full automation discussed in follow-up"
+  },
+  {
+   "term": "Self-Driving Codebase",
+   "context": "concept of fully automated agent code changes"
+  },
+  {
+   "term": "How `drift` works",
+   "context": "section explaining drift mechanism and usage"
+  },
+  {
+   "term": "How staleness detection works",
+   "context": "section explaining AST-based change detection"
+  },
+  {
+   "term": "Anchor anatomy",
+   "context": "section defining parts of anchor: path, symbol, provenance"
+  },
+  {
+   "term": "Auth Architecture",
+   "context": "example specification file binding to code"
+  },
+  {
+   "term": "Typical workflow",
+   "context": "section describing steps from spec to code to CI check"
+  },
+  {
+   "term": "Write a spec",
+   "context": "first step in typical workflow"
+  },
+  {
+   "term": "Bind it to code",
+   "context": "second step in typical workflow"
+  },
+  {
+   "term": "Code evolves",
+   "context": "third step in typical workflow"
+  },
+  {
+   "term": "CI catches it",
+   "context": "fourth step in typical workflow"
+  },
+  {
+   "term": "Update the spec",
+   "context": "fifth step in typical workflow"
+  },
+  {
+   "term": "TLDR",
+   "context": "summary highlighting drift uses tree-sitter, git, and AST fingerprinting"
+  },
+  {
+   "term": "More from the lab",
+   "context": "section linking to related articles on agents and code patterns"
+  }
+ ],
+ "claims": [
+  {
+   "claim": "Drift anchors markdown docs to source code using tree-sitter and git",
+   "quote": "Drift anchors your markdown specs to source code using tree-sitter and git",
+   "numbers": []
+  },
+  {
+   "claim": "When anchored code changes, drift check catches it in CI via AST fingerprinting",
+   "quote": "When the anchored code changes, `drift check` catches it in CI via AST fingerprinting",
+   "numbers": []
+  },
+  {
+   "claim": "Specs go stale quickly in fast-moving codebases",
+   "quote": "Specs go stale fast in a fast-moving codebase",
+   "numbers": []
+  },
+  {
+   "claim": "Existing approaches focus on keeping code examples in sync, not prose description",
+   "quote": "all focus on keeping code examples in sync, not the prose that describes them",
+   "numbers": []
+  },
+  {
+   "claim": "Using LLM for staleness check on every commit is expensive",
+   "quote": "burning tokens every commit to answer did this doc go stale is expensive",
+   "numbers": []
+  },
+  {
+   "claim": "Drift supports syntax-aware comparison for 7 languages",
+   "quote": "The comparison is syntax-aware for all supported languages (TypeScript, Python, Rust, Go, Zig, Java)",
+   "numbers": [
+    "7"
+   ]
+  },
+  {
+   "claim": "For unsupported languages, drift falls back to raw content comparison",
+   "quote": "For unsupported languages, drift falls back to raw content comparison",
+   "numbers": []
+  },
+  {
+   "claim": "Fiberplane uses Effect for code explicitness",
+   "quote": "we've wholly embraced tools like Effect, for its explicitness",
+   "numbers": []
+  },
+  {
+   "claim": "Fiberplane uses ast-grep for structural linting",
+   "quote": "`ast-grep` for structural linting to enforce our code shape and rules",
+   "numbers": []
+  },
+  {
+   "claim": "Drift parses code with tree-sitter and hashes normalized AST fingerprint",
+   "quote": "Drift parses the code with tree-sitter and hashes a normalized AST fingerprint",
+   "numbers": []
+  },
+  {
+   "claim": "AST fingerprint includes node kinds and token text but not whitespace or position",
+   "quote": "node kinds + token text, no whitespace or position data",
+   "numbers": []
+  },
+  {
+   "claim": "Agents are prolific code changers but bad at knowing what else their changes affect",
+   "quote": "Agents are prolific code changers but terrible at knowing what else their change affects",
+   "numbers": []
+  },
+  {
+   "claim": "Drift CI gate helps catch when code changes require spec updates",
+   "quote": "you touched `AuthConfig`, now update the spec that describes it",
+   "numbers": []
+  },
+  {
+   "claim": "drift link command stamps provenance automatically",
+   "quote": "You don't need to write provenance by hand. `drift link` stamps it automatically",
+   "numbers": []
+  },
+  {
+   "claim": "Switching lockfile format to TOML reduced merge conflicts from 44% to 25%",
+   "quote": "Switching drift's lockfile to TOML cut the rate from ~44% to ~25%",
+   "numbers": [
+    "44",
+    "25"
+   ]
+  },
+  {
+   "claim": "Drift is open source on github.com/fiberplane/drift",
+   "quote": "Drift is open source — github.com/fiberplane/drift",
+   "numbers": []
+  },
+  {
+   "claim": "Can install drift via curl script",
+   "quote": "curl -fsSL https://drift.fp.dev/install.sh | sh",
+   "numbers": []
+  },
+  {
+   "claim": "Fiberplane drives fp.dev development with fp itself",
+   "quote": "we drive most of fp.dev development with fp itself",
+   "numbers": []
+  },
+  {
+   "claim": "Article published 25 March 2026",
+   "quote": "25 March 2026",
+   "numbers": []
+  },
+  {
+   "claim": "Read time is 4 minutes",
+   "quote": "4 min read",
+   "numbers": [
+    "4"
+   ]
+  }
+ ],
+ "analysis_rows": [
+  {
+   "type": "landscape",
+   "entity": "Drift",
+   "category": "documentation linter tool",
+   "segment": "agents, developers, technical documentation",
+   "positioning": "solves documentation rot and staleness via AST-aware anchoring to code",
+   "key_facts": "open source, tree-sitter and git based, supports 7 languages, by Fiberplane, 2026"
+  },
+  {
+   "type": "landscape",
+   "entity": "tree-sitter",
+   "category": "code parsing library",
+   "segment": "tools, language support infrastructure",
+   "positioning": "incremental parser for building syntax trees",
+   "key_facts": "used by drift for AST parsing, supports multiple languages"
+  },
+  {
+   "type": "landscape",
+   "entity": "doc tests",
+   "category": "existing approach to spec sync",
+   "segment": "Rust, Python developers",
+   "positioning": "keeps code examples in documentation in sync",
+   "key_facts": "language-specific, focuses on example code, not prose"
+  },
+  {
+   "type": "landscape",
+   "entity": "snippet embedding tools",
+   "category": "existing approach to spec sync",
+   "segment": "technical documentation",
+   "positioning": "embeds code snippets from source into docs",
+   "key_facts": "focuses on code examples, not description prose"
+  },
+  {
+   "type": "landscape",
+   "entity": "commercial products",
+   "category": "existing approach to spec sync",
+   "segment": "enterprise documentation",
+   "positioning": "various tools for spec and code alignment",
+   "key_facts": "unnamed in article, similar scope to doc tests and snippet tools"
+  },
+  {
+   "type": "landscape",
+   "entity": "Effect",
+   "category": "code quality library",
+   "segment": "fp.dev development",
+   "positioning": "enforces code explicitness",
+   "key_facts": "adopted by Fiberplane for agent-optimized codebase"
+  },
+  {
+   "type": "landscape",
+   "entity": "ast-grep",
+   "category": "structural linting tool",
+   "segment": "code quality enforcement",
+   "positioning": "enforces code shape and rules",
+   "key_facts": "used by Fiberplane alongside Effect and tests"
+  },
+  {
+   "type": "landscape",
+   "entity": "Fiberplane",
+   "category": "developer tools company",
+   "segment": "agent-driven development",
+   "positioning": "builds tools for self-driving codebases and agent optimization",
+   "key_facts": "created fp.dev, drift, uses agent tools for development"
+  },
+  {
+   "type": "comparison",
+   "option": "doc tests",
+   "criterion": "scope of coverage",
+   "value": "keeps code examples in sync with documentation"
+  },
+  {
+   "type": "comparison",
+   "option": "drift",
+   "criterion": "scope of coverage",
+   "value": "keeps prose description and entire specs in sync with code changes"
+  },
+  {
+   "type": "comparison",
+   "option": "LLM approach",
+   "criterion": "cost per check",
+   "value": "expensive, burns tokens on every commit"
+  },
+  {
+   "type": "comparison",
+   "option": "drift",
+   "criterion": "cost per check",
+   "value": "lightweight, trivial check cost"
+  },
+  {
+   "type": "comparison",
+   "option": "doc tests / snippet embedding / commercial products",
+   "criterion": "what gets checked",
+   "value": "code examples only"
+  },
+  {
+   "type": "comparison",
+   "option": "drift",
+   "criterion": "what gets checked",
+   "value": "entire prose specs and documentation"
+  }
+ ],
+ "model": "haiku",
+ "_recall": 1.0
+}

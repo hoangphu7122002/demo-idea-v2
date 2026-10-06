@@ -1,0 +1,52 @@
+term,first_round,last_round,phase,score,freq,centrality,novelty,status,source_count,source_ids
+docs-as-code,2,2,final,9,3,3,3,kept,4,r2q01-03; r2q05-06; r2q01-01; r2q05-07
+Disqus,1,1,final,8,2,3,3,kept,2,r1q02-03; r1q02-08
+documentation drift,2,3,final,8,2,3,0,expanded,2,r3q01-04; r3q01-07
+Fiberplane Drift (doc-to-code anchoring linter),3,3,final,8,1,3,3,queued,1,r3q01-07
+freshness checks / last-reviewed date,2,2,final,8,2,3,3,queued,2,r2q01-01; r2q03-01
+Ghost,1,1,final,8,3,2,3,kept,3,r1q01-04; r1q01-06; r1q01-03
+Giscus,1,1,final,8,2,3,3,kept,2,r1q02-03; r1q02-08
+GitHub Discussions,1,1,final,8,2,3,3,kept,2,r1q02-03; r1q02-08
+GitHub suggested changes,2,2,final,8,2,3,3,queued,2,r2q04-02; r2q04-01
+last modified date,2,2,final,8,2,3,3,kept,2,r2q03-03; r2q03-02
+link rot / link checker,2,2,final,8,2,3,3,kept,2,r2q05-04; r2q05-07
+outdated content notification,2,2,final,8,1,3,3,kept,1,r2q03-03
+outdated tutorial content update,1,1,final,8,2,3,3,queued,2,r1q03-01; r1q03-04
+reader corrections,2,2,final,8,1,3,3,kept,1,r2q04-01
+social annotation,1,1,final,8,1,3,3,kept,1,r1q02-06
+Utterances,1,1,final,8,2,3,3,kept,2,r1q02-03; r1q02-08
+API drift,2,2,final,7,1,3,3,kept,1,r2q01-03
+community correction workflow via pull requests,3,3,final,7,1,3,3,queued,1,r3q03-04
+Continuous Documentation Workflows,2,2,final,7,1,3,3,kept,1,r2q01-02
+GitBook,2,2,final,7,2,2,3,kept,2,r2q01-01; r2q05-06
+Hypothesis,1,1,final,7,1,3,3,kept,1,r1q02-06
+Markdown,1,1,final,7,2,2,3,kept,2,r1q02-03; r1q01-06
+Substack,1,1,final,7,3,1,3,kept,3,r1q01-04; r1q01-06; r1q01-03
+Suggest Changes Action,3,3,final,7,1,3,3,queued,1,r3q03-06
+Swimm,2,2,final,7,1,3,3,kept,1,r2q05-06
+AST fingerprinting,3,3,final,6,1,2,3,kept,1,r3q01-07
+Astro content collection,3,3,final,6,2,2,2,kept,2,r3q04-03; r3q04-01
+Blog Auditor,2,2,final,6,1,2,3,kept,1,r2q01-02
+drift score,3,3,final,6,1,2,3,kept,1,r3q01-04
+DX Out of Date,2,2,final,6,1,2,3,kept,1,r2q03-03
+Fern,2,2,final,6,2,1,3,kept,2,r2q01-03; r2q05-04
+Gitalk,1,1,final,6,1,2,3,kept,1,r1q02-08
+Hashnode / Dev.to,1,2,final,6,1,3,0,expanded,1,r2q02-04
+Medium,1,1,final,6,2,1,3,kept,2,r1q01-04; r1q01-03
+Mintlify,2,2,final,6,1,2,3,kept,1,r2q05-06
+PublishPress Revisions,1,1,final,6,1,2,3,queued,1,r1q03-04
+Vale docs linting,2,2,final,6,1,2,3,kept,1,r2q05-04
+ActivityPub,1,1,final,5,1,1,3,kept,1,r1q01-06
+Hashnode API,2,2,final,5,1,1,3,kept,1,r2q02-04
+headless CMS,1,1,final,5,1,1,3,kept,1,r1q01-06
+MDX,2,2,final,5,3,1,1,kept,3,r2q01-03; r2q02-04; r2q05-04
+SEO,1,1,final,5,3,0,2,dropped,3,r1q01-04; r1q03-01; r1q03-04
+textlint,3,3,final,5,1,2,2,kept,1,r3q04-03
+WordPress,1,2,final,5,1,2,0,kept,1,r2q03-03
+Hugo,2,3,final,4,2,1,1,dropped,2,r3q04-03; r3q04-01
+LMS,1,1,final,4,1,0,3,dropped,1,r1q02-06
+ArchUnit,3,3,final,3,1,0,2,dropped,1,r3q01-04
+Dometrain Pro,1,1,final,3,1,0,2,dropped,1,r1q02-03
+JSDoc,2,2,final,3,1,0,2,dropped,1,r2q05-06
+Shiki,3,3,final,3,1,0,2,dropped,1,r3q04-03
+React,2,2,final,2,1,0,1,dropped,1,r2q02-04

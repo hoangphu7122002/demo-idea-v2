@@ -1,0 +1,165 @@
+{
+ "sid": "r2q01-03",
+ "terms": [
+  {
+   "term": "API",
+   "count": 47,
+   "kind": "acronym"
+  },
+  {
+   "term": "CI",
+   "count": 9,
+   "kind": "acronym"
+  },
+  {
+   "term": "CD",
+   "count": 7,
+   "kind": "acronym"
+  },
+  {
+   "term": "APIs",
+   "count": 5,
+   "kind": "acronym"
+  },
+  {
+   "term": "CMS",
+   "count": 5,
+   "kind": "acronym"
+  },
+  {
+   "term": "SDKs",
+   "count": 4,
+   "kind": "acronym"
+  },
+  {
+   "term": "CMSs",
+   "count": 3,
+   "kind": "acronym"
+  },
+  {
+   "term": "Can you combine generated and manual approaches?",
+   "count": 2,
+   "kind": "heading"
+  },
+  {
+   "term": "How does CI/CD integration benefit your workflow?",
+   "count": 2,
+   "kind": "heading"
+  },
+  {
+   "term": "How does spec-driven documentation prevent API drift?",
+   "count": 2,
+   "kind": "heading"
+  },
+  {
+   "term": "TLDR",
+   "count": 2,
+   "kind": "bold"
+  },
+  {
+   "term": "When should you use manual documentation?",
+   "count": 2,
+   "kind": "heading"
+  },
+  {
+   "term": "Fern Definition",
+   "count": 5,
+   "kind": "ngram"
+  },
+  {
+   "term": "MDX",
+   "count": 2,
+   "kind": "acronym"
+  },
+  {
+   "term": "SDK",
+   "count": 2,
+   "kind": "acronym"
+  },
+  {
+   "term": "docs.yml",
+   "count": 2,
+   "kind": "code"
+  },
+  {
+   "term": "CI/CD integration for automated documentation deployment",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Collaboration workflows: docs-as-code vs traditional CMS",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "FAQ",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Final thoughts on reducing documentation drift",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Generated vs manual docs: Jan 2026 guide",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "How API drift creates documentation problems",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "How Fern delivers generated documentation with full automation",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Hybrid documentation architectures that combine both approaches",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Maintenance burden comparison across documentation approaches",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Versioning and multi-version support",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "When manual documentation makes sense for your team",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "DEV",
+   "count": 1,
+   "kind": "acronym"
+  },
+  {
+   "term": "Nathan Lian",
+   "count": 2,
+   "kind": "ngram"
+  },
+  {
+   "term": "definition/",
+   "count": 1,
+   "kind": "code"
+  },
+  {
+   "term": "docs/",
+   "count": 1,
+   "kind": "code"
+  },
+  {
+   "term": "openapi/",
+   "count": 1,
+   "kind": "code"
+  }
+ ]
+}

@@ -1,0 +1,368 @@
+{
+ "sid": "r1q02-06",
+ "url": "https://web.hypothes.is/blog/replace-your-discussion-boards-with-hypothesis-social-annotation/",
+ "title": "Replace Your Discussion Boards with Hypothesis Social Annotation",
+ "published": "2024-05-22",
+ "source_type": "vendor",
+ "quality_flags": [
+  "vendor-claim",
+  "thin",
+  "outdated"
+ ],
+ "terms": [
+  {
+   "term": "Replace Your Discussion Boards",
+   "context": "# Replace Your Discussion Boards with Hypothesis Social Annotation"
+  },
+  {
+   "term": "Replace Your Discussion Boards with Hypothesis Social Annotation",
+   "context": "page title and H1 heading"
+  },
+  {
+   "term": "Hypothesis Social Annotation",
+   "context": "Replace Your Discussion Boards with Hypothesis Social Annotation"
+  },
+  {
+   "term": "Hypothesis",
+   "context": "Hypothesis social annotation allows students and instructors to anchor their questions"
+  },
+  {
+   "term": "Using Hypothesis",
+   "context": "Using Hypothesis social annotation to replace traditional discussion boards"
+  },
+  {
+   "term": "social annotation",
+   "context": "What exactly makes social annotation with Hypothesis better than a traditional discussion board?"
+  },
+  {
+   "term": "By Christie DeCarolis",
+   "context": "#### By Christie DeCarolis, 22 May, 2024 · 4 min read"
+  },
+  {
+   "term": "By Christie",
+   "context": "By Christie DeCarolis"
+  },
+  {
+   "term": "Christie DeCarolis",
+   "context": "blog post author byline"
+  },
+  {
+   "term": "Share this article",
+   "context": "### Share this article, followed by share links"
+  },
+  {
+   "term": "Sources",
+   "context": "### Sources heading before citation list"
+  },
+  {
+   "term": "where",
+   "context": "What if we change **where** we are having our conversations instead?"
+  },
+  {
+   "term": "EXCERPT",
+   "context": "I so agree that \"<EXCERPT>\". Your observations are so"
+  },
+  {
+   "term": "NAME",
+   "context": "\"Great post, <NAME>! I so agree that"
+  },
+  {
+   "term": "RELEVANT",
+   "context": "so <INTERESTING/RELEVANT/PROFOUND>. You've really addressed the topic nicely."
+  },
+  {
+   "term": "PROFOUND",
+   "context": "so <INTERESTING/RELEVANT/PROFOUND>"
+  },
+  {
+   "term": "INTERESTING",
+   "context": "so <INTERESTING/RELEVANT/PROFOUND>"
+  },
+  {
+   "term": "LMS",
+   "context": "Choose your LMS and follow our Getting Started Guide"
+  },
+  {
+   "term": "learning management system",
+   "context": "discrete place within your learning management system's course site"
+  },
+  {
+   "term": "discussion boards",
+   "context": "discussion boards are a discrete place within your learning management system's course site"
+  },
+  {
+   "term": "Education",
+   "context": "category label above title"
+  },
+  {
+   "term": "metacognition",
+   "context": "engage with the text as they read the text, encouraging metacognition"
+  },
+  {
+   "term": "thinking out loud",
+   "context": "the process of \"thinking out loud\" often not found in traditional discussion boards"
+  },
+  {
+   "term": "Annotation Is First Draft",
+   "context": "Annotation Is First Draft Thinking: Educators' Marginal Notes as Brave Writing"
+  },
+  {
+   "term": "Annotation Is First Draft Thinking",
+   "context": "Kalir article title; 'Annotation is first draft thinking'"
+  },
+  {
+   "term": "first draft of thinking",
+   "context": "reading a piece and responding to it is the first draft of thinking"
+  },
+  {
+   "term": "Marginal Notes",
+   "context": "Educators' Marginal Notes as Brave Writing"
+  },
+  {
+   "term": "Brave Writing",
+   "context": "Educators' Marginal Notes as Brave Writing"
+  },
+  {
+   "term": "Annotating in public is brave",
+   "context": "'Annotating in public is brave...' (Kalir 64)"
+  },
+  {
+   "term": "Kalir",
+   "context": "(Kalir 64); Kalir, Jeremiah (Remi)"
+  },
+  {
+   "term": "Jeremiah (Remi) Kalir",
+   "context": "Kalir, Jeremiah (Remi). Annotation Is First Draft Thinking"
+  },
+  {
+   "term": "English Journal",
+   "context": "English Journal, High school edition, vol. 110, no. 2, 2020"
+  },
+  {
+   "term": "Brown and Croft",
+   "context": "(Brown and Croft 5)"
+  },
+  {
+   "term": "Monica Brown",
+   "context": "Brown, Monica, and Benjamin Croft"
+  },
+  {
+   "term": "Benjamin Croft",
+   "context": "Brown, Monica, and Benjamin Croft"
+  },
+  {
+   "term": "Social Annotation and an Inclusive Praxis for Open Pedagogy in the College Classroom",
+   "context": "Brown and Croft 2020 article title"
+  },
+  {
+   "term": "Inclusive Praxis for Open",
+   "context": "Inclusive Praxis for Open Pedagogy in the College Classroom"
+  },
+  {
+   "term": "open pedagogy",
+   "context": "Inclusive Praxis for Open Pedagogy"
+  },
+  {
+   "term": "College Classroom",
+   "context": "Inclusive Praxis for Open Pedagogy in the College Classroom"
+  },
+  {
+   "term": "Journal of Interactive Media in Education",
+   "context": "Journal of Interactive Media in Education, vol. 2020, no. 1, 2020"
+  },
+  {
+   "term": "Journal of Interactive Media",
+   "context": "Journal of Interactive Media in Education"
+  },
+  {
+   "term": "Faculty Focus",
+   "context": "This Faculty Focus article concisely recreates a key complaint"
+  },
+  {
+   "term": "Amanda Page",
+   "context": "Page, Amanda, and Miriam Abbott"
+  },
+  {
+   "term": "Miriam Abbott",
+   "context": "Page, Amanda, and Miriam Abbott"
+  },
+  {
+   "term": "A Discussion About Online Discussion",
+   "context": "Faculty Focus, February 3, 2020"
+  },
+  {
+   "term": "Discussion About Online Discussion",
+   "context": "Page and Abbott, Faculty Focus"
+  },
+  {
+   "term": "Getting Started Guide",
+   "context": "follow our Getting Started Guide to set up your first annotation assignment"
+  },
+  {
+   "term": "annotation assignment",
+   "context": "set up your first annotation assignment"
+  },
+  {
+   "term": "anchor",
+   "context": "anchor their questions, thoughts, and resources to the text as they read"
+  },
+  {
+   "term": "authentic",
+   "context": "creating a more authentic space for meaningful discussion"
+  }
+ ],
+ "claims": [
+  {
+   "claim": "Faculty and students share a key complaint about discussion boards: repetitive formulaic replies.",
+   "quote": "Great post, <NAME>! I so agree that \"<EXCERPT>\".",
+   "numbers": []
+  },
+  {
+   "claim": "Foundational issue: discussion boards sit in a discrete place in the LMS course site, separate from course content.",
+   "quote": "The processes of thinking, writing, and discussing occur separately from the course content.",
+   "numbers": []
+  },
+  {
+   "claim": "Hypothesis social annotation lets students and instructors anchor questions, thoughts, resources to the text as they read.",
+   "quote": "anchor their questions, thoughts, and resources to the text as they read",
+   "numbers": []
+  },
+  {
+   "claim": "Annotating while reading encourages metacognition and more authentic responses.",
+   "quote": "encouraging metacognition and more authentic responses",
+   "numbers": []
+  },
+  {
+   "claim": "Students treat discussion boards as formal, distinct assignments.",
+   "quote": "Students often approach discussion boards as formal, distinct assignments.",
+   "numbers": []
+  },
+  {
+   "claim": "Social annotation resembles real-time discussion, with vulnerability and thinking out loud.",
+   "quote": "",
+   "numbers": []
+  },
+  {
+   "claim": "Kalir: annotation is first draft thinking; people are schooled to publish only final draft.",
+   "quote": "Annotation is first draft thinking",
+   "numbers": [
+    "page 64",
+    "vol. 110",
+    "no. 2",
+    "2020"
+   ]
+  },
+  {
+   "claim": "Social annotation lets students iterate on ideas as they surface.",
+   "quote": "",
+   "numbers": []
+  },
+  {
+   "claim": "Annotation lets students contribute to course knowledge base by adding ideas and explanations to the text itself.",
+   "quote": "",
+   "numbers": []
+  },
+  {
+   "claim": "Brown and Croft: annotation lets conversation coalesce around difficult concepts; dissent has space in original context.",
+   "quote": "Dissenting perspectives may have a tangible space to exist in the original context",
+   "numbers": [
+    "page 5",
+    "2020"
+   ]
+  },
+  {
+   "claim": "Annotation helps students move beyond passive reading to see themselves as scholars.",
+   "quote": "",
+   "numbers": []
+  },
+  {
+   "claim": "Student annotations give instructors more information for teaching decisions than responses to instructor-directed questions.",
+   "quote": "",
+   "numbers": []
+  },
+  {
+   "claim": "Discussion can be driven by student, instructor, or both.",
+   "quote": "",
+   "numbers": []
+  },
+  {
+   "claim": "Pre-class annotation shows instructors which topics or threads need attention.",
+   "quote": "",
+   "numbers": []
+  },
+  {
+   "claim": "Hypothesis claims replacing boards helps meet learning goals: authentic conversation, scholarly reflection, instructor visibility of understanding.",
+   "quote": "",
+   "numbers": []
+  },
+  {
+   "claim": "Post published 22 May 2024, 4 min read; Faculty Focus article accessed 21 May 2024.",
+   "quote": "",
+   "numbers": [
+    "22 May 2024",
+    "4 min",
+    "21 May 2024",
+    "February 3, 2020"
+   ]
+  }
+ ],
+ "analysis_rows": [
+  {
+   "type": "landscape",
+   "entity": "Hypothesis",
+   "category": "social annotation tool (vendor)",
+   "segment": "education: students and instructors via LMS",
+   "positioning": "replace LMS discussion boards by anchoring conversation to the reading text",
+   "key_facts": "blog post 22 May 2024; Getting Started Guide per LMS"
+  },
+  {
+   "type": "landscape",
+   "entity": "Faculty Focus",
+   "category": "publication",
+   "segment": "faculty",
+   "positioning": "source of article on discussion board complaints",
+   "key_facts": "Page and Abbott, February 3, 2020"
+  },
+  {
+   "type": "landscape",
+   "entity": "Learning management system (LMS) discussion boards",
+   "category": "incumbent practice",
+   "segment": "faculty and students",
+   "positioning": "discrete place in course site separate from content",
+   "key_facts": "repetitive formulaic replies complaint"
+  },
+  {
+   "type": "comparison",
+   "option": "Hypothesis social annotation",
+   "criterion": "location of discussion",
+   "value": "anchored to the text as students read"
+  },
+  {
+   "type": "comparison",
+   "option": "Traditional discussion board",
+   "criterion": "location of discussion",
+   "value": "discrete place in LMS course site, separate from content"
+  },
+  {
+   "type": "comparison",
+   "option": "Hypothesis social annotation",
+   "criterion": "student engagement style",
+   "value": "first-draft, thinking out loud, metacognition, more authentic"
+  },
+  {
+   "type": "comparison",
+   "option": "Traditional discussion board",
+   "criterion": "student engagement style",
+   "value": "formal, distinct assignments"
+  },
+  {
+   "type": "root_cause",
+   "symptom": "Repetitive 'Great post' discussion board replies",
+   "cause": "Discussion occurs in a discrete place separate from course content, regardless of question framing",
+   "evidence": "Faculty Focus article cited; no data",
+   "fix": "Move conversation into text via Hypothesis social annotation"
+  }
+ ],
+ "model": "sonnet",
+ "_recall": 1.0
+}

@@ -1,0 +1,205 @@
+{
+ "sid": "r2q05-07",
+ "terms": [
+  {
+   "term": "AI",
+   "count": 16,
+   "kind": "acronym"
+  },
+  {
+   "term": "API",
+   "count": 9,
+   "kind": "acronym"
+  },
+  {
+   "term": "CI",
+   "count": 3,
+   "kind": "acronym"
+  },
+  {
+   "term": "NIST",
+   "count": 3,
+   "kind": "acronym"
+  },
+  {
+   "term": "Table of Contents",
+   "count": 2,
+   "kind": "heading"
+  },
+  {
+   "term": "A practical map of the documentation landscape",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Actionable Next Steps for Your Team",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Add retrieval only after the system is trustworthy",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Attach docs to release and change workflows",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "Design pages for retrieval, not just reading",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Different readers need different infrastructure",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Doc Rot",
+   "count": 3,
+   "kind": "ngram"
+  },
+  {
+   "term": "Docs live in version control",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "Documentation failure is a business failure",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Documentation reduces cognitive load",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Effective Documentation",
+   "count": 3,
+   "kind": "ngram"
+  },
+  {
+   "term": "Engineers interrupt each other for basic context",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "Exploring the Main Types of Documentation",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Guidance without internals",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "How to Structure Documentation That Gets Used",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Improve task coverage and information architecture",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "Internal notes without publishable structure",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "Keep examples near the explanation",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "Keep source traceability",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "Limit publishing rights",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "Make pages standalone",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "Modern Tools for Automated Documentation",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Onboarding turns into guesswork",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "Practical rule",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "Prefer task-based titles",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "Publishing is audience-aware",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "Ready to try GitDoc?",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Reference without guidance",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "Release confidence drops",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "Require human review for user-visible claims",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "Reusable content is shared",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "Run a documentation audit that matters",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Second layer for reference",
+   "count": 1,
+   "kind": "bold"
+  },
+  {
+   "term": "Separate systems create predictable drift",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Stabilize the source of truth",
+   "count": 1,
+   "kind": "bold"
+  }
+ ]
+}

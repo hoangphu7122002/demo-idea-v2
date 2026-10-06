@@ -1,0 +1,457 @@
+{
+ "sid": "r1q01-06",
+ "url": "https://en.wikipedia.org/wiki/Ghost_(blogging_platform)",
+ "title": "Ghost (blogging platform) - Wikipedia",
+ "published": "",
+ "source_type": "other",
+ "quality_flags": [
+  "thin",
+  "undated",
+  "outdated"
+ ],
+ "terms": [
+  {
+   "term": "Ghost (blogging platform) - Wikipedia",
+   "context": "Ghost (blogging platform) - Wikipedia"
+  },
+  {
+   "term": "Ghost (blogging platform",
+   "context": "# Ghost (blogging platform)"
+  },
+  {
+   "term": "Ghost",
+   "context": "**Ghost** is an open source content management system platform written in JavaScript"
+  },
+  {
+   "term": "About Ghost",
+   "context": "\"About Ghost\". Ghost.org. Retrieved 31 October 2021."
+  },
+  {
+   "term": "History",
+   "context": "## History"
+  },
+  {
+   "term": "Foundation",
+   "context": "## Foundation"
+  },
+  {
+   "term": "Business model",
+   "context": "## Business model"
+  },
+  {
+   "term": "Platform",
+   "context": "## Platform"
+  },
+  {
+   "term": "Security",
+   "context": "## Security"
+  },
+  {
+   "term": "See also",
+   "context": "## See also"
+  },
+  {
+   "term": "References",
+   "context": "## References"
+  },
+  {
+   "term": "External links",
+   "context": "## External links"
+  },
+  {
+   "term": "relies excessively on references to primary sources",
+   "context": "This article relies excessively on references to primary sources. Please improve this article"
+  },
+  {
+   "term": "books",
+   "context": "news · newspapers · books · scholar · JSTOR (August 2018)"
+  },
+  {
+   "term": "newspapers",
+   "context": "news · newspapers · books · scholar · JSTOR (August 2018)"
+  },
+  {
+   "term": "scholar",
+   "context": "news · newspapers · books · scholar · JSTOR (August 2018)"
+  },
+  {
+   "term": "JSTOR",
+   "context": "newspapers · books · scholar · JSTOR (August 2018)"
+  },
+  {
+   "term": "Ghost Foundation",
+   "context": "nonprofit organization headquartered in Singapore called the Ghost Foundation"
+  },
+  {
+   "term": "MIT",
+   "context": "distributed under the MIT License"
+  },
+  {
+   "term": "MIT License",
+   "context": "written in JavaScript and distributed under the MIT License"
+  },
+  {
+   "term": "CMS",
+   "context": "Ghost CMS (content management system) can be used as either a traditional or headless CMS"
+  },
+  {
+   "term": "content management system",
+   "context": "open source content management system platform written in JavaScript"
+  },
+  {
+   "term": "headless CMS",
+   "context": "can be used as either a traditional or headless CMS"
+  },
+  {
+   "term": "WYSIWYG",
+   "context": "Since version 2.0, posts can be written using a WYSIWYG editor"
+  },
+  {
+   "term": "Markdown",
+   "context": "in earlier versions, only Markdown was supported"
+  },
+  {
+   "term": "Node.js",
+   "context": "Ghost is coded in Node.js, a server-side JavaScript execution engine"
+  },
+  {
+   "term": "Ember.js",
+   "context": "and an Ember.js admin client"
+  },
+  {
+   "term": "JavaScript",
+   "context": "Written in JavaScript"
+  },
+  {
+   "term": "Admin Control Panel",
+   "context": "Ghost v0.11.9's Admin Control Panel"
+  },
+  {
+   "term": "Ghost(Pro)",
+   "context": "Ghost confirmed that its Ghost(Pro) platform was infected with crypto-mining malware"
+  },
+  {
+   "term": "crypto-mining malware",
+   "context": "Ghost(Pro) platform was infected with crypto-mining malware"
+  },
+  {
+   "term": "ActivityPub",
+   "context": "Ghost announced plans to support ActivityPub in 2024"
+  },
+  {
+   "term": "fediverse",
+   "context": "Substack rival Ghost confirms it will join the fediverse in 2024"
+  },
+  {
+   "term": "Kickstarter",
+   "context": "financed by a successful Kickstarter campaign"
+  },
+  {
+   "term": "Kerouac",
+   "context": "first public version of Ghost was released, named Kerouac"
+  },
+  {
+   "term": "John O'Nolan",
+   "context": "blog post by project founder John O'Nolan"
+  },
+  {
+   "term": "Hannah Wolfe",
+   "context": "recruited long-time friend Hannah Wolfe to help him create an initial prototype"
+  },
+  {
+   "term": "WordPress",
+   "context": "increasing difficulty of using WordPress to build blogs"
+  },
+  {
+   "term": "Seth Godin",
+   "context": "Notable backers included Seth Godin, Leo Babauta, Darren Rowse, Tucker Max"
+  },
+  {
+   "term": "Leo Babauta",
+   "context": "Notable backers included Seth Godin, Leo Babauta, Darren Rowse"
+  },
+  {
+   "term": "Darren Rowse",
+   "context": "Leo Babauta, Darren Rowse, Tucker Max"
+  },
+  {
+   "term": "Tucker Max",
+   "context": "Darren Rowse, Tucker Max, major companies such as Woo-Themes"
+  },
+  {
+   "term": "Woo-Themes",
+   "context": "major companies such as Woo-Themes, Envato, and Microsoft"
+  },
+  {
+   "term": "Envato",
+   "context": "major companies such as Woo-Themes, Envato, and Microsoft"
+  },
+  {
+   "term": "Microsoft",
+   "context": "Woo-Themes, Envato, and Microsoft"
+  },
+  {
+   "term": "IBM",
+   "context": "Some notable platform users include IBM, Tinder, Sky News, VEVO, and Zappos"
+  },
+  {
+   "term": "Tinder",
+   "context": "notable platform users include IBM, Tinder, Sky News"
+  },
+  {
+   "term": "Sky News",
+   "context": "IBM, Tinder, Sky News, VEVO, and Zappos"
+  },
+  {
+   "term": "VEVO",
+   "context": "Tinder, Sky News, VEVO, and Zappos"
+  },
+  {
+   "term": "Zappos",
+   "context": "Sky News, VEVO, and Zappos"
+  },
+  {
+   "term": "Substack",
+   "context": "Substack, a competing blog host service"
+  },
+  {
+   "term": "Hacker News",
+   "context": "\"Ghost Idea - Hacker News\". Hacker News."
+  },
+  {
+   "term": "UI",
+   "context": "Deputy Lead for the WordPress UI team"
+  },
+  {
+   "term": "GitHub",
+   "context": "made available for the first time as an extended-release to the general public via GitHub"
+  },
+  {
+   "term": "managed solution",
+   "context": "paid platform for users who prefer a managed solution, as an alternative to self-hosting"
+  },
+  {
+   "term": "self-hosting",
+   "context": "alternative to self-hosting"
+  },
+  {
+   "term": "List of content management systems",
+   "context": "See also: List of content management systems"
+  },
+  {
+   "term": "Weblog software",
+   "context": "See also: Weblog software"
+  },
+  {
+   "term": "Wired",
+   "context": "Pot, Justin (2 July 2024). \"The Best Substack Alternatives\". Wired."
+  },
+  {
+   "term": "TechCrunch",
+   "context": "Biggs, John (7 May 2013). TechCrunch."
+  },
+  {
+   "term": "Forbes",
+   "context": "Ghost Confirms Hack Attack: 750,000 Users Spooked By Critical Vulnerability. Forbes."
+  },
+  {
+   "term": "Ghost Confirms Hack Attack",
+   "context": "Winder, Davey. \"Ghost Confirms Hack Attack: 750,000 Users Spooked\""
+  },
+  {
+   "term": "Ghost Idea",
+   "context": "\"Ghost Idea - Hacker News\""
+  },
+  {
+   "term": "Ghost Launch Party",
+   "context": "Microsoft Sponsorship + Announcing the Ghost Launch Party"
+  },
+  {
+   "term": "Future of Blogging",
+   "context": "Is This Kickstarter Project the Future of Blogging?"
+  }
+ ],
+ "claims": [
+  {
+   "claim": "Ghost is open source CMS in JavaScript under MIT License for individual bloggers and publications",
+   "quote": "designed to simplify the process of online publishing for individual bloggers as well as online publications",
+   "numbers": []
+  },
+  {
+   "claim": "Ghost concept floated Nov 2012 by John O'Nolan",
+   "quote": "first floated publicly in November 2012 in a blog post by project founder John O'Nolan",
+   "numbers": [
+    "November 2012"
+   ]
+  },
+  {
+   "claim": "Kickstarter hit GBP25,000 goal in 11 hours, raised GBP196,362 over 29 days",
+   "quote": "initial funding goal of £25,000 in 11 hours and went on to raise a final total of £196,362",
+   "numbers": [
+    "£25,000",
+    "11 hours",
+    "£196,362",
+    "29-day"
+   ]
+  },
+  {
+   "claim": "O'Nolan was former deputy lead of WordPress UI team",
+   "quote": "former deputy lead of the WordPress user interface team",
+   "numbers": []
+  },
+  {
+   "claim": "Ghost pitched as solution to growing difficulty of using WordPress for blogs",
+   "quote": "increasing difficulty of using WordPress to build blogs",
+   "numbers": []
+  },
+  {
+   "claim": "Kickstarter video released April 29, 2013",
+   "quote": "",
+   "numbers": [
+    "April 29, 2013"
+   ]
+  },
+  {
+   "claim": "First public version Kerouac released Sept 19, 2013 to backers",
+   "quote": "",
+   "numbers": [
+    "September 19, 2013"
+   ]
+  },
+  {
+   "claim": "General public release Oct 14, 2013 via GitHub at v0.3.3",
+   "quote": "",
+   "numbers": [
+    "October 14, 2013",
+    "0.3.3"
+   ]
+  },
+  {
+   "claim": "Ghost announced ActivityPub support plans in 2024",
+   "quote": "Ghost announced plans to support ActivityPub in 2024",
+   "numbers": [
+    "2024"
+   ]
+  },
+  {
+   "claim": "Notable users IBM, Tinder, Sky News, VEVO, Zappos",
+   "quote": "Some notable platform users include IBM, Tinder, Sky News, VEVO, and Zappos",
+   "numbers": []
+  },
+  {
+   "claim": "Managed by nonprofit Ghost Foundation in Singapore, 34 full-time staff as of Oct 2025",
+   "quote": "the foundation employs 34 full-time members of staff",
+   "numbers": [
+    "34 full-time",
+    "October 2025"
+   ]
+  },
+  {
+   "claim": "Ghost free to download; paid managed hosting funds development",
+   "quote": "Ghost is free to download and use.",
+   "numbers": []
+  },
+  {
+   "claim": "Managed hosting has weekly updates and email support for monthly fee",
+   "quote": "with weekly updates and access to email support",
+   "numbers": [
+    "weekly"
+   ]
+  },
+  {
+   "claim": "Built on Node.js with Ember.js admin client",
+   "quote": "Ghost is coded in Node.js",
+   "numbers": []
+  },
+  {
+   "claim": "WYSIWYG editor since v2.0; earlier Markdown only",
+   "quote": "Since version 2.0, posts can be written using a WYSIWYG editor",
+   "numbers": [
+    "2.0"
+   ]
+  },
+  {
+   "claim": "Can be traditional or headless CMS",
+   "quote": "used as either a traditional or headless CMS",
+   "numbers": []
+  },
+  {
+   "claim": "May 3, 2020 Ghost(Pro) infected with crypto-mining malware; no user data compromised",
+   "quote": "No user data was compromised, and user credentials were not stored in plain text.",
+   "numbers": [
+    "May 3, 2020"
+   ]
+  },
+  {
+   "claim": "Stable release 6.33.0 on 2026-04-24",
+   "quote": "6.33.0[1] / 2026-04-24",
+   "numbers": [
+    "6.33.0",
+    "2026-04-24"
+   ]
+  },
+  {
+   "claim": "Wikipedia flags article as over-reliant on primary sources (Aug 2018)",
+   "quote": "relies excessively on references to primary sources",
+   "numbers": [
+    "August 2018"
+   ]
+  },
+  {
+   "claim": "Substack listed as competing blog host service",
+   "quote": "Substack, a competing blog host service",
+   "numbers": []
+  },
+  {
+   "claim": "Forbes reference headline cites 750,000 users affected by vulnerability",
+   "quote": "750,000 Users Spooked By Critical Vulnerability",
+   "numbers": [
+    "750,000 users"
+   ]
+  }
+ ],
+ "analysis_rows": [
+  {
+   "type": "landscape",
+   "entity": "Ghost",
+   "category": "open source CMS / blogging platform",
+   "segment": "individual bloggers and online publications",
+   "positioning": "simple publishing; MIT license; traditional or headless CMS; nonprofit-run; managed Ghost(Pro) alternative to self-hosting",
+   "key_facts": "released Oct 14, 2013; v6.33.0 2026-04-24; Kickstarter GBP196,362; 34 full-time staff Oct 2025; ActivityPub plans 2024"
+  },
+  {
+   "type": "landscape",
+   "entity": "Ghost Foundation",
+   "category": "nonprofit org",
+   "segment": "Ghost project maintainers",
+   "positioning": "revenue from hosted platform funds development",
+   "key_facts": "HQ Singapore; 34 full-time staff as of Oct 2025"
+  },
+  {
+   "type": "landscape",
+   "entity": "Ghost(Pro)",
+   "category": "managed hosting",
+   "segment": "users preferring managed solution",
+   "positioning": "fully managed, weekly updates, email support, monthly fee",
+   "key_facts": "crypto-mining malware incident May 3, 2020"
+  },
+  {
+   "type": "landscape",
+   "entity": "WordPress",
+   "category": "CMS / blogging platform",
+   "segment": "blogs",
+   "positioning": "Ghost pitched as simpler alternative given WordPress difficulty",
+   "key_facts": ""
+  },
+  {
+   "type": "landscape",
+   "entity": "Substack",
+   "category": "blog host service",
+   "segment": "",
+   "positioning": "competing blog host service",
+   "key_facts": ""
+  }
+ ],
+ "model": "sonnet",
+ "_recall": 1.0
+}

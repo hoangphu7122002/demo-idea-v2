@@ -1,0 +1,552 @@
+{
+ "sid": "r3q01-04",
+ "url": "https://dev.to/eko/architecture-drift-detection-keep-your-code-aligned-with-design-kae",
+ "title": "Architecture Drift Detection: Keep Your Code Aligned with Design",
+ "published": "2024-06-08",
+ "source_type": "blog",
+ "quality_flags": [],
+ "terms": [
+  {
+   "term": "architecture drift",
+   "context": "gradual, silent divergence between documented and actual system"
+  },
+  {
+   "term": "Structural Drift",
+   "context": "documented structure no longer matches codebase"
+  },
+  {
+   "term": "Behavioral Drift",
+   "context": "documented behavior no longer matches reality"
+  },
+  {
+   "term": "Dependency Drift",
+   "context": "documented dependencies no longer match actual integrations"
+  },
+  {
+   "term": "Decision Drift",
+   "context": "documented architectural decisions no longer being followed"
+  },
+  {
+   "term": "Architecture Fitness Functions",
+   "context": "automated tests that validate architectural properties"
+  },
+  {
+   "term": "Static Analysis Tools",
+   "context": "analyze code structure and enforce dependency rules"
+  },
+  {
+   "term": "ArchUnit",
+   "context": "static analysis tool for Java"
+  },
+  {
+   "term": "Deptrac",
+   "context": "static analysis tool for PHP"
+  },
+  {
+   "term": "go-arch-lint",
+   "context": "static analysis tool for Go"
+  },
+  {
+   "term": "Automated Drift Scoring",
+   "context": "validates entire architecture model against codebase"
+  },
+  {
+   "term": "Archyl",
+   "context": "platform with drift detection and scoring capabilities"
+  },
+  {
+   "term": "drift score",
+   "context": "metric from 0-100 showing architecture accuracy"
+  },
+  {
+   "term": "Definition of Done",
+   "context": "include architecture documentation updates in PR process"
+  },
+  {
+   "term": "CI gate",
+   "context": "fail build when drift exceeds threshold"
+  },
+  {
+   "term": "Architecture-as-Code",
+   "context": "define architecture model in text-based format for version control"
+  },
+  {
+   "term": "Structurizr DSL",
+   "context": "text-based architecture model format"
+  },
+  {
+   "term": "drift.score_computed",
+   "context": "webhook alert fires on every drift computation"
+  },
+  {
+   "term": "drift.score_degraded",
+   "context": "webhook alert fires when score drops by 10+ points"
+  },
+  {
+   "term": "Conformance Rules",
+   "context": "define architectural constraints that should always be true"
+  },
+  {
+   "term": "Architecture erosion",
+   "context": "degradation of architecture itself, code violates principles"
+  },
+  {
+   "term": "C4 Model",
+   "context": "architecture documentation model approach"
+  },
+  {
+   "term": "ADRs",
+   "context": "Architectural Decision Records"
+  },
+  {
+   "term": "MCP",
+   "context": "protocol for agents to read architecture documentation"
+  },
+  {
+   "term": "Memcached",
+   "context": "caching layer alternative mentioned in drift example"
+  },
+  {
+   "term": "MongoDB",
+   "context": "database alternative mentioned in decision drift example"
+  },
+  {
+   "term": "MySQL",
+   "context": "original database mentioned in structural drift example"
+  },
+  {
+   "term": "PostgreSQL",
+   "context": "database alternative mentioned in decision drift example"
+  },
+  {
+   "term": "Supabase",
+   "context": "client-side integration mentioned in conformance rule example"
+  },
+  {
+   "term": "Redis",
+   "context": "caching layer mentioned in architecture drift introduction"
+  },
+  {
+   "term": "hexagonal architecture",
+   "context": "clean architecture pattern mentioned as example"
+  },
+  {
+   "term": "microservice",
+   "context": "service architecture pattern subject to drift"
+  },
+  {
+   "term": "monolith",
+   "context": "architecture where services may be absorbed"
+  },
+  {
+   "term": "API gateway",
+   "context": "component in data flow architectural changes"
+  },
+  {
+   "term": "REST/HTTP",
+   "context": "synchronous communication pattern documented in architecture"
+  },
+  {
+   "term": "async message",
+   "context": "asynchronous communication pattern replacing REST"
+  },
+  {
+   "term": "Neal Ford",
+   "context": "author popularizing fitness functions concept"
+  },
+  {
+   "term": "Building Evolutionary Architectures",
+   "context": "book introducing fitness functions"
+  },
+  {
+   "term": "SOC 2",
+   "context": "compliance standard requiring architecture documentation"
+  },
+  {
+   "term": "ISO 27001",
+   "context": "compliance standard requiring architecture documentation"
+  },
+  {
+   "term": "HIPAA",
+   "context": "compliance standard requiring architecture documentation"
+  }
+ ],
+ "claims": [
+  {
+   "claim": "Architecture drift is universal and every team experiences it",
+   "quote": "Every team experiences it",
+   "numbers": []
+  },
+  {
+   "claim": "Drift doesn't trigger alerts like bugs or show up in monitoring like performance regressions",
+   "quote": "Unlike bugs, drift doesn't trigger alerts. Unlike performance regressions, it doesn't show up in monitoring",
+   "numbers": []
+  },
+  {
+   "claim": "Architecture drift occurs when actual implementation diverges from documented or intended architecture",
+   "quote": "diverges from its documented or intended architecture",
+   "numbers": []
+  },
+  {
+   "claim": "Drift manifests at every level of architectural documentation",
+   "quote": "at every level of architectural documentation",
+   "numbers": []
+  },
+  {
+   "claim": "When shipping features, updating architecture diagram gets dropped first",
+   "quote": "the architecture diagram is the first thing that gets dropped",
+   "numbers": []
+  },
+  {
+   "claim": "Drift accumulates through hundreds of small changes, each too minor to warrant update",
+   "quote": "accumulates through hundreds of small changes",
+   "numbers": []
+  },
+  {
+   "claim": "New engineers inherit codebase but not understanding of why structure is this way",
+   "quote": "they take implicit knowledge with them",
+   "numbers": []
+  },
+  {
+   "claim": "Without detection mechanism, drift is only discovered during incident, audit, or when new engineer points it out",
+   "quote": "the only way to discover drift is during an incident, an audit, or when a new engineer points out",
+   "numbers": []
+  },
+  {
+   "claim": "Production incidents often require architectural shortcuts bypassing normal review",
+   "quote": "require architectural shortcuts",
+   "numbers": []
+  },
+  {
+   "claim": "Bad decisions made on outdated documentation can be severely wrong",
+   "quote": "documentation is stale and the service actually handles 10x the documented load",
+   "numbers": [
+    "10x"
+   ]
+  },
+  {
+   "claim": "New engineers build wrong mental models if documentation is wrong",
+   "quote": "build wrong mental models",
+   "numbers": []
+  },
+  {
+   "claim": "Wrong architecture diagrams waste precious minutes during incidents tracing wrong dependencies",
+   "quote": "waste precious minutes tracing the wrong dependency chains",
+   "numbers": []
+  },
+  {
+   "claim": "In regulated industries, auditors finding mismatched documentation is a potentially serious finding",
+   "quote": "auditors find that documentation doesn't match reality, it's a finding -- potentially a serious one",
+   "numbers": []
+  },
+  {
+   "claim": "AI agents reading stale C4 model generate code that fits documented architecture, not actual one",
+   "quote": "An agent that reads a stale C4 model will generate code that fits the documented architecture",
+   "numbers": []
+  },
+  {
+   "claim": "Manual review works for small teams with simple architectures on quarterly cadence",
+   "quote": "Small teams, simple architectures, quarterly cadence",
+   "numbers": []
+  },
+  {
+   "claim": "Manual review fails for large systems, fast-moving teams, or when best people lack review time",
+   "quote": "Large systems, fast-moving teams, or when the people who know the code best don't have time",
+   "numbers": []
+  },
+  {
+   "claim": "Fitness functions are automated tests validating architectural properties",
+   "quote": "are automated tests that validate architectural properties",
+   "numbers": []
+  },
+  {
+   "claim": "Static analysis tools like ArchUnit, Deptrac, go-arch-lint analyze code and enforce dependency rules",
+   "quote": "analyze code structure and enforce dependency rules",
+   "numbers": []
+  },
+  {
+   "claim": "Static analysis tools are excellent for enforcing layered architecture within single codebase",
+   "quote": "excellent for enforcing layered architecture within a single codebase",
+   "numbers": []
+  },
+  {
+   "claim": "Archyl's drift detection validates entire architecture model against codebase",
+   "quote": "validates the entire architecture model against the codebase",
+   "numbers": []
+  },
+  {
+   "claim": "Drift detection checks file path existence against Git provider API",
+   "quote": "Just file path existence checks against the Git provider API",
+   "numbers": []
+  },
+  {
+   "claim": "Drift scoring takes seconds because no file content is read",
+   "quote": "takes seconds, not minutes",
+   "numbers": []
+  },
+  {
+   "claim": "Drift scoring is deterministic: same codebase and model yield same score",
+   "quote": "Same codebase, same model, same score",
+   "numbers": []
+  },
+  {
+   "claim": "Hundred computations per day for drift scoring is cost-effective",
+   "quote": "A hundred computations a day is fine",
+   "numbers": [
+    "100"
+   ]
+  },
+  {
+   "claim": "Architecture documentation updates should be part of PR Definition of Done",
+   "quote": "Architecture documentation updated (if applicable)",
+   "numbers": []
+  },
+  {
+   "claim": "CI gate failing on drift threshold is most effective prevention mechanism",
+   "quote": "the single most effective prevention mechanism",
+   "numbers": []
+  },
+  {
+   "claim": "Architecture-as-Code allows version control of architecture models in text format",
+   "quote": "can be version-controlled alongside your code",
+   "numbers": []
+  },
+  {
+   "claim": "Text-based architecture formats enable reviewing of architecture changes in pull requests",
+   "quote": "Architecture changes appear in pull requests",
+   "numbers": []
+  },
+  {
+   "claim": "Teams without active architecture maintenance typically see drift scores between 40-70%",
+   "quote": "between 40-70%",
+   "numbers": [
+    "40",
+    "70"
+   ]
+  },
+  {
+   "claim": "Month 1 improvement target is baseline to 60% by fixing obvious drift",
+   "quote": "Improve from baseline to 60%",
+   "numbers": [
+    "60"
+   ]
+  },
+  {
+   "claim": "Month 3 target is 75% by incorporating documentation updates into workflow",
+   "quote": "Reach 75%",
+   "numbers": [
+    "75"
+   ]
+  },
+  {
+   "claim": "Month 6 target is maintain 80%+ through CI gates and regular reviews",
+   "quote": "Maintain 80%+",
+   "numbers": [
+    "80"
+   ]
+  },
+  {
+   "claim": "Drift detection history shows timeline of scores revealing if drift gets better or worse",
+   "quote": "timeline of scores",
+   "numbers": []
+  },
+  {
+   "claim": "AI agents can read C4 model, ADRs, and conformance rules through MCP protocol",
+   "quote": "agents can read your C4 model, ADRs, and conformance rules",
+   "numbers": []
+  },
+  {
+   "claim": "Without drift detection feedback loop, documentation becomes increasingly fictional",
+   "quote": "Documentation becomes increasingly fictional",
+   "numbers": []
+  },
+  {
+   "claim": "AI discovery can generate initial C4 model that is roughly 70-80% accurate",
+   "quote": "roughly 70-80% accurate",
+   "numbers": [
+    "70",
+    "80"
+   ]
+  }
+ ],
+ "analysis_rows": [
+  {
+   "type": "landscape",
+   "entity": "Archyl",
+   "category": "drift detection platform",
+   "segment": "software architecture documentation",
+   "positioning": "automated drift scoring with CI integration, webhook alerts, conformance rules",
+   "key_facts": "provides drift score 0-100, lightweight (no AI tokens), deterministic, actionable breakdowns"
+  },
+  {
+   "type": "landscape",
+   "entity": "ArchUnit",
+   "category": "static analysis tool",
+   "segment": "Java",
+   "positioning": "enforce dependency rules and layered architecture within codebase",
+   "key_facts": "part of family of architecture validation tools"
+  },
+  {
+   "type": "landscape",
+   "entity": "Deptrac",
+   "category": "static analysis tool",
+   "segment": "PHP",
+   "positioning": "enforce dependency rules and layered architecture within codebase",
+   "key_facts": "part of family of architecture validation tools"
+  },
+  {
+   "type": "landscape",
+   "entity": "go-arch-lint",
+   "category": "static analysis tool",
+   "segment": "Go",
+   "positioning": "enforce dependency rules and layered architecture within codebase",
+   "key_facts": "part of family of architecture validation tools"
+  },
+  {
+   "type": "landscape",
+   "entity": "Structurizr DSL",
+   "category": "architecture-as-code format",
+   "segment": "text-based architecture modeling",
+   "positioning": "enables version control and PR review of architecture models",
+   "key_facts": "text-based format for architecture definition"
+  },
+  {
+   "type": "comparison",
+   "option": "Manual Review",
+   "criterion": "suitable team size",
+   "value": "small teams"
+  },
+  {
+   "type": "comparison",
+   "option": "Manual Review",
+   "criterion": "suitable architecture complexity",
+   "value": "simple architectures"
+  },
+  {
+   "type": "comparison",
+   "option": "Manual Review",
+   "criterion": "suitable cadence",
+   "value": "quarterly"
+  },
+  {
+   "type": "comparison",
+   "option": "Manual Review",
+   "criterion": "failure mode",
+   "value": "suffers from confirmation bias"
+  },
+  {
+   "type": "comparison",
+   "option": "Architecture Fitness Functions",
+   "criterion": "what is validated",
+   "value": "specific architectural properties via automated tests"
+  },
+  {
+   "type": "comparison",
+   "option": "Architecture Fitness Functions",
+   "criterion": "coverage",
+   "value": "check constraints, not the full model"
+  },
+  {
+   "type": "comparison",
+   "option": "Static Analysis Tools",
+   "criterion": "scope",
+   "value": "layered architecture within single codebase"
+  },
+  {
+   "type": "comparison",
+   "option": "Static Analysis Tools",
+   "criterion": "addresses cross-service drift",
+   "value": "no"
+  },
+  {
+   "type": "comparison",
+   "option": "Automated Drift Scoring",
+   "criterion": "validates full architecture model",
+   "value": "yes"
+  },
+  {
+   "type": "comparison",
+   "option": "Automated Drift Scoring",
+   "criterion": "time to score",
+   "value": "seconds"
+  },
+  {
+   "type": "comparison",
+   "option": "Automated Drift Scoring",
+   "criterion": "deterministic",
+   "value": "yes"
+  },
+  {
+   "type": "root_cause",
+   "symptom": "Architecture changes not reflected in documentation",
+   "cause": "Speed Over Documentation: delivering feature by Friday takes priority over diagram updates",
+   "evidence": "described as rational short-term behavior with devastating long-term consequence",
+   "fix": "include documentation updates in PR Definition of Done"
+  },
+  {
+   "type": "root_cause",
+   "symptom": "Drift accumulates undetected",
+   "cause": "Many Small Changes: hundreds of small changes each too minor to warrant update",
+   "evidence": "renaming file, adding utility package, switching library, extracting function all individually insignificant",
+   "fix": "automate drift detection in CI with threshold gate"
+  },
+  {
+   "type": "root_cause",
+   "symptom": "Inaccurate understanding of system structure after team turnover",
+   "cause": "Team Turnover: engineers leaving take implicit knowledge; new team makes changes based on code not documentation",
+   "evidence": "widened drift from mismatch between code and documentation understanding",
+   "fix": "maintain architecture-as-code and run architecture reviews"
+  },
+  {
+   "type": "root_cause",
+   "symptom": "Drift remains invisible until incident or audit",
+   "cause": "Lack of Feedback Loops: nobody checks if documentation matches reality",
+   "evidence": "only discovery methods are incidents, audits, or new engineer observation",
+   "fix": "set up drift detection and alerts"
+  },
+  {
+   "type": "root_cause",
+   "symptom": "Architectural shortcuts become permanent",
+   "cause": "Emergency Changes: production incidents require bypassing normal review processes",
+   "evidence": "direct database connection, hardcoded configuration, temporary cache become permanent",
+   "fix": "make documentation updates part of incident response"
+  },
+  {
+   "type": "root_cause",
+   "symptom": "Bad architectural decisions made by architects",
+   "cause": "Decision based on outdated documentation showing inaccurate service load or properties",
+   "evidence": "example: synchronous dependency decision based on documented low traffic, actual traffic 10x higher",
+   "fix": "keep documentation accurate with drift detection"
+  },
+  {
+   "type": "root_cause",
+   "symptom": "Slow engineer onboarding and wrong code patterns",
+   "cause": "Wrong architecture documentation creates wrong mental models for new engineers",
+   "evidence": "engineers write code not fitting actual architecture, require senior time to clarify confusion",
+   "fix": "maintain accurate architecture documentation"
+  },
+  {
+   "type": "root_cause",
+   "symptom": "Wasted time during incident response",
+   "cause": "Wrong architecture diagrams cause teams to trace wrong dependency chains",
+   "evidence": "diagrams missing critical upstream systems or showing outdated relationships",
+   "fix": "keep diagrams accurate with drift detection"
+  },
+  {
+   "type": "root_cause",
+   "symptom": "Compliance audit findings for documentation inaccuracy",
+   "cause": "Regulated industries require matching documentation; auditors find mismatches",
+   "evidence": "SOC 2, ISO 27001, HIPAA standards include architecture documentation requirements",
+   "fix": "use drift detection to maintain compliance-required accuracy"
+  },
+  {
+   "type": "root_cause",
+   "symptom": "AI agents generate code fitting wrong architecture",
+   "cause": "AI agents read stale C4 model and generate code matching fictional documented architecture",
+   "evidence": "agent amplifies drift by generating code fitting stale documentation",
+   "fix": "close feedback loop with drift detection triggering documentation updates"
+  }
+ ],
+ "model": "haiku",
+ "_recall": 0.75
+}

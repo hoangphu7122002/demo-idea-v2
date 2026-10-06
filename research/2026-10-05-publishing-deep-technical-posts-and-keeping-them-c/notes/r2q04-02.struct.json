@@ -1,0 +1,80 @@
+{
+ "sid": "r2q04-02",
+ "terms": [
+  {
+   "term": "PRs",
+   "count": 3,
+   "kind": "acronym"
+  },
+  {
+   "term": "PR",
+   "count": 2,
+   "kind": "acronym"
+  },
+  {
+   "term": "UX",
+   "count": 2,
+   "kind": "acronym"
+  },
+  {
+   "term": "5 responses",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Comments",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Suggesting Changes",
+   "count": 3,
+   "kind": "ngram"
+  },
+  {
+   "term": "Suggesting Changes on GitHub",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Suggesting Changes on GitHub | You’ve Been Haacked",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Been Haacked",
+   "count": 2,
+   "kind": "ngram"
+  },
+  {
+   "term": "Thomas Levesque",
+   "count": 2,
+   "kind": "ngram"
+  },
+  {
+   "term": "UI",
+   "count": 1,
+   "kind": "acronym"
+  },
+  {
+   "term": "Angel Rosario",
+   "count": 1,
+   "kind": "ngram"
+  },
+  {
+   "term": "Open Source",
+   "count": 1,
+   "kind": "ngram"
+  },
+  {
+   "term": "Phil Haack",
+   "count": 1,
+   "kind": "ngram"
+  },
+  {
+   "term": "Sarah Guthals",
+   "count": 1,
+   "kind": "ngram"
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+  "rows": [
+    {
+      "type": "competitor",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=2329397",
+      "date": "2011-03-15",
+      "quote_or_number": "authors get better feedback from their readers, and they can evolve their book with useful feedback",
+      "persona_match": "n",
+      "theme": "reader feedback evolution",
+      "note": "Leanpub: Platform for publishing in-progress ebooks and evolving content based on reader feedback"
+    },
+    {
+      "type": "competitor",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=30720623",
+      "date": "2022-03-18",
+      "quote_or_number": "the documentation process has been consistently the most painful",
+      "persona_match": "n",
+      "theme": "documentation generation pain",
+      "note": "Theneo: AI tool for generating and maintaining API documentation; solves technical documentation maintenance"
+    },
+    {
+      "type": "competitor",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=46289247",
+      "date": "2025-12-16",
+      "quote_or_number": "provides LaTeX-aware debugging, reviewer-style feedback, and targeted revision suggestions",
+      "persona_match": "n",
+      "theme": "revision feedback tool",
+      "note": "PaperDebugger: Overleaf companion for getting feedback and revision suggestions on technical writing"
+    },
+    {
+      "type": "competitor",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=41583460",
+      "date": "2024-09-18",
+      "quote_or_number": "automate the process of ingesting your knowledge base, and keeping it up to date",
+      "persona_match": "n",
+      "theme": "content freshness automation",
+      "note": "Cortex Click: Platform for creating blog posts, documentation, and tutorials; addresses keeping knowledge base current"
+    },
+    {
+      "type": "competitor",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49008901",
+      "date": "2026-07-22",
+      "quote_or_number": "Add content creation to your applications without having to build an entire editor, renderer, template, and export stack yourself",
+      "persona_match": "n",
+      "theme": "content creation infrastructure",
+      "note": "Unlayer: API for adding document/email editors to applications; addresses the technical challenge of building content creation tools"
+    }
+  ]
+}

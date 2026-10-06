@@ -1,0 +1,54 @@
+{
+  "rows": [
+    {
+      "type": "pain",
+      "source": "reddit r/ExperiencedDevs",
+      "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1rohhkv/is_it_still_worth_reading_clean_code_and_the/",
+      "date": "2026-03-08",
+      "quote_or_number": "are these books still worth reading today, or do they feel outdated?",
+      "persona_match": "n",
+      "theme": "content staleness",
+      "note": "Reader concerned about whether older technical books remain valuable vs newer approaches"
+    },
+    {
+      "type": "pain",
+      "source": "reddit r/ExperiencedDevs",
+      "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1utsi51/what_are_some_technical_books_and_blogs_with_a/",
+      "date": "2026-07-11",
+      "quote_or_number": "it feels like it's getting harder and harder to find sources of information that (a) don't try to sell something, (b) have a high SNR, (c) are not entirely generated or rewritten by LLMs",
+      "persona_match": "n",
+      "theme": "blog quality concerns",
+      "note": "Reader seeking high-signal technical blogs, concerned about commercialization and LLM-generated content"
+    },
+    {
+      "type": "pain",
+      "source": "reddit r/ExperiencedDevs",
+      "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1qy4w3q/in_2026_should_people_still_write_blogs/",
+      "date": "2026-02-07",
+      "quote_or_number": "I'm scared no one will read it, and I'll just publish a post and let it sit there and decay.",
+      "persona_match": "y",
+      "theme": "blog post decay",
+      "note": "Aspiring technical author worried about blog audience and posts becoming stale without reader engagement"
+    },
+    {
+      "type": "pain",
+      "source": "reddit r/ExperiencedDevs",
+      "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1olg3kc/looking_for_solid_ai_engineering_system_design/",
+      "date": "2025-11-01",
+      "quote_or_number": "there's surprisingly little content covering this 'middle ground' of AI system design",
+      "persona_match": "n",
+      "theme": "knowledge gap signal",
+      "note": "Senior engineer noting scarcity of AI + system design content for practitioners, indicating opportunity for technical blogging"
+    },
+    {
+      "type": "pain",
+      "source": "reddit r/ExperiencedDevs",
+      "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1tbyb1t/what_are_your_habits_learned_workflows_that_work/",
+      "date": "2026-05-13",
+      "quote_or_number": "0 relevant documentation. wich means no docs, or even wrong outdated docs",
+      "persona_match": "n",
+      "theme": "documentation staleness",
+      "note": "Developer dealing with outdated, scattered documentation and trying to organize knowledge curation"
+    }
+  ]
+}

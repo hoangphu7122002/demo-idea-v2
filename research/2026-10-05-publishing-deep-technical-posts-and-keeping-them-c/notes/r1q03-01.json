@@ -1,0 +1,628 @@
+{
+ "sid": "r1q03-01",
+ "url": "https://draft.dev/learn/refreshing-blog-posts",
+ "title": "Refresh Blog Posts The Right Way – 3 Case Studies",
+ "published": "2022-11-22",
+ "source_type": "vendor",
+ "quality_flags": [
+  "seo",
+  "vendor-claim",
+  "outdated",
+  "thin"
+ ],
+ "terms": [
+  {
+   "term": "SEO",
+   "context": "learning more about SEO, I decided it was time to make some updates"
+  },
+  {
+   "term": "Karl Hughes",
+   "context": "November 22, 2022 Karl Hughes 10 min read"
+  },
+  {
+   "term": "Continue Reading",
+   "context": "## Continue Reading Explore our complete library of technical content marketing resources"
+  },
+  {
+   "term": "Frequently Asked Questions",
+   "context": "## Frequently Asked Questions"
+  },
+  {
+   "term": "Subscribe to Our Newsletter",
+   "context": "Subscribe to Our Newsletter: Resources, tips, and case studies to help you reach developers"
+  },
+  {
+   "term": "AEO",
+   "context": "Download the AEO & GEO Guide for DevTools"
+  },
+  {
+   "term": "GEO",
+   "context": "AEO & GEO actually mean for developer marketing"
+  },
+  {
+   "term": "CAT",
+   "context": "tools like Content Audit Tool (CAT) can help"
+  },
+  {
+   "term": "CTO",
+   "context": "When I left my role as a startup CTO to found Draft.dev"
+  },
+  {
+   "term": "1. Remove Irrelevant Content",
+   "context": "### 1. Remove Irrelevant Content"
+  },
+  {
+   "term": "2. Merge Redundant or Similar Posts",
+   "context": "### 2. Merge Redundant or Similar Posts"
+  },
+  {
+   "term": "3. Update Existing Posts That Rank Well",
+   "context": "### 3. Update Existing Posts That Rank Well"
+  },
+  {
+   "term": "4. Build Internal Links",
+   "context": "### 4. Build Internal Links"
+  },
+  {
+   "term": "5. Update Post Dates and Re-Promote",
+   "context": "### 5. Update Post Dates and Re-Promote"
+  },
+  {
+   "term": "About the Author",
+   "context": "## About the Author: Karl Hughes, former startup CTO, founder of Draft.dev"
+  },
+  {
+   "term": "Build internal links",
+   "context": "Build internal links between related content to strengthen topical authority"
+  },
+  {
+   "term": "Case Studies",
+   "context": "Refresh Blog Posts The Right Way – 3 Case Studies"
+  },
+  {
+   "term": "Case Study 1: Recovering from a Google Penalty",
+   "context": "### Case Study 1: Recovering from a Google Penalty"
+  },
+  {
+   "term": "Case Study 2: Pkwy Digital’s Keyword Optimization",
+   "context": "### Case Study 2: Pkwy Digital’s Keyword Optimization"
+  },
+  {
+   "term": "Five Methods to RefreshBlog Posts",
+   "context": "## Five Methods to RefreshBlog Posts"
+  },
+  {
+   "term": "Merge similar posts",
+   "context": "Merge similar posts to consolidate authority and eliminate redundancy"
+  },
+  {
+   "term": "Planning My Approach To Refresh Blogs",
+   "context": "## Planning My Approach To Refresh Blogs"
+  },
+  {
+   "term": "Remove irrelevant content",
+   "context": "Remove irrelevant content with little traffic to boost overall site quality"
+  },
+  {
+   "term": "Republish and re-promote",
+   "context": "Republish and re-promote updated posts to gain immediate traffic boosts"
+  },
+  {
+   "term": "Results of the Refresh Blog Campaign",
+   "context": "## Results of the Refresh Blog Campaign"
+  },
+  {
+   "term": "TL;DR",
+   "context": "TL;DR: Refreshing old blog posts increases organic traffic through strategic updates"
+  },
+  {
+   "term": "The Challenge in Keeping a Technical Blog Up-to-Date",
+   "context": "## The Challenge in Keeping a Technical Blog Up-to-Date"
+  },
+  {
+   "term": "Update high-ranking posts",
+   "context": "Update high-ranking posts with fresh data, improved keywords, and better media"
+  },
+  {
+   "term": "Want to learn more about how we work?",
+   "context": "## Want to learn more about how we work? Book a Discovery Call"
+  },
+  {
+   "term": "Why Refresh Old Blog Posts?",
+   "context": "## Why Refresh Old Blog Posts?"
+  },
+  {
+   "term": "Case Study",
+   "context": "This case study shows real results from refreshing a technical blog"
+  },
+  {
+   "term": "Content Audit Tool",
+   "context": "tools like Content Audit Tool (CAT) can help"
+  },
+  {
+   "term": "Engineering Manager",
+   "context": "A Day in the Life of an Engineering Manager"
+  },
+  {
+   "term": "Pkwy Digital",
+   "context": "Pkwy Digital’s problem was similar in that they had lots of posts"
+  },
+  {
+   "term": "Cloudflare Worker",
+   "context": "redirected most to the homepage using a Cloudflare Worker"
+  },
+  {
+   "term": "Draft.dev",
+   "context": "left my role as a startup CTO to found Draft.dev"
+  },
+  {
+   "term": "Servando Silva",
+   "context": "article by Servando Silva of Stream SEO"
+  },
+  {
+   "term": "Stream SEO",
+   "context": "Servando Silva of Stream SEO"
+  },
+  {
+   "term": "Google penalty",
+   "context": "a site he helped recover from a Google penalty"
+  },
+  {
+   "term": "spam backlinks",
+   "context": "My blog didn’t have the spam backlinks problem that Silva’s did"
+  },
+  {
+   "term": "problematic backlinks",
+   "context": "removing low-quality content, beefing up existing posts, and removing problematic backlinks"
+  },
+  {
+   "term": "ahref's",
+   "context": "ahref’s fantastic guide on refreshing blog posts"
+  },
+  {
+   "term": "Ahrefs",
+   "context": "content audit tools like Content Audit Tool (CAT) or Ahrefs"
+  },
+  {
+   "term": "domain authority",
+   "context": "My blog has been around for a long time, so it has some domain authority"
+  },
+  {
+   "term": "topical authority",
+   "context": "Build internal links between related content to strengthen topical authority"
+  },
+  {
+   "term": "organic traffic",
+   "context": "Refreshing old blog posts increases organic traffic"
+  },
+  {
+   "term": "organic search traffic",
+   "context": "Organic search traffic is up 61.9% on the site"
+  },
+  {
+   "term": "keyword optimization",
+   "context": "Another area of SEO I had never paid much attention to was keyword optimization"
+  },
+  {
+   "term": "clickthrough rate",
+   "context": "average search engine clickthrough rate from 1.8% to 4.9%"
+  },
+  {
+   "term": "meta description",
+   "context": "Improve the introduction and meta description to boost clickthrough rate"
+  },
+  {
+   "term": "alt tags",
+   "context": "Add original media (images/video) and update the alt tags"
+  },
+  {
+   "term": "low-competition keywords",
+   "context": "relevant low-competition keywords were present in headings"
+  },
+  {
+   "term": "internal links",
+   "context": "internal links don’t count for as much as external links do"
+  },
+  {
+   "term": "external links",
+   "context": "internal links don’t count for as much as external links do"
+  },
+  {
+   "term": "backlinks",
+   "context": "URL with the most backlinks and search traffic already"
+  },
+  {
+   "term": "redirect",
+   "context": "removed and redirected any that were off-topic, very short"
+  },
+  {
+   "term": "deprecated references and technologies",
+   "context": "older posts are now full of deprecated references and technologies"
+  },
+  {
+   "term": "technical blog post promotion checklist",
+   "context": "put it through my technical blog post promotion checklist again"
+  },
+  {
+   "term": "content audit",
+   "context": "it has probably been too long since you’ve completed a content audit"
+  },
+  {
+   "term": "Webmaster Tools",
+   "context": "I’ll have to dig into Webmaster Tools to be sure"
+  },
+  {
+   "term": "Google Search Console",
+   "context": "Use Google Search Console to find posts ranking in positions 6-20"
+  },
+  {
+   "term": "Google Analytics",
+   "context": "Google Analytics to identify declining traffic trends"
+  },
+  {
+   "term": "impressions",
+   "context": "100,000 monthly search impressions, they would have gone from 1800 monthly visits"
+  },
+  {
+   "term": "pageviews",
+   "context": "getting 1500 pageviews a month from search engines"
+  },
+  {
+   "term": "re-index",
+   "context": "as Google re-indexes and re-ranks the updated content"
+  },
+  {
+   "term": "evergreen content",
+   "context": "evergreen content with outdated information"
+  },
+  {
+   "term": "publication date",
+   "context": "update the publication date after significant content refreshes"
+  },
+  {
+   "term": "developer tutorials",
+   "context": "mix of developer tutorials, opinion-driven technical thought leadership pieces"
+  },
+  {
+   "term": "technical thought leadership",
+   "context": "opinion-driven technical thought leadership pieces"
+  },
+  {
+   "term": "technical content marketing",
+   "context": "complete library of technical content marketing resources"
+  },
+  {
+   "term": "developer relations",
+   "context": "technical content marketing resources and developer relations insights"
+  },
+  {
+   "term": "site reputation",
+   "context": "overall increase in site reputation over time"
+  },
+  {
+   "term": "content refresh",
+   "context": "Which blog posts should I prioritize for content refresh?"
+  }
+ ],
+ "claims": [
+  {
+   "claim": "Refreshing old posts increases organic traffic via removing, merging, updating, internal linking, re-promoting.",
+   "quote": "Refreshing old blog posts increases organic traffic through strategic updates",
+   "numbers": []
+  },
+  {
+   "claim": "Author's blog had about 200 posts; many had near-zero search traffic.",
+   "quote": "I looked through all 200 posts on my blog",
+   "numbers": [
+    "200 posts"
+   ]
+  },
+  {
+   "claim": "Author wrote sporadically for a decade; inconsistent before 2020.",
+   "quote": "I’ve been writing sporadically on the site for the past decade",
+   "numbers": [
+    "10 years",
+    "2020"
+   ]
+  },
+  {
+   "claim": "200-word summaries of articles written for other sites got zero traffic and likely hurt search standing.",
+   "quote": "those were getting zero traffic and likely hurting my standing in search engines",
+   "numbers": [
+    "200 words"
+   ]
+  },
+  {
+   "claim": "Goal: more search traffic and more newsletter subscribers per month.",
+   "quote": "increase the amount of traffic I got from search engines",
+   "numbers": []
+  },
+  {
+   "claim": "Older posts full of deprecated references; posts suffer in search if outdated or inaccurate.",
+   "quote": "Blog posts will suffer in search engines if they get out of date",
+   "numbers": []
+  },
+  {
+   "claim": "Tutorial-heavy blogs may need half of time spent keeping old posts updated.",
+   "quote": "You might spend half your time just keeping old posts updated.",
+   "numbers": [
+    "half of time"
+   ]
+  },
+  {
+   "claim": "Silva recovered a penalized site to over 6,000 visits/month by removing low-quality content, improving posts, removing bad backlinks.",
+   "quote": "increased the nearly dead site to more than 6,000 visits per month",
+   "numbers": [
+    "6,000 visits per month"
+   ]
+  },
+  {
+   "claim": "Pkwy Digital had many posts ranking 6-10 but few in top 5.",
+   "quote": "lots of posts that ranked in the 6-10 spots on Google but very few in the top 5",
+   "numbers": [
+    "positions 6-10",
+    "top 5"
+   ]
+  },
+  {
+   "claim": "Top 5 spots get almost 70% of clicks.",
+   "quote": "Those coveted top 5 spots are where almost 70% of the clicks land",
+   "numbers": [
+    "~70% of clicks"
+   ]
+  },
+  {
+   "claim": "Pkwy raised average CTR from 1.8% to 4.9% via keyword optimization and merging posts.",
+   "quote": "increased their average search engine clickthrough rate from 1.8% to 4.9%",
+   "numbers": [
+    "1.8%",
+    "4.9%",
+    "100,000 impressions",
+    "1800 visits",
+    "4900 visits"
+   ]
+  },
+  {
+   "claim": "Author's site got about 1500 pageviews/month from search before.",
+   "quote": "a small site like mine that was getting 1500 pageviews a month from search engines",
+   "numbers": [
+    "1500 pageviews/month"
+   ]
+  },
+  {
+   "claim": "Removed/redirected low-traffic posts that were off-topic, under 500 words, or about obsolete tech; most redirected to homepage via Cloudflare Worker.",
+   "quote": "off-topic, very short (<500 words), or about old technology",
+   "numbers": [
+    "<500 words"
+   ]
+  },
+  {
+   "claim": "Some low-search posts did well on social, so were kept for later updates.",
+   "quote": "performed well on social media, so I decided to keep them around",
+   "numbers": []
+  },
+  {
+   "claim": "Removing weak content shows Google higher proportion of quality content, raising site reputation over time.",
+   "quote": "showing Google that a higher proportion of my content is high-quality",
+   "numbers": []
+  },
+  {
+   "claim": "Four hiring-process posts merged into the URL with most backlinks and traffic (the oldest); result is a full rewrite.",
+   "quote": "merged them into the URL with the most backlinks and search traffic",
+   "numbers": [
+    "4 posts"
+   ]
+  },
+  {
+   "claim": "Engineering manager post from 2015 ranked well but degraded by 2020; refreshed.",
+   "quote": "even good blog posts tend to degrade over time",
+   "numbers": [
+    "2015",
+    "2020"
+   ]
+  },
+  {
+   "claim": "Update steps: update technical details, add original media and alt tags, low-competition keywords in headings, improve intro and meta description.",
+   "quote": "Update technical details and add more relevant sections.",
+   "numbers": []
+  },
+  {
+   "claim": "Internal links count less than external but help Google relate content and drive readers to more pages; author added categories and links among testing posts.",
+   "quote": "internal links don’t count for as much as external links do",
+   "numbers": []
+  },
+  {
+   "claim": "Author updated published date after each refresh and re-ran promotion checklist.",
+   "quote": "I updated the published date and put it through my technical blog post promotion checklist",
+   "numbers": []
+  },
+  {
+   "claim": "Re-sharing the refreshed 5-year-old post brought 728 additional visitors.",
+   "quote": "sharing it led to an additional 728 visitors",
+   "numbers": [
+    "728 visitors",
+    "5 years old"
+   ]
+  },
+  {
+   "claim": "Refreshed post traffic chart compares Oct 12-31 to after Nov 1 refresh; baseline search traffic rose.",
+   "quote": "the baseline search traffic also rose",
+   "numbers": [
+    "October 12-31",
+    "November 1"
+   ]
+  },
+  {
+   "claim": "Organic search traffic up 61.9% since refresh effort began in June.",
+   "quote": "Organic search traffic is up 61.9% on the site since I started",
+   "numbers": [
+    "61.9%",
+    "6 months",
+    "June"
+   ]
+  },
+  {
+   "claim": "Only a handful of posts updated; six months insufficient for full effect; author unsure whether Google ranking or CTR drove rise.",
+   "quote": "Six months is not enough time to see the full effect",
+   "numbers": [
+    "6 months"
+   ]
+  },
+  {
+   "claim": "FAQ: initial gains in 2-4 weeks, full results in 3-6 months.",
+   "quote": "initial traffic improvements within 2-4 weeks",
+   "numbers": [
+    "2-4 weeks",
+    "3-6 months"
+   ]
+  },
+  {
+   "claim": "FAQ: prioritize posts ranking 6-20, posts with backlinks but declining traffic, outdated evergreen posts.",
+   "quote": "Prioritize posts ranking in positions 6-20 on Google",
+   "numbers": [
+    "positions 6-20"
+   ]
+  },
+  {
+   "claim": "FAQ: remove or redirect posts under 500 words with zero traffic.",
+   "quote": "Remove or redirect posts under 500 words with zero traffic",
+   "numbers": [
+    "500 words"
+   ]
+  },
+  {
+   "claim": "FAQ: effective refreshes add 30-50% more content.",
+   "quote": "add 30-50% more content",
+   "numbers": [
+    "30-50% more content"
+   ]
+  },
+  {
+   "claim": "FAQ: update publication date after significant refresh to signal freshness and re-promote.",
+   "quote": "update the publication date after significant content refreshes",
+   "numbers": []
+  },
+  {
+   "claim": "FAQ: refreshes can hurt via minor edits, URL changes without redirects, or removing ranking content.",
+   "quote": "changing URLs without proper redirects",
+   "numbers": []
+  },
+  {
+   "claim": "FAQ: tools to find refresh candidates: Google Search Console, Google Analytics, CAT, Ahrefs.",
+   "quote": "Use Google Search Console to find posts ranking in positions 6-20",
+   "numbers": [
+    "positions 6-20"
+   ]
+  },
+  {
+   "claim": "Page offers no mechanism for reader suggestions or automated staleness detection; process is manual audit.",
+   "quote": "it has probably been too long since you’ve completed a content audit",
+   "numbers": []
+  },
+  {
+   "claim": "Newsletter has 2,500+ subscribers.",
+   "quote": "Join 2,500+ subscribers",
+   "numbers": [
+    "2,500+ subscribers"
+   ]
+  },
+  {
+   "claim": "Article is 10 min read, dated November 22, 2022, though text refers to 2021 follow-ups.",
+   "quote": "I’ll report back on this as I continue to refresh my blog’s old content over 2021",
+   "numbers": [
+    "10 min",
+    "2022",
+    "2021"
+   ]
+  }
+ ],
+ "analysis_rows": [
+  {
+   "type": "landscape",
+   "entity": "Draft.dev",
+   "category": "technical content agency",
+   "segment": "developer-focused companies",
+   "positioning": "writes/refreshes technical content; founded by Karl Hughes",
+   "key_facts": "Newsletter 2,500+ subscribers"
+  },
+  {
+   "type": "landscape",
+   "entity": "Content Audit Tool (CAT)",
+   "category": "content audit tool",
+   "segment": "bloggers/content teams",
+   "positioning": "helps identify how old blog posts are / audit content",
+   "key_facts": "mentioned as helper if no time to audit"
+  },
+  {
+   "type": "landscape",
+   "entity": "Ahrefs",
+   "category": "SEO tool",
+   "segment": "SEO/content teams",
+   "positioning": "analyze post age, word count, backlink profiles; guide on refreshing posts",
+   "key_facts": ""
+  },
+  {
+   "type": "landscape",
+   "entity": "Google Search Console",
+   "category": "search analytics tool",
+   "segment": "site owners",
+   "positioning": "find posts ranking in positions 6-20",
+   "key_facts": ""
+  },
+  {
+   "type": "landscape",
+   "entity": "Google Analytics",
+   "category": "web analytics",
+   "segment": "site owners",
+   "positioning": "identify declining traffic trends",
+   "key_facts": ""
+  },
+  {
+   "type": "landscape",
+   "entity": "Cloudflare Worker",
+   "category": "redirect mechanism",
+   "segment": "site owners",
+   "positioning": "used to redirect removed posts to homepage",
+   "key_facts": ""
+  },
+  {
+   "type": "landscape",
+   "entity": "Stream SEO (Servando Silva)",
+   "category": "SEO case study author",
+   "segment": "penalized sites",
+   "positioning": "recovered penalized site",
+   "key_facts": "site reached 6,000+ visits/month"
+  },
+  {
+   "type": "landscape",
+   "entity": "Pkwy Digital",
+   "category": "SEO case study",
+   "segment": "small sites",
+   "positioning": "keyword optimization and merging posts",
+   "key_facts": "CTR 1.8% to 4.9%"
+  },
+  {
+   "type": "root_cause",
+   "symptom": "Old technical posts lose search rankings",
+   "cause": "Deprecated references and technologies; outdated or factually inaccurate content",
+   "evidence": "Author's 200-post blog audit; engineering manager post faded by 2020",
+   "fix": "Update technical details, merge, remove or redirect, update date and re-promote"
+  },
+  {
+   "type": "root_cause",
+   "symptom": "Many posts have almost zero search traffic",
+   "cause": "No SEO/keyword attention, short or off-topic content, redundant posts",
+   "evidence": "Audit of 200 posts; 200-word summaries got zero traffic",
+   "fix": "Remove and redirect; merge similar posts; add keywords to headings"
+  },
+  {
+   "type": "root_cause",
+   "symptom": "Tutorial blogs hard to keep relevant",
+   "cause": "Many tutorials go stale",
+   "evidence": "Author's statement",
+   "fix": "Prioritize refreshes using audit tools (Search Console, Analytics, CAT, Ahrefs)"
+  }
+ ],
+ "model": "sonnet",
+ "_recall": 1.0
+}

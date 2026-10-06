@@ -1,0 +1,160 @@
+{
+ "sid": "r2q05-04",
+ "terms": [
+  {
+   "term": "CI",
+   "count": 8,
+   "kind": "acronym"
+  },
+  {
+   "term": "API",
+   "count": 7,
+   "kind": "acronym"
+  },
+  {
+   "term": "AI",
+   "count": 4,
+   "kind": "acronym"
+  },
+  {
+   "term": "CD",
+   "count": 4,
+   "kind": "acronym"
+  },
+  {
+   "term": "TLDR",
+   "count": 2,
+   "kind": "bold"
+  },
+  {
+   "term": "APIs",
+   "count": 2,
+   "kind": "acronym"
+  },
+  {
+   "term": "MDX",
+   "count": 2,
+   "kind": "acronym"
+  },
+  {
+   "term": "Automated link checking to prevent documentation rot",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Automated style and integrity checks",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Docs Linting Guide",
+   "count": 3,
+   "kind": "ngram"
+  },
+  {
+   "term": "Docs Linting Guide - January 2026",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Docs Linting Guide - January 2026 | Fern",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "FAQ",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Fern Writer",
+   "count": 3,
+   "kind": "ngram"
+  },
+  {
+   "term": "Final thoughts on scaling documentation standards",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "How Fern automates documentation quality at scale",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Integrating linting into CI/CD pipelines",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Intelligent maintenance and release orchestration",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Keeping timestamps accurate with automation",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "Running Vale for prose style enforcement",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "What triggers documentation updates in a CI/CD pipeline?",
+   "count": 1,
+   "kind": "heading"
+  },
+  {
+   "term": "CLI",
+   "count": 1,
+   "kind": "acronym"
+  },
+  {
+   "term": "DEV",
+   "count": 1,
+   "kind": "acronym"
+  },
+  {
+   "term": "Nathan Lian",
+   "count": 2,
+   "kind": "ngram"
+  },
+  {
+   "term": "PR",
+   "count": 1,
+   "kind": "acronym"
+  },
+  {
+   "term": "PRs",
+   "count": 1,
+   "kind": "acronym"
+  },
+  {
+   "term": "SDKs",
+   "count": 1,
+   "kind": "acronym"
+  },
+  {
+   "term": "Because Vale",
+   "count": 1,
+   "kind": "ngram"
+  },
+  {
+   "term": "Google Developer Documentation Style",
+   "count": 1,
+   "kind": "ngram"
+  },
+  {
+   "term": "Last Updated",
+   "count": 1,
+   "kind": "ngram"
+  },
+  {
+   "term": "Microsoft Manual of Style",
+   "count": 1,
+   "kind": "ngram"
+  }
+ ]
+}
