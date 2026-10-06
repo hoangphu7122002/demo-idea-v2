@@ -5,8 +5,8 @@ from pathlib import Path
 
 import pytest
 
-from app.ai.release_check import CheckUnavailable, check
-from app.releases import ReleaseSource, cache
+from app.ai.resource_check import CheckUnavailable, check
+from app.resources import ResourceSource, cache
 
 FLAG = {"paragraph_id": "p-1", "reason": "r", "source_quote": "q", "proposed_fix": "f"}
 
@@ -84,10 +84,10 @@ async def test_corrupt_cache_means_check_unavailable_not_500(
 
     monkeypatch.setattr(get_settings(), "llm_model", "test")
     paras = [("p-1", "a")]
-    release = ReleaseSource(url=None, text="r", hash="h")
+    resource = ResourceSource(url=None, text="r", hash="h")
     (tmp_path / f"{cache.cache_key(paras, 'r')}.json").write_text("{trunc", encoding="utf-8")
     with pytest.raises(CheckUnavailable):
-        await check(paras, release)
+        await check(paras, resource)
 
 
 def test_valid_file_with_extra_keys_loads(tmp_path: Path) -> None:

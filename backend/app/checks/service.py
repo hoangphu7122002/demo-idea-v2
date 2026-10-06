@@ -2,16 +2,16 @@ from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy.orm import selectinload
 
-from app.ai.release_check import CheckUnavailable, check
-from app.checks.errors import CheckServiceUnavailable, InvalidRelease, PostNotFound
+from app.ai.resource_check import CheckUnavailable, check
+from app.checks.errors import CheckServiceUnavailable, InvalidResource, PostNotFound
 from app.checks.schemas import CheckOut, FlagOut
 from app.core.settings import get_settings
-from app.models import ParagraphFlag, Post, ReleaseCheck
+from app.models import ParagraphFlag, Post, ResourceCheck
 from app.models.post import paragraph_ref
-from app.releases import resolve
+from app.resources import resolve
 
 
-def _to_out(rc: ReleaseCheck, source: str | None = None) -> CheckOut:
+def _to_out(rc: ResourceCheck, source: str | None = None) -> CheckOut:
     """Convert a persisted check into its API shape.
 
     Args:
@@ -26,7 +26,8 @@ def _to_out(rc: ReleaseCheck, source: str | None = None) -> CheckOut:
         {
             "check_id": rc.id,
             "source": source,
-            "release_url": rc.source_url,
+            "resource_url": rc.source_url,
+            "release_url": rc.source_url,  # deprecated alias, removed in the cleanup PR
             "flags": [
                 FlagOut(
                     paragraph_id=paragraph_ref(f.paragraph_id),
@@ -56,44 +57,44 @@ async def _post_with_paragraphs(session: AsyncSession, slug: str) -> Post | None
 
 
 async def run_check(
-    session: AsyncSession, slug: str, release_url: str | None, release_text: str | None
+    session: AsyncSession, slug: str, resource_url: str | None, resource_text: str | None
 ) -> CheckOut:
-    """Check a post against a release note and persist the result.
+    """Check a post against a resource and persist the result.
 
-    Resolves the release offline (pasted text wins; a URL must be in the local index), runs
-    the release-check agent (live, or the cache as fallback) over the post's paragraphs, then
-    stores one `ReleaseCheck` with one `ParagraphFlag` per flag.
+    Resolves the resource offline (pasted text wins; a URL must be in the local index), runs
+    the resource-check agent (live, or the cache as fallback) over the post's paragraphs, then
+    stores one `ResourceCheck` with one `ParagraphFlag` per flag.
 
     Args:
         session: the request's async DB session; committed on success.
         slug: slug of the post to check.
-        release_url: release note URL, looked up in the offline index; kept as the source link.
-        release_text: pasted release note text; takes precedence over the URL.
+        resource_url: resource URL, looked up in the offline index; kept as the source link.
+        resource_text: pasted resource text; takes precedence over the URL.
 
     Returns:
         The stored check, with `source` set to "live" or "cache".
 
     Raises:
         PostNotFound: no post has this slug.
-        InvalidRelease: unknown release URL, or neither URL nor text was given.
+        InvalidResource: unknown resource URL, or neither URL nor text was given.
         CheckServiceUnavailable: the live check failed and no cached result exists.
     """
     post = await _post_with_paragraphs(session, slug)
     if post is None:
         raise PostNotFound
     try:
-        release = resolve(release_url, release_text)
+        resource = resolve(resource_url, resource_text)
     except ValueError as exc:
-        raise InvalidRelease(str(exc)) from exc
+        raise InvalidResource(str(exc)) from exc
     paragraphs = [(paragraph_ref(p.id), p.md) for p in post.paragraphs]
     try:
-        result = await check(paragraphs, release)
+        result = await check(paragraphs, resource)
     except CheckUnavailable as exc:
         raise CheckServiceUnavailable(str(exc)) from exc
-    rc = ReleaseCheck(
+    rc = ResourceCheck(
         post_id=post.id,
-        source_url=release.url,
-        release_hash=release.hash,
+        source_url=resource.url,
+        resource_hash=resource.hash,
         model=get_settings().llm_model,
         flags=[
             ParagraphFlag(
@@ -128,10 +129,10 @@ async def latest_check(session: AsyncSession, slug: str) -> CheckOut | None:
     if post is None:
         raise PostNotFound
     rc = await session.scalar(
-        select(ReleaseCheck)
-        .where(ReleaseCheck.post_id == post.id)
-        .order_by(ReleaseCheck.id.desc())
+        select(ResourceCheck)
+        .where(ResourceCheck.post_id == post.id)
+        .order_by(ResourceCheck.id.desc())
         .limit(1)
-        .options(selectinload(ReleaseCheck.flags))
+        .options(selectinload(ResourceCheck.flags))
     )
     return _to_out(rc) if rc else None

@@ -158,7 +158,7 @@ export interface paths {
         put?: never;
         /**
          * Check Post
-         * @description Check a post against a release note (URL from the offline index, or pasted text).
+         * @description Check a post against a resource (URL from the offline index, or pasted text).
          */
         post: operations["check_post_api_posts__slug__check_post"];
         delete?: never;
@@ -230,12 +230,30 @@ export interface components {
             /** Message */
             message: string;
         };
-        /** CheckIn */
+        /**
+         * CheckIn
+         * @description Body of a check request: a resource URL from the offline index, or pasted text.
+         *
+         *     `release_url` / `release_text` are the deprecated names of `resource_url` / `resource_text`.
+         *     They are still accepted; the `resource_*` field wins when both are sent.
+         */
         CheckIn: {
-            /** Release Text */
+            /**
+             * Release Text
+             * @deprecated
+             * @description Deprecated: use `resource_text`.
+             */
             release_text?: string | null;
-            /** Release Url */
+            /**
+             * Release Url
+             * @deprecated
+             * @description Deprecated: use `resource_url`.
+             */
             release_url?: string | null;
+            /** Resource Text */
+            resource_text?: string | null;
+            /** Resource Url */
+            resource_url?: string | null;
         };
         /** CheckOut */
         CheckOut: {
@@ -243,8 +261,14 @@ export interface components {
             check_id: number;
             /** Flags */
             flags: components["schemas"]["FlagOut"][];
-            /** Release Url */
-            release_url: string | null;
+            /**
+             * Release Url
+             * @deprecated
+             * @description Deprecated: same value as `resource_url`.
+             */
+            release_url?: string | null;
+            /** Resource Url */
+            resource_url: string | null;
             /** Source */
             source?: ("live" | "cache") | null;
         };
@@ -681,7 +705,7 @@ export interface operations {
                 };
                 content?: never;
             };
-            /** @description Unknown release URL, or neither URL nor text given */
+            /** @description Unknown resource URL, or neither URL nor text given */
             422: {
                 headers: {
                     [name: string]: unknown;

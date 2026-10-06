@@ -16,8 +16,8 @@ class PostNotFound(CheckError):
         super().__init__("Post not found")
 
 
-class InvalidRelease(CheckError):
-    """The release input is unusable: unknown URL, or neither URL nor text was given."""
+class InvalidResource(CheckError):
+    """The resource input is unusable: unknown URL, or neither URL nor text was given."""
 
     status_code = 422
 

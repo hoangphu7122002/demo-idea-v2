@@ -12,14 +12,14 @@ router = APIRouter(prefix="/api/posts", tags=["checks"])
     "/{slug}/check",
     responses={
         404: {"description": "Post not found"},
-        422: {"description": "Unknown release URL, or neither URL nor text given"},
+        422: {"description": "Unknown resource URL, or neither URL nor text given"},
         503: {"description": "Live check failed and no cached result exists"},
     },
 )
 async def check_post(slug: str, body: CheckIn, session: SessionDep) -> CheckOut:
-    """Check a post against a release note (URL from the offline index, or pasted text)."""
+    """Check a post against a resource (URL from the offline index, or pasted text)."""
     try:
-        return await service.run_check(session, slug, body.release_url, body.release_text)
+        return await service.run_check(session, slug, body.url, body.text)
     except CheckError as exc:
         raise HTTPException(status_code=exc.status_code, detail=str(exc)) from exc
 

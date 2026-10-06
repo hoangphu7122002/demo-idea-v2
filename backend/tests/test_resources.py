@@ -1,6 +1,6 @@
 import pytest
 
-from app.releases import resolve
+from app.resources import resolve
 
 DEMO = "https://platform.claude.com/docs/en/about-claude/model-deprecations"
 
@@ -19,7 +19,7 @@ def test_url_normalized() -> None:
     assert resolve(DEMO + "/?a=1#frag", None).text == resolve(DEMO, None).text
 
 
-def test_release_notes_url_also_resolves() -> None:
+def test_resource_notes_url_also_resolves() -> None:
     assert resolve("https://platform.claude.com/docs/en/release-notes/overview", None).text
 
 
@@ -37,7 +37,7 @@ def test_text_wins_and_url_is_kept() -> None:
 
 
 def test_unknown_url_raises() -> None:
-    with pytest.raises(ValueError, match="Unknown release URL"):
+    with pytest.raises(ValueError, match="Unknown resource URL"):
         resolve("https://example.com/nope", None)
 
 
