@@ -27,7 +27,6 @@ def _to_out(rc: ResourceCheck, source: str | None = None) -> CheckOut:
             "check_id": rc.id,
             "source": source,
             "resource_url": rc.source_url,
-            "release_url": rc.source_url,  # deprecated alias, removed in the cleanup PR
             "flags": [
                 FlagOut(
                     paragraph_id=paragraph_ref(f.paragraph_id),

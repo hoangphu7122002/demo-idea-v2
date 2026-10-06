@@ -19,7 +19,7 @@ router = APIRouter(prefix="/api/posts", tags=["checks"])
 async def check_post(slug: str, body: CheckIn, session: SessionDep) -> CheckOut:
     """Check a post against a resource (URL from the offline index, or pasted text)."""
     try:
-        return await service.run_check(session, slug, body.url, body.text)
+        return await service.run_check(session, slug, body.resource_url, body.resource_text)
     except CheckError as exc:
         raise HTTPException(status_code=exc.status_code, detail=str(exc)) from exc
 

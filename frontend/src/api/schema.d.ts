@@ -234,22 +234,10 @@ export interface components {
          * CheckIn
          * @description Body of a check request: a resource URL from the offline index, or pasted text.
          *
-         *     `release_url` / `release_text` are the deprecated names of `resource_url` / `resource_text`.
-         *     They are still accepted; the `resource_*` field wins when both are sent.
+         *     Pasted text wins over the URL; the URL is then kept as the source link. Unknown fields
+         *     (e.g. the removed `release_url` / `release_text`) are ignored.
          */
         CheckIn: {
-            /**
-             * Release Text
-             * @deprecated
-             * @description Deprecated: use `resource_text`.
-             */
-            release_text?: string | null;
-            /**
-             * Release Url
-             * @deprecated
-             * @description Deprecated: use `resource_url`.
-             */
-            release_url?: string | null;
             /** Resource Text */
             resource_text?: string | null;
             /** Resource Url */
@@ -261,12 +249,6 @@ export interface components {
             check_id: number;
             /** Flags */
             flags: components["schemas"]["FlagOut"][];
-            /**
-             * Release Url
-             * @deprecated
-             * @description Deprecated: same value as `resource_url`.
-             */
-            release_url?: string | null;
             /** Resource Url */
             resource_url: string | null;
             /** Source */
