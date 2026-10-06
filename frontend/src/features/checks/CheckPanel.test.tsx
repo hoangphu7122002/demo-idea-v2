@@ -7,14 +7,14 @@ test('requires a URL or text and does not call onCheck', async () => {
   const onCheck = vi.fn()
   const { user } = renderWithProviders(<CheckPanel onCheck={onCheck} />)
   await user.click(screen.getByRole('button', { name: 'Check' }))
-  expect(await screen.findByText('Enter a release URL or paste release text')).toBeTruthy()
+  expect(await screen.findByText('Enter a resource URL or paste resource text')).toBeTruthy()
   expect(onCheck).not.toHaveBeenCalled()
 })
 
 test('rejects a non-http URL', async () => {
   const onCheck = vi.fn()
   const { user } = renderWithProviders(<CheckPanel onCheck={onCheck} />)
-  await user.type(screen.getByLabelText('Release URL'), 'not a url')
+  await user.type(screen.getByLabelText('Resource URL'), 'not a url')
   await user.click(screen.getByRole('button', { name: 'Check' }))
   expect(await screen.findByText('Enter a valid http(s) URL')).toBeTruthy()
   expect(onCheck).not.toHaveBeenCalled()
@@ -23,17 +23,17 @@ test('rejects a non-http URL', async () => {
 test('submits only the filled fields', async () => {
   const onCheck = vi.fn().mockResolvedValue(undefined)
   const { user } = renderWithProviders(<CheckPanel onCheck={onCheck} />)
-  await user.type(screen.getByLabelText('Release URL'), 'https://example.com/release')
+  await user.type(screen.getByLabelText('Resource URL'), 'https://example.com/resource')
   await user.click(screen.getByRole('button', { name: 'Check' }))
-  await vi.waitFor(() => expect(onCheck).toHaveBeenCalledWith({ release_url: 'https://example.com/release' }))
+  await vi.waitFor(() => expect(onCheck).toHaveBeenCalledWith({ resource_url: 'https://example.com/resource' }))
 })
 
 test('submits pasted text alone', async () => {
   const onCheck = vi.fn().mockResolvedValue(undefined)
   const { user } = renderWithProviders(<CheckPanel onCheck={onCheck} />)
-  await user.type(screen.getByLabelText('Or paste release text'), 'v2 drops X')
+  await user.type(screen.getByLabelText('Or paste resource text'), 'v2 drops X')
   await user.click(screen.getByRole('button', { name: 'Check' }))
-  await vi.waitFor(() => expect(onCheck).toHaveBeenCalledWith({ release_text: 'v2 drops X' }))
+  await vi.waitFor(() => expect(onCheck).toHaveBeenCalledWith({ resource_text: 'v2 drops X' }))
 })
 
 test('pending disables the button and shows a spinner; error shows an alert', () => {
