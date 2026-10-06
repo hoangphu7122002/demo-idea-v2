@@ -156,7 +156,10 @@ export interface paths {
         };
         get?: never;
         put?: never;
-        /** Check Post */
+        /**
+         * Check Post
+         * @description Check a post against a release note (URL from the offline index, or pasted text).
+         */
         post: operations["check_post_api_posts__slug__check_post"];
         delete?: never;
         options?: never;

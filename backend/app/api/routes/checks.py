@@ -1,8 +1,8 @@
 from fastapi import APIRouter, HTTPException
 
-from app.ai.release_check import CheckUnavailable
 from app.api.deps import SessionDep
 from app.checks import service
+from app.checks.errors import CheckError
 from app.checks.schemas import CheckIn, CheckOut
 
 router = APIRouter(prefix="/api/posts", tags=["checks"])
@@ -17,21 +17,17 @@ router = APIRouter(prefix="/api/posts", tags=["checks"])
     },
 )
 async def check_post(slug: str, body: CheckIn, session: SessionDep) -> CheckOut:
+    """Check a post against a release note (URL from the offline index, or pasted text)."""
     try:
-        out = await service.run_check(session, slug, body.release_url, body.release_text)
-    except ValueError as exc:
-        raise HTTPException(status_code=422, detail=str(exc)) from exc
-    except CheckUnavailable as exc:
-        raise HTTPException(status_code=503, detail=str(exc)) from exc
-    if out is None:
-        raise HTTPException(status_code=404, detail="Post not found")
-    return out
+        return await service.run_check(session, slug, body.release_url, body.release_text)
+    except CheckError as exc:
+        raise HTTPException(status_code=exc.status_code, detail=str(exc)) from exc
 
 
 @router.get("/{slug}/flags", responses={404: {"description": "Post not found"}})
 async def latest_flags(slug: str, session: SessionDep) -> CheckOut | None:
     """Flags of the latest check, or null if the post was never checked."""
-    exists, out = await service.latest_check(session, slug)
-    if not exists:
-        raise HTTPException(status_code=404, detail="Post not found")
-    return out
+    try:
+        return await service.latest_check(session, slug)
+    except CheckError as exc:
+        raise HTTPException(status_code=exc.status_code, detail=str(exc)) from exc
