@@ -16,6 +16,110 @@
         "title": "ChatIn",
         "type": "object"
       },
+      "CheckIn": {
+        "properties": {
+          "release_text": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Release Text"
+          },
+          "release_url": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Release Url"
+          }
+        },
+        "title": "CheckIn",
+        "type": "object"
+      },
+      "CheckOut": {
+        "properties": {
+          "check_id": {
+            "title": "Check Id",
+            "type": "integer"
+          },
+          "flags": {
+            "items": {
+              "$ref": "#/components/schemas/FlagOut"
+            },
+            "title": "Flags",
+            "type": "array"
+          },
+          "release_url": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Release Url"
+          },
+          "source": {
+            "anyOf": [
+              {
+                "enum": [
+                  "live",
+                  "cache"
+                ],
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Source"
+          }
+        },
+        "required": [
+          "check_id",
+          "release_url",
+          "flags"
+        ],
+        "title": "CheckOut",
+        "type": "object"
+      },
+      "FlagOut": {
+        "properties": {
+          "paragraph_id": {
+            "title": "Paragraph Id",
+            "type": "string"
+          },
+          "proposed_fix": {
+            "title": "Proposed Fix",
+            "type": "string"
+          },
+          "reason": {
+            "title": "Reason",
+            "type": "string"
+          },
+          "source_quote": {
+            "title": "Source Quote",
+            "type": "string"
+          }
+        },
+        "required": [
+          "paragraph_id",
+          "reason",
+          "source_quote",
+          "proposed_fix"
+        ],
+        "title": "FlagOut",
+        "type": "object"
+      },
       "HTTPValidationError": {
         "properties": {
           "detail": {
@@ -657,6 +761,112 @@
         "summary": "Get Post",
         "tags": [
           "posts"
+        ]
+      }
+    },
+    "/api/posts/{slug}/check": {
+      "post": {
+        "description": "Check a post against a release note (URL from the offline index, or pasted text).",
+        "operationId": "check_post_api_posts__slug__check_post",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "slug",
+            "required": true,
+            "schema": {
+              "title": "Slug",
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CheckIn"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CheckOut"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "404": {
+            "description": "Post not found"
+          },
+          "422": {
+            "description": "Unknown release URL, or neither URL nor text given"
+          },
+          "503": {
+            "description": "Live check failed and no cached result exists"
+          }
+        },
+        "summary": "Check Post",
+        "tags": [
+          "checks"
+        ]
+      }
+    },
+    "/api/posts/{slug}/flags": {
+      "get": {
+        "description": "Flags of the latest check, or null if the post was never checked.",
+        "operationId": "latest_flags_api_posts__slug__flags_get",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "slug",
+            "required": true,
+            "schema": {
+              "title": "Slug",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "anyOf": [
+                    {
+                      "$ref": "#/components/schemas/CheckOut"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "title": "Response Latest Flags Api Posts  Slug  Flags Get"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "404": {
+            "description": "Post not found"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Latest Flags",
+        "tags": [
+          "checks"
         ]
       }
     },

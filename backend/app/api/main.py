@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 
-from app.api.routes import chat, demo, health, jobs, notes, posts
+from app.api.routes import chat, checks, demo, health, jobs, notes, posts
 from app.core.settings import get_settings
 
 app = FastAPI(title=f"{get_settings().app_name} API", version="0.1.0")
@@ -10,3 +10,4 @@ app.include_router(jobs.router)
 app.include_router(chat.router)
 app.include_router(demo.router)
 app.include_router(posts.router)
+app.include_router(checks.router)
