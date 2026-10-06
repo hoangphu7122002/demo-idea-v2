@@ -20,8 +20,7 @@ Prerequisites: git, make, Docker Desktop (running), [uv](https://docs.astral.sh/
 ```sh
 git clone git@github.com:bachtly/lean-web-stack.git myapp
 cd myapp
-make setup
-make dev
+make demo
 ```
 
 Open http://localhost:5173. You get a **Notes** page (create a note, click **Summarise**: that runs an AI job on a Celery worker) and a streaming **Chat** page.
@@ -34,6 +33,7 @@ Ports busy on your machine? Edit `.env` (created by `make setup`), see [First da
 | Command | What it does |
 |---|---|
 | `make setup` | install backend + frontend deps, create `.env` |
+| `make demo` | setup if needed, Postgres + Redis, migrate, seed, then api, worker and web |
 | `make dev` | Postgres + Redis in Docker; api, worker and web with hot reload |
 | `make gen` | regenerate `backend/openapi.json` and the typed client `frontend/src/api/schema.d.ts` |
 | `make check` | ruff, ruff format, mypy, pytest, eslint, tsc, vitest: run before every push |
