@@ -1,16 +1,16 @@
-"""Record a live check into the cache: `python -m app.releases.record --slug S --url U`."""
+"""Record a live check into the cache: `python -m app.resources.record --slug S --url U`."""
 
 import argparse
 import asyncio
 
 from sqlalchemy import select
 
-from app.ai.release_check import check
+from app.ai.resource_check import check
 from app.core.db import SyncSessionLocal
 from app.core.settings import get_settings
 from app.models import Post
 from app.models.post import paragraph_ref
-from app.releases import resolve
+from app.resources import resolve
 
 
 def main() -> None:
@@ -25,13 +25,13 @@ def main() -> None:
             "Set LLM_MODEL (anthropic:<model>, openai:<model> or google:<model>) "
             "and that provider's API key (ANTHROPIC_API_KEY, OPENAI_API_KEY or GEMINI_API_KEY)"
         )
-    release = resolve(args.url, args.text)
+    resource = resolve(args.url, args.text)
     with SyncSessionLocal() as session:
         post = session.scalars(select(Post).where(Post.slug == args.slug)).one_or_none()
         if post is None:
             raise SystemExit(f"Unknown post slug: {args.slug}")
         paragraphs = [(paragraph_ref(p.id), p.md) for p in post.paragraphs]
-    result = asyncio.run(check(paragraphs, release, timeout=120))
+    result = asyncio.run(check(paragraphs, resource, timeout=120))
     if result.source != "live":
         raise SystemExit("Live run failed; cache not updated")
     print(f"recorded {len(result.flags)} flags:", ", ".join(f.paragraph_id for f in result.flags))

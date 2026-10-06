@@ -6,9 +6,9 @@ from pydantic_ai.models.anthropic import AnthropicModel
 from pydantic_ai.models.google import GoogleModel
 from pydantic_ai.models.openai import OpenAIChatModel, OpenAIResponsesModel
 
-from app.ai import release_check
+from app.ai import resource_check
 from app.core.settings import get_settings
-from app.releases import ReleaseSource, cache
+from app.resources import ResourceSource, cache
 
 CASES = [
     ("anthropic:claude-sonnet-5-5", "ANTHROPIC_API_KEY", AnthropicModel),
@@ -46,8 +46,8 @@ async def test_check_passes_the_configured_model_string_through(
         seen.append(model)
         return _Result()
 
-    monkeypatch.setattr(release_check.release_check_agent, "run", fake_run)
-    release = ReleaseSource(url=None, text="r", hash="h")
-    res = await release_check.check([("p-1", "a")], release)
+    monkeypatch.setattr(resource_check.resource_check_agent, "run", fake_run)
+    resource = ResourceSource(url=None, text="r", hash="h")
+    res = await resource_check.check([("p-1", "a")], resource)
     assert res.source == "live"
     assert seen == [name]

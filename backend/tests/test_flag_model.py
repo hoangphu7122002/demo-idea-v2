@@ -2,7 +2,7 @@ from sqlalchemy import delete, func, select
 from sqlalchemy.orm import Session
 
 from app.core.db import SyncSessionLocal
-from app.models import ParagraphFlag, Post, PostParagraph, ReleaseCheck
+from app.models import ParagraphFlag, Post, PostParagraph, ResourceCheck
 from app.seed import reseed
 
 
@@ -10,7 +10,7 @@ def _count(s: Session, model: type) -> int:
     return s.scalar(select(func.count()).select_from(model)) or 0
 
 
-def _make_check(s: Session) -> tuple[Post, ReleaseCheck]:
+def _make_check(s: Session) -> tuple[Post, ResourceCheck]:
     post = Post(
         slug="p",
         title="P",
@@ -18,10 +18,10 @@ def _make_check(s: Session) -> tuple[Post, ReleaseCheck]:
     )
     s.add(post)
     s.flush()
-    check = ReleaseCheck(
+    check = ResourceCheck(
         post_id=post.id,
         source_url=None,
-        release_hash="0" * 64,
+        resource_hash="0" * 64,
         model="test",
         flags=[
             ParagraphFlag(paragraph_id=p.id, reason="r", source_quote="q", proposed_fix="f")
@@ -36,7 +36,7 @@ def _make_check(s: Session) -> tuple[Post, ReleaseCheck]:
 def test_flags_roundtrip_ordered() -> None:
     with SyncSessionLocal() as s:
         _, check = _make_check(s)
-        got = s.get(ReleaseCheck, check.id)
+        got = s.get(ResourceCheck, check.id)
         assert got is not None
         assert [f.reason for f in got.flags] == ["r", "r"]
 
@@ -55,7 +55,7 @@ def test_delete_post_cascades_checks_and_flags() -> None:
         post, _ = _make_check(s)
         s.execute(delete(Post).where(Post.id == post.id))  # DB-level cascade
         s.commit()
-        assert _count(s, ReleaseCheck) == 0
+        assert _count(s, ResourceCheck) == 0
         assert _count(s, ParagraphFlag) == 0
 
 
@@ -65,7 +65,7 @@ def test_delete_paragraph_cascades_its_flags() -> None:
         s.execute(delete(PostParagraph).where(PostParagraph.id == post.paragraphs[0].id))
         s.commit()
         assert _count(s, ParagraphFlag) == 1
-        assert _count(s, ReleaseCheck) == 1
+        assert _count(s, ResourceCheck) == 1
 
 
 def test_reseed_clears_checks_and_flags() -> None:
@@ -74,9 +74,9 @@ def test_reseed_clears_checks_and_flags() -> None:
         post = s.scalars(select(Post)).one()
         para = post.paragraphs[0]
         s.add(
-            ReleaseCheck(
+            ResourceCheck(
                 post_id=post.id,
-                release_hash="1" * 64,
+                resource_hash="1" * 64,
                 model="test",
                 flags=[
                     ParagraphFlag(
@@ -88,5 +88,5 @@ def test_reseed_clears_checks_and_flags() -> None:
         s.commit()
         assert _count(s, ParagraphFlag) == 1
         reseed(s)
-        assert _count(s, ReleaseCheck) == 0
+        assert _count(s, ResourceCheck) == 0
         assert _count(s, ParagraphFlag) == 0

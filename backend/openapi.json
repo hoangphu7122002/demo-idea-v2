@@ -17,6 +17,7 @@
         "type": "object"
       },
       "CheckIn": {
+        "description": "Body of a check request: a resource URL from the offline index, or pasted text.\n\n`release_url` / `release_text` are the deprecated names of `resource_url` / `resource_text`.\nThey are still accepted; the `resource_*` field wins when both are sent.",
         "properties": {
           "release_text": {
             "anyOf": [
@@ -27,6 +28,8 @@
                 "type": "null"
               }
             ],
+            "deprecated": true,
+            "description": "Deprecated: use `resource_text`.",
             "title": "Release Text"
           },
           "release_url": {
@@ -38,7 +41,31 @@
                 "type": "null"
               }
             ],
+            "deprecated": true,
+            "description": "Deprecated: use `resource_url`.",
             "title": "Release Url"
+          },
+          "resource_text": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Resource Text"
+          },
+          "resource_url": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Resource Url"
           }
         },
         "title": "CheckIn",
@@ -66,7 +93,20 @@
                 "type": "null"
               }
             ],
+            "deprecated": true,
+            "description": "Deprecated: same value as `resource_url`.",
             "title": "Release Url"
+          },
+          "resource_url": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Resource Url"
           },
           "source": {
             "anyOf": [
@@ -86,7 +126,7 @@
         },
         "required": [
           "check_id",
-          "release_url",
+          "resource_url",
           "flags"
         ],
         "title": "CheckOut",
@@ -766,7 +806,7 @@
     },
     "/api/posts/{slug}/check": {
       "post": {
-        "description": "Check a post against a release note (URL from the offline index, or pasted text).",
+        "description": "Check a post against a resource (URL from the offline index, or pasted text).",
         "operationId": "check_post_api_posts__slug__check_post",
         "parameters": [
           {
@@ -804,7 +844,7 @@
             "description": "Post not found"
           },
           "422": {
-            "description": "Unknown release URL, or neither URL nor text given"
+            "description": "Unknown resource URL, or neither URL nor text given"
           },
           "503": {
             "description": "Live check failed and no cached result exists"

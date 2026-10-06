@@ -7,13 +7,13 @@ from app.core.db import Base
 from app.models.job import _now
 
 
-class ReleaseCheck(Base):
-    __tablename__ = "release_checks"
+class ResourceCheck(Base):
+    __tablename__ = "resource_checks"
 
     id: Mapped[int] = mapped_column(primary_key=True)
     post_id: Mapped[int] = mapped_column(ForeignKey("posts.id", ondelete="CASCADE"), index=True)
     source_url: Mapped[str | None] = mapped_column(String(2000), nullable=True)
-    release_hash: Mapped[str] = mapped_column(String(64))
+    resource_hash: Mapped[str] = mapped_column(String(64))
     model: Mapped[str] = mapped_column(String(100))
     created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=_now)
     flags: Mapped[list["ParagraphFlag"]] = relationship(
@@ -29,7 +29,7 @@ class ParagraphFlag(Base):
 
     id: Mapped[int] = mapped_column(primary_key=True)
     check_id: Mapped[int] = mapped_column(
-        ForeignKey("release_checks.id", ondelete="CASCADE"), index=True
+        ForeignKey("resource_checks.id", ondelete="CASCADE"), index=True
     )
     paragraph_id: Mapped[int] = mapped_column(
         ForeignKey("post_paragraphs.id", ondelete="CASCADE"), index=True
@@ -37,4 +37,4 @@ class ParagraphFlag(Base):
     reason: Mapped[str] = mapped_column(Text)
     source_quote: Mapped[str] = mapped_column(Text)
     proposed_fix: Mapped[str] = mapped_column(Text)
-    check: Mapped[ReleaseCheck] = relationship(back_populates="flags")
+    check: Mapped[ResourceCheck] = relationship(back_populates="flags")

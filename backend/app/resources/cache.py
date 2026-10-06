@@ -1,4 +1,4 @@
-"""JSON cache of check results, keyed by the exact inputs (paragraphs + release text)."""
+"""JSON cache of check results, keyed by the exact inputs (paragraphs + resource text)."""
 
 import hashlib
 import json
@@ -10,10 +10,10 @@ CACHE_DIR = Path(__file__).parent / "fixtures" / "cache"
 _FIELDS = ("paragraph_id", "reason", "source_quote", "proposed_fix")
 
 
-def cache_key(paragraphs: list[tuple[str, str]], release_text: str) -> str:
-    """sha256 over the paragraphs ([id, md] pairs, in order) and the release text."""
+def cache_key(paragraphs: list[tuple[str, str]], resource_text: str) -> str:
+    """sha256 over the paragraphs ([id, md] pairs, in order) and the resource text."""
     payload = json.dumps(
-        {"paragraphs": [[pid, md] for pid, md in paragraphs], "release": release_text},
+        {"paragraphs": [[pid, md] for pid, md in paragraphs], "resource": resource_text},
         ensure_ascii=False,
         sort_keys=True,
     )

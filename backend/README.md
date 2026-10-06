@@ -10,16 +10,16 @@ model string; set the matching key (the clients ship as `pydantic-ai-slim` extra
 
 | `LLM_MODEL` | key env var |
 | --- | --- |
-| `test` (default) | none: offline; the release check answers from its cache |
+| `test` (default) | none: offline; the resource check answers from its cache |
 | `anthropic:<model>` | `ANTHROPIC_API_KEY` |
 | `openai:<model>` | `OPENAI_API_KEY` |
 | `google:<model>` | `GEMINI_API_KEY` |
 
-Record a live release-check result into the cache (works with any provider above):
+Record a live resource-check result into the cache (works with any provider above):
 
 ```
-LLM_MODEL=openai:<model> OPENAI_API_KEY=... uv run python -m app.releases.record \
-  --slug llm-api-post --url <release url>
+LLM_MODEL=openai:<model> OPENAI_API_KEY=... uv run python -m app.resources.record \
+  --slug llm-api-post --url <resource url>
 ```
 
 A live run writes the cache. On any live error or timeout the check falls back to it.
