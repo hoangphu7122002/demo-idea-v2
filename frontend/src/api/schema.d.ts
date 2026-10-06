@@ -147,6 +147,43 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
+    "/api/posts/{slug}/check": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Check Post */
+        post: operations["check_post_api_posts__slug__check_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/api/posts/{slug}/flags": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /**
+         * Latest Flags
+         * @description Flags of the latest check, or null if the post was never checked.
+         */
+        get: operations["latest_flags_api_posts__slug__flags_get"];
+        put?: never;
+        post?: never;
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
     "/health": {
         parameters: {
             query?: never;
@@ -189,6 +226,35 @@ export interface components {
         ChatIn: {
             /** Message */
             message: string;
+        };
+        /** CheckIn */
+        CheckIn: {
+            /** Release Text */
+            release_text?: string | null;
+            /** Release Url */
+            release_url?: string | null;
+        };
+        /** CheckOut */
+        CheckOut: {
+            /** Check Id */
+            check_id: number;
+            /** Flags */
+            flags: components["schemas"]["FlagOut"][];
+            /** Release Url */
+            release_url: string | null;
+            /** Source */
+            source?: ("live" | "cache") | null;
+        };
+        /** FlagOut */
+        FlagOut: {
+            /** Paragraph Id */
+            paragraph_id: string;
+            /** Proposed Fix */
+            proposed_fix: string;
+            /** Reason */
+            reason: string;
+            /** Source Quote */
+            source_quote: string;
         };
         /** HTTPValidationError */
         HTTPValidationError: {
@@ -561,6 +627,91 @@ export interface operations {
                 };
                 content: {
                     "application/json": components["schemas"]["PostOut"];
+                };
+            };
+            /** @description Post not found */
+            404: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content?: never;
+            };
+            /** @description Validation Error */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["HTTPValidationError"];
+                };
+            };
+        };
+    };
+    check_post_api_posts__slug__check_post: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path: {
+                slug: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["CheckIn"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["CheckOut"];
+                };
+            };
+            /** @description Post not found */
+            404: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content?: never;
+            };
+            /** @description Unknown release URL, or neither URL nor text given */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content?: never;
+            };
+            /** @description Live check failed and no cached result exists */
+            503: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content?: never;
+            };
+        };
+    };
+    latest_flags_api_posts__slug__flags_get: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path: {
+                slug: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["CheckOut"] | null;
                 };
             };
             /** @description Post not found */
